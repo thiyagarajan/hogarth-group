@@ -1,0 +1,154 @@
+
+
+body {color: #605d5d; font-family: "museo-sans", helvetica, arial; line-height: 1em;}
+
+/* HOME */
+/* HOME */
+
+/* Main banner */
+.main {margin: 0 auto;}
+.flex-caption .title {color: #fff; text-transform: uppercase;font-size: 6em; font-weight: 100; letter-spacing: 0.05em; width: 55%; line-height: 1.3em; display: block;}
+.flex-caption .caption {color: #fff;text-transform: uppercase;font-size: 2.3em; font-weight: 100; letter-spacing: 0.05em; width: 55%; line-height: 1.2em;}
+
+/* Tripple pack */
+.outer-main {background: url("../images/bg-main-home.jpg") no-repeat center; background-size: cover; min-height: 250px; padding-bottom:40px;}
+	.tripple-pack {background: #e3e1e1; display: block; padding: 25px 20px 0px 20px; margin: 0 -5px 0 -5px;}
+	.tripple-pack-heading {font-size: 1.65em; line-height:1.3em; margin: 0 0 10px 0; text-transform: uppercase; font-weight: 300; letter-spacing: 0.05em;}
+		.tripple-pack-heading a {color: #605d5d;}
+		.tripple-pack-heading a:hover {text-decoration: none; border-bottom: 1px solid #605d5d;}
+	.tripple-pack p {color: #807d7d; font-size: 1.05em;letter-spacing: 0.02em; font-weight: 300; line-height:1.5em;}
+	.tripple-pack-1-img {background: url("../images/tripple-1.jpg") no-repeat center;}
+	.tripple-pack-2-img {background: url("../images/tripple-2.jpg") no-repeat center;}
+	.tripple-pack-3-img {background: url("../images/tripple-3.jpg") no-repeat center;}
+	/* negative margins override bootstrap column widths */
+	.tripple-pack-1-img,.tripple-pack-2-img,.tripple-pack-3-img {background-size: cover; min-height: 250px; margin: 0 -5px 0 -5px;}
+
+/* Wide promo panels */
+.outer-promo-panel {background: #e8e8e7; padding: 40px 0 0 0;}
+	.wide-promo {background: #aaa; display: block; margin: 0 -5px 40px -5px;}
+	.wide-promo-1 {background: url("../images/wide-1.jpg") no-repeat center; background-size: cover;}
+	.wide-promo-2 {background: url("../images/wide-2.jpg") no-repeat center; background-size: cover;}
+	.gold {background:#85703c; display: inline-block; padding: 15px; margin: 10px; width: 220px; height: 220px;}
+	.gold-heading {font-size: 1.75em; line-height:1.2em; margin: 0 0 10px 0; text-transform: uppercase; font-weight: 100; letter-spacing: 0.07em; color: #fff;}
+		.gold-heading a {color: #fff;}
+		.gold-heading a:hover {text-decoration: none; border-bottom: 1px solid #fff;}
+	.gold p {font-size: 1.05em; color: #fff; letter-spacing: 0.02em; font-weight: 300; line-height:1.5em;}
+
+/* Quick links panel on homepage */
+.quick-links-panel {border-top: 1px solid #bbb; padding: 40px 0 40px 0;}
+	.quick-links-panel-heading {font-size: 1.4em; margin: 0px; text-transform: uppercase; font-weight: 300; letter-spacing: 0.05em;}
+	.quick-links-panel ul {margin: 20px 0; padding: 0px;}
+	.quick-links-panel li {padding: 0 0 14px 0;list-style: none;font-size: 1.1em;}
+	.quick-links-panel a {font-size: 1em; color: #605d5d; font-weight: 300;}
+	.quick-links-panel a:hover {text-decoration: none; border-bottom: 1px solid #605d5d;}
+
+/* Email sign up popup */
+.email-pop {background: #85703c; margin: 0 auto; width: 100%; height: 92px; border-radius: 3px;}
+	.email-pop-logo { width: 150px; height: 92px; margin: 0 auto; background: url("../images/logo.png") no-repeat; background-image: url("../images/logo.svg"); background-color: #85703c;}
+
+.mc-field-group {display: block; margin: 0 0 10px 0;}
+	.mc-field-group label {width: 150px;}
+	.mc-field-group input[type="text"], .mc-field-group input[type="email"] {background: #e8e8e8; height: 30px; border: 0; border-radius: 3px; padding: 5px; width: 60%;}
+	.btn-holder {width: 150px; margin: 25px auto 0px auto;}
+	.mc-button {background: #85703c; color: #fff; height: 40px; border: 0; border-radius: 3px; padding: 5px; width: 150px; margin: 0 auto; font-size: 1.5em; text-transform: uppercase;}
+	.mc-button:hover {background: #6f5c2d;}
+
+	.sign-up {margin: 0 auto; padding: 12px; text-align: left; margin-top: 20px; border-radius: 3px; width: 80%;}
+		.sign-up-heading {font-size: 1.4em; margin: 0px; text-transform: uppercase; font-weight: 300; letter-spacing: 0.05em; text-align: center; color: #777;}
+		.sign-up-heading span {font-size: 1.8em; display: block; color: #605d5d;}
+		.sign-up-sub-heading {font-size: 1em; margin: 20px auto 35px auto; text-transform: uppercase; font-weight: 300; letter-spacing: 0.03em; text-align: center; line-height: 1.2em; color:#999;}
+	.sign-up-note {color: #bbb; margin: 20px auto 0 auto; font-size: 0.9em; text-align: center; width: 70%;}
+	.asterisk {color: #88713B; font-size: 1.5em; font-weight: 100;}
+
+
+/* LANDING */
+/* LANDING */
+
+.landing-bg {background: url("../images/bg-landing-basic.jpg") #444 no-repeat top center; position: absolute; width: 100%; height: 673px;}
+	.landing .flexslider {margin: 135px 0 0 0 ;}
+	/* Overrides BS to align the slider under the logo */
+	 .row-slider {margin-left: -20px !important;margin-right: -20px !important;}
+.landing-content {margin: 70px -5px 50px -5px;}
+	.landing-page-heading {font-size: 3em; margin: 20px 0 25px 0; text-transform: uppercase; font-weight: 500; letter-spacing: 0.05em;}
+	.landing-page-intro {font-size: 1.4em; margin: 0 0 30px 0; font-weight: 200; letter-spacing: 0.03em; line-height: 1.4em; color: #807d7d; display: block;}
+	.landing-content p {font-size: 1em; line-height: 1.6em; color:#807d7d; margin: 20px 0; padding: 0 15px 0 0;}
+
+.landing-promo {background: url("../images/landing-promo.jpg") no-repeat center; background-size: cover; display: block; margin: 0 0px 30px 0px;}
+	.landing-promo-panel {background: rgba(123,90,157,0.8); display: inline-block; padding: 15px; margin: 10px; width: 206px; height: 220px;}
+	.landing-promo-panel-heading {font-size: 1.55em; line-height:1.2em; margin: 0 0 10px 0; text-transform: uppercase; font-weight: 100; letter-spacing: 0.07em; color: #fff;}
+	.landing-promo-panel p {font-size: 1em; color: #fff; letter-spacing: 0.02em; font-weight: 300; line-height:1.5em;}
+
+.landing-section {display: block; margin: 0 0 30px 0;}
+	.landing-section-img img {width: 100%;}
+	.landing-section-heading {font-size: 1.65em; line-height:1.2em; margin: 40px 0 10px 0; text-transform: uppercase; font-weight: 300; letter-spacing: 0.07em; color: #605d5d;}
+	.landing-section p {font-size: 1em; line-height: 1.6em; color:#807d7d; margin: 20px 0; padding: 0 15px 0 0;}
+
+.landing-navigation {display: block; margin: 0 0 30px 0; background-color: #f3f1f1; height: 243px; padding: 30px;}
+.landing-navigation-heading {font-size: 1.65em; line-height:1.2em; margin: 00px 0 10px 0; text-transform: uppercase; font-weight: 300; letter-spacing: 0.07em; color: #605d5d;}
+.landing-navigation-ul {margin: 0px; padding: 0px;}
+.landing-navigation-li {list-style: none;text-transform: uppercase; font-size: 1.3em; line-height:1.2em;font-weight: 100; padding: 10px 0;}
+
+@media (max-width: 1200px){
+	.banner-text {position: relative;}
+	.flexslider .title {font-size: 5em;}
+	.flexslider .caption {color: #fff; font-size: 1.8em;}
+
+	/* LANDING */
+	/* LANDING */
+	.landing-bg {height: 573px;}
+}
+
+@media (max-width: 991px){
+	.main {margin-top:92px; transition: 0.5s ease;}
+	.banner-text {position: relative;}
+	.flex-caption .title {font-size: 4em;width: 65%;}
+	.flex-caption .caption {font-size: 1.8em;width: 65%;}
+
+	.tripple-pack-heading {font-size: 1.35em; line-height:1.25em;}
+	.tripple-pack p {font-size: 1em; line-height:1.45em;}
+
+	.gold {width: 190px; height: 190px;}
+	.gold-heading {font-size: 1.5em;}
+	.gold p {font-size: 0.95em;}
+
+	.quick-links-panel ul {margin: 20px 0 40px 0}
+
+	/* LANDING */
+	/* LANDING */
+	.landing-bg {height: 348px;}
+	.landing .flexslider {margin: 0px 0 0 0 ;}
+}
+
+@media (max-width: 767px){
+	.main {margin-top:85px; transition: 0.5s ease;}
+
+	.banner-text {position: relative;}
+	.flexslider .title {font-size: 2em;width: 50%;}
+	.flexslider .caption {font-size: 0.9em;width: 45%;}
+
+	.tripple-pack {margin: 0 -15px 0 -15px;}
+	.tripple-pack-1-img,.tripple-pack-2-img,.tripple-pack-3-img {margin: 0 -15px 0 -15px;}
+
+	.outer-main {padding-bottom:1px;}
+	.outer-promo-panel {padding: 10px 0 0 0;}
+	.wide-promo {margin: 0 -5px 10px -5px;}
+
+	/* LANDING */
+	/* LANDING */
+	.landing-bg {background: none; height: 100%; top: 80px;}
+	.landing .row {margin-left: -15px; margin-right: -15px;}
+}
+
+@media (max-width: 620px){
+	.main {margin-top:72px; transition: 0.5s ease;}
+	.flexslider .title {font-size: 1.8em;width: 60%;}
+	.flexslider .caption {font-size: 0.9em; width: 85%; font-weight: 500;}
+
+	.mc-field-group input[type="text"], .mc-field-group input[type="email"] {width: 100%;}
+
+
+	/* LANDING */
+	.landing .bx-wrapper {top: 0px;}
+
+
+}

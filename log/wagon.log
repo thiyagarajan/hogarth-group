@@ -14,3 +14,117 @@ unable to get an API token: Invalid email or password. (401)
 * Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:13:30 +0530
 * Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:13:30 +0530
 * Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:13:30 +0530
+[0;97;49mStarted GET "/admi" at 2014-11-20 12:33:58 +0530[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 3.8ms
+
+[0m
+[0;97;49mStarted GET "/admin" at 2014-11-20 12:34:01 +0530[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 1.8ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-11-20 12:34:04 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 12:44:09 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 12:44:12 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 24.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 12:44:17 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 12:44:19 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 12:44:32 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 12:44:32 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 12:44:32 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 12:44:34 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 12:44:40 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 12:44:41 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 12:44:41 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 12:44:41 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 12:44:44 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 12:50:47 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:53:58 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:53:59 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:53:59 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:53:59 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:53:59 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:53:59 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:54:00 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:54:00 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:54:27 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:54:27 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:54:28 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:54:28 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:54:28 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:54:28 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 12:54:48 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 48.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 12:56:29 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 12:56:30 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 12:56:32 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 12:56:52 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 14:51:20 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 23.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 14:52:53 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 14:52:59 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 39.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 14:57:15 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 14:57:20 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 14:57:36 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 14:57:36 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 14:57:36 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 14:57:36 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 14:57:57 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 128.6ms
+
+[0m
