@@ -1,0 +1,16 @@
+# Logfile created on 2014-11-20 12:10:43 +0530 by logger.rb/1.2.8
+[0;97;49mStarted GET "/" at 2014-11-20 12:10:55 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.5ms
+
+[0m
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:12:39 +0530
+Invalid email or password. (401)
+unable to get an API token: Invalid email or password. (401)
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:13:21 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:13:21 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:13:30 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:13:30 +0530
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 12:13:30 +0530
