@@ -128,3 +128,81 @@ Found page "Home page" [index]
 [0;32;49mCompleted 200 OK in 128.6ms
 
 [0m
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 15:14:08 +0530
+Invalid email or password. (401)
+unable to get an API token: Invalid email or password. (401)
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-11-20 15:15:20 +0530
+[0;31;49m      error => Missing required arguments: aws_access_key_id, aws_secret_access_key
+[0m
+[0;97;49mStarted GET "/" at 2014-11-20 16:20:17 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 192.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 16:27:43 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 16:27:49 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 152.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 16:28:27 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 16:28:27 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 16:28:30 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+[0;31;49m[ERROR] Expected end_of_string but found comma in "{{ 'bootstrap.min.js', 'dropnav.js' | javascript_tag }}" - ./app/views/pages/index.liquid:5:in `Home page'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 16:28:38 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 16:28:40 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+[0;31;49m[ERROR] Expected end_of_string but found string in "{{ 'bootstrap.min.js' 'dropnav.js' | javascript_tag }}" - ./app/views/pages/index.liquid:5:in `Home page'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 16:28:48 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 16:28:48 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 16:28:48 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 16:28:52 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 16:28:52 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 16:34:56 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 16:34:56 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 16:34:56 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 16:34:56 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 16:34:57 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 16:35:55 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.1ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-11-20 16:40:54 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 35.7ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-11-20 16:42:21 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 95.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-11-20 16:42:47 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.8ms
+
+[0m
