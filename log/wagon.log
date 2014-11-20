@@ -206,3 +206,27 @@ Found page "Home page" [index]
 [0;32;49mCompleted 200 OK in 1.8ms
 
 [0m
+[0;97;49mStarted GET "/" at 2014-11-20 16:50:50 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 629.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 17:00:35 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 17:00:37 +0530
+[0;97;49mStarted GET "/" at 2014-11-20 17:00:37 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 153.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-20 17:01:26 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 17:01:27 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 17:01:27 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 17:07:26 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 17:07:30 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 17:08:49 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 17:08:56 +0530
+* Reloaded "pages", "snippets" at 2014-11-20 17:08:56 +0530
