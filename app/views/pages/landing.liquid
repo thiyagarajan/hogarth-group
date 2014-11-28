@@ -249,6 +249,11 @@ Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet
     <footer>
     {% include footer %}
     </footer>
+    {{ 'application.js' | javascript_tag }}
+    <script type='text/javascript'>
+      $(document).ready(function() {
+        $('#menu').slicknav();
+    </script>
 </div>
   </body>
 </html>

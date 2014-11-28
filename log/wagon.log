@@ -643,3 +643,59 @@ Found page "Landing" [landing]
 [0;32;49mCompleted 200 OK in 2.3ms
 
 [0m
+[0;97;49mStarted GET "/index.html" at 2014-11-28 11:29:57 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.9ms
+
+[0m
+[0;97;49mStarted GET "/landing.html" at 2014-11-28 11:30:01 +0530[0m
+Detecting locale EN
+Found page "Landing" [landing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-28 11:30:59 +0530
+* Reloaded "pages", "snippets" at 2014-11-28 11:30:59 +0530
+* Reloaded "pages", "snippets" at 2014-11-28 11:30:59 +0530
+* Reloaded "pages", "snippets" at 2014-11-28 11:30:59 +0530
+* Reloaded "pages", "snippets" at 2014-11-28 11:31:00 +0530
+* Reloaded "pages", "snippets" at 2014-11-28 11:31:00 +0530
+[0;97;49mStarted GET "/landing.html" at 2014-11-28 11:31:03 +0530[0m
+Detecting locale EN
+Found page "Landing" [landing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-28 11:31:47 +0530
+[0;97;49mStarted GET "/landing.html" at 2014-11-28 11:31:50 +0530[0m
+Detecting locale EN
+Found page "Landing" [landing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-28 11:32:04 +0530
+* Reloaded "pages", "snippets" at 2014-11-28 11:32:04 +0530
+[0;97;49mStarted GET "/landing.html" at 2014-11-28 11:32:08 +0530[0m
+Detecting locale EN
+Found page "Landing" [landing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.5ms
+
+[0m
