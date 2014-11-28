@@ -575,3 +575,71 @@ Found page "Home page" [index]
 [0;32;49mCompleted 200 OK in 1.8ms
 
 [0m
+[0;97;49mStarted GET "/index.html" at 2014-11-28 11:07:24 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.1ms
+
+[0m
+[0;97;49mStarted GET "/index.html" at 2014-11-28 11:07:42 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.8ms
+
+[0m
+[0;97;49mStarted GET "/index.html" at 2014-11-28 11:16:56 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 19.8ms
+
+[0m
+[0;97;49mStarted GET "/landing.html" at 2014-11-28 11:17:04 +0530[0m
+Detecting locale EN
+Found page "Landing" [landing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-28 11:20:12 +0530
+* Reloaded "pages", "snippets" at 2014-11-28 11:20:12 +0530
+* Reloaded "pages", "snippets" at 2014-11-28 11:20:13 +0530
+[0;97;49mStarted GET "/landing.html" at 2014-11-28 11:20:17 +0530[0m
+Detecting locale EN
+Found page "Landing" [landing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-28 11:20:38 +0530
+* Reloaded "pages", "snippets" at 2014-11-28 11:20:39 +0530
+[0;97;49mStarted GET "/landing.html" at 2014-11-28 11:20:43 +0530[0m
+Detecting locale EN
+Found page "Landing" [landing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-28 11:21:20 +0530
+* Reloaded "pages", "snippets" at 2014-11-28 11:21:20 +0530
+[0;97;49mStarted GET "/landing.html" at 2014-11-28 11:21:26 +0530[0m
+Detecting locale EN
+Found page "Landing" [landing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.3ms
+
+[0m
