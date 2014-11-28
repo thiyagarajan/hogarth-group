@@ -44,7 +44,7 @@ body {color: #605d5d; font-family: "museo-sans", helvetica, arial; line-height: 
 
 /* Email sign up popup */
 .email-pop {background: #85703c; margin: 0 auto; width: 100%; height: 92px; border-radius: 3px;}
-	.email-pop-logo { width: 150px; height: 92px; margin: 0 auto; background: url("../images/logo.png") no-repeat; background-image: url("../images/logo.png"); background-color: #85703c;}
+	.email-pop-logo { width: 150px; height: 92px; margin: 0 auto; background: url("../images/logo.png") no-repeat; background-image: url("../images/logo.svg"); background-color: #85703c;}
 
 .mc-field-group {display: block; margin: 0 0 10px 0;}
 	.mc-field-group label {width: 150px;}
