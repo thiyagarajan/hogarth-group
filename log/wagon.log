@@ -558,3 +558,20 @@ Found page "Landing" [landing]
 [0;32;49mCompleted 200 OK in 1.8ms
 
 [0m
+[0;97;49mStarted GET "/landing.html" at 2014-11-28 10:50:36 +0530[0m
+Detecting locale EN
+Found page "Landing" [landing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.3ms
+
+[0m
+[0;97;49mStarted GET "/index.html" at 2014-11-28 10:50:38 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.8ms
+
+[0m
