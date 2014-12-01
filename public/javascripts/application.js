@@ -5,3 +5,4 @@
 //= require jquery.hoverintent
 //= require dropnav
 //= require jquery.colorbox-min
+//= require appendAround

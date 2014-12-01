@@ -27,6 +27,7 @@ published: true
     <header id="mast">
     {% include header %}
     </header>
+    
     <div class="landing-bg"></div>
 
 <div class="main">
@@ -38,15 +39,15 @@ published: true
     <div class="flexslider">
       <ul class="slides">
         <li>
-          <img src="images/landing-slider-1.jpg" style="position: reltive;" />
+          {{ 'landing-slider-1.jpg' | theme_image_tag: 'alt:main-slider' }}
           <div class="flex-caption">
               <div class="title">Enjoy</div>
               <div class="caption">wile away the stresses of the day in the mood lit pool</div>
-        </div>
+          </div>
         </li>
 
         <li>
-          <img src="images/landing-slider-2.jpg" style="position: relaive;" />
+          {{ 'landing-slider-2.jpg' | theme_image_tag: 'alt:main-slider' }}
           <div class="flex-caption">
               <div class="title">Relax</div>
               <div class="caption">wile away the stresses of the day in the mood lit pool</div>
@@ -72,7 +73,7 @@ published: true
         <div class="landing-content">
         <h1 class="landing-page-heading">SWIMMING</h1>
 
-        <span class="landing-page-intro">The swimming pool is 18 metres in length with a level depth providing
+        <span class="page-intro">The swimming pool is 18 metres in length with a level depth providing
 the perfect balance for training,
 aqua aerobics and relaxation.</span>
 
@@ -101,18 +102,16 @@ Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet
       <div class="col-md-6 col-sm-12 col-xs-12">
       <div class="landing-content">
 
-        <div class="landing-promo">
-          <div class="landing-promo-panel">
-            <h3 class="landing-promo-panel-heading">Steam Room</h3>
+        <div class="standard-promo standard-promo-1">
+          <div class="standard-promo-panel standard-promo-panel-purple">
+            <h3 class="standard-promo-panel-heading">Steam Room</h3>
             <p>Integer augue lectus, fringilla id dui et, fringilla consequat est.
 Pellentesque rutrum sapien ante, sit amet inte rdum tu</p>
           </div>  
         </div>
 
         <div class="landing-section">
-          <div class="landing-section-img">
-            {{ 'landing-section-1.jpg' | theme_image_tag: 'alt:main-slider' }}
-          </div>
+          <div class="landing-section-img"><img src="images/landing-section-1.jpg"></div>
           <h3 class="landing-section-heading">Spa Pool</h3>
           <p>Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est. Pell ntesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipis</p> 
         </div>
@@ -126,31 +125,26 @@ Pellentesque rutrum sapien ante, sit amet inte rdum tu</p>
 
         <div class="onright" data-set="landing-nav">
 
-        <div class="landing-navigation">
-          <h3 class="landing-navigation-heading">Pool Activities</h3>
-          <ul class="landing-navigation-ul">
-            <li class="landing-navigation-li"><a href="achildpage.html">Water Aerobics</a></li>
-            <li class="landing-navigation-li"><a href="achildpage.html">H20 Workout</a></li>
-            <li class="landing-navigation-li"><a href="achildpage.html">Training</a></li>
-            <li class="landing-navigation-li"><a href="achildpage.html">Another activity</a></li>
+        <div class="inpage-navigation">
+          <h3 class="inpage-navigation-heading">Pool Activities</h3>
+          <ul class="inpage-navigation-ul">
+            <li class="inpage-navigation-li"><a href="achildpage.html">Water Aerobics</a></li>
+            <li class="inpage-navigation-li"><a href="achildpage.html">H20 Workout</a></li>
+            <li class="inpage-navigation-li"><a href="achildpage.html">Training</a></li>
+            <li class="inpage-navigation-li"><a href="achildpage.html">Another activity</a></li>
           </ul>  
         </div>
 
       </div>
 
               <div class="landing-section">
-          <div class="landing-section-img">
-            {{ 'landing-section-2.jpg' | theme_image_tag: 'alt:main-slider' }}
-          </div>
+          <div class="landing-section-img"><img src="images/landing-section-2.jpg"></div>
           <h3 class="landing-section-heading">Sauna</h3>
           <p>Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.
 Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elit</p> 
         </div>
 
         </div>
-
-
-
 
 
       </div>
@@ -162,6 +156,7 @@ Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet
 
     </div><!-- Container and row -->
   </div> 
+
 
 
   <!-- Promo panel -->
@@ -189,45 +184,6 @@ Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet
           
       </div>
 
-      <div class="row quick-links-panel">
-
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <h1 class="quick-links-panel-heading">Studio activities</h1>
-            <ul>
-              <li><a href="http://www.theparkclub.co.uk">Pilates with Studio 17</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Zumba classes</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Legs, Bums and Tums</a></li>
-            </ul>
-        </div>
-
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <h1 class="quick-links-panel-heading">State-of-the-art gym</h1>
-            <ul>
-              <li><a href="http://www.theparkclub.co.uk">Metabolic profiling</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Personal training</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Our gym equipment</a></li>
-            </ul>
-        </div>
-
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <h1 class="quick-links-panel-heading">Clinic &amp; Beauty</h1>
-            <ul>
-              <li><a href="http://www.theparkclub.co.uk">Finishing Touches</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Chiropractor</a></li>
-              <li><a href="http://www.theparkclub.co.uk">VOYA Facials &amp; Body Treatments</a></li>
-            </ul>
-        </div>
-
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <h1 class="quick-links-panel-heading">Social events</h1>
-            <ul>
-              <li><a href="http://www.theparkclub.co.uk">Finishing Touches</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Chiropractor</a></li>
-              <li><a href="http://www.theparkclub.co.uk">VOYA Facials &amp; Body Treatments</a></li>
-            </ul>
-        </div>
-
-      </div>
     </div>
   </div>
   <!-- END Promo panel -->
@@ -238,8 +194,15 @@ Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet
     </footer>
     {{ 'application.js' | javascript_tag }}
     <script type='text/javascript'>
-      $(document).ready(function() {
+      $(document).ready(function(){
+        $('.element').responsiveEqualHeightGrid();
         $('#menu').slicknav();
+        $('.ajax').colorbox({maxWidth:'100%', maxHeight:'80%'});
+        $('.landing-navigation').appendAround();
+        $('.flexslider').flexslider({
+          animation: "slide"
+          });
+      });
     </script>
 </div>
   </body>
