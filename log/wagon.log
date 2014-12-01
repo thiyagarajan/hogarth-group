@@ -723,3 +723,241 @@ Found page "Home page" [index]
 * Reloaded "pages", "snippets" at 2014-11-28 15:19:03 +0530
 * Reloaded "pages", "snippets" at 2014-11-28 15:19:06 +0530
 * Reloaded "pages", "snippets" at 2014-11-28 15:19:06 +0530
+[0;97;49mStarted GET "/" at 2014-12-01 15:48:39 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 67.2ms
+
+[0m
+[0;97;49mStarted GET "/landing.html" at 2014-12-01 15:49:00 +0530[0m
+Detecting locale EN
+Found page "Landing" [landing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.9ms
+
+[0m
+[0;97;49mStarted GET "/content.html" at 2014-12-01 15:49:09 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-01 15:51:07 +0530
+[0;97;49mStarted GET "/content.html" at 2014-12-01 15:51:10 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-01 15:51:24 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 15:51:24 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 15:53:28 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 15:53:28 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 15:53:28 +0530
+[0;97;49mStarted GET "/content.html" at 2014-12-01 15:53:58 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-01 16:35:40 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 16:35:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 16:35:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 16:35:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 16:36:06 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 16:36:06 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 16:37:03 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 16:37:03 +0530
+[0;97;49mStarted GET "/content.html" at 2014-12-01 16:39:13 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 22.9ms
+
+[0m
+[0;97;49mStarted GET "/content.html" at 2014-12-01 16:42:11 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-01 16:42:45 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 16:42:45 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 16:42:45 +0530
+[0;97;49mStarted GET "/content.html" at 2014-12-01 16:42:47 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-01 16:43:34 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 16:43:34 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 16:43:34 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 17:12:09 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 17:12:09 +0530
+[0;97;49mStarted GET "/content.html" at 2014-12-01 17:12:20 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 99.3ms
+
+[0m
+[0;97;49mStarted GET "/content.html" at 2014-12-01 17:13:11 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 78.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-01 17:14:19 +0530
+[0;97;49mStarted GET "/content.html" at 2014-12-01 17:14:22 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-01 17:16:12 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 17:16:13 +0530
+[0;97;49mStarted GET "/content.html" at 2014-12-01 17:16:18 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-01 17:16:40 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 17:16:41 +0530
+[0;97;49mStarted GET "/content.html" at 2014-12-01 17:16:42 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.2ms
+
+[0m
+[0;97;49mStarted GET "/content.html" at 2014-12-01 17:20:25 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 31.8ms
+
+[0m
+[0;97;49mStarted GET "/content.html" at 2014-12-01 17:22:19 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.2ms
+
+[0m
+[0;97;49mStarted GET "/achildpage.html" at 2014-12-01 17:22:38 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 3.7ms
+
+[0m
+[0;97;49mStarted GET "/content.html" at 2014-12-01 17:22:59 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-01 17:24:38 +0530
+* Reloaded "pages", "snippets" at 2014-12-01 17:24:38 +0530
+[0;97;49mStarted GET "/content.html" at 2014-12-01 17:24:49 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.7ms
+
+[0m
+[0;97;49mStarted GET "/content.html" at 2014-12-01 17:26:13 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-01 17:28:22 +0530
+[0;97;49mStarted GET "/content.html" at 2014-12-01 17:28:25 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 38.4ms
+
+[0m
+[0;97;49mStarted GET "/content.html" at 2014-12-01 17:28:26 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.8ms
+
+[0m
