@@ -1103,3 +1103,121 @@ Found page "Content" [content]
 [0;32;49mCompleted 200 OK in 2.0ms
 
 [0m
+[0;97;49mStarted GET "/" at 2014-12-02 09:29:44 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 36.2ms
+
+[0m
+[0;97;49mStarted GET "/admi" at 2014-12-02 09:33:10 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 3.8ms
+
+[0m
+[0;97;49mStarted GET "/admin" at 2014-12-02 09:33:12 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 2.1ms
+
+[0m
+[0;97;49mStarted GET "/admin/content_types/content/new" at 2014-12-02 09:33:34 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 2.2ms
+
+[0m
+[0;97;49mStarted GET "/admin/%5C" at 2014-12-02 09:33:38 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 2.1ms
+
+[0m
+[0;97;49mStarted GET "/admin/" at 2014-12-02 09:33:42 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 2.0ms
+
+[0m
+[0;97;49mStarted GET "/admin/landing.html" at 2014-12-02 09:33:44 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 2.3ms
+
+[0m
+[0;97;49mStarted GET "/admin/index.html" at 2014-12-02 09:33:52 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 2.2ms
+
+[0m
+[0;97;49mStarted GET "/admin/landing.html" at 2014-12-02 09:33:54 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 2.2ms
+
+[0m
+[0;97;49mStarted GET "/admin/landing.html" at 2014-12-02 09:33:56 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 2.2ms
+
+[0m
+[0;97;49mStarted GET "/admin/landing.html" at 2014-12-02 09:33:57 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 2.1ms
+
+[0m
+[0;97;49mStarted GET "/admin/index.html" at 2014-12-02 09:33:59 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 3.1ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-12-02 09:34:07 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.4ms
+
+[0m
+[0;97;49mStarted GET "/landing.html" at 2014-12-02 09:34:09 +0530[0m
+Detecting locale EN
+Found page "Landing" [landing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.3ms
+
+[0m
