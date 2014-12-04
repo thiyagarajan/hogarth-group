@@ -15,27 +15,24 @@ published: true
     <div class="main"> 
       {% block main_content %}
         <div class="outer-main">
-        <div class="flexslider">
-        <ul class="slides">
-          <li>
-            {{ 'main-slider-1.jpg' | theme_image_tag: 'alt:main-slider' }}
-            <div class="flex-caption">
-                <div class="title">Enjoy</div>
-                <div class="caption">wile away the stresses of the day in the mood lit pool</div>
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                {{ 'main-slider-1.jpg' | theme_image_tag: 'alt:main-slider' }}
+                <div class="flex-caption">
+                  <div class="title">Enjoy</div>
+                  <div class="caption">wile away the stresses of the day in the mood lit pool</div>
+                </div>
+              </li>
+              <li>
+                {{ 'main-slider-2.jpg' | theme_image_tag: 'alt:main-slider' }}
+                <div class="flex-caption">
+                  <div class="title">Relax</div>
+                  <div class="caption">wile away the stresses of the day in the mood lit pool</div>
+                </div>
+              </li>
+            </ul>
           </div>
-          </li>
-
-          <li>
-            {{ 'main-slider-2.jpg' | theme_image_tag: 'alt:main-slider' }}
-            <div class="flex-caption">
-                <div class="title">Relax</div>
-                <div class="caption">wile away the stresses of the day in the mood lit pool</div>
-          </div>
-          </li>
-
-        </ul>
-      </div>
-
 
           <div class="container">
             <div class="row">
@@ -67,7 +64,6 @@ published: true
             </div>
           </div>
         </div>
-
         <!-- END Tripple pack -->
 
         <!-- Promo panel -->
@@ -137,12 +133,14 @@ published: true
           </div>
         </div>
         <!-- END Promo panel -->
-    {% endblock %}
+      {% endblock %}
+
       <!-- Footer -->
       <footer>
          {% include footer %}
       </footer>
       <!-- END Footer -->
+
     </div>
   </body>
 </html>
