@@ -337,3 +337,124 @@ Found page "Swimming" [sections/swimming]
 [0;32;49mCompleted 200 OK in 3.4ms
 
 [0m
+[0;97;49mStarted GET "/sections/swimming" at 2014-12-04 11:28:34 +0530[0m
+Detecting locale EN
+Found page "Swimming" [sections/swimming]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.7ms
+
+[0m
+[0;97;49mStarted GET "/sections/index.html" at 2014-12-04 11:28:46 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 2.8ms
+
+[0m
+[0;97;49mStarted GET "/sections/index.html" at 2014-12-04 11:28:49 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 2.8ms
+
+[0m
+[0;97;49mStarted GET "/sections/index.html" at 2014-12-04 11:28:49 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 2.9ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-12-04 11:28:54 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 11:32:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 11:32:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 11:32:03 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 11:32:03 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 11:32:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 11:32:35 +0530
+[0;97;49mStarted GET "/" at 2014-12-04 11:32:38 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 11:33:14 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 11:33:14 +0530
+[0;97;49mStarted GET "/" at 2014-12-04 11:33:16 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.7ms
+
+[0m
+[0;97;49mStarted GET "/sections/swimming" at 2014-12-04 11:33:19 +0530[0m
+Detecting locale EN
+Found page "Swimming" [sections/swimming]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 15.2ms
+
+[0m
+[0;97;49mStarted GET "/sections/index.html" at 2014-12-04 11:33:35 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 3.3ms
+
+[0m
+[0;97;49mStarted GET "/sections/swimming" at 2014-12-04 11:33:43 +0530[0m
+Detecting locale EN
+Found page "Swimming" [sections/swimming]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 11:34:44 +0530
+[0;97;49mStarted GET "/sections/swimming" at 2014-12-04 11:34:55 +0530[0m
+Detecting locale EN
+Found page "Swimming" [sections/swimming]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.2ms
+
+[0m
+[0;97;49mStarted GET "/content.html" at 2014-12-04 11:35:23 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.5ms
+
+[0m
