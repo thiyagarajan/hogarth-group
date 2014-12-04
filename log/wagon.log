@@ -994,3 +994,359 @@ Found page "Home" [index]
 [0;32;49mCompleted 200 OK in 5.0ms
 
 [0m
+unable to get an API token: 795: unexpected token at '<!DOCTYPE html>
+    <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style type="text/css">
+        html, body, iframe { margin: 0; padding: 0; height: 100%; }
+        iframe { display: block; width: 100%; border: none; }
+      </style>
+    <title>Application Error</title>
+    </head>
+    <body>
+      <iframe src="//s3.amazonaws.com/heroku_pages/error.html">
+        <p>Application Error</p>
+      </iframe>
+    </body>
+    </html>'
+[0;97;49mStarted GET "/sections/exercise-studio" at 2014-12-04 20:01:47 +0530[0m
+Detecting locale EN
+Found page "Exercise-studio" [sections/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 68.1ms
+
+[0m
+[0;97;49mStarted GET "/sections/clinic" at 2014-12-04 20:13:42 +0530[0m
+Detecting locale EN
+Found page "Clinic" [sections/clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.7ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 20:14:08 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 25.3ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 20:17:20 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 20:17:29 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:17:29 +0530
+[0;97;49mStarted GET "/" at 2014-12-04 20:17:42 +0530[0m
+Detecting locale EN
+Found page "Home" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.2ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 20:18:49 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 20:21:39 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:21:39 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:21:39 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 20:21:43 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 20:24:01 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:24:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:24:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:24:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:24:49 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:24:49 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:24:49 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:24:49 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 20:24:54 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 20:25:44 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:25:44 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:25:44 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:25:45 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 20:25:48 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 20:51:58 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:52:27 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:52:28 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:52:34 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:52:34 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:52:34 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:52:56 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:52:57 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:55:16 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:55:16 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:55:45 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:55:45 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:56:01 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:56:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:56:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:56:20 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:56:33 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:56:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:56:51 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 20:56:56 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 20:57:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 20:57:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:05:49 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:05:49 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 21:05:54 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 21:14:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:14:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:14:51 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 21:14:58 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 21:15:39 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:15:48 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:15:48 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:15:57 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 21:16:23 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 21:19:20 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:19:26 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:19:26 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:19:30 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 21:19:33 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 21:20:13 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 21:20:18 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 21:21:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:21:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:21:52 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:21:52 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:22:13 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:22:13 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:22:58 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:22:58 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 21:23:02 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 21:24:26 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:24:26 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 21:24:30 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 21:25:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:27:16 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:27:16 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:27:25 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:27:26 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 21:27:32 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 21:28:20 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:28:20 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:28:36 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:31:13 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:31:14 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:31:39 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 21:31:47 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 21:32:08 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:33:00 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:33:00 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:33:00 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 21:35:53 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 21:37:52 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:37:52 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 21:37:57 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 21:50:30 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:50:48 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:51:15 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:51:27 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:51:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:51:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:51:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:51:58 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:52:32 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:52:33 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:52:45 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:52:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:54:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:54:52 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:54:52 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:55:20 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:55:20 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:55:37 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:56:01 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:56:47 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 21:56:54 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 21:59:24 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 21:59:24 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 21:59:30 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 22:00:34 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 22:00:34 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 22:00:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 22:00:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 22:00:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 22:00:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 22:00:40 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 22:00:47 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 22:00:53 +0530
