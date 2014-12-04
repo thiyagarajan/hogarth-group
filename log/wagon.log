@@ -617,3 +617,235 @@ Found page "Beauty" [sections/beauty]
 [0;32;49mCompleted 200 OK in 3.9ms
 
 [0m
+[0;97;49mStarted GET "/sections/index.html" at 2014-12-04 15:39:44 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 33.1ms
+
+[0m
+[0;97;49mStarted GET "/sections/index.html" at 2014-12-04 15:39:52 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 3.7ms
+
+[0m
+[0;97;49mStarted GET "/sections/index.html" at 2014-12-04 15:40:06 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 3.6ms
+
+[0m
+[0;97;49mStarted GET "/sections/exercise_studio" at 2014-12-04 15:40:17 +0530[0m
+Detecting locale EN
+Found page "Exercise-studio" [sections/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 15:43:01 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:43:01 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:43:01 +0530
+[0;97;49mStarted GET "/sections/exercise_studio" at 2014-12-04 15:43:05 +0530[0m
+Detecting locale EN
+Found page "Exercise-studio" [sections/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 15:43:19 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:43:20 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:43:58 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:43:59 +0530
+[0;97;49mStarted GET "/sections/exercise_studio" at 2014-12-04 15:44:03 +0530[0m
+Detecting locale EN
+Found page "Exercise-studio" [sections/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.7ms
+
+[0m
+[0;97;49mStarted GET "/sections/index.html" at 2014-12-04 15:44:15 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 3.1ms
+
+[0m
+[0;97;49mStarted GET "/sections/exercise_studio" at 2014-12-04 15:45:24 +0530[0m
+Detecting locale EN
+Found page "Exercise-studio" [sections/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.6ms
+
+[0m
+[0;97;49mStarted GET "/sections/swimming" at 2014-12-04 15:45:26 +0530[0m
+Detecting locale EN
+Found page "Swimming" [sections/swimming]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.4ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 15:45:28 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.5ms
+
+[0m
+[0;97;49mStarted GET "/sections/tennis" at 2014-12-04 15:45:29 +0530[0m
+Detecting locale EN
+Found page "Tennis" [sections/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.5ms
+
+[0m
+[0;97;49mStarted GET "/sections/squash" at 2014-12-04 15:45:31 +0530[0m
+Detecting locale EN
+Found page "Squash" [sections/squash]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.6ms
+
+[0m
+[0;97;49mStarted GET "/sections/clinic" at 2014-12-04 15:45:32 +0530[0m
+Detecting locale EN
+Found page "Clinic" [sections/clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.2ms
+
+[0m
+[0;97;49mStarted GET "/sections/beauty" at 2014-12-04 15:45:34 +0530[0m
+Detecting locale EN
+Found page "Beauty" [sections/beauty]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.9ms
+
+[0m
+[0;97;49mStarted GET "/sections/index.html" at 2014-12-04 15:45:37 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 3.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 15:45:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:45:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:46:13 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:46:13 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 15:46:16 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.6ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym" at 2014-12-04 15:46:18 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 15:47:05 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:47:06 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:47:06 +0530
+[0;97;49mStarted GET "/contet" at 2014-12-04 15:47:33 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 3.4ms
+
+[0m
+[0;97;49mStarted GET "/content" at 2014-12-04 15:47:35 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 15:49:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:49:09 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:49:11 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:49:27 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:49:30 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:49:33 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:50:12 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:50:12 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:50:49 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:50:49 +0530
+[0;97;49mStarted GET "/sections/swimming" at 2014-12-04 15:50:52 +0530[0m
+Detecting locale EN
+Found page "Swimming" [sections/swimming]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.1ms
+
+[0m
+[0;97;49mStarted GET "/sections/swimming/stream_room" at 2014-12-04 15:51:01 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 3.4ms
+
+[0m
+[0;97;49mStarted GET "/sections/swimming/steam_room" at 2014-12-04 15:51:09 +0530[0m
+Detecting locale EN
+Found page "Steam-room" [sections/swimming/steam-room]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 15:51:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 15:51:42 +0530
