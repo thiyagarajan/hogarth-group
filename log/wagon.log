@@ -20,3 +20,121 @@ Found page "Home page" [index]
 [0;32;49mCompleted 200 OK in 3.7ms
 
 [0m
+[0;97;49mStarted GET "/" at 2014-12-03 22:37:53 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.9ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-12-03 22:37:55 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.2ms
+
+[0m
+[0;97;49mStarted GET "/index.html" at 2014-12-03 22:38:04 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.9ms
+
+[0m
+[0;97;49mStarted GET "/landing.html" at 2014-12-03 22:38:07 +0530[0m
+Detecting locale EN
+Found page "Landing" [landing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.5ms
+
+[0m
+[0;97;49mStarted GET "/content.html" at 2014-12-03 22:38:12 +0530[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 22.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-12-04 08:50:00 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 26.6ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-12-04 08:58:40 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 26.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-04 09:00:07 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:00:08 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:00:08 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:00:13 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:00:13 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:05:26 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:05:26 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:05:26 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:05:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:05:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:06:00 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:06:00 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:06:00 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:06:07 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:06:07 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:06:07 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:06:22 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:06:22 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:06:37 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:06:37 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:06:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:06:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:06:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:08:31 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:08:36 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:08:37 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:08:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-04 09:08:43 +0530
+[0;97;49mStarted GET "/" at 2014-12-04 09:08:47 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.8ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-12-04 09:09:34 +0530[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.2ms
+
+[0m

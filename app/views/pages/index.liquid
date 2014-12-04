@@ -8,155 +8,141 @@ published: true
     {% include head %}
   </head>
   <body>
-  <header id="mast">
-   {% include header %}
-</header>
+    <header id="mast">
+     {% include header %}
+    </header>
 
-<div class="main"> 
-<div class="outer-main">
-
-
-  <div class="flexslider">
-  <ul class="slides">
-    <li>
-      {{ 'main-slider-1.jpg' | theme_image_tag: 'alt:main-slider' }}
-      <div class="flex-caption">
-          <div class="title">Enjoy</div>
-          <div class="caption">wile away the stresses of the day in the mood lit pool</div>
-    </div>
-    </li>
-
-    <li>
-      {{ 'main-slider-2.jpg' | theme_image_tag: 'alt:main-slider' }}
-      <div class="flex-caption">
-          <div class="title">Relax</div>
-          <div class="caption">wile away the stresses of the day in the mood lit pool</div>
-    </div>
-    </li>
-
-  </ul>
-</div>
-
-
-    <div class="container">
-      <div class="row">
-
-        <div class="col-sm-4 col-xs-12">
-          <div class="tripple-pack-1-img"></div>
-          <div class="tripple-pack element">
-            <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Improve posture &amp; strengthen your core</a></h1>
-            <p>Introducing Graeme and Lysta Reardon, a dedicated husband and wife team with a combined experience of over 23 years.</p>
+    <div class="main"> 
+      {% block main_content %}
+        <div class="outer-main">
+        <div class="flexslider">
+        <ul class="slides">
+          <li>
+            {{ 'main-slider-1.jpg' | theme_image_tag: 'alt:main-slider' }}
+            <div class="flex-caption">
+                <div class="title">Enjoy</div>
+                <div class="caption">wile away the stresses of the day in the mood lit pool</div>
           </div>
-        </div>
+          </li>
 
-        <div class="col-sm-4 col-xs-12">
-          <div class="tripple-pack-2-img"></div>
-          <div class="tripple-pack element">
-            <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Caribbean BBQ Night- COME AND join us!</a></h1>
-            <p>We are hosting Caribbean Night on 17 June. There will be a free Cocktail bar and authentic BBQ @ £10 a head.</p>
+          <li>
+            {{ 'main-slider-2.jpg' | theme_image_tag: 'alt:main-slider' }}
+            <div class="flex-caption">
+                <div class="title">Relax</div>
+                <div class="caption">wile away the stresses of the day in the mood lit pool</div>
           </div>
-        </div>
+          </li>
 
-        <div class="col-sm-4 col-xs-12">
-          <div class="tripple-pack-3-img"></div>
-          <div class="tripple-pack element">
-            <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Jessica Nail Treatments available</a></h1>
-            <p>Jessica Cosmetics is considered a world leading brand, with a range of Jessica nail products to achieve and maintain naturally.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- END Tripple pack -->
-
-  <!-- Promo panel -->
-  <div class="outer-promo-panel">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-sm-6 col-xs-12">
-          <div class="wide-promo wide-promo-1">
-            <div class="gold">
-              <h3 class="gold-heading"><a href="http://www.theparkclub.co.uk">Membership offer</a></h3>
-              <p>New members in August can take part in a free studio session Join us!</p>
-            </div>  
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-xs-12">
-          <div class="wide-promo wide-promo-2">
-            <div class="gold">
-              <h3 class="gold-heading"><a href="http://www.theparkclub.co.uk">Membership offer</a></h3>
-              <p>New members in August can take part in a free studio session Join us!</p>
-            </div>  
-          </div>
-        </div>
-          
+        </ul>
       </div>
 
-      <div class="row quick-links-panel">
 
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <h1 class="quick-links-panel-heading">Studio activities</h1>
-            <ul>
-              <li><a href="http://www.theparkclub.co.uk">Pilates with Studio 17</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Zumba classes</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Legs, Bums and Tums</a></li>
-            </ul>
+          <div class="container">
+            <div class="row">
+
+              <div class="col-sm-4 col-xs-12">
+                <div class="tripple-pack-1-img"></div>
+                <div class="tripple-pack element">
+                  <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Improve posture &amp; strengthen your core</a></h1>
+                  <p>Introducing Graeme and Lysta Reardon, a dedicated husband and wife team with a combined experience of over 23 years.</p>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-12">
+                <div class="tripple-pack-2-img"></div>
+                <div class="tripple-pack element">
+                  <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Caribbean BBQ Night- COME AND join us!</a></h1>
+                  <p>We are hosting Caribbean Night on 17 June. There will be a free Cocktail bar and authentic BBQ @ £10 a head.</p>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-xs-12">
+                <div class="tripple-pack-3-img"></div>
+                <div class="tripple-pack element">
+                  <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Jessica Nail Treatments available</a></h1>
+                  <p>Jessica Cosmetics is considered a world leading brand, with a range of Jessica nail products to achieve and maintain naturally.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
 
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <h1 class="quick-links-panel-heading">State-of-the-art gym</h1>
-            <ul>
-              <li><a href="http://www.theparkclub.co.uk">Metabolic profiling</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Personal training</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Our gym equipment</a></li>
-            </ul>
-        </div>
+        <!-- END Tripple pack -->
 
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <h1 class="quick-links-panel-heading">Clinic &amp; Beauty</h1>
-            <ul>
-              <li><a href="http://www.theparkclub.co.uk">Finishing Touches</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Chiropractor</a></li>
-              <li><a href="http://www.theparkclub.co.uk">VOYA Facials &amp; Body Treatments</a></li>
-            </ul>
-        </div>
+        <!-- Promo panel -->
+        <div class="outer-promo-panel">
+          <div class="container">
+            <div class="row">
 
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <h1 class="quick-links-panel-heading">Social events</h1>
-            <ul>
-              <li><a href="http://www.theparkclub.co.uk">Finishing Touches</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Chiropractor</a></li>
-              <li><a href="http://www.theparkclub.co.uk">VOYA Facials &amp; Body Treatments</a></li>
-            </ul>
-        </div>
+              <div class="col-sm-6 col-xs-12">
+                <div class="wide-promo wide-promo-1">
+                  <div class="gold">
+                    <h3 class="gold-heading"><a href="http://www.theparkclub.co.uk">Membership offer</a></h3>
+                    <p>New members in August can take part in a free studio session Join us!</p>
+                  </div>  
+                </div>
+              </div>
 
-      </div>
+              <div class="col-sm-6 col-xs-12">
+                <div class="wide-promo wide-promo-2">
+                  <div class="gold">
+                    <h3 class="gold-heading"><a href="http://www.theparkclub.co.uk">Membership offer</a></h3>
+                    <p>New members in August can take part in a free studio session Join us!</p>
+                  </div>  
+                </div>
+              </div>
+                
+            </div>
+
+            <div class="row quick-links-panel">
+
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                  <h1 class="quick-links-panel-heading">Studio activities</h1>
+                  <ul>
+                    <li><a href="http://www.theparkclub.co.uk">Pilates with Studio 17</a></li>
+                    <li><a href="http://www.theparkclub.co.uk">Zumba classes</a></li>
+                    <li><a href="http://www.theparkclub.co.uk">Legs, Bums and Tums</a></li>
+                  </ul>
+              </div>
+
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                  <h1 class="quick-links-panel-heading">State-of-the-art gym</h1>
+                  <ul>
+                    <li><a href="http://www.theparkclub.co.uk">Metabolic profiling</a></li>
+                    <li><a href="http://www.theparkclub.co.uk">Personal training</a></li>
+                    <li><a href="http://www.theparkclub.co.uk">Our gym equipment</a></li>
+                  </ul>
+              </div>
+
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                  <h1 class="quick-links-panel-heading">Clinic &amp; Beauty</h1>
+                  <ul>
+                    <li><a href="http://www.theparkclub.co.uk">Finishing Touches</a></li>
+                    <li><a href="http://www.theparkclub.co.uk">Chiropractor</a></li>
+                    <li><a href="http://www.theparkclub.co.uk">VOYA Facials &amp; Body Treatments</a></li>
+                  </ul>
+              </div>
+
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                  <h1 class="quick-links-panel-heading">Social events</h1>
+                  <ul>
+                    <li><a href="http://www.theparkclub.co.uk">Finishing Touches</a></li>
+                    <li><a href="http://www.theparkclub.co.uk">Chiropractor</a></li>
+                    <li><a href="http://www.theparkclub.co.uk">VOYA Facials &amp; Body Treatments</a></li>
+                  </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- END Promo panel -->
+    {% endblock %}
+      <!-- Footer -->
+      <footer>
+         {% include footer %}
+      </footer>
+      <!-- END Footer -->
     </div>
-  </div>
-  <!-- END Promo panel -->
-
-  <!-- Footer -->
-  <footer>
-     {% include footer %}
-  </footer>
-  <!-- END Footer -->
-
-</div>
-
-    {{ 'application.js' | javascript_tag }}
-    <script type='text/javascript'>
-      $(document).ready(function() {
-      $('.element').responsiveEqualHeightGrid();
-        $('#menu').slicknav();
-        $('.ajax').colorbox({maxWidth:'100%', maxHeight:'80%'});
-        $('.flexslider').flexslider({
-          animation: "slide"
-          });
-      });
-    </script>
   </body>
 </html>

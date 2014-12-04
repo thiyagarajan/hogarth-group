@@ -21,3 +21,16 @@
 
   </div>
 </div>
+
+{{ 'application.js' | javascript_tag }}
+
+<script type='text/javascript'>
+  $(document).ready(function() {
+  $('.element').responsiveEqualHeightGrid();
+    $('#menu').slicknav();
+    $('.ajax').colorbox({maxWidth:'100%', maxHeight:'80%'});
+    $('.flexslider').flexslider({
+      animation: "slide"
+      });
+  });
+</script>
