@@ -1,37 +1,6 @@
----
-title: Landing
+{% extends parent %}
 
-# true if the page is included in the menu
-listed: true
-# true if the page is published
-published: true
-
-# position among sibling pages
-# position: 1
-
-# sets a redirection to the given url (301)
-# redirect_url: "<url to a page or to a remote url>"
-
-# content type that this page is templatizing
-# content_type: "<slug of one of the content types>"
-
-# editable_elements:
-#   'some_block/some_slug': "<text>"
-#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
----
-<html>
-  <head>
-    {% include head %}
-  </head>
-  <body class="landing">
-    <header id="mast">
-    {% include header %}
-    </header>
-    
-    <div class="landing-bg"></div>
-
-<div class="main">
-
+{% block main_content %}
 <div class="container">
   <div class="row row-slider">
     <div class="col-xs-12">
@@ -191,23 +160,4 @@ Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet
     </div>
   </div>
   <!-- END Promo panel -->
-
-    
-    <footer>
-    {% include footer %}
-    </footer>
-    {{ 'application.js' | javascript_tag }}
-    <script type='text/javascript'>
-      $(document).ready(function(){
-        $('.element').responsiveEqualHeightGrid();
-        $('#menu').slicknav();
-        $('.ajax').colorbox({maxWidth:'100%', maxHeight:'80%'});
-        $('.landing-navigation').appendAround();
-        $('.flexslider').flexslider({
-          animation: "slide"
-          });
-      });
-    </script>
-</div>
-  </body>
-</html>
+  {% endblock %}
