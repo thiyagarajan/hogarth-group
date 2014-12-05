@@ -3586,3 +3586,214 @@ Found page "Pilates-with-studio-17" [sections/gym/pilates-with-studio-17]
 [0;32;49mCompleted 200 OK in 5.1ms
 
 [0m
+* Reloaded "pages", "snippets" at 2014-12-05 12:48:49 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:48:49 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:49:07 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:49:23 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:49:23 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:49:24 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:49:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:49:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:49:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:19 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:19 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:19 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:19 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:50:19 +0530
+[0;97;49mStarted GET "/sections/gym/pilates-with-studio-17" at 2014-12-05 12:50:26 +0530[0m
+Detecting locale EN
+Found page "Pilates-with-studio-17" [sections/gym/pilates-with-studio-17]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.3ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym" at 2014-12-05 12:50:32 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.3ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym/personal-training" at 2014-12-05 12:50:32 +0530[0m
+Detecting locale EN
+Found page "Personal-training" [sections/gym/personal-training]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.1ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym/metabolic-profiling" at 2014-12-05 12:50:33 +0530[0m
+Detecting locale EN
+Found page "Metabolic-profiling" [sections/gym/metabolic-profiling]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.2ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym/pilates-with-studio-17" at 2014-12-05 12:50:34 +0530[0m
+Detecting locale EN
+Found page "Pilates-with-studio-17" [sections/gym/pilates-with-studio-17]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.1ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym" at 2014-12-05 12:50:47 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.4ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym/personal-training.liquid" at 2014-12-05 12:50:47 +0530[0m
+Detecting locale EN
+Found page "Personal-training" [sections/gym/personal-training]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.7ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym/metabolic-profiling.liquid" at 2014-12-05 12:50:47 +0530[0m
+Detecting locale EN
+Found page "Metabolic-profiling" [sections/gym/metabolic-profiling]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.8ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym/pilates-with-studio-17.liquid" at 2014-12-05 12:50:48 +0530[0m
+Detecting locale EN
+Found page "Pilates-with-studio-17" [sections/gym/pilates-with-studio-17]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-05 12:51:04 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:51:05 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:51:05 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:51:21 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:51:21 +0530
+* Reloaded "pages", "snippets" at 2014-12-05 12:51:22 +0530
+[0;97;49mStarted GET "/sections/gym/pilates-with-studio-17.liquid" at 2014-12-05 12:51:31 +0530[0m
+Detecting locale EN
+Found page "Pilates-with-studio-17" [sections/gym/pilates-with-studio-17]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.9ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym" at 2014-12-05 12:51:39 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 6.6ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym/personal-training" at 2014-12-05 12:51:40 +0530[0m
+Detecting locale EN
+Found page "Personal-training" [sections/gym/personal-training]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.2ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym/metabolic-profiling" at 2014-12-05 12:51:40 +0530[0m
+Detecting locale EN
+Found page "Metabolic-profiling" [sections/gym/metabolic-profiling]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.8ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym/pilates-with-studio-17" at 2014-12-05 12:51:41 +0530[0m
+Detecting locale EN
+Found page "Pilates-with-studio-17" [sections/gym/pilates-with-studio-17]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-12-05 12:52:02 +0530[0m
+Detecting locale EN
+Found page "Home" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 4.4ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym/personal-training" at 2014-12-05 12:52:12 +0530[0m
+Detecting locale EN
+Found page "Personal-training" [sections/gym/personal-training]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.2ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym/metabolic-profiling" at 2014-12-05 12:52:18 +0530[0m
+Detecting locale EN
+Found page "Metabolic-profiling" [sections/gym/metabolic-profiling]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.6ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym/pilates-with-studio-17" at 2014-12-05 12:52:23 +0530[0m
+Detecting locale EN
+Found page "Pilates-with-studio-17" [sections/gym/pilates-with-studio-17]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.6ms
+
+[0m
