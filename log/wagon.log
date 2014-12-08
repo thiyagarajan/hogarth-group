@@ -6095,3 +6095,39 @@ Found page "Clinic" [sections/clinic]
 [0m
 * Reloaded "pages", "snippets" at 2014-12-05 19:28:52 +0530
 * Reloaded "pages", "snippets" at 2014-12-05 19:28:53 +0530
+[0;31;49m      slug => is already taken
+[0m
+[0;31;49m      slug => is already taken
+[0m
+[0;31;49m      slug => is already taken
+[0m
+[0;31;49m      slug => is already taken
+[0m
+[0;97;49mStarted GET "/" at 2014-12-08 17:43:46 +0530[0m
+Detecting locale EN
+Found page "Home" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 46.5ms
+
+[0m
+[0;31;49m      slug => is already taken
+[0m
+[0;31;49m      slug => is already taken
+[0m
+[0;31;49m      slug => is already taken
+[0m
+[0;31;49m      slug => is already taken
+[0m
+[0;31;49m      slug => is already taken
+[0m
+* Reloaded "pages", "snippets" at 2014-12-08 18:01:52 +0530
+* Reloaded "pages", "snippets" at 2014-12-08 18:02:00 +0530
+* Reloaded "pages", "snippets" at 2014-12-08 18:02:06 +0530
+* Reloaded "pages", "snippets" at 2014-12-08 18:02:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-08 18:02:24 +0530
+* Reloaded "pages", "snippets" at 2014-12-08 18:02:38 +0530
+* Reloaded "pages", "snippets" at 2014-12-08 18:02:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-08 18:02:55 +0530
