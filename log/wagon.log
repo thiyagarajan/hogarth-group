@@ -10402,3 +10402,677 @@ Found page "Gym" [sections/gym]
 [0;32;49mCompleted 200 OK in 19.2ms
 
 [0m
+[0;97;49mStarted GET "/sections/exercise-studio" at 2014-12-09 19:00:27 +0530[0m
+Detecting locale EN
+Found page "Exercise-studio" [sections/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 74.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 19:01:12 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:01:23 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:01:24 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:05:55 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:06:00 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:21:06 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:21:07 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:21:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:21:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:22:31 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:22:36 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:22:46 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:22:46 +0530
+[0;97;49mStarted GET "/sections/exercise-studio" at 2014-12-09 19:22:58 +0530[0m
+Detecting locale EN
+Found page "Exercise-studio" [sections/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 33.9ms
+
+[0m
+[0;97;49mStarted GET "/sections/exercise-studio/_admin" at 2014-12-09 19:23:16 +0530[0m
+Detecting locale EN
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+[0;32;49mCompleted 404 Not Found in 10.8ms
+
+[0m
+[0;97;49mStarted GET "/sections/exercise-studio" at 2014-12-09 19:23:37 +0530[0m
+Detecting locale EN
+Found page "Exercise-studio" [sections/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 14.6ms
+
+[0m
+[0;97;49mStarted GET "/sections/exercise-studio" at 2014-12-09 19:26:50 +0530[0m
+Detecting locale EN
+Found page "Exercise-studio" [sections/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 14.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:03 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:03 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:03 +0530
+[0;97;49mStarted GET "/sections/exercise-studio" at 2014-12-09 19:27:06 +0530[0m
+Detecting locale EN
+Found page "Exercise-studio" [sections/exercise-studio]
+[0;31;49m[ERROR] Unknown tag 'endblock' - ./app/views/pages/sections/exercise-studio.liquid:155:in `Exercise-studio'
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:12 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:12 +0530
+[0;97;49mStarted GET "/sections/exercise-studio" at 2014-12-09 19:27:15 +0530[0m
+Detecting locale EN
+Found page "Exercise-studio" [sections/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 36.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:23 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:46 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:46 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:46 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:46 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:47 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:47 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:47 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:47 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:27:47 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:28:01 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:28:01 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:28:08 +0530
+[0;97;49mStarted GET "/sections/exercise-studio" at 2014-12-09 19:28:11 +0530[0m
+Detecting locale EN
+Found page "Exercise-studio" [sections/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.8ms
+
+[0m
+[0;97;49mStarted GET "/sections/swimming" at 2014-12-09 19:28:24 +0530[0m
+Detecting locale EN
+Found page "Swimming" [sections/swimming]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 19.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 19:30:50 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:30:50 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:30:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:31:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:31:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:31:44 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:31:44 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:31:44 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:33:28 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:33:28 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:33:28 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:33:28 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:33:28 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:34:08 +0530
+[0;97;49mStarted GET "/sections/swimming/steam-room" at 2014-12-09 19:35:01 +0530[0m
+Detecting locale EN
+Found page "Steam-room" [sections/swimming/steam-room]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 19:38:39 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:38:40 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:38:40 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:38:40 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:38:40 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:38:42 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:38:42 +0530
+[0;97;49mStarted GET "/sections/swimming/steam-room" at 2014-12-09 19:38:51 +0530[0m
+Detecting locale EN
+Found page "Steam-room" [sections/swimming/steam-room]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.6ms
+
+[0m
+[0;97;49mStarted GET "/sections/gym" at 2014-12-09 19:39:31 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 25.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 19:42:23 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:42:23 +0530
+[0;97;49mStarted GET "/sections/gym" at 2014-12-09 19:42:31 +0530[0m
+Detecting locale EN
+Found page "Gym" [sections/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 19.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 19:42:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:42:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:42:59 +0530
+[0;97;49mStarted GET "/sections/tennis" at 2014-12-09 19:43:25 +0530[0m
+Detecting locale EN
+Found page "Tennis" [sections/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 14.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:06 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:07 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:07 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:07 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:24 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:25 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:25 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:25 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:25 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:25 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:26 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:26 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:26 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:45 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:45:46 +0530
+[0;97;49mStarted GET "/sections/tennis" at 2014-12-09 19:45:53 +0530[0m
+Detecting locale EN
+Found page "Tennis" [sections/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 19:46:43 +0530
+[0;97;49mStarted GET "/sections/squash" at 2014-12-09 19:47:06 +0530[0m
+Detecting locale EN
+Found page "Squash" [sections/squash]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 34.5ms
+
+[0m
+[0;97;49mStarted GET "/sections/tennis/tennis-coaches" at 2014-12-09 19:47:20 +0530[0m
+Detecting locale EN
+Found page "Tennis-coaches" [sections/tennis/tennis-coaches]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 15.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 19:49:31 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:49:31 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:49:58 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:49:58 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:49:58 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:49:58 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:49:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:49:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:50:06 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:50:06 +0530
+[0;97;49mStarted GET "/sections/squash" at 2014-12-09 19:50:19 +0530[0m
+Detecting locale EN
+Found page "Squash" [sections/squash]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 22.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 19:54:37 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:55:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:56:16 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:56:16 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:56:16 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:56:30 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:56:30 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:56:30 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:56:31 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:56:31 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:56:45 +0530
+[0;97;49mStarted GET "/sections/clinic" at 2014-12-09 19:56:56 +0530[0m
+Detecting locale EN
+Found page "Clinic" [sections/clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 64.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 19:59:19 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:59:20 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:59:20 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:59:29 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 19:59:29 +0530
+[0;97;49mStarted GET "/sections/clinic/aesthetic-surgery-clinic" at 2014-12-09 19:59:46 +0530[0m
+Detecting locale EN
+Found page "Aesthetic-surgery-clinic" [sections/clinic/aesthetic-surgery-clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:01:06 +0530
+[0;97;49mStarted GET "/sections/clinic/chiropractor" at 2014-12-09 20:02:16 +0530[0m
+Detecting locale EN
+Found page "Chiropractor" [sections/clinic/chiropractor]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 24.7ms
+
+[0m
+[0;97;49mStarted GET "/sections/clinic/chiswick-osteopathic-clinic" at 2014-12-09 20:02:23 +0530[0m
+Detecting locale EN
+Found page "Chiswick-osteopathic-clinic" [sections/clinic/chiswick-osteopathic-clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.5ms
+
+[0m
+[0;97;49mStarted GET "/sections/clinic/london-acupuncture-clinic" at 2014-12-09 20:02:36 +0530[0m
+Detecting locale EN
+Found page "London-acupuncture-clinic" [sections/clinic/london-acupuncture-clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 14.9ms
+
+[0m
+[0;97;49mStarted GET "/sections/swimming/steam-room" at 2014-12-09 20:02:57 +0530[0m
+Detecting locale EN
+Found page "Steam-room" [sections/swimming/steam-room]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:04:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:04:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:04:55 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:04:55 +0530
+[0;97;49mStarted GET "/sections/clinic/aesthetic-surgery-clinic" at 2014-12-09 20:05:05 +0530[0m
+Detecting locale EN
+Found page "Aesthetic-surgery-clinic" [sections/clinic/aesthetic-surgery-clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:05:36 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:05:36 +0530
+[0;97;49mStarted GET "/sections/clinic/aesthetic-surgery-clinic" at 2014-12-09 20:05:38 +0530[0m
+Detecting locale EN
+Found page "Aesthetic-surgery-clinic" [sections/clinic/aesthetic-surgery-clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:05:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:05:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:05:51 +0530
+[0;97;49mStarted GET "/sections/clinic/aesthetic-surgery-clinic" at 2014-12-09 20:05:53 +0530[0m
+Detecting locale EN
+Found page "Aesthetic-surgery-clinic" [sections/clinic/aesthetic-surgery-clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 15.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:07:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:07:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:07:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:07:17 +0530
+[0;97;49mStarted GET "/sections/clinic/chiropractor" at 2014-12-09 20:07:59 +0530[0m
+Detecting locale EN
+Found page "Chiropractor" [sections/clinic/chiropractor]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 34.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:08:53 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:08:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:08:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:08:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:08:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:08:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:08:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:09:48 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:09:48 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:09:49 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:09:49 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:09:49 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:09:49 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:09:49 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:09:49 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:10:21 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:10:21 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:10:22 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:10:22 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:10:25 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:10:26 +0530
+[0;97;49mStarted GET "/sections/clinic/chiswick-osteopathic-clinic" at 2014-12-09 20:10:42 +0530[0m
+Detecting locale EN
+Found page "Chiswick-osteopathic-clinic" [sections/clinic/chiswick-osteopathic-clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:10:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:10:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:10:54 +0530
+[0;97;49mStarted GET "/sections/clinic/chiropractor" at 2014-12-09 20:10:57 +0530[0m
+Detecting locale EN
+Found page "Chiropractor" [sections/clinic/chiropractor]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.2ms
+
+[0m
+[0;97;49mStarted GET "/sections/clinic/chiswick-osteopathic-clinic" at 2014-12-09 20:11:06 +0530[0m
+Detecting locale EN
+Found page "Chiswick-osteopathic-clinic" [sections/clinic/chiswick-osteopathic-clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:11:30 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:11:30 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:11:33 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:11:33 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:11:33 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:11:36 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:11:36 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:11:39 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:11:39 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:11:39 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:11:45 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:11:45 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:11:45 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:11:45 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:12:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:12:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:12:59 +0530
+[0;97;49mStarted GET "/sections/clinic/chiswick-osteopathic-clinic" at 2014-12-09 20:13:08 +0530[0m
+Detecting locale EN
+Found page "Chiswick-osteopathic-clinic" [sections/clinic/chiswick-osteopathic-clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:13:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:13:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:13:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:14:05 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:14:05 +0530
+[0;97;49mStarted GET "/sections/clinic/clinical-treatments" at 2014-12-09 20:14:25 +0530[0m
+Detecting locale EN
+Found page "Clinical-treatments" [sections/clinic/clinical-treatments]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:15:06 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:15:06 +0530
+[0;97;49mStarted GET "/sections/clinic/clinical-treatments" at 2014-12-09 20:15:12 +0530[0m
+Detecting locale EN
+Found page "Clinical-treatments" [sections/clinic/clinical-treatments]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:16:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:16:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:16:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:16:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:16:23 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:16:23 +0530
+[0;97;49mStarted GET "/sections/clinic/london-acupuncture-clinic" at 2014-12-09 20:16:29 +0530[0m
+Detecting locale EN
+Found page "London-acupuncture-clinic" [sections/clinic/london-acupuncture-clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 35.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:46:23 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:46:50 +0530
+[0;97;49mStarted GET "/sections/clinic/london-acupuncture-clinic" at 2014-12-09 20:46:57 +0530[0m
+Detecting locale EN
+Found page "London-acupuncture-clinic" [sections/clinic/london-acupuncture-clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:47:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:48:19 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:48:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:48:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:48:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:48:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:48:43 +0530
+[0;97;49mStarted GET "/sections/clinic/mindsailing" at 2014-12-09 20:48:59 +0530[0m
+Detecting locale EN
+Found page "Mindsailing" [sections/clinic/mindsailing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:49:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:49:17 +0530
+[0;97;49mStarted GET "/sections/clinic/mindsailing" at 2014-12-09 20:49:19 +0530[0m
+Detecting locale EN
+Found page "Mindsailing" [sections/clinic/mindsailing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:50:11 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:50:12 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:50:20 +0530
+[0;97;49mStarted GET "/sections/clinic/mindsailing" at 2014-12-09 20:50:22 +0530[0m
+Detecting locale EN
+Found page "Mindsailing" [sections/clinic/mindsailing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 15.9ms
+
+[0m
+[0;97;49mStarted GET "/sections/clinic/physiotherapy" at 2014-12-09 20:50:48 +0530[0m
+Detecting locale EN
+Found page "Physiotherapy" [sections/clinic/physiotherapy]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 50.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:51:09 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:51:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:51:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:51:55 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:51:55 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:52:01 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:52:01 +0530
+[0;97;49mStarted GET "/sections/clinic/physiotherapy" at 2014-12-09 20:52:13 +0530[0m
+Detecting locale EN
+Found page "Physiotherapy" [sections/clinic/physiotherapy]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 17.3ms
+
+[0m
+[0;97;49mStarted GET "/sections/clinic/pilates-studio" at 2014-12-09 20:52:22 +0530[0m
+Detecting locale EN
+Found page "Pilates-studio" [sections/clinic/pilates-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 15.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 20:53:28 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:54:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:54:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:54:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:54:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 20:54:18 +0530
+[0;97;49mStarted GET "/sections/clinic/pilates-studio" at 2014-12-09 20:54:29 +0530[0m
+Detecting locale EN
+Found page "Pilates-studio" [sections/clinic/pilates-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 22:40:08 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 22:40:10 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 22:40:10 +0530
+[0;97;49mStarted GET "/sections/clinic/rolfing" at 2014-12-09 22:40:34 +0530[0m
+Detecting locale EN
+Found page "Rolfing" [sections/clinic/rolfing]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 22:40:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 22:40:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 22:40:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 22:41:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 22:41:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 22:41:51 +0530
+[0;97;49mStarted GET "/sections/clinic/sports-therapy" at 2014-12-09 22:42:55 +0530[0m
+Detecting locale EN
+Found page "Sports-therapy" [sections/clinic/sports-therapy]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 30.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-09 22:44:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 22:44:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 22:45:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 22:45:53 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 22:45:53 +0530
+* Reloaded "pages", "snippets" at 2014-12-09 22:45:57 +0530
+[0;97;49mStarted GET "/sections/clinic/sports-therapy" at 2014-12-09 22:46:00 +0530[0m
+Detecting locale EN
+Found page "Sports-therapy" [sections/clinic/sports-therapy]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 15.0ms
+
+[0m
+[0;97;49mStarted GET "/sections/beauty" at 2014-12-09 22:46:21 +0530[0m
+Detecting locale EN
+Found page "Beauty" [sections/beauty]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.4ms
+
+[0m
