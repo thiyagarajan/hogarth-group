@@ -1,6 +1,15 @@
-{% extends parent %}
+---
+title: clinic
+slug: clinic
+listed: true
+published: true
+cache_strategy: simple
+response_type: text/html
+---
 
-{% block main_content %}
+{% extends "section" %}
+
+{% block main %}
 <div class="landing-bg"></div>
 <div class="container landing">
   <div class="row row-slider">
@@ -11,16 +20,16 @@
         <li>
           {{ 'landing-slider-1.jpg' | theme_image_tag: 'alt:main-slider' }}
           <div class="flex-caption">
-              <div class="title">{% editable_text title661, hint: "a title", format: raw, rows: 1 %}Enjoy</div>
-              <div class="caption">{% editable_text title662, hint: "a title", format: raw, rows: 1 %}wile away the stresses of the day in the mood lit pool</div>
+              <div class="title">Enjoy</div>
+              <div class="caption">wile away the stresses of the day in the mood lit pool</div>
           </div>
         </li>
 
         <li>
           {{ 'landing-slider-2.jpg' | theme_image_tag: 'alt:main-slider' }}
           <div class="flex-caption">
-              <div class="title">{% editable_text title663, hint: "a title", format: raw, rows: 1 %}Relax</div>
-              <div class="caption">{% editable_text title664, hint: "a title", format: raw, rows: 1 %}wile away the stresses of the day in the mood lit pool</div>
+              <div class="title">Relax</div>
+              <div class="caption">wile away the stresses of the day in the mood lit pool</div>
         </div>
         </li>
 
@@ -41,8 +50,8 @@
 
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="landing-content">
-        <h1 class="landing-page-heading">{% editable_text title145, hint: "a title", format: raw, rows: 1 %}Clinical Treatments</h1>
-        <p>{% editable_text title146, hint: "a title", format: raw, rows: 1 %}
+        <h1 class="landing-page-heading">Clinical Treatments</h1>
+        <p>
           The Hogarth Clinic boasts a myriad of different therapists and therapies. Many of our therapists are considered world leaders in their field with years of training and experience behind them.
         </p>
         </div>
@@ -51,24 +60,22 @@
 
     <div class="col-md-8 col-sm-6 col-xs-12">
       <div class="landing-content">
-        <h4>{% editable_text title147, hint: "a title", format: raw, rows: 1 %}What if I am late for my appointment?</h4>
-        <p>{% editable_text title148, hint: "a title", format: raw, rows: 1 %}
+        <h4>What if I am late for my appointment?</h4>
+        <p>
           Arriving late will simply reduce the time for your treatment, potentially reducing its effectiveness and your pleasure. Your treatment will end on time so that our next client is not delayed.
         </p>
 
-        <h4>{% editable_text title149, hint: "a title", format: raw, rows: 1 %}Cancellation Policy</h4>
-        <p>{% editable_text title150, hint: "a title", format: raw, rows: 1 %}
+        <h4>Cancellation Policy</h4>
+        <p>
           Clients who do not cancel treatments 24 hours in advance of the scheduled appointment time will be charged the full amount. We would still appreciate a call so that we can offer the appointment to another client.
         </p>
 
-        <h4>{% editable_text title151, hint: "a title", format: raw, rows: 1 %}Contact The Hogarth Clinic</h4>
-        <p>{% editable_text title152, hint: "a title", format: raw, rows: 1 %}
+        <h4>Contact The Hogarth Clinic</h4>
+        <p>
           Telephone 020 8742 7423 to arrange an appointment.
         </p>
       </div>
-    </div>
-
-        
+    </div>        
     </div>
   </div>
 </div>

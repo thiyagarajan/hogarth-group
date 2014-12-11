@@ -1,6 +1,15 @@
-{% extends parent %}
+---
+title: beauty
+slug: beauty
+listed: true
+published: true
+cache_strategy: simple
+response_type: text/html
+---
 
-{% block main_content %}
+{% extends "section" %}
+
+{% block main %}
 <div class="landing-bg"></div>
 <div class="container landing">
   <div class="row row-slider">
@@ -11,16 +20,16 @@
         <li>
           {{ 'landing-slider-1.jpg' | theme_image_tag: 'alt:main-slider' }}
           <div class="flex-caption">
-              <div class="title">{% editable_text title725, hint: "a title", format: raw, rows: 1 %}Enjoy</div>
-              <div class="caption">{% editable_text title726, hint: "a title", format: raw, rows: 1 %}wile away the stresses of the day in the mood lit pool</div>
+              <div class="title">Enjoy</div>
+              <div class="caption">wile away the stresses of the day in the mood lit pool</div>
           </div>
         </li>
 
         <li>
           {{ 'landing-slider-2.jpg' | theme_image_tag: 'alt:main-slider' }}
           <div class="flex-caption">
-              <div class="title">{% editable_text title727, hint: "a title", format: raw, rows: 1 %}Relax</div>
-              <div class="caption">{% editable_text title728, hint: "a title", format: raw, rows: 1 %}wile away the stresses of the day in the mood lit pool</div>
+              <div class="title">Relax</div>
+              <div class="caption">wile away the stresses of the day in the mood lit pool</div>
         </div>
         </li>
 
@@ -36,14 +45,11 @@
 
   <div class="container">
     <div class="row">
-
-
-
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="landing-content">
-        <h1 class="landing-page-heading">{% editable_text title153, hint: "a title", format: raw, rows: 1 %}Beauty & Spa Treatments</h1>
-        <h4>{% editable_text title154, hint: "a title", format: raw, rows: 1 %}Introduction</h4>
-        <p>{% editable_text title155, hint: "a title", format: raw, rows: 1 %}
+        <h1 class="landing-page-heading">Beauty & Spa Treatments</h1>
+        <h4>Introduction</h4>
+        <p>
           In body and beauty therapy, in massage and in clinical therapy, The Hogarth Spa offers a comprehensive range of treatments to relax and restore you. Our committed team of experts is ready to consult with you, to recommend, to resolve.
           
         </p>
@@ -53,28 +59,27 @@
 
     <div class="col-md-8 col-sm-6 col-xs-12">
       <div class="landing-content">
-        <h4>{% editable_text title156, hint: "a title", format: raw, rows: 1 %}Opening Hours</h4>
-        <p>{% editable_text title157, hint: "a title", format: raw, rows: 1 %}
+        <h4>Opening Hours</h4>
+        <p>
           Monday to Friday from 8am to 9pm, Saturday 10am to 6pm and one Sunday per month (please ask at reception).
         </p>
 
-        <h4>{% editable_text title158, hint: "a title", format: raw, rows: 1 %}Contact The Hogarth Beauty Spa</h4>
-        <p>{% editable_text title159, hint: "a title", format: raw, rows: 1 %}
+        <h4>Contact The Hogarth Beauty Spa</h4>
+        <p>
           Telephone 020 8995 4600 to arrange an appointment.
         </p>
 
-        <h4>{% editable_text title160, hint: "a title", format: raw, rows: 1 %}What if I am late for my appointment?</h4>
-        <p>{% editable_text title161, hint: "a title", format: raw, rows: 1 %}
+        <h4>What if I am late for my appointment?</h4>
+        <p>
         Arriving late will simply reduce the time for your treatment, potentially reducing its effectiveness and your pleasure. Your treatment will end on time so that our next client is not delayed.
         </p>
 
-        <h4>{% editable_text title162, hint: "a title", format: raw, rows: 1 %}Cancellation Policy</h4>
-        <p>{% editable_text title163, hint: "a title", format: raw, rows: 1 %}
+        <h4>Cancellation Policy</h4>
+        <p>
           Clients who do not cancel treatments 24 hours in advance of the scheduled appointment time will be charged the full amount. We would still appreciate a call so that we can offer the appointment to another client.
         </p>
       </div>
     </div>
-
         
     </div>
   </div>
