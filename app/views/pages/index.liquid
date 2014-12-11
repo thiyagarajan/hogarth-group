@@ -2,15 +2,9 @@
 title: Home
 published: true
 ---
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {% include head %}
-  </head>
-  <body>
-    <header id="mast">
-     {% include header %}
-    </header>
+
+{% include head %}
+{% include header %}
 
     <div class="main"> 
       {% block main_content %}
@@ -135,12 +129,4 @@ published: true
         <!-- END Promo panel -->
       {% endblock %}
 
-      <!-- Footer -->
-      <footer>
-         {% include footer %}
-      </footer>
-      <!-- END Footer -->
-
-    </div>
-  </body>
-</html>
+{% include footer %}
