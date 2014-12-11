@@ -12,35 +12,8 @@ response_type: text/html
 {% block main %}
 <div class="landing-bg"></div>
 <div class="container landing">
-  <div class="row row-slider">
-    <div class="col-xs-12">
 
-    <div class="flexslider">
-      <ul class="slides">
-        <li>
-          {{ 'landing-slider-1.jpg' | theme_image_tag: 'alt:main-slider' }}
-          <div class="flex-caption">
-              <div class="title">Enjoy</div>
-              <div class="caption">wile away the stresses of the day in the mood lit pool</div>
-          </div>
-        </li>
-
-        <li>
-          {{ 'landing-slider-2.jpg' | theme_image_tag: 'alt:main-slider' }}
-          <div class="flex-caption">
-              <div class="title">Relax</div>
-              <div class="caption">wile away the stresses of the day in the mood lit pool</div>
-        </div>
-        </li>
-
-      </ul>
-    </div>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- END Tripple pack -->
+  {% include section-slider %}
 
 
   <div class="container">

@@ -12,35 +12,8 @@ response_type: text/html
 {% block main %}
 <div class="landing-bg"></div>
 <div class="container landing">
-  <div class="row row-slider">
-    <div class="col-xs-12">
 
-    <div class="flexslider">
-      <ul class="slides">
-        <li>
-          {{ 'landing-slider-1.jpg' | theme_image_tag: 'alt:main-slider' }}
-          <div class="flex-caption">
-              <div class="title">Enjoy</div>
-              <div class="caption">wile away the stresses of the day in the mood lit pool</div>
-          </div>
-        </li>
-
-        <li>
-          {{ 'landing-slider-2.jpg' | theme_image_tag: 'alt:main-slider' }}
-          <div class="flex-caption">
-              <div class="title">Relax</div>
-              <div class="caption">wile away the stresses of the day in the mood lit pool</div>
-        </div>
-        </li>
-
-      </ul>
-    </div>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- END Tripple pack -->
+  {% include section-slider %}
 
 
   <div class="container">
@@ -50,20 +23,20 @@ response_type: text/html
 
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="landing-content">
-        <h1 class="landing-page-heading"SWIMMING</h1>
+        <h1 class="landing-page-heading">SWIMMING</h1>
 
-        <span class="page-intro"The swimming pool is 18 metres in length with a level depth providing
-the perfect balance for training,
-aqua aerobics and relaxation.</span>
+        <span class="page-intro">The swimming pool is 18 metres in length with a level depth providing the perfect balance for training, aqua aerobics and relaxation.
+        </span>
 
-     <pAt night, the swimming pool is mood lit to create a tranquil, relaxing environment that allows you to wile away the stresses of the day. Lorem ipsum dolor sit amet, Spa Pool adipiscing elit. Proin gravida massa quam, ac rutrum sem porttitor in. Integer augue lectus, fringilla id dui et, fringilla
-consequat est.</p>
+      <p>
+     At night, the swimming pool is mood lit to create a tranquil, relaxing environment that allows you to wile away the stresses of the day. Lorem ipsum dolor sit amet, Spa Pool adipiscing elit. Proin gravida massa quam, ac rutrum sem porttitor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.
+      </p>
 
-<pPellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elitmcorper etiam at 
+<p>Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elitmcorper etiam at 
 Steam Room, ornare arcu eget, tincidunt lectus.
 Etiam vel ultrices turpis. Etiam lacinia eros ut nisi</p>
 
-<pconsectetur hendrerit. Maecenas vel lectus ipsum
+<p>consectetur hendrerit. Maecenas vel lectus ipsum
 Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.
 Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elitmcorper etiam at we<p>
       </div>
@@ -92,8 +65,8 @@ Pellentesque rutrum sapien ante, sit amet inte rdum tu</p>
           <div class="landing-section-img">
             {{ 'landing-section-1.jpg' | theme_image_tag: 'alt:main-slider' }}
           </div>
-          <h3 class="landing-section-heading"Spa Pool</h3>
-          <pProin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est. Pell ntesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipis</p> 
+          <h3 class="landing-section-heading">Spa Pool</h3>
+          <p>Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est. Pell ntesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipis</p> 
         </div>
 
         </div>
@@ -121,8 +94,8 @@ Pellentesque rutrum sapien ante, sit amet inte rdum tu</p>
           <div class="landing-section-img">
             {{ 'landing-section-2.jpg' | theme_image_tag: 'alt:main-slider' }}
           </div>
-          <h3 class="landing-section-heading"Sauna</h3>
-          <pProin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.
+          <h3 class="landing-section-heading">Sauna</h3>
+          <p>Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.
 Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elit</p> 
         </div>
 
