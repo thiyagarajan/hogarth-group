@@ -16,11 +16,8 @@ response_type: text/html
   {% include section-slider %}
 
 
-  <div class="container">
+ <div class="container">
     <div class="row">
-
-
-
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="landing-content">
         <h1 class="landing-page-heading">SWIMMING</h1>
@@ -90,24 +87,21 @@ Pellentesque rutrum sapien ante, sit amet inte rdum tu</p>
 
       </div>
 
-              <div class="landing-section">
+        <div class="landing-section">
           <div class="landing-section-img">
             {{ 'landing-section-2.jpg' | theme_image_tag: 'alt:main-slider' }}
           </div>
+          {% editable_text "swimming_body", rows: 20 %}
           <h3 class="landing-section-heading">Sauna</h3>
           <p>Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.
 Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elit</p> 
         </div>
 
         </div>
-
-
       </div>
 
     </div>
     </div>
-
-
 
     </div><!-- Container and row -->
   </div> 
@@ -142,4 +136,5 @@ Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet
     </div>
   </div>
   <!-- END Promo panel -->
+  {% endeditable_text %}
   {% endblock %}
