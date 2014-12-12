@@ -5,7 +5,15 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="format-detection" content="telephone=no">
-		<title>{{ site.name }}</title>
+		
+    <title>
+      {{ page.title }} - {{ site.name }} |
+      {% if page.seo_title %}
+        {{ page.seo_title }}
+      {% else %}
+        {{ site.seo_title }}
+      {% endif %}
+    </title>    
 
 		{{ 'application.css' | stylesheet_tag }}
 
