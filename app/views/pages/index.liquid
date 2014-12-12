@@ -7,24 +7,8 @@ published: true
 {% include header %}
 {% block main %}
   <div class="outer-main">
-    <div class="flexslider">
-      <ul class="slides">
-        <li>
-          {{ 'main-slider-1.jpg' | theme_image_tag: 'alt:main-slider' }}
-          <div class="flex-caption">
-            <div class="title">Enjoy</div>
-            <div class="caption">wile away the stresses of the day in the mood lit pool</div>
-          </div>
-        </li>
-        <li>
-          {{ 'main-slider-2.jpg' | theme_image_tag: 'alt:main-slider' }}
-          <div class="flex-caption">
-            <div class="title">Relax</div>
-            <div class="caption">{wile away the stresses of the day in the mood lit pool</div>
-          </div>
-        </li>
-      </ul>
-    </div>
+
+    {% include home-slider %}
 
     {% editable_text "index_body", rows: 20 %}
     <div class="container">
@@ -121,11 +105,11 @@ published: true
               <li><a href="http://www.theparkclub.co.uk">VOYA Facials &amp; Body Treatments</a></li>
             </ul>
         </div>
-
       </div>
-    </div>
+    </div>    
+    {% endeditable_text %}
+    
   </div>
   <!-- END Promo panel -->
-{% endeditable_text %}
 {% endblock %}
 {% include footer %}
