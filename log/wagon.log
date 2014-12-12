@@ -1796,3 +1796,73 @@ Found page "personal-training" [section/gym/personal-training]
 [0;32;49mCompleted 200 OK in 39.9ms
 
 [0m
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:00 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:08 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:10 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:12 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:13 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:15 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:16 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:19 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:24 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:25 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:27 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:28 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:29 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:30 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:31 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:33 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:34 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:37 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:38 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:39 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:40 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:44 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:45 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:48 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-12 08:00:54 +0530
+[0;97;49mStarted GET "/section/gym/personal-training" at 2014-12-12 08:01:00 +0530[0m
+Detecting locale EN
+Found page "personal-training" [section/gym/personal-training]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.3ms
+
+[0m
+[0;97;49mStarted GET "/section/gym/metabolic-profiling" at 2014-12-12 08:01:06 +0530[0m
+Detecting locale EN
+Found page "metabolic-profiling" [section/gym/metabolic-profiling]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.1ms
+
+[0m
+[0;97;49mStarted GET "/section/gym/pilates-with-studio" at 2014-12-12 08:01:09 +0530[0m
+Detecting locale EN
+Found page "pilates-with-studio" [section/gym/pilates-with-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.4ms
+
+[0m
+[0;97;49mStarted GET "/section/gym/personal-training" at 2014-12-12 08:01:11 +0530[0m
+Detecting locale EN
+Found page "personal-training" [section/gym/personal-training]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.4ms
+
+[0m
