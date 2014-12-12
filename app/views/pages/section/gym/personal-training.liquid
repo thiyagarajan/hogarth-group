@@ -1,21 +1,28 @@
-{% extends parent %}
+---
+title: personal-training
+slug: personal-training
+listed: true
+published: true
+cache_strategy: simple
+response_type: text/html
+---
 
-{% block main_content %}
+{% extends "content" %}
+
+{% block main %}
 <div class="container landing">
   <div class="row content-row-slider">
     <div class="col-xs-12">
-
-    <div class="flexslider">
-	    {{ 'main-content-image.jpg' | theme_image_tag: 'alt:main-slider width:100%' }}
-    </div>
-
+      <div class="flexslider">
+  	    {{ 'main-content-image.jpg' | theme_image_tag: 'alt:main-slider width:100%' }}
       </div>
+    </div>
     </div>
   </div>
 
   <!-- END Tripple pack -->
 
-
+{% editable_text "tennis_body", rows: 20 %}
   <div class="container">
     <div class="row">
 
@@ -132,4 +139,5 @@ Pellentesque rutrum sapien ante, sit amet inte rdum tu</p>
     </div>
   </div>
   <!-- END Promo panel -->
+  {% endeditable_text %}
 {% endblock %}

@@ -226,3 +226,5 @@ body {color: #605d5d; font-family: "museo-sans", helvetica, arial; line-height: 
 	.standard-content-area {margin: -20px 0px 50px 0px; padding: 10px; }
 	.standard-page-heading {font-size: 2em;}
 }
+
+ul li, ol li { line-height: 17px;margin-bottom: 5px; }
