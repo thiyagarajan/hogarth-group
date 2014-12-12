@@ -57,4 +57,4 @@ fields:
     localized: false    # if localized, use
     #   en: ['option1_en', 'option2_en']
     #   fr: ['option1_fr', 'option2_fr']
-    select_options: ['option 1', 'option 2', 'option 3']
+    select_options: ['Home', 'Exercise Studio', 'Swimming', 'Gym', 'Tennis', 'Squash', 'Clinic', 'Beauty']
