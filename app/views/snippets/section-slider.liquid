@@ -1,29 +1,29 @@
 <div class="row row-slider">
-    <div class="col-xs-12">
-
+  <div class="col-xs-12">
     <div class="flexslider">
       <ul class="slides">
-        <li>
-          {{ 'landing-slider-1.jpg' | theme_image_tag: 'alt:main-slider' }}
-          <div class="flex-caption">
-              <div class="title">Enjoy</div>
-              <div class="caption">wile away the stresses of the day in the mood lit pool</div>
-          </div>
-        </li>
+        {% for slide in contents.slides %}
+          {% if slide.page == '{{ page.slug | capitalize }}' %}
+            <li>
+              <img src="{{ slide.image.url }}" alt="{{ slide.title | escape }}">
+              <div class="flex-caption">
+                <div class="title">{{ slide.title }}</div>
+                <div class="caption">{{ slide.description }}</div>
+              </div>
+            </li>
+          {% endif %}
 
-        <li>
-          {{ 'landing-slider-2.jpg' | theme_image_tag: 'alt:main-slider' }}
-          <div class="flex-caption">
-              <div class="title">Relax</div>
-              <div class="caption">wile away the stresses of the day in the mood lit pool</div>
-        </div>
-        </li>
-
+          {% if slide.page == 'Exercise Studio' %}
+            <li>
+              <img src="{{ slide.image.url }}" alt="{{ slide.title | escape }}">
+              <div class="flex-caption">
+                <div class="title">{{ slide.title }}</div>
+                <div class="caption">{{ slide.description }}</div>
+              </div>
+            </li>
+          {% endif %}
+        {% endfor %}
       </ul>
     </div>
-
-      </div>
-    </div>
   </div>
-
-  <!-- END Tripple pack -->
+</div>
