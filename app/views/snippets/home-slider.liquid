@@ -3,7 +3,7 @@
     {% for slide in contents.slides %}
       {% if slide.page == 'Home' %}
         <li>
-          {{ slide.image | theme_image_tag: 'alt:main-slider' }}
+          {{ slide.image.url | theme_image_tag: 'alt:main-slider' }}
           <div class="flex-caption">
             <div class="title">{{ slide.title }}</div>
             <div class="caption">{{ slide.description }}</div>
