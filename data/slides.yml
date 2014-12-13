@@ -1,7 +1,7 @@
 - "Sample 1":
     image: null # Path to a file in the public/samples folder or to a remote and external file.
     description: "Magni cum nostrum distinctio facilis sunt molestiae assumenda atque. Quam qui tempore recusandae quasi ullam. Non enim soluta consectetur in vel eligendi."
-    page: null # Use the value of a select option defined in the app/content_types/Slides.rb file.
+    page: Home # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
 - "Sample 2":
     image: null # Path to a file in the public/samples folder or to a remote and external file.
