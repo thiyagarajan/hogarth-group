@@ -1,39 +1,39 @@
-- "Sample 1":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Magni cum nostrum distinctio facilis sunt molestiae assumenda atque. Quam qui tempore recusandae quasi ullam. Non enim soluta consectetur in vel eligendi."
+- "Home Title":
+    image: 'http://static.panoramio.com/photos/large/58938396.jpg' # Path to a file in the public/samples folder or to a remote and external file.
+    description: "Home description"
     page: Home # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
-- "Sample 2":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Ad laborum repellendus voluptatem perferendis aperiam consequatur reprehenderit fugit. Natus beatae quaerat sint repudiandae praesentium eum. Unde quod quae earum a."
+- "Exercise Studio Title":
+    image: 'http://static.panoramio.com/photos/large/58938396.jpg' # Path to a file in the public/samples folder or to a remote and external file.
+    description: "Exercise Studio description"
     page: Exercise Studio # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
-- "Sample 3":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Libero ad et odio non. Ea optio perspiciatis minima ut consequatur ratione nihil voluptatem. Pariatur neque odit placeat. In et magnam sapiente."
+- "Swimming Title":
+    image: 'http://static.panoramio.com/photos/large/58938396.jpg' # Path to a file in the public/samples folder or to a remote and external file.
+    description: "Swimming description"
     page: Swimming # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
 - "Sample 4":
     image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Distinctio laborum ut excepturi eaque. Error quo culpa eum sit velit consequatur vero. Et qui facere corrupti debitis quaerat omnis occaecati consequuntur."
+    description: "Gym"
     page: Gym # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
 - "Sample 5":
     image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Distinctio laborum ut excepturi eaque. Error quo culpa eum sit velit consequatur vero. Et qui facere corrupti debitis quaerat omnis occaecati consequuntur."
+    description: "Tennis"
     page: Tennis # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
 - "Sample 6":
     image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Distinctio laborum ut excepturi eaque. Error quo culpa eum sit velit consequatur vero. Et qui facere corrupti debitis quaerat omnis occaecati consequuntur."
+    description: "Squash"
     page: Squash # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
 - "Sample 7":
     image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Distinctio laborum ut excepturi eaque. Error quo culpa eum sit velit consequatur vero. Et qui facere corrupti debitis quaerat omnis occaecati consequuntur."
+    description: "Clinic"
     page: Clinic # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
 - "Sample 8":
     image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Distinctio laborum ut excepturi eaque. Error quo culpa eum sit velit consequatur vero. Et qui facere corrupti debitis quaerat omnis occaecati consequuntur."
+    description: "Beauty"
     page: Beauty # Use the value of a select option defined in the app/content_types/Slides.rb file.

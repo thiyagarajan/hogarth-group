@@ -12,16 +12,6 @@
               </div>
             </li>
           {% endif %}
-
-          {% if slide.page == 'Exercise Studio' %}
-            <li>
-              <img src="{{ slide.image.url }}" alt="{{ slide.title | escape }}">
-              <div class="flex-caption">
-                <div class="title">{{ slide.title }}</div>
-                <div class="caption">{{ slide.description }}</div>
-              </div>
-            </li>
-          {% endif %}
         {% endfor %}
       </ul>
     </div>
