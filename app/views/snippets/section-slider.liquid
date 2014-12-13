@@ -3,7 +3,7 @@
     <div class="flexslider">
       <ul class="slides">
         {% for slide in contents.slides %}
-          {% if slide.page == '{{ page.slug | capitalize }}' %}
+          {% if slide.page == page.slug %}
             <li>
               <img src="{{ slide.image.url }}" alt="{{ slide.title | escape }}">
               <div class="flex-caption">
