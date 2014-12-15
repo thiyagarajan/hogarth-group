@@ -316,3 +316,296 @@ Found page "gym" [section/gym]
 * Reloaded "content_types", "content_entries" at 2014-12-15 18:03:02 +0530
 * Reloaded "content_types", "content_entries" at 2014-12-15 18:03:08 +0530
 * Reloaded "content_types", "content_entries" at 2014-12-15 18:03:08 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:16:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:18:04 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:18:05 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:18:05 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:18:39 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:18:40 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:18:40 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:19:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:19:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:19:43 +0530
+[0;97;49mStarted GET "/section/gym" at 2014-12-15 18:19:45 +0530[0m
+Detecting locale EN
+Found page "gym" [section/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 19.2ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-12-15 18:19:47 +0530[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet home-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.8ms
+
+[0m
+[0;97;49mStarted GET "/contact" at 2014-12-15 18:19:51 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:21:16 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:21:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:21:17 +0530
+[0;97;49mStarted GET "/contact" at 2014-12-15 18:21:31 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:22:03 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:22:03 +0530
+[0;97;49mStarted GET "/contact" at 2014-12-15 18:22:11 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:23:46 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:23:47 +0530
+[0;97;49mStarted GET "/contact" at 2014-12-15 18:23:49 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:24:32 +0530
+[0;97;49mStarted GET "/contact" at 2014-12-15 18:24:34 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:24:48 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:24:48 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:25:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:25:42 +0530
+[0;97;49mStarted GET "/contact" at 2014-12-15 18:25:44 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:25:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:25:58 +0530
+[0;97;49mStarted GET "/contact" at 2014-12-15 18:25:59 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:26:19 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:26:19 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:26:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:26:41 +0530
+[0;97;49mStarted GET "/contact" at 2014-12-15 18:26:43 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:26:50 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:26:51 +0530
+[0;97;49mStarted GET "/contact" at 2014-12-15 18:26:52 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:27:00 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:27:00 +0530
+[0;97;49mStarted GET "/contact" at 2014-12-15 18:27:02 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.7ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:27:10 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:27:10 +0530
+[0;97;49mStarted GET "/contact" at 2014-12-15 18:27:11 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.8ms
+
+[0m
+[0;97;49mStarted POST "/entry_submissions/contact" at 2014-12-15 18:27:15 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 270.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:28:00 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:28:01 +0530
+[0;97;49mStarted POST "/entry_submissions/contact" at 2014-12-15 18:28:03 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 14.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:28:15 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:28:16 +0530
+[0;97;49mStarted POST "/entry_submissions/contact" at 2014-12-15 18:28:20 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:28:33 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:28:33 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:28:33 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:28:55 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:28:55 +0530
+[0;97;49mStarted POST "/entry_submissions/contact" at 2014-12-15 18:29:05 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 99.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:29:28 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:29:28 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:29:47 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:29:47 +0530
+[0;97;49mStarted POST "/entry_submissions/contact" at 2014-12-15 18:29:54 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 19.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:30:16 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:30:16 +0530
+[0;97;49mStarted POST "/entry_submissions/contact" at 2014-12-15 18:30:18 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 28.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:32:04 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:32:05 +0530
+[0;97;49mStarted POST "/entry_submissions/contact" at 2014-12-15 18:32:07 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 21.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:39:13 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:39:38 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:39:38 +0530
+[0;97;49mStarted POST "/entry_submissions/contact" at 2014-12-15 18:39:42 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 14.6ms
+
+[0m
+[0;97;49mStarted GET "/contact" at 2014-12-15 18:39:53 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 18:40:19 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:40:20 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:40:30 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:40:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:41:05 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 18:41:05 +0530
+[0;97;49mStarted GET "/contact" at 2014-12-15 18:41:07 +0530[0m
+Detecting locale EN
+Found page "Contact" [contact]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.0ms
+
+[0m

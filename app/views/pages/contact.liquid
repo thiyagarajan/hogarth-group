@@ -1,0 +1,74 @@
+---
+title: Contact
+
+# true if the page is included in the menu
+listed: true
+# true if the page is published
+published: true
+
+# position among sibling pages
+# position: 1
+
+# sets a redirection to the given url (301)
+# redirect_url: "<url to a page or to a remote url>"
+
+# content type that this page is templatizing
+# content_type: "<slug of one of the content types>"
+
+# editable_elements:
+#   'some_block/some_slug': "<text>"
+#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
+---
+{% extends parent %}
+
+{% block main %}
+ <div class="container landing">
+
+    <div class="container" style="margin-top:150px">
+      <div class="row">
+ <form method="POST" action="{{contents.contact.public_submission_url}}">
+      {% csrf_param %}
+      <input type="hidden" value="/" name="success_callback" />
+      <input type="hidden" value="/contact" name="error_callback" />
+
+      {% if contact.errors %}
+        <p>The following errors occured:</p>
+        <ul>
+        {% for error in contact.errors %}
+          <li>{{error[0] | capitalize}} -  {{error[1]}}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+
+      <table>
+        <tr>
+          <td>Name:</td>
+          <td><input type="text" name="content[name]" value="{{contact.name}}"></td>
+        </tr>
+        <tr>
+          <td>Telephone:</td>
+          <td><input type="text" name="content[telephone]" value="{{contact.telephone}}"></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input type="text" name="content[email]" value="{{contact.email}}"></td>
+        </tr>
+        <tr>
+          <td>Postcode:</td>
+          <td><input type="text" name="content[postcode]" value="{{contact.postcode}}"></td>
+        </tr>
+        <tr>
+          <td>Enquiry Type:</td>
+          <td><select name="content[enquiry_type]" value="{{contact.enquiry_type}}"><option>Personal Tour</option><option>General Enquiry</option><option>Membership Enquiry</option><option></option>Customer Service Enquiry</select></td>
+        </tr>
+        <tr>
+          <td>Message:</td>
+          <td><textarea name="content[message]">{{contact.message}}</textarea></td>
+        </tr>
+      </table>
+      <input type="submit">
+    </form>
+</div>
+</div>
+<div>
+{% endblock %}
