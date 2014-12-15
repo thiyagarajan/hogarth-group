@@ -22,53 +22,75 @@ published: true
 {% extends parent %}
 
 {% block main %}
- <div class="container landing">
+<div class="container landing">
+  <div class="container" style="margin-top:150px">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <form method="POST" action="{{contents.contact.public_submission_url}}"  class="form-horizontal" role="form">
+          {% csrf_param %}
+          <input type="hidden" value="/" name="success_callback" />
+          <input type="hidden" value="/contact" name="error_callback" />
 
-    <div class="container" style="margin-top:150px">
-      <div class="row">
- <form method="POST" action="{{contents.contact.public_submission_url}}">
-      {% csrf_param %}
-      <input type="hidden" value="/" name="success_callback" />
-      <input type="hidden" value="/contact" name="error_callback" />
+          {% if contact.errors %}
+            <p>The following errors occured:</p>
+            <ul>
+            {% for error in contact.errors %}
+              <li>{{error[0] | capitalize}} -  {{error[1]}}</li>
+            {% endfor %}
+            </ul>
+          {% endif %}
 
-      {% if contact.errors %}
-        <p>The following errors occured:</p>
-        <ul>
-        {% for error in contact.errors %}
-          <li>{{error[0] | capitalize}} -  {{error[1]}}</li>
-        {% endfor %}
-        </ul>
-      {% endif %}
+          <div class="form-group">
+            <label for="inputname" class="col-md-6 control-label">Name</label>
+            <div class="col-md-6">
+              <input type="text" class="form-control" name="content[name]" value="{{contact.name}}" placeholder="Name">
+            </div>
+          </div>
 
-      <table>
-        <tr>
-          <td>Name:</td>
-          <td><input type="text" name="content[name]" value="{{contact.name}}"></td>
-        </tr>
-        <tr>
-          <td>Telephone:</td>
-          <td><input type="text" name="content[telephone]" value="{{contact.telephone}}"></td>
-        </tr>
-        <tr>
-          <td>Email:</td>
-          <td><input type="text" name="content[email]" value="{{contact.email}}"></td>
-        </tr>
-        <tr>
-          <td>Postcode:</td>
-          <td><input type="text" name="content[postcode]" value="{{contact.postcode}}"></td>
-        </tr>
-        <tr>
-          <td>Enquiry Type:</td>
-          <td><select name="content[enquiry_type]" value="{{contact.enquiry_type}}"><option>Personal Tour</option><option>General Enquiry</option><option>Membership Enquiry</option><option></option>Customer Service Enquiry</select></td>
-        </tr>
-        <tr>
-          <td>Message:</td>
-          <td><textarea name="content[message]">{{contact.message}}</textarea></td>
-        </tr>
-      </table>
-      <input type="submit">
-    </form>
-</div>
-</div>
+          <div class="form-group">
+            <label for="inputtelephone" class="col-md-6 control-label">Telephone</label>
+            <div class="col-md-6">
+              <input type="text" class="form-control" name="content[telephone]" value="{{contact.telephone}}" placeholder="Telephone">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputemail" class="col-md-6 control-label">Email</label>
+            <div class="col-md-6">
+              <input type="text" class="form-control" name="content[email]" value="{{contact.email}}" placeholder="Email">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputpostcode" class="col-md-6 control-label">Postcode</label>
+            <div class="col-md-6">
+              <input type="text" class="form-control" name="content[postcode]" value="{{contact.postcode}}" placeholder="Postcode">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputenquiry_type" class="col-md-6 control-label">Enquiry Type</label>
+            <div class="col-md-6">
+              <select class="form-control" name="content[enquiry_type]" value="{{contact.enquiry_type}}"><option>Personal Tour</option><option>General Enquiry</option><option>Membership Enquiry</option><option></option>Customer Service Enquiry</select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputmessage" class="col-md-6 control-label">Enquiry Type</label>
+            <div class="col-md-6">
+              <textarea class="form-control" name="content[message]"> {{contact.message}}</textarea>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputmessage" class="col-md-6 control-label"></label>
+            <div class="col-md-6">
+              <input type="submit" class="btn btn-primary" value="Send Message">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 <div>
 {% endblock %}
