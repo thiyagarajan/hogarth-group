@@ -258,3 +258,49 @@ Found page "tennis" [section/tennis]
 [0;32;49mCompleted 200 OK in 9.3ms
 
 [0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:43:42 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:43:42 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:43:46 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:43:46 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:43:47 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:44:09 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:44:10 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:44:12 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:44:13 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:44:21 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:44:21 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:44:24 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:44:25 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:44:25 +0530
+      template => Liquid Syntax error ('Error in the main block for the gym_body editable_element - No liquid tags are allowed inside.' on 'section/gym')
+      raw_template => Liquid Syntax error ('Error in the main block for the gym_body editable_element - No liquid tags are allowed inside.' on 'section/gym')
+* Reloaded "pages", "snippets" at 2014-12-15 15:50:12 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:50:12 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:50:16 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:50:16 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:50:33 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:50:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:50:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:50:51 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:50:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:50:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:50:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:51:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:51:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:51:39 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:51:39 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:51:55 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:51:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:52:10 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:52:10 +0530
+[0;97;49mStarted GET "/section/gym" at 2014-12-15 15:52:16 +0530[0m
+Detecting locale EN
+Found page "gym" [section/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.1ms
+
+[0m
