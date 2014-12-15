@@ -1,2 +1,260 @@
       template => Liquid Syntax error ('Error in the main block for the beauty_offer_of_the_month_body editable_element - No liquid tags are allowed inside.' on 'section/beauty/beauty-offer-of-the-month')
       raw_template => Liquid Syntax error ('Error in the main block for the beauty_offer_of_the_month_body editable_element - No liquid tags are allowed inside.' on 'section/beauty/beauty-offer-of-the-month')
+[0;97;49mStarted GET "/" at 2014-12-15 15:16:38 +0530[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet home-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 30.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:17:40 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:17:40 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:17:41 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:17:41 +0530
+[0;97;49mStarted GET "/section/gym" at 2014-12-15 15:19:16 +0530[0m
+Detecting locale EN
+Found page "gym" [section/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.6ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-12-15 15:21:08 +0530[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet home-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 33.5ms
+
+[0m
+[0;97;49mStarted GET "/section/tennis" at 2014-12-15 15:28:21 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 29.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:29:09 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:29:10 +0530
+[0;97;49mStarted GET "/section/tennis" at 2014-12-15 15:29:23 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:31:04 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:31:04 +0530
+[0;97;49mStarted GET "/section/tennis" at 2014-12-15 15:31:09 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:31:35 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:31:35 +0530
+[0;97;49mStarted GET "/section/tennis" at 2014-12-15 15:31:37 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:32:32 +0530
+[0;97;49mStarted GET "/section/tennis" at 2014-12-15 15:32:33 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:32:46 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:32:46 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:32:55 +0530
+[0;97;49mStarted GET "/section/tennis" at 2014-12-15 15:32:56 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:33:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:33:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:33:05 +0530
+[0;97;49mStarted GET "/section/tennis" at 2014-12-15 15:33:07 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:33:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:33:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:33:40 +0530
+[0;97;49mStarted GET "/section/tennis" at 2014-12-15 15:33:42 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:33:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:33:54 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:34:08 +0530
+[0;97;49mStarted GET "/section/tennis" at 2014-12-15 15:34:09 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:34:30 +0530
+[0;97;49mStarted GET "/section/tennis" at 2014-12-15 15:34:32 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:35:03 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:35:03 +0530
+[0;97;49mStarted GET "/section/tennis" at 2014-12-15 15:35:05 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:35:19 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:35:19 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:35:24 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:35:24 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:35:46 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:16 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:17 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:22 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:22 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:31 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:32 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:34 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:36 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:37 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:38 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:38 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:43 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:45 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:46 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:48 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:48 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:36:59 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:01 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:01 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:03 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:06 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:06 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:09 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:09 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:10 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:30 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:30 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:32 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:33 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:36 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:37:36 +0530
+[0;97;49mStarted GET "/section/tennis" at 2014-12-15 15:37:39 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:38:02 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:38:02 +0530
+[0;97;49mStarted GET "/section/tennis" at 2014-12-15 15:38:03 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-12-15 15:38:21 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:38:33 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:38:33 +0530
+* Reloaded "pages", "snippets" at 2014-12-15 15:38:34 +0530
+[0;97;49mStarted GET "/section/tennis" at 2014-12-15 15:38:35 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.3ms
+
+[0m
