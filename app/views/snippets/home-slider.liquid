@@ -1,7 +1,7 @@
 <div class="flexslider">
   <ul class="slides">
     {% for slide in contents.slides %}
-      {% if slide.page == 'Home' %}
+      {% if slide.page == 'index' %}
         <li>
           <img src="{{ slide.image.url }}" alt="{{ slide.title | escape }}">
           <div class="flex-caption">
