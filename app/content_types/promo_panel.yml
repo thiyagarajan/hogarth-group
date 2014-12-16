@@ -1,8 +1,8 @@
 # Human readable name of this type
-name: Slides
+name: Promo Panel
 
 # Lowercase, underscored handle used to access this type
-slug: slides
+slug: promo_panel
 
 # Explanatory text displayed in the back-office
 description: A description of the content type for the editors
@@ -37,14 +37,14 @@ fields:
 - image: # The lowercase, underscored name of the field
     label: Image # Human readable name of the field
     type: file
-    required: false
+    required: true
     hint: Explanatory text displayed in the back office
     localized: false
 
 - description: # The lowercase, underscored name of the field
     label: Description # Human readable name of the field
     type: text
-    required: false
+    required: true
     hint: Explanatory text displayed in the back office
     localized: false
     # text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
@@ -52,9 +52,19 @@ fields:
 - page: # The lowercase, underscored name of the field
     label: Page # Human readable name of the field
     type: select
-    required: false
+    required: true
     hint: Explanatory text displayed in the back office
     localized: false    # if localized, use
     #   en: ['option1_en', 'option2_en']
     #   fr: ['option1_fr', 'option2_fr']
     select_options: ['index', 'exercise-studio', 'swimming', 'gym', 'tennis', 'squash', 'clinic', 'beauty']
+
+- position: # The lowercase, underscored name of the field
+    label: Position # Human readable name of the field
+    type: select
+    required: true
+    hint: Explanatory text displayed in the back office
+    localized: false    # if localized, use
+    #   en: ['option1_en', 'option2_en']
+    #   fr: ['option1_fr', 'option2_fr']
+    select_options: ['Left', 'Right']
