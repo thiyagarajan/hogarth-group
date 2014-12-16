@@ -12,34 +12,37 @@ response_type: text/html
 <div class="landing-bg"></div>
 <div class="container landing">
   
-  {% include section-slider %}
+{% include section-slider %}
 
-  <div class="container">
-    <div class="row">
+{% editable_text "excercise_studio_body", rows: 20 %}
 
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="landing-content">
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="landing-content">
         <h1 class="landing-page-heading">EXERCISE STUDIO</h1>
 
-        <span class="page-intro">The swimming pool is 18 metres in length with a level depth providing the perfect balance for training, aqua aerobics and relaxation.</span>
+        <span class="page-intro">
+          The swimming pool is 18 metres in length with a level depth providing the perfect balance for training, aqua aerobics and relaxation.</span>
 
-     <p>At night, the swimming pool is mood lit to create a tranquil, relaxing environment that allows you to wile away the stresses of the day. Lorem ipsum dolor sit amet, Spa Pool adipiscing elit. Proin gravida massa quam, ac rutrum sem porttitor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.</p>
+        <p>
+          At night, the swimming pool is mood lit to create a tranquil, relaxing environment that allows you to wile away the stresses of the day. Lorem ipsum dolor sit amet, Spa Pool adipiscing elit. Proin gravida massa quam, ac rutrum sem porttitor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.</p>
 
-<p>Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elitmcorper etiam at 
-Steam Room, ornare arcu eget, tincidunt lectus.
-Etiam vel ultrices turpis. Etiam lacinia eros ut nisi</p>
+        <p>
+          Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elitmcorper etiam at Steam Room, ornare arcu eget, tincidunt lectus.
+          Etiam vel ultrices turpis. Etiam lacinia eros ut nisi</p>
 
-<p>consectetur hendrerit. Maecenas vel lectus ipsum
-Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.
-Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elitmcorper etiam at we<p>
+        <p>
+          consectetur hendrerit. Maecenas vel lectus ipsum Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.
+          Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elitmcorper etiam at we<p>
       </div>
 
       <div class="underneath" data-set="landing-nav"></div>
 
-     </div>
+    </div>
 
 
-     <div class="col-md-8 col-sm-6 col-xs-12">
+    <div class="col-md-8 col-sm-6 col-xs-12">
 
       <div class="row">
 
@@ -56,7 +59,7 @@ Pellentesque rutrum sapien ante, sit amet inte rdum tu</p>
 
         <div class="landing-section">
           <div class="landing-section-img">
-            {{ 'landing-section-1.jpg' | theme_image_tag: 'alt:main-slider' }}
+            <img src="https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/landing-section-1.jpg" alt="main-slider" >
           </div>
           <h3 class="landing-section-heading">Spa Pool</h3>
           <p>Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est. Pell ntesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipis</p> 
@@ -85,7 +88,7 @@ Pellentesque rutrum sapien ante, sit amet inte rdum tu</p>
 
               <div class="landing-section">
           <div class="landing-section-img">
-            {{ 'landing-section-2.jpg' | theme_image_tag: 'alt:main-slider' }}
+            <img src="https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/landing-section-2.jpg" alt="main-slider" >
           </div>
           <h3 class="landing-section-heading">Sauna</h3>
           <p>Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.
@@ -98,7 +101,6 @@ Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet
     </div><!-- Container and row -->
   </div> 
 
-{% editable_text "excercise_studio_body", rows: 20 %}
   <!-- Promo panel -->
   <div class="outer-promo-panel">
     <div class="container">
@@ -117,15 +119,15 @@ Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet
           <div class="wide-promo wide-promo-2">
             <div class="gold">
               <h3 class="gold-heading">Personal training</h3>
-              <p>Stay focussed on your goals with a personalised plan from our highly qualified trainers</p>
-            </div>  
-          </div>
+              <p>
+                Stay focussed on your goals with a personalised plan from our highly qualified trainers
+              </p>
+          </div>  
         </div>
-          
-      </div>
-
+      </div>          
     </div>
   </div>
-  <!-- END Promo panel -->
-  {% endeditable_text %}
-  {% endblock %}
+</div>
+<!-- END Promo panel -->
+{% endeditable_text %}
+{% endblock %}
