@@ -12,43 +12,44 @@ response_type: text/html
 <div class="landing-bg"></div>
 <div class="container landing">
   
-  {% include section-slider %}
+{% include section-slider %}
 
-{% editable_text "tenis_body", rows: 20 %}
+  {% editable_text "tenis_body", rows: 20 %}
+
   <div class="container">
     <div class="row">
 
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="landing-content">
-        <h1 class="landing-page-heading">Clinical Treatments</h1>
-        <p>
-          The Hogarth Clinic boasts a myriad of different therapists and therapies. Many of our therapists are considered world leaders in their field with years of training and experience behind them.
-        </p>
+          <h1 class="landing-page-heading">Clinical Treatments</h1>
+          <p>
+            The Hogarth Clinic boasts a myriad of different therapists and therapies. Many of our therapists are considered world leaders in their field with years of training and experience behind them.
+          </p>
         </div>
-      <div class="underneath" data-set="landing-nav"></div>
-    </div>
-
-    <div class="col-md-8 col-sm-6 col-xs-12">
-      <div class="landing-content">
-        <h4>What if I am late for my appointment?</h4>
-        <p>
-          Arriving late will simply reduce the time for your treatment, potentially reducing its effectiveness and your pleasure. Your treatment will end on time so that our next client is not delayed.
-        </p>
-
-        <h4>Cancellation Policy</h4>
-        <p>
-          Clients who do not cancel treatments 24 hours in advance of the scheduled appointment time will be charged the full amount. We would still appreciate a call so that we can offer the appointment to another client.
-        </p>
-
-        <h4>Contact The Hogarth Clinic</h4>
-        <p>
-          Telephone 020 8742 7423 to arrange an appointment.
-        </p>
+        <div class="underneath" data-set="landing-nav"></div>
       </div>
-    </div>        
+
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <div class="landing-content">
+          <h4>What if I am late for my appointment?</h4>
+          <p>
+            Arriving late will simply reduce the time for your treatment, potentially reducing its effectiveness and your pleasure. Your treatment will end on time so that our next client is not delayed.
+          </p>
+
+          <h4>Cancellation Policy</h4>
+          <p>
+            Clients who do not cancel treatments 24 hours in advance of the scheduled appointment time will be charged the full amount. We would still appreciate a call so that we can offer the appointment to another client.
+          </p>
+
+          <h4>Contact The Hogarth Clinic</h4>
+          <p>
+            Telephone 020 8742 7423 to arrange an appointment.
+          </p>
+        </div>
+      </div>        
     </div>
-  </div>
-</div>
-  <!-- END Promo panel -->
+  </div>  
   {% endeditable_text %}
-  {% endblock %}
+</div>
+<!-- END Promo panel -->
+{% endblock %}
