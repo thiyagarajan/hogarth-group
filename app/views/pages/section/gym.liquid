@@ -8,12 +8,7 @@ response_type: text/html
 
 {% extends "section" %}
 
-{% block main %}
-<div class="landing-bg"></div>
-<div class="container landing">
-  
-{% include section-slider %}
-
+{% block "main/section" %}
 {% editable_text "gym_body", rows: 20 %}
 
   <div class="container">
@@ -202,9 +197,4 @@ response_type: text/html
     </div>
   </div> 
   {% endeditable_text %} 
-  
-  <!-- Promo panel -->
-    {% include promo-panel %}
-  <!-- END Promo panel --> 
-</div>
 {% endblock %}

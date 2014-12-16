@@ -8,12 +8,7 @@ response_type: text/html
 
 {% extends "section" %}
 
-{% block main %}
-<div class="landing-bg"></div>
-<div class="container landing">
-  
-{% include section-slider %}
-
+{% block "main/section" %}
 {% editable_text "excercise_studio_body", rows: 20 %}
 
 <div class="container">
@@ -101,9 +96,4 @@ Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet
     </div><!-- Container and row -->
   </div> 
   {% endeditable_text %} 
-  
-  <!-- Promo panel -->
-    {% include promo-panel %}
-  <!-- END Promo panel --> 
-</div>
 {% endblock %}

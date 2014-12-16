@@ -4,11 +4,22 @@ slug: section
 handle: section
 listed: false
 published: true
-cache_strategy: simple
 response_type: text/html
-position: 103
 ---
 {% extends parent %}
-{% block main %}
 
+{% block main %}
+<div class="landing-bg"></div>
+	<div class="container landing">
+
+	{% include section-slider %}
+
+	{% block section %}
+	
+  {% endblock %}
+
+  <!-- Promo panel -->
+    {% include promo-panel %}
+  <!-- END Promo panel --> 
+</div>
 {% endblock %}
