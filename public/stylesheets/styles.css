@@ -24,7 +24,7 @@ body {color: #605d5d; font-family: "museo-sans", helvetica, arial; line-height: 
 	.tripple-pack-1-img,.tripple-pack-2-img,.tripple-pack-3-img {background-size: cover; min-height: 250px; margin: 0 -5px 0 -5px;}
 
 /* Wide promo panels */
-.outer-promo-panel {background: #e8e8e7; padding: 40px 0 0 0;}
+.outer-promo-panel {background: #e8e8e7; padding: 40px 0 0 0;overflow: hidden;}
 	.wide-promo {background: #aaa; display: block; margin: 0 -5px 40px -5px;}
 	.wide-promo-1 {background: url("../images/wide-1.jpg") no-repeat center; background-size: cover;}
 	.wide-promo-2 {background: url("../images/wide-2.jpg") no-repeat center; background-size: cover;}

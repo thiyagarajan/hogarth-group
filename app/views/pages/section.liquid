@@ -11,13 +11,12 @@ response_type: text/html
 {% block main %}
 <div class="landing-bg"></div>
 	<div class="container landing">
+		{% include section-slider %}
 
-	{% include section-slider %}
-
-	{% block section %}
-	
-  {% endblock %}
-
+		{% block section %}
+		
+	  {% endblock %}
+  </div>
   <!-- Promo panel -->
     {% include promo-panel %}
   <!-- END Promo panel --> 
