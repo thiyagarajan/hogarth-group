@@ -1,8 +1,8 @@
 # Human readable name of this type
-name: Slides
+name: Section
 
 # Lowercase, underscored handle used to access this type
-slug: slides
+slug: section
 
 # Explanatory text displayed in the back-office
 description: A description of the content type for the editors
@@ -34,34 +34,25 @@ fields:
     hint: Explanatory text displayed in the back office
     localized: false
 
-- image: # The lowercase, underscored name of the field
-    label: Image # Human readable name of the field
-    type: file
-    required: false
-    hint: Explanatory text displayed in the back office
-    localized: false
-
-- description: # The lowercase, underscored name of the field
-    label: Description # Human readable name of the field
+- body: # The lowercase, underscored name of the field
+    label: Body # Human readable name of the field
     type: text
     required: false
     hint: Explanatory text displayed in the back office
     localized: false
     # text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
 
-- page: # The lowercase, underscored name of the field
-    label: Page # Human readable name of the field
-    type: select
+- navigation: # The lowercase, underscored name of the field
+    label: Navigation # Human readable name of the field
+    type: text
     required: false
     hint: Explanatory text displayed in the back office
-    localized: false    # if localized, use
-    #   en: ['option1_en', 'option2_en']
-    #   fr: ['option1_fr', 'option2_fr']
-    select_options: ['index', 'exercise-studio', 'swimming', 'gym', 'tennis', 'squash', 'clinic', 'beauty']
+    localized: false
+    # text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
 
-- section:
-    label: Section
+- slides:
+    label: Slides
     type: many_to_many
-    class_name: section
-    inverse_of: slides
+    class_name: slides
+    inverse_of: section
     ui_enabled: true
