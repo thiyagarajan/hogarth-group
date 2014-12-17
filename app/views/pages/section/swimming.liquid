@@ -39,58 +39,34 @@ response_type: text/html
 
      <div class="col-md-8 col-sm-6 col-xs-12">
 
-      <div class="row">
+        <div class="row">
 
-      <div class="col-md-6 col-sm-12 col-xs-12">
-      <div class="landing-content">
-
-        <div class="standard-promo standard-promo-1">
-          <div class="standard-promo-panel standard-promo-panel-purple">
-            <h3 class="standard-promo-panel-heading">Steam Room</h3>
-            <p>Integer augue lectus, fringilla id dui et, fringilla consequat est.
-Pellentesque rutrum sapien ante, sit amet inte rdum tu</p>
-          </div>  
-        </div>
-
-        <div class="landing-section">
-          <div class="landing-section-img">
-          <img src="https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/landing-section-1.jpg" alt="main-slider" >
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <div class="landing-content">
+            {% include promo-top %}
+            {% include promo-middle-left %}
           </div>
-          <h3 class="landing-section-heading">Spa Pool</h3>
-          <p>Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est. Pell ntesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipis</p> 
         </div>
 
-        </div>
-      </div>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="landing-content landing-content-no-margin">
 
+          <div class="onright" data-set="landing-nav">
 
-      <div class="col-md-6 col-sm-12 col-xs-12">
-      <div class="landing-content landing-content-no-margin">
-
-        <div class="onright" data-set="landing-nav">
-
-        <div class="inpage-navigation">
-          {% editable_text "swimming_quick_links", rows: 20 %}
-          <h3 class="inpage-navigation-heading">Pool Activities</h3>
-          <ul class="inpage-navigation-ul">
-            <li class="inpage-navigation-li"><a href="achildpage.html">Water Aerobics</a></li>
-            <li class="inpage-navigation-li"><a href="achildpage.html">H20 Workout</a></li>
-            <li class="inpage-navigation-li"><a href="achildpage.html">Training</a></li>
-            <li class="inpage-navigation-li"><a href="achildpage.html">Another activity</a></li>
-          </ul>  
-          {% endeditable_text %} 
-        </div>
-
-      </div>
-
-        <div class="landing-section">
-          <div class="landing-section-img">
-          <img src="https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/landing-section-2.jpg" alt="main-slider" >
+          <div class="inpage-navigation">
+            {% editable_text "swimming_quick_links", rows: 20 %}
+            <h3 class="inpage-navigation-heading">Pool Activities</h3>
+            <ul class="inpage-navigation-ul">
+              <li class="inpage-navigation-li"><a href="achildpage.html">Water Aerobics</a></li>
+              <li class="inpage-navigation-li"><a href="achildpage.html">H20 Workout</a></li>
+              <li class="inpage-navigation-li"><a href="achildpage.html">Training</a></li>
+              <li class="inpage-navigation-li"><a href="achildpage.html">Another activity</a></li>
+            </ul>  
+            {% endeditable_text %} 
           </div>
-          <h3 class="landing-section-heading">Sauna</h3>
-          <p>Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.
-Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elit</p> 
         </div>
+
+        {% include promo-middle-right %}
 
         </div>
       </div>
