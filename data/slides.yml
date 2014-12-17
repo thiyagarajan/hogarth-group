@@ -1,7 +1,7 @@
 - "Home Title":
-    image: 'http://static.panoramio.com/photos/large/58938396.jpg' # Path to a file in the public/samples folder or to a remote and external file.
+    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "Home description"
-    page: Home # Use the value of a select option defined in the app/content_types/Slides.rb file.
+    page: index # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
 - "Exercise Studio Title":
     image: 'http://static.panoramio.com/photos/large/58938396.jpg' # Path to a file in the public/samples folder or to a remote and external file.

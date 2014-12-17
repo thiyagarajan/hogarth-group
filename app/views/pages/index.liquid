@@ -5,91 +5,51 @@ published: true
 
 {% include head %}
 {% include header %}
+
 {% block main %}
-  <div class="outer-main">
+<div class="outer-main">
 
-    {% include home-slider %}
+  {% include home-slider %}
 
-    {% editable_text "index_body", rows: 20 %}
-    <div class="container">
-      <div class="row">
-
-        <div class="col-sm-4 col-xs-12">
-          <div class="tripple-pack-1-img"></div>
-          <div class="tripple-pack element">
-            <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Improve posture &amp; strengthen your core</a></h1>
-            <p>Introducing Graeme and Lysta Reardon, a dedicated husband and wife team with a combined experience of over 23 years.</p>
-          </div>
+  <div class="container">
+    <div class="row">
+      {% editable_text "index_body", rows: 20 %}
+      <div class="col-sm-4 col-xs-12">
+        <div class="tripple-pack-1-img"></div>
+        <div class="tripple-pack element">
+          <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Improve posture &amp; strengthen your core</a></h1>
+          <p>Introducing Graeme and Lysta Reardon, a dedicated husband and wife team with a combined experience of over 23 years.</p>
         </div>
-
-        <div class="col-sm-4 col-xs-12">
-          <div class="tripple-pack-2-img"></div>
-          <div class="tripple-pack element">
-            <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Caribbean BBQ Night- COME AND join us!</a></h1>
-            <p>We are hosting Caribbean Night on 17 June. There will be a free Cocktail bar and authentic BBQ @ £10 a head.</p>
-          </div>
-        </div>
-
-        <div class="col-sm-4 col-xs-12">
-          <div class="tripple-pack-3-img"></div>
-          <div class="tripple-pack element">
-            <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Jessica Nail Treatments available</a></h1>
-            <p>Jessica Cosmetics is considered a world leading brand, with a range of Jessica nail products to achieve and maintain naturally.</p>
-          </div>
-        </div>
-
       </div>
+
+      <div class="col-sm-4 col-xs-12">
+        <div class="tripple-pack-2-img"></div>
+        <div class="tripple-pack element">
+          <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Caribbean BBQ Night- COME AND join us!</a></h1>
+          <p>We are hosting Caribbean Night on 17 June. There will be a free Cocktail bar and authentic BBQ @ £10 a head.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-xs-12">
+        <div class="tripple-pack-3-img"></div>
+        <div class="tripple-pack element">
+          <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Jessica Nail Treatments available</a></h1>
+          <p>Jessica Cosmetics is considered a world leading brand, with a range of Jessica nail products to achieve and maintain naturally.</p>
+        </div>
+      </div>
+      {% endeditable_text %}
     </div>
   </div>
-  <!-- END Tripple pack -->
+</div>
+<!-- END Tripple pack -->
 
-  {% endeditable_text %}
+<!-- Promo panel -->
+  {% include promo-panel %}  
+<!-- END Promo panel -->
 
-  <!-- Promo panel -->
-    {% include promo-panel %}  
-  <!-- END Promo panel -->
-
-  <div class="outer-promo-panel">
-    <div class="container">
-      <div class="row quick-links-panel">
-
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <h1 class="quick-links-panel-heading">Studio activities</h1>
-            <ul>
-              <li><a href="http://www.theparkclub.co.uk">Pilates with Studio</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Zumba classes</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Legs, Bums and Tums</a></li>
-            </ul>
-        </div>
-
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <h1 class="quick-links-panel-heading">State-of-the-art gym</h1>
-            <ul>
-              <li><a href="http://www.theparkclub.co.uk">Metabolic profiling</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Personal training</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Our gym equipment</a></li>
-            </ul>
-        </div>
-
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <h1 class="quick-links-panel-heading">Clinic &amp; Beauty</h1>
-            <ul>
-              <li><a href="http://www.theparkclub.co.uk">Finishing Touches</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Chiropractor</a></li>
-              <li><a href="http://www.theparkclub.co.uk">VOYA Facials &amp; Body Treatments</a></li>
-            </ul>
-        </div>
-
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <h1 class="quick-links-panel-heading">Social events</h1>
-            <ul>
-              <li><a href="http://www.theparkclub.co.uk">Finishing Touches</a></li>
-              <li><a href="http://www.theparkclub.co.uk">Chiropractor</a></li>
-              <li><a href="http://www.theparkclub.co.uk">VOYA Facials &amp; Body Treatments</a></li>
-            </ul>
-        </div>
-      </div>
-    </div>        
-  </div>
+<!-- Footer panel -->
+  {% include home-footer %}  
+<!-- END Footer panel -->
 {% endblock %}
+
 {% include footer %}
