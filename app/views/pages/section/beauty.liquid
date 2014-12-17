@@ -9,45 +9,71 @@ response_type: text/html
 {% extends "section" %}
 
 {% block "main/section" %}
-
-{% editable_text "tenis_body", rows: 20 %}
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="landing-content">
-          <h1 class="landing-page-heading">Beauty & Spa Treatments</h1>
-          <h4>Introduction</h4>
+        <div class="landing-content">          
+          {% editable_text "beauty_body", rows: 20 %}
+          <h1 class="landing-page-heading">Beauty</h1>
+
+          <span class="page-intro">The swimming pool is 18 metres in length with a level depth providing the perfect balance for training, aqua aerobics and relaxation.
+          </span>
+
           <p>
-            In body and beauty therapy, in massage and in clinical therapy, The Hogarth Spa offers a comprehensive range of treatments to relax and restore you. Our committed team of experts is ready to consult with you, to recommend, to resolve.          
+            At night, the swimming pool is mood lit to create a tranquil, relaxing environment that allows you to wile away the stresses of the day. Lorem ipsum dolor sit amet, Spa Pool adipiscing elit. Proin gravida massa quam, ac rutrum sem porttitor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.
           </p>
+
+          <p>
+            Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elitmcorper etiam at Steam Room, ornare arcu eget, tincidunt lectus.
+            Etiam vel ultrices turpis. Etiam lacinia eros ut nisi</p>
+
+          <p>
+            consectetur hendrerit. Maecenas vel lectus ipsum Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.
+            Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elitmcorper etiam at we
+            <p>
+          {% endeditable_text %}   
         </div>
-      <div class="underneath" data-set="landing-nav"></div>
+        <div class="underneath" data-set="landing-nav"></div>
       </div>
 
-      <div class="col-md-8 col-sm-6 col-xs-12">
-        <div class="landing-content">
-          <h4>Opening Hours</h4>
-          <p>
-            Monday to Friday from 8am to 9pm, Saturday 10am to 6pm and one Sunday per month (please ask at reception).
-          </p>
 
-          <h4>Contact The Hogarth Beauty Spa</h4>
-          <p>
-            Telephone 020 8995 4600 to arrange an appointment.
-          </p>
+     <div class="col-md-8 col-sm-6 col-xs-12">
 
-          <h4>What if I am late for my appointment?</h4>
-          <p>
-            Arriving late will simply reduce the time for your treatment, potentially reducing its effectiveness and your pleasure. Your treatment will end on time so that our next client is not delayed.
-          </p>
+        <div class="row">
 
-          <h4>Cancellation Policy</h4>
-          <p>
-            Clients who do not cancel treatments 24 hours in advance of the scheduled appointment time will be charged the full amount. We would still appreciate a call so that we can offer the appointment to another client.
-          </p>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <div class="landing-content">
+            {% include promo-top %}
+            {% include promo-middle-left %}
+          </div>
         </div>
-      </div>        
+
+        <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="landing-content landing-content-no-margin">
+
+          <div class="onright" data-set="landing-nav">
+
+          <div class="inpage-navigation">
+            {% editable_text "beauty_quick_links", rows: 20 %}
+            <h3 class="inpage-navigation-heading">Pool Activities</h3>
+            <ul class="inpage-navigation-ul">
+              <li class="inpage-navigation-li"><a href="achildpage.html">Water Aerobics</a></li>
+              <li class="inpage-navigation-li"><a href="achildpage.html">H20 Workout</a></li>
+              <li class="inpage-navigation-li"><a href="achildpage.html">Training</a></li>
+              <li class="inpage-navigation-li"><a href="achildpage.html">Another activity</a></li>
+            </ul>  
+            {% endeditable_text %} 
+          </div>
+        </div>
+
+        {% include promo-middle-right %}
+
+        </div>
+      </div>
+
     </div>
-  </div>  
-  {% endeditable_text %} 
+    </div>
+
+    </div><!-- Container and row -->
+  </div> 
 {% endblock %}

@@ -9,111 +9,71 @@ response_type: text/html
 {% extends "section" %}
 
 {% block "main/section" %}
-{% editable_text "tennis_body", rows: 20 %}
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="landing-content">
-        <h1 class="landing-page-heading">TENNIS</h1>
+        <div class="landing-content">          
+          {% editable_text "tennis_body", rows: 20 %}
+          <h1 class="landing-page-heading">Tennis</h1>
 
-        <p>
-          The Hogarth Health Club provides tennis players with a comprehensive range of both social and competitive activities for all levels of play.
-        </p>
+          <span class="page-intro">The swimming pool is 18 metres in length with a level depth providing the perfect balance for training, aqua aerobics and relaxation.
+          </span>
 
-        <p>
-         There is a real community feel, in a very relaxed environment. In the summer the Club runs tennis club nights during the evening for social players who wish to meet other players and to enjoy a game.
-        </p>
+          <p>
+            At night, the swimming pool is mood lit to create a tranquil, relaxing environment that allows you to wile away the stresses of the day. Lorem ipsum dolor sit amet, Spa Pool adipiscing elit. Proin gravida massa quam, ac rutrum sem porttitor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.
+          </p>
 
-        <p>
-          The Club has two high quality all weather courts that are available for play during daylight hours. Courts can be booked at reception up to a week in advance, bookings are made hourly, on the hour.
-        </p>
+          <p>
+            Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elitmcorper etiam at Steam Room, ornare arcu eget, tincidunt lectus.
+            Etiam vel ultrices turpis. Etiam lacinia eros ut nisi</p>
 
-        <p>
-          There is no charge for court bookings, however, we do ask that you cancel your court at least 24 hours in advance if unable to play.
-        <p>
+          <p>
+            consectetur hendrerit. Maecenas vel lectus ipsum Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est.
+            Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elitmcorper etiam at we
+            <p>
+          {% endeditable_text %}   
+        </div>
+        <div class="underneath" data-set="landing-nav"></div>
       </div>
-      <div class="underneath" data-set="landing-nav"></div>
+
+
+     <div class="col-md-8 col-sm-6 col-xs-12">
+
+        <div class="row">
+
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <div class="landing-content">
+            {% include promo-top %}
+            {% include promo-middle-left %}
+          </div>
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="landing-content landing-content-no-margin">
+
+          <div class="onright" data-set="landing-nav">
+
+          <div class="inpage-navigation">
+            {% editable_text "tennis_quick_links", rows: 20 %}
+            <h3 class="inpage-navigation-heading">Pool Activities</h3>
+            <ul class="inpage-navigation-ul">
+              <li class="inpage-navigation-li"><a href="achildpage.html">Water Aerobics</a></li>
+              <li class="inpage-navigation-li"><a href="achildpage.html">H20 Workout</a></li>
+              <li class="inpage-navigation-li"><a href="achildpage.html">Training</a></li>
+              <li class="inpage-navigation-li"><a href="achildpage.html">Another activity</a></li>
+            </ul>  
+            {% endeditable_text %} 
+          </div>
+        </div>
+
+        {% include promo-middle-right %}
+
+        </div>
+      </div>
+
+    </div>
     </div>
 
-
-    <div class="col-md-8 col-sm-6 col-xs-12">
-      <div class="landing-content">
-        <h4Tennis Mornings</h4>
-        <p>Berj’s - Tuesday 10-12pm.</P>
-        <p>Jose’s - Thursday 9-11am.</p>
-        <pPlease book at reception. £9 per person, payable to the coach.</p>
-     
-        <h4>NEW - Absolute Beginners</h4>
-        <p>
-          New Absolute Beginners Tennis classes are on every Wednesday 11am-12pm and 12pm-1pm with a max of 6 people per group. Cost is £10 per person per lesson. Book your place ahead at reception.
-        </P>
-        <p>
-          As tennis mornings are very popular and get booked up very quickly we would ask that if you are unable to attend, you let us know so we can offer the space to someone on the reserve list!
-        </p>
-
-        <h4Club Nights</h4>
-        <p>
-          Tennis Club nights typically run from the beginning of May through to September each year. They are held on Tuesday and Wednesday nights from 6-9pm. There will be two sessions, one from 6-7.30pm and one from 7.30-9pm. These classes will operate on a first come first served basis, there will be a sign in sheet and an £9 fee payable to Berj.
-        </p>
-
-        <h4Club Tournament - Finals September 2013</h4>
-        <p>
-          Following the success of last year's Hogarth Tennis Tournament this year's championships will be run along similar lines with Singles and Doubles formats for both Men and Ladies plus a Mixed event. Those losing in the first round will be entered into a 'Plate Event' (should they wish) and the plate finals will run parallel to the main finals.
-        </P>
-
-        <p>
-          Watch this space for your opportunity to sign up on line for this event.
-        </p>
-
-        <p>
-          Whether you are included in the draw or not please do come along and support the players throughout their matches and of course, on Finals Day.
-        </p>
-    
-        <h4Tennis Round Robins</h4>
-        <p>
-          Round Robins are ran on the last Sunday of every month during the summer by Luke. These typically run from 1-4pm. The entry fee is £9 and you can sign up at reception.
-        </P>
-    
-        <h4Tennis Coaching</h4>
-        <p>
-          Both Berj and Jose are tennis professionals and they offer private coaching at £35 per hour. Their contact details can be obtained through reception.
-          
-        </P>
-  
-
-        <h4Terms and Conditions for booking Tennis and Squash courts</h4>
-
-        <ul>
-        <li>
-          1/ Tennis and Squash courts may be booked 7 days in advance either in person or over the phone according to the times their membership permits them access to the club.
-        </li>
-
-        <li>
-          2/ A member may book a maximum of 1 court at a time. If another court is required then we require the name of your partner who must also be a member.
-        </li>
-
-         <li>
-          3/ All members must report to Reception on arrival at the Club prior to going on to court to confirm their attendance and use of the court. Failure to do so could result in the booking being recorded as a ‘no-show’.
-        </li>
-         
-        <li>
-          5/ We require a minimum of 24 hours notice for a court to be cancelled unless mitigating circumstances exist.
-        </li>
-
-        <li>
-          5/ The member who has made the booking must be present on court at the time it is booked for play. Court bookings cannot be transferred to other members without being updated on the Club’s booking system.
-        </li>
-
-         <li>
-          6/ If a member does not show up within 15 minutes of the start of the court booking time, the court will be made available for any member to use on a ‘walk-on’ basis in accordance with their terms and conditions of membership access. To book a ‘walk-on’ court a member will report to Reception and enquire about any courts that are available and if so, the court will be booked in their name.
-        </li>
-
-        <li>
-          The above terms and conditions will be reviewed from time to time to take in to consideration member feedback, usage trends and are at all times subject to Management’s discretion. Thank you for helping us to safeguard booking integrity.          
-        </li>
-      </ul>
-      </div>
-    </div>
-  </div>  
-  {% endeditable_text %} 
+    </div><!-- Container and row -->
+  </div> 
 {% endblock %}
