@@ -10,13 +10,14 @@
     page: index # Use the value of a select option defined in the app/content_types/Bottom images.rb file.
     position: Right    
 
-- "Sample 3":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Voluptatem quis et molestiae nihil et numquam et. Aspernatur soluta rerum aut quia tenetur. Fugit nisi recusandae facilis et voluptates. Qui cum rerum dolorem minima sequi magni quasi."
-    page: null # Use the value of a select option defined in the app/content_types/Bottom images.rb file.
+- "exercise-studio Membership offer":
+    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-1.jpg' # Path to a file in the public/samples folder or to a remote and external file.
+    description: "left New members in August can take part in a free studio session Join us!"
+    page: exercise-studio # Use the value of a select option defined in the app/content_types/Bottom images.rb file.
+    position: Left
 
-- "Sample 4":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Sed similique atque ut eius explicabo. Exercitationem laboriosam eum atque. Necessitatibus quasi incidunt iste et magni."
-    page: null # Use the value of a select option defined in the app/content_types/Bottom images.rb file.
-
+- "exercise-studio Membership offer":
+    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
+    description: "New members in August can take part in a free studio session Join us!"
+    page: exercise-studio # Use the value of a select option defined in the app/content_types/Bottom images.rb file.
+    position: Right    

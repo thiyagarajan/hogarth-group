@@ -4,36 +4,36 @@
     page: index # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
 - "Exercise Studio Title":
-    image: 'http://static.panoramio.com/photos/large/58938396.jpg' # Path to a file in the public/samples folder or to a remote and external file.
+    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "Exercise Studio description"
     page: exercise-studio # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
 - "Swimming Title":
-    image: 'http://static.panoramio.com/photos/large/58938396.jpg' # Path to a file in the public/samples folder or to a remote and external file.
+    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "Swimming description"
     page: swimming # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
 - "Sample 4":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
+    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "Gym"
     page: gym # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
 - "Sample 5":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
+    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "Tennis"
     page: tennis # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
 - "Sample 6":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
+    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "Squash"
     page: squash # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
 - "Sample 7":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
+    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "Clinic"
     page: clinic # Use the value of a select option defined in the app/content_types/Slides.rb file.
 
 - "Sample 8":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
+    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "Beauty"
     page: beauty # Use the value of a select option defined in the app/content_types/Slides.rb file.
