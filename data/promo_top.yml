@@ -1,20 +1,16 @@
 - "Sample 1":
     image: null # Path to a file in the public/samples folder or to a remote and external file.
     description: "Expedita corrupti id quam amet. Est delectus non quia quis. Ratione molestiae quo consequatur qui exercitationem et consequatur."
-    page: null # Use the value of a select option defined in the app/content_types/Promo top.rb file.
-
+    
 - "Steam Room":
     image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/landing-promo.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "Integer augue lectus, fringilla id dui et, fringilla consequat est. Pellentesque rutrum sapien ante, sit amet inte rdum tu"
-    page: swimming # Use the value of a select option defined in the app/content_types/Promo top.rb file.
-
+    
 - "Sample 3":
     image: null # Path to a file in the public/samples folder or to a remote and external file.
     description: "Et nulla incidunt quaerat provident. Maxime sed porro explicabo qui enim eum. Explicabo enim molestiae est nisi accusamus eveniet enim voluptatem."
-    page: null # Use the value of a select option defined in the app/content_types/Promo top.rb file.
-
+    
 - "Sample 4":
     image: null # Path to a file in the public/samples folder or to a remote and external file.
     description: "Ea architecto quas aut et facere aspernatur voluptatem aperiam. Repellendus qui vel recusandae non in totam aspernatur veritatis. Autem culpa id quos. Voluptatem nemo officiis modi eligendi deleniti."
-    page: null # Use the value of a select option defined in the app/content_types/Promo top.rb file.
-
+    

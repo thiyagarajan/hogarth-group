@@ -1,24 +1,20 @@
 - "Sample 1":
     image: null # Path to a file in the public/samples folder or to a remote and external file.
     description: "Aut voluptas quisquam animi voluptatem culpa. Harum quisquam nulla beatae labore omnis eos quae. Assumenda voluptates possimus molestiae soluta dolor. Voluptatem molestias quia sed tenetur dolorem placeat in."
-    page: null # Use the value of a select option defined in the app/content_types/Promo middle.rb file.
     position: null # Use the value of a select option defined in the app/content_types/Promo middle.rb file.
 
 - "Sample 2":
     image: null # Path to a file in the public/samples folder or to a remote and external file.
     description: "Accusamus nihil quia ut. Impedit et numquam incidunt facilis necessitatibus. Laboriosam consequatur occaecati adipisci labore nam. Eveniet libero fugit sit."
-    page: null # Use the value of a select option defined in the app/content_types/Promo middle.rb file.
     position: null # Use the value of a select option defined in the app/content_types/Promo middle.rb file.
 
 - "Spa Pool":
     image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/landing-section-1.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est. Pell ntesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipis"
-    page: swimming # Use the value of a select option defined in the app/content_types/Promo middle.rb file.
     position: Left # Use the value of a select option defined in the app/content_types/Promo middle.rb file.
 
 - "Sauna":
     image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/landing-section-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est. Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elit"
-    page: swimming # Use the value of a select option defined in the app/content_types/Promo middle.rb file.
     position: Right # Use the value of a select option defined in the app/content_types/Promo middle.rb file.
 
