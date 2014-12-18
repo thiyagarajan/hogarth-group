@@ -89,3 +89,14 @@ Found page "Index" [index]
 [0;32;49mCompleted 200 OK in 3.7ms
 
 [0m
+[0;97;49mStarted GET "/" at 2014-12-18 18:14:46 +0530[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet quick-links
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.8ms
+
+[0m
