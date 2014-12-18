@@ -71,9 +71,9 @@ fields:
     inverse_of: content
     ui_enabled: true
 
-- content:
-    label: Content
+- sections:
+    label: Sections
     type: belongs_to
-    class_name: promo_panel
+    class_name: sections
     inverse_of: content
     ui_enabled: true
