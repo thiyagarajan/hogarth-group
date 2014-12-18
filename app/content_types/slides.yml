@@ -65,3 +65,10 @@ fields:
     class_name: sections
     inverse_of: slides
     ui_enabled: true
+
+- home:
+    label: Home
+    type: many_to_many
+    class_name: home
+    inverse_of: slides
+    ui_enabled: true
