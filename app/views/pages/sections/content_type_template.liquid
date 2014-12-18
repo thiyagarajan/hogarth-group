@@ -124,25 +124,28 @@ content_type: sections
 	  <div class="outer-promo-panel">
 	    <div class="container">
 	      <div class="row">
-
-	        <div class="col-sm-6 col-xs-12">
-	          <div class="wide-promo wide-promo-1">
-	            <div class="gold">
-	              <h3 class="gold-heading">Membership offer</h3>
-	              <p>New members in August can take part in a free studio session Join us!</p>
-	            </div>  
-	          </div>
-	        </div>
-
-	        <div class="col-sm-6 col-xs-12">
-	          <div class="wide-promo wide-promo-2">
-	            <div class="gold">
-	              <h3 class="gold-heading">Personal training</h3>
-	              <p>Stay focussed on your goals with a personalised plan from our highly qualified trainers</p>
-	            </div>  
-	          </div>
-	        </div>
-	          
+	      	{% for promo_panel in section.promo_panel %}
+	      		{% if promo_panel.position == 'Left' %}
+		        <div class="col-sm-6 col-xs-12">
+		          <div class="wide-promo wide-promo-11" style="background: url({{ promo_panel.image.url }}) no-repeat center; background-size: cover;">
+		            <div class="gold">
+		              <h3 class="gold-heading">{{ promo_panel.title }}</h3>
+		              <p>{{ promo_panel.description }}</p>
+		            </div>  
+		          </div>
+		        </div>
+		        {% endif %}
+		        {% if promo_panel.position == 'Right' %}
+			        <div class="col-sm-6 col-xs-12">
+			          <div class="wide-promo wide-promo-22" style="background: url({{ promo_panel.image.url }}) no-repeat center; background-size: cover;">
+			            <div class="gold">
+			              <h3 class="gold-heading">{{ promo_panel.title }}</h3>
+			              <p>{{ promo_panel.description }}</p>
+			            </div>  
+			          </div>
+			        </div>
+		        {% endif %}
+	        {% endfor %}  
 	      </div>
 
 	    </div>
