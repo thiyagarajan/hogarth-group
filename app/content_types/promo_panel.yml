@@ -70,9 +70,9 @@ fields:
     inverse_of: promo_panel
     ui_enabled: true    
 
-- pages:
-    label: Pages
+- content:
+    label: Content
     type: many_to_many
-    class_name: pages
+    class_name: content
     inverse_of: promo_panel
     ui_enabled: true

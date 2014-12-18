@@ -1,8 +1,8 @@
 # Human readable name of this type
-name: Pages
+name: Content
 
 # Lowercase, underscored handle used to access this type
-slug: pages
+slug: content
 
 # Explanatory text displayed in the back-office
 description: A description of the content type for the editors
@@ -61,12 +61,19 @@ fields:
     label: Promo Middle
     type: many_to_many
     class_name: promo_middle
-    inverse_of: pages
+    inverse_of: content
     ui_enabled: true
 
 - promo_panel:
     label: Promo Panel
     type: many_to_many
     class_name: promo_panel
-    inverse_of: pages
+    inverse_of: content
+    ui_enabled: true
+
+- content:
+    label: Content
+    type: belongs_to
+    class_name: promo_panel
+    inverse_of: content
     ui_enabled: true

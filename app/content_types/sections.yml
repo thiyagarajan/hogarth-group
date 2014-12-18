@@ -77,3 +77,10 @@ fields:
     class_name: promo_panel
     inverse_of: sections
     ui_enabled: true
+
+- content:
+    label: Content
+    type: has_many
+    class_name: content
+    inverse_of: sections
+    ui_enabled: true    

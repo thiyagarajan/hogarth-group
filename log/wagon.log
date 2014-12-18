@@ -1,159 +1,21 @@
-[0;97;49mStarted GET "/" at 2014-12-18 17:26:19 +0530[0m
-Detecting locale EN
-Found page "Index" [index]
-  Rendered snippet head
-  Rendered snippet header
-[0;31;49m[ERROR] undefined method `promo_panel' for #<Locomotive::Mounter::Models::ContentEntry:0x00000004800288> - ./app/views/pages/index.liquid:5:in `Index'
+[0;31;49m      slug => is reserved
 [0m
-[0;97;49mStarted GET "/" at 2014-12-18 17:26:21 +0530[0m
-Detecting locale EN
-Found page "Index" [index]
-  Rendered snippet head
-  Rendered snippet header
-[0;31;49m[ERROR] undefined method `promo_panel' for #<Locomotive::Mounter::Models::ContentEntry:0x00000004800288> - ./app/views/pages/index.liquid:5:in `Index'
-[0m
-* Reloaded "content_types", "content_entries" at 2014-12-18 17:52:52 +0530
-* Reloaded "content_types", "content_entries" at 2014-12-18 17:52:52 +0530
-* Reloaded "content_types", "content_entries" at 2014-12-18 17:52:53 +0530
-[0;97;49mStarted GET "/" at 2014-12-18 18:04:21 +0530[0m
-Detecting locale EN
-Found page "Index" [index]
-  Rendered snippet head
-  Rendered snippet header
-[0;31;49m[ERROR] undefined method `promo_panel' for #<Locomotive::Mounter::Models::ContentEntry:0x00000001c12928> - ./app/views/pages/index.liquid:5:in `Index'
-[0m
-[0;97;49mStarted GET "/" at 2014-12-18 18:04:38 +0530[0m
-Detecting locale EN
-Found page "Index" [index]
-  Rendered snippet head
-  Rendered snippet header
-[0;31;49m[ERROR] undefined method `promo_panel' for #<Locomotive::Mounter::Models::ContentEntry:0x00000005794fc8> - ./app/views/pages/index.liquid:5:in `Index'
-[0m
-* Reloaded "pages", "snippets" at 2014-12-18 18:07:57 +0530
-[0;97;49mStarted GET "/" at 2014-12-18 18:07:58 +0530[0m
-Detecting locale EN
-Found page "Index" [index]
-  Rendered snippet head
-  Rendered snippet header
-  Rendered snippet quick-links
-  Rendered snippet footer
-  Rendered liquid page template
-[0;32;49mCompleted 200 OK in 3.2ms
-
-[0m
-* Reloaded "pages", "snippets" at 2014-12-18 18:08:08 +0530
-* Reloaded "pages", "snippets" at 2014-12-18 18:08:08 +0530
-* Reloaded "pages", "snippets" at 2014-12-18 18:08:08 +0530
-[0;97;49mStarted GET "/" at 2014-12-18 18:08:15 +0530[0m
-Detecting locale EN
-Found page "Index" [index]
-  Rendered snippet head
-  Rendered snippet header
-[0;31;49m[ERROR] undefined method `promo_panel' for #<Locomotive::Mounter::Models::ContentEntry:0x00000005794fc8> - ./app/views/pages/index.liquid:5:in `Index'
-[0m
-* Reloaded "pages", "snippets" at 2014-12-18 18:09:05 +0530
-[0;97;49mStarted GET "/" at 2014-12-18 18:09:06 +0530[0m
-Detecting locale EN
-Found page "Index" [index]
-  Rendered snippet head
-  Rendered snippet header
-[0;31;49m[ERROR] undefined method `promo_panel' for #<Locomotive::Mounter::Models::ContentEntry:0x00000005794fc8> - ./app/views/pages/index.liquid:5:in `Index'
-[0m
-* Reloaded "pages", "snippets" at 2014-12-18 18:09:13 +0530
-[0;97;49mStarted GET "/" at 2014-12-18 18:09:13 +0530[0m
-Detecting locale EN
-Found page "Index" [index]
-  Rendered snippet head
-  Rendered snippet header
-[0;31;49m[ERROR] undefined method `promo_panel' for #<Locomotive::Mounter::Models::ContentEntry:0x00000005794fc8> - ./app/views/pages/index.liquid:5:in `Index'
-[0m
-* Reloaded "pages", "snippets" at 2014-12-18 18:09:22 +0530
-[0;97;49mStarted GET "/" at 2014-12-18 18:09:24 +0530[0m
-Detecting locale EN
-Found page "Index" [index]
-  Rendered snippet head
-  Rendered snippet header
-[0;31;49m[ERROR] undefined method `promo_panel' for #<Locomotive::Mounter::Models::ContentEntry:0x00000005794fc8> - ./app/views/pages/index.liquid:5:in `Index'
-[0m
-* Reloaded "content_types", "content_entries" at 2014-12-18 18:11:21 +0530
-* Reloaded "content_types", "content_entries" at 2014-12-18 18:11:23 +0530
-* Reloaded "content_types", "content_entries" at 2014-12-18 18:11:31 +0530
-[0;97;49mStarted GET "/" at 2014-12-18 18:11:32 +0530[0m
-Detecting locale EN
-Found page "Index" [index]
-  Rendered snippet head
-  Rendered snippet header
-  Rendered snippet quick-links
-  Rendered snippet footer
-  Rendered liquid page template
-[0;32;49mCompleted 200 OK in 3.7ms
-
-[0m
-[0;97;49mStarted GET "/" at 2014-12-18 18:14:46 +0530[0m
-Detecting locale EN
-Found page "Index" [index]
-  Rendered snippet head
-  Rendered snippet header
-  Rendered snippet quick-links
-  Rendered snippet footer
-  Rendered liquid page template
-[0;32;49mCompleted 200 OK in 5.8ms
-
-[0m
-["/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_entry.rb:203:in `method_missing'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:80:in `block (2 levels) in build_entry'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:73:in `each'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:68:in `tap'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:157:in `push'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:288:in `push'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'", "/home/moorem/.rvm/gems/ruby-2.1.3/bin/wagon:23:in `load'", "/home/moorem/.rvm/gems/ruby-2.1.3/bin/wagon:23:in `<main>'", "/home/moorem/.rvm/gems/ruby-2.1.3/bin/ruby_executable_hooks:15:in `eval'", "/home/moorem/.rvm/gems/ruby-2.1.3/bin/ruby_executable_hooks:15:in `<main>'"]
-The 'promo_panel' content type does not have a field named 'position'.
-The 'promo_panel' content type does not have a field named 'position'.
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:86:in `rescue in block (2 levels) in build_entry'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:74:in `block (2 levels) in build_entry'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:73:in `each'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:68:in `tap'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:157:in `push'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:288:in `push'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
-	/home/moorem/.rvm/gems/ruby-2.1.3/bin/wagon:23:in `load'
-	/home/moorem/.rvm/gems/ruby-2.1.3/bin/wagon:23:in `<main>'
-	/home/moorem/.rvm/gems/ruby-2.1.3/bin/ruby_executable_hooks:15:in `eval'
-	/home/moorem/.rvm/gems/ruby-2.1.3/bin/ruby_executable_hooks:15:in `<main>'
-
-
-["/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_entry.rb:203:in `method_missing'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:80:in `block (2 levels) in build_entry'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:73:in `each'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:68:in `tap'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:157:in `push'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:288:in `push'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'", "/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'", "/home/moorem/.rvm/gems/ruby-2.1.3/bin/wagon:23:in `load'", "/home/moorem/.rvm/gems/ruby-2.1.3/bin/wagon:23:in `<main>'", "/home/moorem/.rvm/gems/ruby-2.1.3/bin/ruby_executable_hooks:15:in `eval'", "/home/moorem/.rvm/gems/ruby-2.1.3/bin/ruby_executable_hooks:15:in `<main>'"]
-The 'promo_panel' content type does not have a field named 'position'.
-The 'promo_panel' content type does not have a field named 'position'.
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:86:in `rescue in block (2 levels) in build_entry'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:74:in `block (2 levels) in build_entry'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:73:in `each'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:68:in `tap'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'
-	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'
+unknow content type pages
+unknow content type pages
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_field.rb:82:in `block in klass'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_field.rb:80:in `tap'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_field.rb:80:in `klass'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_entry.rb:131:in `dynamic_getter'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:46:in `block (4 levels) in fetch_from_content_entries'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:45:in `each'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:45:in `block (3 levels) in fetch_from_content_entries'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter.rb:99:in `with_locale'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:43:in `block (2 levels) in fetch_from_content_entries'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:42:in `each'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:42:in `block in fetch_from_content_entries'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:41:in `each'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:41:in `fetch_from_content_entries'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:17:in `read'
 	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
 	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
 	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
