@@ -8,6 +8,8 @@ GEM
     better_errors (1.0.1)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
     celluloid (0.16.0)
       timers (~> 4.0.0)
     chronic (0.10.2)
@@ -32,6 +34,7 @@ GEM
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     daemons (1.1.9)
+    debug_inspector (0.0.2)
     dragonfly (0.9.15)
       multi_json (~> 1.0)
       rack
@@ -151,6 +154,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  binding_of_caller
   locomotivecms_wagon (= 1.5.0)
   rb-fsevent (~> 0.9.1)
   rb-inotify (~> 0.9)

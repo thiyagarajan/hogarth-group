@@ -1,8 +1,8 @@
 # Human readable name of this type
-name: Section
+name: Sections
 
 # Lowercase, underscored handle used to access this type
-slug: section
+slug: sections
 
 # Explanatory text displayed in the back-office
 description: A description of the content type for the editors
@@ -54,5 +54,5 @@ fields:
     label: Slides
     type: many_to_many
     class_name: slides
-    inverse_of: section
+    inverse_of: sections
     ui_enabled: true

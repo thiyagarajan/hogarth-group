@@ -945,3 +945,304 @@ Found page "Contact" [contact]
 [0;32;49mCompleted 200 OK in 15.2ms
 
 [0m
+[0;97;49mStarted GET "/" at 2014-12-18 09:42:15 +0530[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet home-slider
+  Rendered snippet promo-panel
+  Rendered snippet quick-links
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 32.0ms
+
+[0m
+[0;97;49mStarted GET "/section/exercise-studio" at 2014-12-18 09:42:27 +0530[0m
+Detecting locale EN
+Found page "exercise-studio" [section/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet promo-top
+  Rendered snippet promo-middle-left
+  Rendered snippet promo-middle-right
+  Rendered snippet promo-panel
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 21.7ms
+
+[0m
+[0;97;49mStarted GET "/section/swimming" at 2014-12-18 09:42:29 +0530[0m
+Detecting locale EN
+Found page "swimming" [section/swimming]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet promo-top
+  Rendered snippet promo-middle-left
+  Rendered snippet promo-middle-right
+  Rendered snippet promo-panel
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 19.0ms
+
+[0m
+[0;97;49mStarted GET "/section/gym" at 2014-12-18 09:42:31 +0530[0m
+Detecting locale EN
+Found page "gym" [section/gym]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet promo-top
+  Rendered snippet promo-middle-left
+  Rendered snippet promo-middle-right
+  Rendered snippet promo-panel
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.3ms
+
+[0m
+[0;97;49mStarted GET "/section/tennis" at 2014-12-18 09:42:33 +0530[0m
+Detecting locale EN
+Found page "tennis" [section/tennis]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet promo-top
+  Rendered snippet promo-middle-left
+  Rendered snippet promo-middle-right
+  Rendered snippet promo-panel
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 20.2ms
+
+[0m
+[0;97;49mStarted GET "/section/squash" at 2014-12-18 09:42:39 +0530[0m
+Detecting locale EN
+Found page "squash" [section/squash]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet promo-top
+  Rendered snippet promo-middle-left
+  Rendered snippet promo-middle-right
+  Rendered snippet promo-panel
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 20.8ms
+
+[0m
+[0;97;49mStarted GET "/section/clinic" at 2014-12-18 09:42:40 +0530[0m
+Detecting locale EN
+Found page "clinic" [section/clinic]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet promo-top
+  Rendered snippet promo-middle-left
+  Rendered snippet promo-middle-right
+  Rendered snippet promo-panel
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 26.7ms
+
+[0m
+[0;97;49mStarted GET "/section/beauty" at 2014-12-18 09:42:41 +0530[0m
+Detecting locale EN
+Found page "beauty" [section/beauty]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet promo-top
+  Rendered snippet promo-middle-left
+  Rendered snippet promo-middle-right
+  Rendered snippet promo-panel
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 17.0ms
+
+[0m
+[0;97;49mStarted GET "/section/exercise-studio" at 2014-12-18 09:42:42 +0530[0m
+Detecting locale EN
+Found page "exercise-studio" [section/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet promo-top
+  Rendered snippet promo-middle-left
+  Rendered snippet promo-middle-right
+  Rendered snippet promo-panel
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.2ms
+
+[0m
+[0;97;49mStarted GET "/section/swimming" at 2014-12-18 09:42:44 +0530[0m
+Detecting locale EN
+Found page "swimming" [section/swimming]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet promo-top
+  Rendered snippet promo-middle-left
+  Rendered snippet promo-middle-right
+  Rendered snippet promo-panel
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 19.3ms
+
+[0m
+[0;97;49mStarted GET "/section/exercise-studio" at 2014-12-18 09:42:45 +0530[0m
+Detecting locale EN
+Found page "exercise-studio" [section/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet promo-top
+  Rendered snippet promo-middle-left
+  Rendered snippet promo-middle-right
+  Rendered snippet promo-panel
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.0ms
+
+[0m
+[0;97;49mStarted GET "/section/exercise-studio" at 2014-12-18 09:42:46 +0530[0m
+Detecting locale EN
+Found page "exercise-studio" [section/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet promo-top
+  Rendered snippet promo-middle-left
+  Rendered snippet promo-middle-right
+  Rendered snippet promo-panel
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.2ms
+
+[0m
+[0;97;49mStarted GET "/section/exercise-studio" at 2014-12-18 09:42:47 +0530[0m
+Detecting locale EN
+Found page "exercise-studio" [section/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet promo-top
+  Rendered snippet promo-middle-left
+  Rendered snippet promo-middle-right
+  Rendered snippet promo-panel
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 20.9ms
+
+[0m
+[0;97;49mStarted GET "/section/swimming" at 2014-12-18 09:42:48 +0530[0m
+Detecting locale EN
+Found page "swimming" [section/swimming]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet promo-top
+  Rendered snippet promo-middle-left
+  Rendered snippet promo-middle-right
+  Rendered snippet promo-panel
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.8ms
+
+[0m
+[0;97;49mStarted GET "/section/exercise-studio" at 2014-12-18 09:42:50 +0530[0m
+Detecting locale EN
+Found page "exercise-studio" [section/exercise-studio]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet section-slider
+  Rendered snippet promo-top
+  Rendered snippet promo-middle-left
+  Rendered snippet promo-middle-right
+  Rendered snippet promo-panel
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 17.0ms
+
+[0m
+* Reloaded "content_types", "content_entries" at 2014-12-18 10:05:44 +0530
+* Reloaded "content_entries" at 2014-12-18 10:05:44 +0530
+* Reloaded "content_types", "content_entries" at 2014-12-18 10:07:09 +0530
+* Reloaded "content_types", "content_entries" at 2014-12-18 10:07:10 +0530
+* Reloaded "content_types", "content_entries" at 2014-12-18 10:07:10 +0530
+* Reloaded "content_types", "content_entries" at 2014-12-18 10:07:52 +0530
+unknow content type "section"
+unknow content type "section"
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:45:in `block in get_content_type'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:43:in `tap'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:43:in `get_content_type'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:24:in `block in fetch_from_filesystem'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:48:in `block (2 levels) in reload'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:40:in `each'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:40:in `block in reload'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter.rb:99:in `with_locale'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:39:in `reload'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/listen.rb:41:in `block in apply'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:282:in `call'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:282:in `_process_changes'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:246:in `block in _wait_for_changes'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:229:in `loop'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:229:in `_wait_for_changes'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:318:in `block in _start_wait_thread'
+
+
+* Reloaded "content_types", "content_entries" at 2014-12-18 10:08:07 +0530
+unknow content type "section"
+unknow content type "section"
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:45:in `block in get_content_type'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:43:in `tap'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:43:in `get_content_type'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:24:in `block in fetch_from_filesystem'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:48:in `block (2 levels) in reload'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:40:in `each'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:40:in `block in reload'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter.rb:99:in `with_locale'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:39:in `reload'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/listen.rb:41:in `block in apply'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:282:in `call'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:282:in `_process_changes'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:246:in `block in _wait_for_changes'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:229:in `loop'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:229:in `_wait_for_changes'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:318:in `block in _start_wait_thread'
+
+
+* Reloaded "content_types", "content_entries" at 2014-12-18 10:08:09 +0530
+unknow content type "section"
+unknow content type "section"
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:45:in `block in get_content_type'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:43:in `tap'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:43:in `get_content_type'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:24:in `block in fetch_from_filesystem'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:48:in `block (2 levels) in reload'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:40:in `each'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:40:in `block in reload'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter.rb:99:in `with_locale'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:39:in `reload'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/listen.rb:41:in `block in apply'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:282:in `call'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:282:in `_process_changes'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:246:in `block in _wait_for_changes'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:229:in `loop'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:229:in `_wait_for_changes'
+	/home/moorem/.rvm/gems/ruby-2.1.3/gems/listen-2.7.12/lib/listen/listener.rb:318:in `block in _start_wait_thread'
+
+
+* Reloaded "content_entries" at 2014-12-18 10:08:18 +0530

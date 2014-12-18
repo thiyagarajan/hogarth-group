@@ -60,8 +60,8 @@ fields:
     select_options: ['index', 'exercise-studio', 'swimming', 'gym', 'tennis', 'squash', 'clinic', 'beauty']
 
 - section:
-    label: Section
+    label: Sections
     type: many_to_many
-    class_name: section
+    class_name: sections
     inverse_of: slides
     ui_enabled: true

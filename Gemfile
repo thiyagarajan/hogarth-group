@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'locomotivecms_wagon', '1.5.0'
 
+gem 'binding_of_caller'
+
 group :development do
   # Mac OS X
   gem 'rb-fsevent', '~> 0.9.1', require: RUBY_PLATFORM.include?('darwin') && 'rb-fsevent'
