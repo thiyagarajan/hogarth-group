@@ -58,3 +58,10 @@ fields:
     #   en: ['option1_en', 'option2_en']
     #   fr: ['option1_fr', 'option2_fr']
     select_options: ['index', 'exercise-studio', 'swimming', 'gym', 'tennis', 'squash', 'clinic', 'beauty']
+
+- sections:
+    label: Sections
+    type: many_to_many
+    class_name: sections
+    inverse_of: promo_top
+    ui_enabled: true

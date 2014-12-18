@@ -56,3 +56,24 @@ fields:
     class_name: slides
     inverse_of: sections
     ui_enabled: true
+
+- promo_top:
+    label: Promo Top
+    type: many_to_many
+    class_name: promo_top
+    inverse_of: sections
+    ui_enabled: true
+
+- promo_middle:
+    label: Promo Middle
+    type: many_to_many
+    class_name: promo_middle
+    inverse_of: sections
+    ui_enabled: true
+
+- promo_panel:
+    label: Promo Panel
+    type: many_to_many
+    class_name: promo_panel
+    inverse_of: sections
+    ui_enabled: true

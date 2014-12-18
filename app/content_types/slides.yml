@@ -59,7 +59,7 @@ fields:
     #   fr: ['option1_fr', 'option2_fr']
     select_options: ['index', 'exercise-studio', 'swimming', 'gym', 'tennis', 'squash', 'clinic', 'beauty']
 
-- section:
+- sections:
     label: Sections
     type: many_to_many
     class_name: sections
