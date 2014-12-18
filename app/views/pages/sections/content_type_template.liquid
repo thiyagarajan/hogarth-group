@@ -10,8 +10,143 @@ content_type: sections
 {% extends parent %}
 
 {% block main %}
-<div class="landing-bg"></div>
-	<div class="container landing">
-		
-  </div>
+	<div class="landing-bg"></div>
+
+	<div class="main landing">
+
+	<div class="container">
+	  <div class="row row-slider">
+	    <div class="col-xs-12">
+
+	    <div class="flexslider">
+	      <ul class="slides">
+	        <li>
+	          <img src="images/landing-slider-1.jpg" />
+	          <div class="flex-caption">
+	              <div class="title">Enjoy</div>
+	              <div class="caption">wile away the stresses of the day in the mood lit pool</div>
+	        </div>
+	        </li>
+
+	        <li>
+	          <img src="images/landing-slider-2.jpg" />
+	          <div class="flex-caption">
+	              <div class="title">Relax</div>
+	              <div class="caption">wile away the stresses of the day in the mood lit pool</div>
+	        </div>
+	        </li>
+
+	      </ul>
+	    </div>
+
+	      </div>
+	    </div>
+	  </div>
+
+	  <!-- END Tripple pack -->
+
+
+	  <div class="container">
+	    <div class="row">
+
+
+
+	      <div class="col-md-4 col-sm-6 col-xs-12">
+	        <div class="landing-content">
+	        <h1 class="landing-page-heading">{{section.title}}</h1>
+			{{ section.body }}
+	      </div>
+
+	      <div class="underneath" data-set="landing-nav"></div>
+
+	     </div>
+
+
+	     <div class="col-md-8 col-sm-6 col-xs-12">
+
+	      <div class="row">
+
+	      <div class="col-md-6 col-sm-12 col-xs-12">
+	      <div class="landing-content">
+
+	        <div class="standard-promo standard-promo-1">
+	          <div class="standard-promo-panel standard-promo-panel-purple">
+	            <h3 class="standard-promo-panel-heading">Steam Room</h3>
+	            <p>
+	            	Integer augue lectus, fringilla id dui et, fringilla consequat est.
+								Pellentesque rutrum sapien ante, sit amet inte rdum tu</p>
+	          </div>  
+	        </div>
+
+	        <div class="landing-section">
+	          <div class="landing-section-img"><img src="images/landing-section-1.jpg"></div>
+	          <h3 class="landing-section-heading">Spa Pool</h3>
+	          <p>
+	          	Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est. Pell ntesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipis</p> 
+	        </div>
+
+	        </div>
+	      </div>
+
+
+	      <div class="col-md-6 col-sm-12 col-xs-12">
+	      <div class="landing-content landing-content-no-margin">
+
+	        <div class="onright" data-set="landing-nav">
+
+	        <div class="inpage-navigation">
+	          {{ section.navigation }}  
+	        </div>
+
+	      </div>
+
+	              <div class="landing-section">
+	          <div class="landing-section-img"><img src="images/landing-section-2.jpg"></div>
+	          <h3 class="landing-section-heading">Sauna</h3>
+	          <p>
+	          	Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est. 	Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elit
+          	</p> 
+	        </div>
+
+	        </div>
+
+
+	      </div>
+
+	    </div>
+	    </div>
+
+	    </div><!-- Container and row -->
+	  </div> 
+
+	  <!-- Promo panel -->
+	  <div class="outer-promo-panel">
+	    <div class="container">
+	      <div class="row">
+
+	        <div class="col-sm-6 col-xs-12">
+	          <div class="wide-promo wide-promo-1">
+	            <div class="gold">
+	              <h3 class="gold-heading">Membership offer</h3>
+	              <p>New members in August can take part in a free studio session Join us!</p>
+	            </div>  
+	          </div>
+	        </div>
+
+	        <div class="col-sm-6 col-xs-12">
+	          <div class="wide-promo wide-promo-2">
+	            <div class="gold">
+	              <h3 class="gold-heading">Personal training</h3>
+	              <p>Stay focussed on your goals with a personalised plan from our highly qualified trainers</p>
+	            </div>  
+	          </div>
+	        </div>
+	          
+	      </div>
+
+	    </div>
+	  </div>
+	  <!-- END Promo panel -->
+
+	</div>
 {% endblock %}
