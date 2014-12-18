@@ -1,8 +1,8 @@
 # Human readable name of this type
-name: Promo middle
+name: Pages
 
 # Lowercase, underscored handle used to access this type
-slug: promo_middle
+slug: pages
 
 # Explanatory text displayed in the back-office
 description: A description of the content type for the editors
@@ -39,33 +39,34 @@ fields:
     type: file
     required: true
     hint: Explanatory text displayed in the back office
-    localized: false
+    localized: false    
 
-- description: # The lowercase, underscored name of the field
-    label: Description # Human readable name of the field
+- body: # The lowercase, underscored name of the field
+    label: Body # Human readable name of the field
     type: text
-    required: true
+    required: false
     hint: Explanatory text displayed in the back office
     localized: false
-    # text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
+    text_formatting: html
 
-- link: # The lowercase, underscored name of the field
-    label: Link # Human readable name of the field
-    type: string
-    required: true
-    hint: Link
+- navigation: # The lowercase, underscored name of the field
+    label: Navigation # Human readable name of the field
+    type: text
+    required: false
+    hint: Explanatory text displayed in the back office
     localized: false
+    text_formatting: html
 
-- sections:
-    label: Sections
+- promo_middle:
+    label: Promo Middle
     type: many_to_many
-    class_name: sections
-    inverse_of: promo_middle
+    class_name: promo_middle
+    inverse_of: pages
     ui_enabled: true
 
-- pages:
-    label: Pages
+- promo_panel:
+    label: Promo Panel
     type: many_to_many
-    class_name: pages
-    inverse_of: promo_middle
+    class_name: promo_panel
+    inverse_of: pages
     ui_enabled: true

@@ -56,16 +56,23 @@ fields:
     hint: Link
     localized: false
 
-- sections:
-    label: Sections
-    type: many_to_many
-    class_name: sections
-    inverse_of: promo_panel
-    ui_enabled: true
-
 - home:
     label: Home
     type: many_to_many
     class_name: home
     inverse_of: promo_panel
+    ui_enabled: true
+
+- sections:
+    label: Sections
+    type: many_to_many
+    class_name: sections
+    inverse_of: promo_panel
     ui_enabled: true    
+
+- pages:
+    label: Pages
+    type: many_to_many
+    class_name: pages
+    inverse_of: promo_panel
+    ui_enabled: true
