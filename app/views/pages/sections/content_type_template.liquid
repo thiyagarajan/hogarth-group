@@ -69,7 +69,7 @@ content_type: sections
 		        </a>
           {% endfor %}
 
-	        {% for middle_left in section.promo_middle %}
+	        {% for middle_left in section.promo_middle limit: 1 %}
             {% if middle_left.position == 'Left' %}
             	<a href="{{ middle_left.link }}">
 	              <div class="landing-section">
@@ -100,7 +100,7 @@ content_type: sections
 
 	      </div>
 
-	        {% for middle_right in section.promo_middle %}
+	        {% for middle_right in section.promo_middle limit: 1 %}
             {% if middle_right.position == 'Right' %}
             	<a href="{{ middle_right.link }}">
 	              <div class="landing-section">
