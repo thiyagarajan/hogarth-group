@@ -69,6 +69,13 @@ fields:
     #   fr: ['option1_fr', 'option2_fr']
     select_options: ['Left', 'Right']
 
+- link: # The lowercase, underscored name of the field
+    label: Link # Human readable name of the field
+    type: string
+    required: true
+    hint: Link
+    localized: false
+
 - sections:
     label: Sections
     type: many_to_many

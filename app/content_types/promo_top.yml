@@ -49,6 +49,13 @@ fields:
     localized: false
     # text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
 
+- link: # The lowercase, underscored name of the field
+    label: Link # Human readable name of the field
+    type: string
+    required: true
+    hint: Link
+    localized: false
+
 - sections:
     label: Sections
     type: many_to_many
