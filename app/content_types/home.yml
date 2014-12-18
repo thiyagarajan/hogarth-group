@@ -46,5 +46,12 @@ fields:
     label: Slides
     type: many_to_many
     class_name: slides
-    inverse_of: sections
+    inverse_of: home
+    ui_enabled: true
+
+- promo_panel:
+    label: Promo Panel
+    type: many_to_many
+    class_name: promo_panel
+    inverse_of: home
     ui_enabled: true

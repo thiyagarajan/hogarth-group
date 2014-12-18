@@ -9,7 +9,19 @@ published: true
 {% block main %}
 <div class="outer-main">
 
-  {% include home-slider %}
+  <div class="flexslider">
+  <ul class="slides">
+    {% for slide in contents.home.first.slides %}
+      <li>
+        <img src="{{ slide.image.url }}" alt="{{ slide.title | escape }}">
+        <div class="flex-caption">
+          <div class="title">{{ slide.title }}</div>
+          <div class="caption">{{ slide.description }}</div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>      
 
   <div class="container">
     <div class="row">
@@ -44,8 +56,40 @@ published: true
 <!-- END Tripple pack -->
 
 <!-- Promo panel -->
-  {% include promo-panel %}  
-<!-- END Promo panel -->
+    <div class="outer-promo-panel">
+      <div class="container">
+        <div class="row">
+          {% for promo_panel in contents.home.first.promo_panel %}
+            {% if promo_panel.position == 'Left' %}
+              <a href="{{ promo_panel.link }}">
+                <div class="col-sm-6 col-xs-12">
+                  <div class="wide-promo wide-promo-11" style="background: url({{ promo_panel.image.url }}) no-repeat center; background-size: cover;">
+                    <div class="gold">
+                      <h3 class="gold-heading">{{ promo_panel.title }}</h3>
+                      <p>{{ promo_panel.description }}</p>
+                    </div>  
+                  </div>
+                </div>
+              </a>
+            {% endif %}
+            {% if promo_panel.position == 'Right' %}
+              <a href="{{ promo_panel.link }}">
+                <div class="col-sm-6 col-xs-12">
+                  <div class="wide-promo wide-promo-22" style="background: url({{ promo_panel.image.url }}) no-repeat center; background-size: cover;">
+                    <div class="gold">
+                      <h3 class="gold-heading">{{ promo_panel.title }}</h3>
+                      <p>{{ promo_panel.description }}</p>
+                    </div>  
+                  </div>
+                </div>
+              </a>
+            {% endif %}
+          {% endfor %}  
+        </div>
+
+      </div>
+    </div>
+    <!-- END Promo panel -->
 
 <!-- Quick Links -->
   {% include quick-links %}  

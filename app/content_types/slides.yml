@@ -49,16 +49,6 @@ fields:
     localized: false
     # text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
 
-- page: # The lowercase, underscored name of the field
-    label: Page # Human readable name of the field
-    type: select
-    required: false
-    hint: Explanatory text displayed in the back office
-    localized: false    # if localized, use
-    #   en: ['option1_en', 'option2_en']
-    #   fr: ['option1_fr', 'option2_fr']
-    select_options: ['index', 'exercise-studio', 'swimming', 'gym', 'tennis', 'squash', 'clinic', 'beauty']
-
 - sections:
     label: Sections
     type: many_to_many
