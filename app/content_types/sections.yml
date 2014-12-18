@@ -27,28 +27,28 @@ order_by: manually
 
 # A list describing each field
 fields: 
-- title: # The lowercase, underscored name of the field
-    label: Title # Human readable name of the field
+- title:
+    label: Title
     type: string
     required: true
     hint: Explanatory text displayed in the back office
     localized: false
 
-- body: # The lowercase, underscored name of the field
-    label: Body # Human readable name of the field
+- body:
+    label: Body
     type: text
     required: false
     hint: Explanatory text displayed in the back office
     localized: false
-    # text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
+    text_formatting: html
 
-- navigation: # The lowercase, underscored name of the field
-    label: Navigation # Human readable name of the field
+- navigation:
+    label: Navigation
     type: text
     required: false
     hint: Explanatory text displayed in the back office
     localized: false
-    # text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
+    text_formatting: html
 
 - slides:
     label: Slides
