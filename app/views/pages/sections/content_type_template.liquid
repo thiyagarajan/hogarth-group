@@ -131,30 +131,16 @@ content_type: sections
 	    <div class="container">
 	      <div class="row">
 	      	{% for promo_panel in section.promo_panel %}
-	      		{% if promo_panel.position == 'Left' %}
-		      		<a href="{{ promo_panel.link }}">
-				        <div class="col-sm-6 col-xs-12">
-				          <div class="wide-promo wide-promo-11" style="background: url({{ promo_panel.image.url }}) no-repeat center; background-size: cover;">
-				            <div class="gold">
-				              <h3 class="gold-heading">{{ promo_panel.title }}</h3>
-				              <p>{{ promo_panel.description }}</p>
-				            </div>  
-				          </div>
-				        </div>
-			        </a>
-		        {% endif %}
-		        {% if promo_panel.position == 'Right' %}
-			        <a href="{{ promo_panel.link }}">
-				        <div class="col-sm-6 col-xs-12">
-				          <div class="wide-promo wide-promo-22" style="background: url({{ promo_panel.image.url }}) no-repeat center; background-size: cover;">
-				            <div class="gold">
-				              <h3 class="gold-heading">{{ promo_panel.title }}</h3>
-				              <p>{{ promo_panel.description }}</p>
-				            </div>  
-				          </div>
-				        </div>
-				      </a>
-		        {% endif %}
+	      		<a href="{{ promo_panel.link }}">
+			        <div class="col-sm-6 col-xs-12">
+			          <div class="wide-promo" style="background: url({{ promo_panel.image.url }}) no-repeat center; background-size: cover;">
+			            <div class="gold">
+			              <h3 class="gold-heading">{{ promo_panel.title }}</h3>
+			              <p>{{ promo_panel.description }}</p>
+			            </div>  
+			          </div>
+			        </div>
+		        </a>
 	        {% endfor %}  
 	      </div>
 
