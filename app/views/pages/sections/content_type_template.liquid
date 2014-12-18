@@ -65,14 +65,21 @@ content_type: sections
 	                </p>
 		          </div>  
 		        </div>
-            {% endfor %}
+          {% endfor %}
 
-	        <div class="landing-section">
-	          <div class="landing-section-img"><img src="images/landing-section-1.jpg"></div>
-	          <h3 class="landing-section-heading">Spa Pool</h3>
-	          <p>
-	          	Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est. Pell ntesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipis</p> 
-	        </div>
+	        {% for middle_left in section.promo_middle %}
+            {% if middle_left.position == 'Left' %}
+              <div class="landing-section">
+                <div class="landing-section-img">
+                  <img src="{{ middle_left.image.url }}" alt="{{ middle_left.title | escape }}">
+                </div>
+                <h3 class="landing-section-heading">{{ middle_left.title }}</h3>
+                <p>
+                	{{ middle_left.description }}
+                </p> 
+              </div>
+            {% endif %}
+					{% endfor %}
 
 	        </div>
 	      </div>
@@ -89,16 +96,21 @@ content_type: sections
 
 	      </div>
 
-	              <div class="landing-section">
-	          <div class="landing-section-img"><img src="images/landing-section-2.jpg"></div>
-	          <h3 class="landing-section-heading">Sauna</h3>
-	          <p>
-	          	Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est. 	Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elit
-          	</p> 
-	        </div>
+	        {% for middle_right in section.promo_middle %}
+            {% if middle_right.position == 'Right' %}
+              <div class="landing-section">
+                <div class="landing-section-img">
+                  <img src="{{ middle_right.image.url }}" alt="{{ middle_right.title | escape }}">
+                </div>
+                <h3 class="landing-section-heading">{{ middle_right.title }}</h3>
+                <p>
+                	{{ middle_right.description }}
+                </p> 
+              </div>
+            {% endif %}
+					{% endfor %}
 
-	        </div>
-
+	      </div>
 
 	      </div>
 
