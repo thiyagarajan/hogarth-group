@@ -56,14 +56,16 @@ content_type: sections
 	      <div class="col-md-6 col-sm-12 col-xs-12">
 	      <div class="landing-content">
 
-	        <div class="standard-promo standard-promo-1">
-	          <div class="standard-promo-panel standard-promo-panel-purple">
-	            <h3 class="standard-promo-panel-heading">Steam Room</h3>
-	            <p>
-	            	Integer augue lectus, fringilla id dui et, fringilla consequat est.
-								Pellentesque rutrum sapien ante, sit amet inte rdum tu</p>
-	          </div>  
-	        </div>
+	        {% for top in section.promo_top %}
+		        <div class="standard-promo standard-promo-1" style="background: url({{ top.image.url }}) no-repeat scroll center center / cover rgba(0, 0, 0, 0);">
+		          <div class="standard-promo-panel standard-promo-panel-purple">
+		            <h3 class="standard-promo-panel-heading">{{ top.title }}</h3>
+		            <p>
+		            	{{ top.description }} 
+	                </p>
+		          </div>  
+		        </div>
+            {% endfor %}
 
 	        <div class="landing-section">
 	          <div class="landing-section-img"><img src="images/landing-section-1.jpg"></div>
