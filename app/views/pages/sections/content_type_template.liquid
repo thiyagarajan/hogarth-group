@@ -53,24 +53,37 @@ content_type: sections
 
 	      <div class="row">
 
-	      <div class="col-md-6 col-sm-12 col-xs-12">
-	      <div class="landing-content">
+		      <div class="col-md-6 col-sm-12 col-xs-12">
+			      <div class="landing-content">
+			        {% for top in section.promo_top limit: 1 %}
+				        <a href="{{ top.link }}">
+					        <div class="standard-promo standard-promo-1" style="background: url({{ top.image.url }}) no-repeat scroll center center / cover rgba(0, 0, 0, 0);">
+					          <div class="standard-promo-panel standard-promo-panel-purple">
+					            <h3 class="standard-promo-panel-heading">{{ top.title }}</h3>
+					            <p>
+					            	{{ top.description }} 
+				                </p>
+					          </div>  
+					        </div>
+				        </a>
+		          {% endfor %}
+		        </div>
+		      </div>  
 
-	        {% for top in section.promo_top limit: 1 %}
-		        <a href="{{ top.link }}">
-			        <div class="standard-promo standard-promo-1" style="background: url({{ top.image.url }}) no-repeat scroll center center / cover rgba(0, 0, 0, 0);">
-			          <div class="standard-promo-panel standard-promo-panel-purple">
-			            <h3 class="standard-promo-panel-heading">{{ top.title }}</h3>
-			            <p>
-			            	{{ top.description }} 
-		                </p>
-			          </div>  
+		      <div class="col-md-6 col-sm-12 col-xs-12">
+			      <div class="landing-content landing-content-no-margin">
+			        <div class="onright" data-set="landing-nav">
+
+			        <div class="inpage-navigation">
+			          {{ section.navigation }}  
 			        </div>
-		        </a>
-          {% endfor %}
+			      </div>
+			    </div>
+			  </div> 
 
-	        {% for middle_left in section.promo_middle limit: 1 %}
-            {% if middle_left.position == 'Left' %}
+			  <div class="row">
+	        {% for middle_left in section.promo_middle limit: 2 %}     
+		  			<div class="col-md-6 col-sm-12 col-xs-12">
             	<a href="{{ middle_left.link }}">
 	              <div class="landing-section">
 	                <div class="landing-section-img">
@@ -82,48 +95,11 @@ content_type: sections
 	                </p> 
 	              </div>
               </a>
-            {% endif %}
+	        	</div>
 					{% endfor %}
-
-	        </div>
+		      </div>
 	      </div>
-
-
-	      <div class="col-md-6 col-sm-12 col-xs-12">
-	      <div class="landing-content landing-content-no-margin">
-
-	        <div class="onright" data-set="landing-nav">
-
-	        <div class="inpage-navigation">
-	          {{ section.navigation }}  
-	        </div>
-
-	      </div>
-
-	        {% for middle_right in section.promo_middle limit: 1 %}
-            {% if middle_right.position == 'Right' %}
-            	<a href="{{ middle_right.link }}">
-	              <div class="landing-section">
-	                <div class="landing-section-img">
-	                  <img src="{{ middle_right.image.url }}" alt="{{ middle_right.title | escape }}">
-	                </div>
-	                <h3 class="landing-section-heading">{{ middle_right.title }}</h3>
-	                <p>
-	                	{{ middle_right.description }}
-	                </p> 
-	              </div>
-              </a>
-            {% endif %}
-					{% endfor %}
-
-	      </div>
-
-	      </div>
-
 	    </div>
-	    </div>
-
-	    </div><!-- Container and row -->
 	  </div> 
 
 	  <!-- Promo panel -->
