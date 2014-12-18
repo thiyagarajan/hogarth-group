@@ -6,7 +6,6 @@
 - "Membership offer":
     image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "New members in August can take part in a free studio session Join us!"
-    position: Right
     link: null    
 
 - "exercise-studio Membership offer":
@@ -17,7 +16,6 @@
 - "exercise-studio Membership offer":
     image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "New members in August can take part in a free studio session Join us!"
-    position: Right
     link: null    
 
 - "Swimming Membership offer":
@@ -28,7 +26,6 @@
 - "Swimming Membership offer":
     image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "New members in August can take part in a free studio session Join us!"
-    position: Right
     link: null
 
 - "Swimming Membership offer":
@@ -39,7 +36,6 @@
 - "Swimming Membership offer":
     image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "New members in August can take part in a free studio session Join us!"
-    position: Right
     link: null
 
 - "Swimming Membership offer":
@@ -50,7 +46,6 @@
 - "Swimming Membership offer":
     image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "New members in August can take part in a free studio session Join us!"
-    position: Right
     link: null    
 
 - "Swimming Membership offer":
@@ -61,7 +56,6 @@
 - "Swimming Membership offer":
     image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "New members in August can take part in a free studio session Join us!"
-    position: Right
     link: null   
 
 - "Swimming Membership offer":
@@ -72,7 +66,6 @@
 - "Swimming Membership offer":
     image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "New members in August can take part in a free studio session Join us!"
-    position: Right
     link: null   
 
 - "Swimming Membership offer":
@@ -83,5 +76,4 @@
 - "Swimming Membership offer":
     image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
     description: "New members in August can take part in a free studio session Join us!"
-    position: Right
     link: null
