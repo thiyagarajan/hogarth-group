@@ -25,31 +25,15 @@ published: true
 
   <div class="container">
     <div class="row">
-      {% editable_text "index_body", rows: 20 %}
-      <div class="col-sm-4 col-xs-12">
-        <div class="tripple-pack-1-img"></div>
-        <div class="tripple-pack element">
-          <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Improve posture &amp; strengthen your core</a></h1>
-          <p>Introducing Graeme and Lysta Reardon, a dedicated husband and wife team with a combined experience of over 23 years.</p>
+      {% for tripple in contents.home.first.tripple_packs %}
+        <div class="col-sm-4 col-xs-12">
+          <div class="tripple-pack-1-img" style="background: url({{ tripple.image.url }}) no-repeat scroll center center rgba(0, 0, 0, 0);"></div>
+          <div class="tripple-pack element">
+            <h1 class="tripple-pack-heading"><a href="{{ tripple.link }}">{{ tripple.title }}</a></h1>
+            <p>{{ tripple.description }}</p>
+          </div>
         </div>
-      </div>
-
-      <div class="col-sm-4 col-xs-12">
-        <div class="tripple-pack-2-img"></div>
-        <div class="tripple-pack element">
-          <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Caribbean BBQ Night- COME AND join us!</a></h1>
-          <p>We are hosting Caribbean Night on 17 June. There will be a free Cocktail bar and authentic BBQ @ £10 a head.</p>
-        </div>
-      </div>
-
-      <div class="col-sm-4 col-xs-12">
-        <div class="tripple-pack-3-img"></div>
-        <div class="tripple-pack element">
-          <h1 class="tripple-pack-heading"><a href="http://www.theparkclub.co.uk">Jessica Nail Treatments available</a></h1>
-          <p>Jessica Cosmetics is considered a world leading brand, with a range of Jessica nail products to achieve and maintain naturally.</p>
-        </div>
-      </div>
-      {% endeditable_text %}
+      {% endfor %}
     </div>
   </div>
 </div>

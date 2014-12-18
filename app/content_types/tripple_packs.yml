@@ -1,8 +1,8 @@
 # Human readable name of this type
-name: Home
+name: Tripple packs
 
 # Lowercase, underscored handle used to access this type
-slug: home
+slug: tripple_packs
 
 # Explanatory text displayed in the back-office
 description: A description of the content type for the editors
@@ -27,38 +27,38 @@ order_by: manually
 
 # A list describing each field
 fields: 
-- title:
-    label: Title
+- title: # The lowercase, underscored name of the field
+    label: Title # Human readable name of the field
     type: string
     required: true
     hint: Explanatory text displayed in the back office
     localized: false
 
-- body:
-    label: Body
-    type: text
-    required: false
+- image: # The lowercase, underscored name of the field
+    label: Image # Human readable name of the field
+    type: file
+    required: true
     hint: Explanatory text displayed in the back office
     localized: false
-    text_formatting: html
 
-- slides:
-    label: Slides
-    type: many_to_many
-    class_name: slides
-    inverse_of: home
-    ui_enabled: true
+- description: # The lowercase, underscored name of the field
+    label: Description # Human readable name of the field
+    type: text
+    required: true
+    hint: Explanatory text displayed in the back office
+    localized: false
+    # text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
 
-- promo_middle:
-    label: Promo Middle
-    type: many_to_many
-    class_name: promo_middle
-    inverse_of: home
-    ui_enabled: true    
+- link: # The lowercase, underscored name of the field
+    label: Link # Human readable name of the field
+    type: string
+    required: true
+    hint: Explanatory text displayed in the back office
+    localized: false
 
-- tripple_packs:
-    label: Tripple Packs
+- home:
+    label: Home
     type: many_to_many
-    class_name: tripple_packs
-    inverse_of: home
+    class_name: home
+    inverse_of: tripple_packs
     ui_enabled: true
