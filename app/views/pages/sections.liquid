@@ -1,5 +1,5 @@
 ---
-title: Content type template
+title: Sections
 
 # true if the page is included in the menu
 listed: true
@@ -19,9 +19,9 @@ published: true
 #   'some_block/some_slug': "<text>"
 #   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
 ---
-{% extends "section" %}
+{% extends parent %}
 
-{% block "main/section" %}
+{% block main %}
 
   <p>Hello world</p>
 
