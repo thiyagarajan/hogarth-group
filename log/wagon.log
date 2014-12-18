@@ -12,3 +12,6 @@ Found page "Index" [index]
   Rendered snippet header
 [0;31;49m[ERROR] undefined method `promo_panel' for #<Locomotive::Mounter::Models::ContentEntry:0x00000004800288> - ./app/views/pages/index.liquid:5:in `Index'
 [0m
+* Reloaded "content_types", "content_entries" at 2014-12-18 17:52:52 +0530
+* Reloaded "content_types", "content_entries" at 2014-12-18 17:52:52 +0530
+* Reloaded "content_types", "content_entries" at 2014-12-18 17:52:53 +0530

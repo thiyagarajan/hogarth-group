@@ -47,14 +47,7 @@ fields:
     type: many_to_many
     class_name: slides
     inverse_of: home
-    ui_enabled: true
-
-- promo_middle:
-    label: Promo Middle
-    type: many_to_many
-    class_name: promo_middle
-    inverse_of: home
-    ui_enabled: true    
+    ui_enabled: true  
 
 - tripple_packs:
     label: Tripple Packs
