@@ -43,7 +43,7 @@ header {background: #6f5c2d; position: fixed; z-index: 10000; margin: 15px auto 
 
 	.slicknav_menu {display:none;}
 	.fixed-height .drop{height:0; transition:all 0.5s;}
-	.fixed-height .drop-open{height:205px;}
+	.fixed-height .drop-open{height:auto;}
 	
 
 @media (max-width: 1200px){
