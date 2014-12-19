@@ -216,3 +216,45 @@ Found page "Index" [index]
 * Reloaded "pages", "snippets" at 2014-12-19 15:45:46 +0530
 * Reloaded "pages", "snippets" at 2014-12-19 15:45:47 +0530
 * Reloaded "pages", "snippets" at 2014-12-19 15:45:47 +0530
+[0;97;49mStarted GET "/" at 2014-12-19 21:13:54 +0530[0m
+Detecting locale EN
+Found page "Index" [index]
+[0;31;49m[ERROR] 'block' tag was never closed - ./app/views/pages/index.liquid:37:in `Index'
+[0m
+[0;97;49mStarted GET "/" at 2014-12-19 21:13:57 +0530[0m
+Detecting locale EN
+Found page "Index" [index]
+[0;31;49m[ERROR] 'block' tag was never closed - ./app/views/pages/index.liquid:37:in `Index'
+[0m
+[0;97;49mStarted GET "/" at 2014-12-19 21:13:57 +0530[0m
+Detecting locale EN
+Found page "Index" [index]
+[0;31;49m[ERROR] 'block' tag was never closed - ./app/views/pages/index.liquid:37:in `Index'
+[0m
+[0;97;49mStarted GET "/" at 2014-12-19 21:13:59 +0530[0m
+Detecting locale EN
+Found page "Index" [index]
+[0;31;49m[ERROR] 'block' tag was never closed - ./app/views/pages/index.liquid:37:in `Index'
+[0m
+[0;97;49mStarted GET "/" at 2014-12-19 21:14:00 +0530[0m
+Detecting locale EN
+Found page "Index" [index]
+[0;31;49m[ERROR] 'block' tag was never closed - ./app/views/pages/index.liquid:37:in `Index'
+[0m
+[0;97;49mStarted GET "/" at 2014-12-19 21:14:00 +0530[0m
+Detecting locale EN
+Found page "Index" [index]
+[0;31;49m[ERROR] 'block' tag was never closed - ./app/views/pages/index.liquid:37:in `Index'
+[0m
+* Reloaded "pages", "snippets" at 2014-12-19 21:14:18 +0530
+* Reloaded "pages", "snippets" at 2014-12-19 21:14:18 +0530
+[0;97;49mStarted GET "/" at 2014-12-19 21:14:21 +0530[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.0ms
+
+[0m

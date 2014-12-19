@@ -230,3 +230,5 @@ body {color: #605d5d; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 ul li, ol li { line-height: 17px;margin-bottom: 5px; }
 
 .landing-content img { max-width: 100%; }
+
+footer .quick-links-panel ul li{ width: 100%; }
