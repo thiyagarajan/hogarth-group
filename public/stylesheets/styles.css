@@ -232,3 +232,5 @@ ul li, ol li { line-height: 17px;margin-bottom: 5px; }
 .landing-content img { max-width: 100%; }
 
 footer .quick-links-panel ul li{ width: 100%; }
+
+.standard-content ul{ padding-left: 20px; }

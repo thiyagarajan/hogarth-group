@@ -1,6 +1,6 @@
 /* Footer */
 footer {padding:0px 0 0px 0;}
-footer ul {margin: 0; padding: 0; border-bottom: 1px solid #ddd; height: auto;}
+footer ul {margin: 0; padding: 0; border-bottom: 0px solid #ddd; height: auto;}
 footer li {margin: 0px; padding: 0px 5% 0 0; list-style: none; display: inline-block;}
 	footer li a {color: #777;}
 	footer li a:hover {text-decoration: none; color: #555; border-bottom: 1px solid #777;}

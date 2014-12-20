@@ -1,62 +1,55 @@
 ---
 title: Contact
-
-# true if the page is included in the menu
-listed: true
-# true if the page is published
+slug: contact
+handle: contact
+listed: false
 published: true
-
-# position among sibling pages
-# position: 1
-
-# sets a redirection to the given url (301)
-# redirect_url: "<url to a page or to a remote url>"
-
-# content type that this page is templatizing
-# content_type: "<slug of one of the content types>"
-
-# editable_elements:
-#   'some_block/some_slug': "<text>"
-#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
+response_type: text/html
 ---
+
 {% extends parent %}
 
-
 {% block main %}
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDY9-OJ8ADVcrn10w_NHbfRkUlwFapUOOs&sensor=false"></script>
-<script type="text/javascript" src="http://www.map-generator.org/map/iframejs/6852b17a-f117-4410-bc48-000cb7d9d106?key=AIzaSyDY9-OJ8ADVcrn10w_NHbfRkUlwFapUOOs&width=100%&height=400px"></script>
-<div class="row">
-  <div class="col-xs-12">
-    <div id ="mapid-6852b17a-f117-4410-bc48-000cb7d9d106"></div>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDY9-OJ8ADVcrn10w_NHbfRkUlwFapUOOs&sensor=false"></script>
+  <script type="text/javascript" src="http://www.map-generator.org/map/iframejs/6852b17a-f117-4410-bc48-000cb7d9d106?key=AIzaSyDY9-OJ8ADVcrn10w_NHbfRkUlwFapUOOs&width=100%&height=400px"></script>
+  <div class="row" style="margin-top: 110px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <div id ="mapid-6852b17a-f117-4410-bc48-000cb7d9d106"></div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <h1>Contact Us</h1>         
+          <div id="address">
+            <p><strong>The Hogarth Health Club</strong><br>Airedale Avenue<br>Chiswick, West London<br>W4 2NW</p>
+          </div>
+          <div id="telephone">
+            <p>
+            <strong>
+            New Membership Enquiries
+            </strong>
+            <br>
+            020 8994 0500
+            </p>
+            <p>
+            <strong>
+            General Enquiries
+            </strong>
+            <br>
+            020 8995 4600
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-<div class="container landing">
   <div class="container">
     <div class="row">
-    <h1>Contact Us</h1>
-   
-<div id="address"><p><strong>The Hogarth Health Club</strong><br>Airedale Avenue<br>Chiswick, West London<br>W4 2NW</p></div>
-<div id="telephone">
-<p>
-<strong>
-New Membership Enquiries
-</strong>
-<br>
-020 8994 0500
-</p>
-<p>
-<strong>
-General Enquiries
-</strong>
-<br>
-020 8995 4600
-</p>
-</div>
-    <p>
-    <h2>Online Contact</h2>
-
-Use the form below to arrange a personal tour or send us an enquiry. Simply complete all of required fields in the form below and click 'Send'.
-</p>
+      
+      <p>
+        <h2>Online Contact</h2>
+        Use the form below to arrange a personal tour or send us an enquiry. Simply complete all of required fields in the form below and click 'Send'.
+      </p>
 
       <div class="col-xs-12 col-md-6">
         <form method="POST" action="{{contents.contact.public_submission_url}}"  class="form-horizontal" role="form">
@@ -125,5 +118,4 @@ Use the form below to arrange a personal tour or send us an enquiry. Simply comp
       </div>
     </div>
   </div>
-<div>
 {% endblock %}
