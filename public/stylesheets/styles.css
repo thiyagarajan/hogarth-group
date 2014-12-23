@@ -1,6 +1,6 @@
 
 
-body {color: #605d5d; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; line-height: 1em;}
+body {color: #605d5d; font-family: "museo-sans", helvetica, arial; line-height: 1em;}
 
 /* HOME */
 /* HOME */
@@ -24,7 +24,7 @@ body {color: #605d5d; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 	.tripple-pack-1-img,.tripple-pack-2-img,.tripple-pack-3-img {background-size: cover; min-height: 250px; margin: 0 -5px 0 -5px;}
 
 /* Wide promo panels */
-.outer-promo-panel {background: #e8e8e7; padding: 40px 0 0 0;overflow: hidden;}
+.outer-promo-panel {background: #e8e8e7; padding: 40px 0 0 0;}
 	.wide-promo {background: #aaa; display: block; margin: 0 -5px 40px -5px;}
 	.wide-promo-1 {background: url("../images/wide-1.jpg") no-repeat center; background-size: cover;}
 	.wide-promo-2 {background: url("../images/wide-2.jpg") no-repeat center; background-size: cover;}
@@ -65,6 +65,7 @@ body {color: #605d5d; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 /* LANDING */
 
 .landing-bg {background: url("../images/bg-landing-basic.jpg") #444 no-repeat top center; position: absolute; width: 100%; height: 673px;}
+.landing-adv-bg {background: url("../images/bg-landing-adv.jpg") #444 no-repeat top center; position: absolute; width: 100%; height: 673px;}
 	.landing .flexslider {margin: 135px 0 0 0 ;}
 	/* Overrides BS to align the slider under the logo */
 	 .row-slider {margin-left: -20px !important;margin-right: -20px !important; min-height: 631px;}
@@ -83,7 +84,7 @@ body {color: #605d5d; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 		.standard-promo-panel-purple {background: rgba(123,90,157,0.8);}
 		.standard-promo-panel-brown {background: rgba(174,125,48,0.8);}
 	.standard-promo-panel-heading {font-size: 1.55em; line-height:1.2em; margin: 0 0 10px 0; text-transform: uppercase; font-weight: 100; letter-spacing: 0.07em; color: #fff;}
-	.standard-promo-panel p {font-size: 1em; color: #fff; letter-spacing: 0.02em; font-weight: 300; line-height:1.5em;}
+	.standard-promo-panel p {font-size: 1.05em; color: #fff; letter-spacing: 0.02em; font-weight: 300; line-height:1.5em;}
 
 .landing-section {display: block; margin: 0 0 23px 0;}
 	.landing-section-img img {width: 100%;}
@@ -122,7 +123,7 @@ body {color: #605d5d; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 
 	/* LANDING */
 	/* LANDING */
-	.landing-bg {height: 573px;}
+	.landing-bg, .landing-adv-bg {height: 573px;}
 	.row-slider {min-height: 545px;}
 }
 
@@ -143,7 +144,7 @@ body {color: #605d5d; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 
 	/* LANDING */
 	/* LANDING */
-	.landing-bg {height: 348px;}
+	.landing-bg, .landing-adv-bg {height: 348px;}
 	.row-slider {min-height: 315px;}
 	.landing .flexslider {margin: 0px 0px 0 0px ;}
 
@@ -152,9 +153,8 @@ body {color: #605d5d; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 	.landing-section-img {max-height: 200px; overflow: hidden;}
 
 	.standard-promo {margin: 0 0px 15px 0px; max-height: 237px;}
-	.standard-promo-panel { padding: 10px; margin: 10px; width: 170px; height:217px;}
-	.standard-promo-panel-heading {font-size: 1.35em;  margin: 0; }
-	.standard-promo-panel p {font-size: 0.95em; line-height:1.45em; margin: 5px 0; padding: 0px;}
+	.standard-promo-panel { padding: 10px; margin: 10px; width: 210px;}
+	.standard-promo-panel p {font-size: 0.95em}
 
 	.landing-section {margin: 0 0 15px 0;}
 	.landing-section-heading {margin: -47px 0 10px 0; background: rgba(255,255,255,0.75); position: relative; padding: 10px;}
@@ -168,7 +168,8 @@ body {color: #605d5d; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 	/* CONTENT */
 	.content-row-slider {margin-left: -20px !important;margin-right: -20px !important;}
 	.standard-content-no-margin {margin: 20px -5px 50px -5px;}
-	.standard-content-area {margin: -100px -5px 50px -5px; padding: 25px; }
+	.standard-content-area {margin:10px -5px 50px -5px; padding: 25px; }
+
 
 }
 
@@ -187,7 +188,7 @@ body {color: #605d5d; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 
 	/* LANDING */
 	/* LANDING */
-	.landing-bg {background: none;}
+	.landing-bg, .landing-adv-bg {background: none;}
 	.landing .row {margin-left: -15px; margin-right: -15px;}
 	.landing .flexslider {margin: 0px -15px 0 -15px ;}
 	.row-slider {margin-left: -15px !important;margin-right: -15px !important; min-height: 155px;}
@@ -196,11 +197,11 @@ body {color: #605d5d; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 	
 	/* Skullduggery for type and spacing */
 	/* Skullduggery for type and spacing */
-	.landing-page-heading, .page-intro, .landing-content p {padding: 0 15px 0 15px;}
+	.landing-page-heading, .page-intro, .landing-content p {padding: 0 15px 0 0px;}
 	/* reset the padding for other text containers */
+	.standard-promo-panel {width: 190px;}
 	.standard-promo-panel p, .landing-section p {padding: 0px;}
 
-	
 	.landing-content p:last-child {margin: 0 0 50px 0;}
 	/* reset the margin for other text containers */
 	.landing-promo-panel p:last-child, .landing-section p:last-child {margin: 0 0 10px 0;}
@@ -208,7 +209,7 @@ body {color: #605d5d; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 	/* CONTENT */
 	/* CONTENT */
 	.content-row-slider {margin-left: -15px !important;margin-right: -15px !important;}
-	.standard-page-heading, .standard-content p {padding: 0 15px 0 15px;}
+	.standard-page-heading, .standard-content p {padding: 0 15px 0 0px;}
 }
 
 @media (max-width: 620px){
@@ -223,8 +224,12 @@ body {color: #605d5d; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 	.underneath {display: block; margin: 20px -5px 10px -5px;}
 
 	/* CONTENT */
-	.standard-content-area {margin: -20px 0px 50px 0px; padding: 10px; }
+	.standard-content-area {margin: 30px -5px 50px -5px; padding: 0px; }
 	.standard-page-heading {font-size: 2em;}
+
+	.landing-page-heading, .page-intro, .landing-content p, .standard-page-heading, .standard-content p {padding: 0 15px 0 15px;}
+	.page-end {margin: 40px 0 40px 15px;}
+	.standard-promo-panel p {padding: 0px;}
 }
 
 ul li, ol li { line-height: 17px;margin-bottom: 5px; }
