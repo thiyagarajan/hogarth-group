@@ -33,11 +33,11 @@ header {background: #6f5c2d; position: fixed; z-index: 10000; margin: 15px auto 
 		.navigation-bar li a.hovered {background-color: #634D13;}
 
 		.drop ul.menu{list-style:none;padding:0;margin:0;}
-		.drop ul.menu li {padding:10px 0;border-bottom:1px solid #584e32;opacity: 0.9}
+		.drop ul.menu li {padding:10px 0;border-bottom:0px solid #584e32;opacity: 0.9}
 			.drop ul.menu li:last-child {border-bottom:0px;}
 		.drop ul.menu li a{text-transform: uppercase;color:#fff;}
 		.drop ul.menu li a:hover{text-decoration: none; border-bottom: 1px solid #fff;}
-		.drop p{padding:20px 0 10px;text-transform: uppercase;color:#fff;opacity:0.4;font-size:0.9em;}
+		.drop p{padding:0 0 10px;text-transform: uppercase;color:#fff;opacity:0.4;font-size:0.9em;}
 		.drop ul.related{list-style:none;padding:0;margin:0;}
 		.drop ul.related li{padding:0 0 15px;opacity: 0.9;font-size: 0.9em;}
 		.drop ul.related li a{color:#fff;}
