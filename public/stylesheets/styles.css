@@ -69,7 +69,7 @@ body {color: #605d5d; font-family: "museo-sans", helvetica, arial; line-height: 
 	.landing .flexslider {margin: 135px 0 0 0 ;}
 	/* Overrides BS to align the slider under the logo */
 	 .row-slider {margin-left: -20px !important;margin-right: -20px !important; min-height: 631px;}
-.landing-content {margin: 70px -5px 50px -5px;}
+.landing-content {margin: 2px -5px 50px -5px !important;}
 	.landing-page-heading {font-size: 3em; margin: 90px 0 25px 0; text-transform: uppercase; font-weight: 500; letter-spacing: 0.05em;}
 	.page-intro {font-size: 1.4em; margin: 0 0 30px 0; font-weight: 200; letter-spacing: 0.03em; line-height: 1.4em; color: #807d7d; display: block;}
 	p {font-size: 1em; line-height: 1.6em; color:#807d7d; margin: 20px 0; padding: 0 15px 0 0;}
@@ -88,10 +88,11 @@ body {color: #605d5d; font-family: "museo-sans", helvetica, arial; line-height: 
 
 .landing-section {display: block; margin: 0 0 23px 0;}
 	.landing-section-img img {width: 100%;}
-	.landing-section-heading {font-size: 1.65em; line-height:1.2em; margin: 40px 0 10px 0; text-transform: uppercase; font-weight: 300; letter-spacing: 0.07em; color: #605d5d;}
-	.landing-section p {font-size: 1em; line-height: 1.6em; color:#807d7d; margin: 20px 0; padding: 0 15px 0 0;}
+	.landing-section-heading {font-size: 1.65em; line-height:1.2em; margin: 20px 0 10px 0; text-transform: uppercase; font-weight: 300; letter-spacing: 0.07em; color: #605d5d;}
+	.landing-section p {font-size: 1em; line-height: 1.6em; color:#807d7d; margin: 10px 0; padding: 0 15px 0 0;}
 
-.inpage-navigation {display: block; margin: 0 0 23px 0; background-color: #f3f1f1; height: 237px; padding: 25px;}
+.inpage-navigation {display: block; margin: 0 0 23px 0; background-color: #f3f1f1; min-height: 237px; padding: 25px;}
+.inpage-navigation-adv {min-height: 510px;}
 .inpage-navigation-heading {font-size: 1.55em; line-height:1.2em; margin: 0px 0 10px 0; text-transform: uppercase; font-weight: 300; letter-spacing: 0.07em; color: #605d5d;}
 .inpage-navigation-ul {margin: 0px; padding: 0px;}
 .inpage-navigation-li {list-style: none;text-transform: uppercase; font-size: 1.2em; line-height:1.2em;font-weight: 100; padding: 8px 0; border-bottom: 1px solid #ddd;}
@@ -113,7 +114,7 @@ body {color: #605d5d; font-family: "museo-sans", helvetica, arial; line-height: 
 
 .standard-page-heading {font-size: 3em; margin: 10px 0 25px 0; text-transform: uppercase; font-weight: 500; letter-spacing: 0.05em;}
 .inpage-navigation-content {height: auto;}
-
+.h2 {font-size: 2em; font-weight: 300;}
 .page-end {border-bottom: 2px solid #ddd; width: 200px; margin: 40px 0;}
 
 @media (max-width: 1200px){
