@@ -328,3 +328,56 @@ Found page "Content type template" [timetables/*]
 [0;32;49mCompleted 200 OK in 32.0ms
 
 [0m
+[0;97;49mStarted GET "/timetables/tommy" at 2015-03-26 19:50:13 +0530[0m
+Detecting locale EN
+Found page "Content type template" [timetables/*]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 226.4ms
+
+[0m
+[0;97;49mStarted GET "/timetables/tommy" at 2015-03-26 20:45:15 +0530[0m
+Detecting locale EN
+Found page "Content type template" [timetables/*]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 229.7ms
+
+[0m
+[0;97;49mStarted GET "/timetables/tommy" at 2015-03-26 20:45:24 +0530[0m
+Detecting locale EN
+Found page "Content type template" [timetables/*]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 31.4ms
+
+[0m
+[0;97;49mStarted GET "/timetables/tommy" at 2015-03-26 20:55:52 +0530[0m
+Detecting locale EN
+Found page "Content type template" [timetables/*]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 30.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2015-03-26 20:56:52 +0530
+* Reloaded "pages", "snippets" at 2015-03-26 20:56:52 +0530
+* Reloaded "pages", "snippets" at 2015-03-26 20:56:52 +0530
+[0;97;49mStarted GET "/timetables/tommy" at 2015-03-26 20:56:57 +0530[0m
+Detecting locale EN
+Found page "Content type template" [timetables/*]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 28.7ms
+
+[0m
