@@ -1,79 +1,222 @@
-- "Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-1.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "left New members in August can take part in a free studio session Join us!"
-    link: null
-
-- "Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "New members in August can take part in a free studio session Join us!"
-    link: null    
-
-- "exercise-studio Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-1.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "left New members in August can take part in a free studio session Join us!"
-    link: null
-
-- "exercise-studio Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "New members in August can take part in a free studio session Join us!"
-    link: null    
-
-- "Swimming Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-1.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "left New members in August can take part in a free studio session Join us!"
-    link: null
-
-- "Swimming Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "New members in August can take part in a free studio session Join us!"
-    link: null
-
-- "Swimming Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-1.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "left New members in August can take part in a free studio session Join us!"
-    link: null
-
-- "Swimming Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "New members in August can take part in a free studio session Join us!"
-    link: null
-
-- "Swimming Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-1.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "left New members in August can take part in a free studio session Join us!"
-    link: null
-
-- "Swimming Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "New members in August can take part in a free studio session Join us!"
-    link: null    
-
-- "Swimming Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-1.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "left New members in August can take part in a free studio session Join us!"
-    link: null
-
-- "Swimming Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "New members in August can take part in a free studio session Join us!"
-    link: null   
-
-- "Swimming Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-1.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "left New members in August can take part in a free studio session Join us!"
-    link: null
-
-- "Swimming Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "New members in August can take part in a free studio session Join us!"
-    link: null   
-
-- "Swimming Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-1.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "left New members in August can take part in a free studio session Join us!"
-    link: null
-
-- "Swimming Membership offer":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/wide-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "New members in August can take part in a free studio session Join us!"
-    link: null
+---
+- index left:
+    _slug: index-left
+    image: /samples/promo_panel/index-left/wide-1.jpg
+    description: index description 1
+    link: '#'
+    home:
+    - home
+    sections: []
+    content:
+    - pilates-with-studio
+    advanced_section: []
+    time_table: []
+- index right:
+    _slug: index-right
+    image: /samples/promo_panel/index-right/wide-2.jpg
+    description: index right description
+    home:
+    - home
+    sections: []
+    content:
+    - pilates-with-studio
+    advanced_section: []
+    time_table: []
+- exercise-studio left:
+    _slug: exercise-studio-left
+    image: /samples/promo_panel/exercise-studio-left/wide-1.jpg
+    description: exercise-studio des
+    home:
+    - home
+    sections:
+    - exercise-studio
+    content:
+    - chiropractor
+    - sports-massage
+    - yoga
+    - zumba
+    advanced_section: []
+    time_table: []
+- exercise-studio right:
+    _slug: exercise-studio-right
+    image: /samples/promo_panel/exercise-studio-right/wide-2.jpg
+    description: exercise-studio description
+    home: []
+    sections:
+    - exercise-studio
+    - squash
+    content:
+    - metabolic-profiling
+    - sports-massage
+    - yoga
+    - zumba
+    advanced_section: []
+    time_table: []
+- Membership offer:
+    _slug: swimming-l
+    image: /samples/promo_panel/swimming-l/wide-1.jpg
+    description: New members in August can take part in a free studio session Join
+      us!
+    link: http://hogarth-group.herokuapp.com/
+    home: []
+    sections:
+    - swimming
+    content: []
+    advanced_section: []
+    time_table:
+    - tommy
+- PERSONAL TRAINING:
+    _slug: swimming-r
+    image: /samples/promo_panel/swimming-r/wide-2.jpg
+    description: Stay focussed on your goals with a personalised plan from our highly
+      qualified trainers
+    link: http://hogarth-group.herokuapp.com/sections/swimming
+    home: []
+    sections:
+    - swimming
+    content: []
+    advanced_section:
+    - palani
+    time_table:
+    - tommy
+- Gym Left:
+    _slug: gym-left
+    image: /samples/promo_panel/gym-left/wide-1.jpg
+    description: Gym Left des
+    home: []
+    sections:
+    - gym
+    content:
+    - personal-training
+    - metabolic-profiling
+    advanced_section: []
+    time_table: []
+- Gym Right:
+    _slug: gym-right
+    image: /samples/promo_panel/gym-right/wide-2.jpg
+    description: Gym Right description
+    home: []
+    sections:
+    - gym
+    content:
+    - personal-training
+    advanced_section: []
+    time_table: []
+- Tennis Left:
+    _slug: tennis-left
+    image: /samples/promo_panel/tennis-left/wide-1.jpg
+    description: Tennis Left des
+    home:
+    - home
+    sections:
+    - tennis
+    - squash
+    content: []
+    advanced_section: []
+    time_table: []
+- Tennis Right Title:
+    _slug: tennis-right-title
+    image: /samples/promo_panel/tennis-right-title/wide-1.jpg
+    description: Tennis Right Description
+    home: []
+    sections:
+    - tennis
+    content: []
+    advanced_section:
+    - palani
+    time_table: []
+- CLINIC LEFT:
+    _slug: clinic-left
+    image: /samples/promo_panel/clinic-left/wide-1.jpg
+    description: CLINIC LEFT
+    home: []
+    sections:
+    - clinic
+    content:
+    - aesthetic-surgery-clinic
+    - chiropractor
+    - chiswick-osteopathic-clinic
+    - clinical-treatments
+    - mindsailing
+    - physiotherapy
+    - pilates-studio
+    - rolfing
+    - beauty-spa-treatments
+    - beauty-offer-of-the-month
+    - london-acupuncture-clinic
+    - sports-therapy
+    - tennis-round-robins
+    advanced_section: []
+    time_table: []
+- TOM:
+    _slug: clinic-right
+    image: /samples/promo_panel/clinic-right/wide-2.jpg
+    description: Tim's Description
+    link: '#'
+    home: []
+    sections:
+    - clinic
+    content:
+    - aesthetic-surgery-clinic
+    - chiswick-osteopathic-clinic
+    - clinical-treatments
+    - mindsailing
+    - physiotherapy
+    - pilates-studio
+    - rolfing
+    - beauty-spa-treatments
+    - beauty-offer-of-the-month
+    - london-acupuncture-clinic
+    - sports-therapy
+    - tennis-round-robins
+    advanced_section: []
+    time_table: []
+- BEAUTY LEFT:
+    _slug: beauty-left
+    image: /samples/promo_panel/beauty-left/wide-1.jpg
+    description: BEAUTY LEFT
+    home: []
+    sections:
+    - gym
+    - beauty
+    content:
+    - facials
+    - voya-facials-body-treatments
+    - mens-grooming
+    - caci-quantum
+    - epilation
+    - jessica-nail-treatments
+    - massage
+    - fresh-indulgence-spray-tans-tanning-without-sun
+    - mother-to-be
+    - holistic-massage-therapy
+    - electrolysis
+    - finishing-touches
+    - beauty-products
+    - diamond-peel-microdermabrasion-new
+    advanced_section: []
+    time_table: []
+- BEAUTY RIGHT:
+    _slug: beauty-right
+    image: /samples/promo_panel/beauty-right/wide-2.jpg
+    description: BEAUTY RIGHT
+    home: []
+    sections:
+    - gym
+    - beauty
+    content:
+    - facials
+    - mens-grooming
+    - caci-quantum
+    - epilation
+    - jessica-nail-treatments
+    - massage
+    - fresh-indulgence-spray-tans-tanning-without-sun
+    - mother-to-be
+    - holistic-massage-therapy
+    - electrolysis
+    - finishing-touches
+    - beauty-products
+    - diamond-peel-microdermabrasion-new
+    advanced_section: []
+    time_table: []

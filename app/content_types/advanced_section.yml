@@ -1,0 +1,65 @@
+---
+name: Advanced Section
+description: A description of the content type for the editors
+slug: advanced_section
+label_field_name: title
+order_by: created_at
+order_direction: asc
+fields:
+- title:
+    label: Title
+    type: string
+    required: true
+    unique: false
+    localized: false
+- slides:
+    label: Slides
+    type: many_to_many
+    required: false
+    unique: false
+    localized: false
+    class_name: slides
+    inverse_of: advanced_section
+    ui_enabled: true
+- promo_top:
+    label: Promo Top
+    type: many_to_many
+    required: false
+    unique: false
+    localized: false
+    class_name: promo_top
+    inverse_of: advanced_section
+    ui_enabled: true
+- promo_middle:
+    label: Promo Middle
+    type: many_to_many
+    required: false
+    unique: false
+    localized: false
+    class_name: promo_middle
+    inverse_of: advanced_section
+    ui_enabled: true
+- navigation:
+    label: Navigation
+    type: text
+    required: false
+    unique: false
+    localized: false
+    text_formatting: html
+- promo_panel:
+    label: Promo Panel
+    type: many_to_many
+    required: false
+    unique: false
+    localized: false
+    class_name: promo_panel
+    inverse_of: advanced_section
+    ui_enabled: true
+- content:
+    label: Content
+    type: has_many
+    required: false
+    unique: false
+    localized: false
+    class_name: contact
+    ui_enabled: true

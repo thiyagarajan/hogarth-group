@@ -1,31 +1,101 @@
-- "Home Title":
-    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Home description"
-
-- "Exercise Studio Title":
-    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Exercise Studio description"
-
-- "Swimming Title":
-    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Swimming description"
-
-- "Sample 4":
-    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Gym"
-
-- "Sample 5":
-    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Tennis"
-
-- "Sample 6":
-    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Squash"
-
-- "Sample 7":
-    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Clinic"
-
-- "Sample 8":
-    image: 'http://www.mediawebapps.com/timeline/images/placid-852x480.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Beauty"
+---
+- Enjoy:
+    _slug: enjoy
+    image: /samples/slides/enjoy/main-slider-1.jpg
+    description: WILE AWAY THE STRESSES OF THE DAY IN THE MOOD LIT POOL
+    sections: []
+    home:
+    - home
+    advanced_section: []
+- RELAX:
+    _slug: relax
+    image: /samples/slides/relax/main-slider-2.jpg
+    description: WILE AWAY THE STRESSES OF THE DAY IN THE MOOD LIT POOL
+    sections: []
+    home:
+    - home
+    advanced_section: []
+- home slide 2:
+    _slug: home-slide
+    image: /samples/slides/home-slide/main-slider-2.jpg
+    description: home slide description 2
+    sections: []
+    home: []
+    advanced_section: []
+- Exercise Studio:
+    _slug: exercise-studio
+    image: /samples/slides/exercise-studio/landing-slider-1.jpg
+    description: Exercise Studio des
+    sections:
+    - exercise-studio
+    - tennis
+    home: []
+    advanced_section: []
+- EXERCISE STUDIO 2:
+    _slug: exercise-studio-2
+    image: /samples/slides/exercise-studio-2/landing-slider-2.jpg
+    description: EXERCISE STUDIO DESCRIPTION 2
+    sections:
+    - exercise-studio
+    - tennis
+    home: []
+    advanced_section: []
+- Swimming:
+    _slug: swimming
+    image: /samples/slides/swimming/landing-slider-1.jpg
+    description: WILE AWAY THE STRESSES OF THE DAY IN THE MOOD LIT POOL
+    sections:
+    - swimming
+    home: []
+    advanced_section:
+    - palani
+- Gym:
+    _slug: gym
+    image: /samples/slides/gym/landing-slider-2.jpg
+    description: Gym des
+    sections:
+    - gym
+    home: []
+    advanced_section:
+    - palani
+- Tennis:
+    _slug: tennis
+    image: /samples/slides/tennis/landing-slider-1.jpg
+    description: Tennis description
+    sections:
+    - tennis
+    home: []
+    advanced_section: []
+- Squash:
+    _slug: squash
+    image: /samples/slides/squash/landing-slider-2.jpg
+    description: Squash description
+    sections:
+    - squash
+    home: []
+    advanced_section: []
+- Clinic:
+    _slug: clinic
+    image: /samples/slides/clinic/landing-slider-1.jpg
+    description: Clinic des
+    sections:
+    - clinic
+    home: []
+    advanced_section: []
+- Beauty:
+    _slug: beauty
+    image: /samples/slides/beauty/landing-slider-2.jpg
+    description: Beauty des
+    sections:
+    - gym
+    - beauty
+    home: []
+    advanced_section: []
+- Tom Swimming:
+    _slug: tom-swimming
+    image: /samples/slides/tom-swimming/pool.jpg
+    description: Amazing pool, you should try it out sometime.
+    sections:
+    - gym
+    home: []
+    advanced_section: []

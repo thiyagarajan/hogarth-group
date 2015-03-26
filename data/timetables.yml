@@ -1,0 +1,9 @@
+---
+- Tom:
+    _slug: tommy
+    day: Tuesday
+    promo_panel:
+    - swimming-r
+    - swimming-l
+    activities:
+    - test-1

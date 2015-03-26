@@ -1,0 +1,103 @@
+---
+title: Content type template
+slug: content_type_template
+listed: true
+published: true
+cache_strategy: none
+response_type: text/html
+position: 100
+content_type: content
+---
+{% extends parent %}
+
+{% block main %}
+
+	<div class="main landing">
+
+<div class="container">
+  <div class="row content-row-slider">
+    <div class="col-xs-12">
+
+    <div class="flexslider">
+
+      <img src="{{ content.image.url  }}" width="100%" />
+    </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- END Tripple pack -->
+
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <div class="row">
+          <div class="col-md-11 col-sm-offset-1 col-sm-11 col-xs-12">
+
+        <div class="standard-content standard-content-area">
+        <h1 class="standard-page-heading">{{ content.title }}</h1>
+
+        {{ content.body }}
+      
+      <div class="page-end"></div>
+
+      <div class="inpage-gallery"></div>
+      
+
+      </div>
+      </div>
+
+      </div>
+     </div>
+
+
+      <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="standard-content standard-content-no-margin">
+
+        <div class="inpage-navigation inpage-navigation-content">
+          {{ content.navigation }}
+        </div>
+
+        {% for middle in content.promo_middle limit: 1 %}
+	        <div class="standard-promo standard-promo-2" style="background: url({{ middle.image.url }}) no-repeat scroll center center / cover rgba(0, 0, 0, 0);">
+	          <div class="standard-promo-panel standard-promo-panel-brown">
+	            <h3 class="standard-promo-panel-heading">{{ middle.title }}</h3>
+	            <p>
+	            	{{ middle.description }}
+							</p>
+	          </div>  
+	        </div>
+        {% endfor %}
+
+        </div>
+      </div>
+
+    </div><!-- Container and row -->
+  </div> 
+
+	  <!-- Promo panel -->
+	  <div class="outer-promo-panel">
+	    <div class="container">
+	      <div class="row">
+	      	{% for promo_panel in content.promo_panel limit: 2 %}
+	      		<a href="{{ promo_panel.link }}">
+			        <div class="col-sm-6 col-xs-12">
+			          <div class="wide-promo" style="background: url({{ promo_panel.image.url }}) no-repeat center; background-size: cover;">
+			            <div class="gold">
+			              <h3 class="gold-heading">{{ promo_panel.title }}</h3>
+			              <p>{{ promo_panel.description }}</p>
+			            </div>  
+			          </div>
+			        </div>
+		        </a>
+	        {% endfor %}  
+	      </div>
+
+	    </div>
+	  </div>
+	  <!-- END Promo panel -->
+
+{% endblock %}

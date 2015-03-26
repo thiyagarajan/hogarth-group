@@ -1,28 +1,22 @@
-- "Sample 1":
-    telephone: "Velit neque praesentium tempora et dignissimos velit."
-    email: "Unde dolore quaerat atque molestiae."
-    postcode: "Voluptates sequi cum aut."
-    enquiry_type: null # Use the value of a select option defined in the app/content_types/Contact.rb file.
-    message: "Laborum corrupti nihil iure aut iusto neque. Itaque non animi voluptas deserunt maiores hic officiis molestiae. Vel voluptate ex omnis corporis sequi iusto beatae earum. Exercitationem quia autem aspernatur. In quo non et aut asperiores id enim."
-
-- "Sample 2":
-    telephone: "Ipsa cumque et deserunt culpa sed eaque dolores est."
-    email: "Laboriosam ut eos illum placeat architecto."
-    postcode: "Voluptatem reprehenderit ea voluptatem nam dolore."
-    enquiry_type: null # Use the value of a select option defined in the app/content_types/Contact.rb file.
-    message: "Aperiam provident et et et ipsam porro id qui. Velit occaecati qui quos incidunt voluptates et nisi rerum. Omnis cumque aut reprehenderit doloremque ad laborum ut deserunt."
-
-- "Sample 3":
-    telephone: "Rerum commodi iusto vel dicta veritatis."
-    email: "Repudiandae temporibus nihil quos."
-    postcode: "In voluptas qui odio iusto dolor corporis."
-    enquiry_type: null # Use the value of a select option defined in the app/content_types/Contact.rb file.
-    message: "Atque architecto et voluptatem et quo. Veritatis velit quia distinctio. Velit sit qui earum molestias natus temporibus provident ut."
-
-- "Sample 4":
-    telephone: "Omnis aliquid sunt aut eveniet."
-    email: "Sit sunt enim in ut."
-    postcode: "Ea qui recusandae inventore libero dignissimos asperiores voluptatem."
-    enquiry_type: null # Use the value of a select option defined in the app/content_types/Contact.rb file.
-    message: "Debitis distinctio praesentium voluptas et dolorem libero ut. Eius atque et ut sit modi. Voluptatibus eum distinctio corporis fuga aut."
-
+---
+- testing:
+    _slug: testing
+    telephone: testgin
+    email: test@gmail.com
+    postcode: '23423'
+    enquiry_type: Personal Tour
+    message: testing
+- testing1:
+    _slug: testing1
+    telephone: testgin
+    email: test@gmail.com
+    postcode: '23423'
+    enquiry_type: General Enquiry
+    message: EBAYSALE15
+- Thiyagarajan:
+    _slug: thiyagarajan
+    telephone: '43242'
+    email: thiyagarajan@moorem.com
+    postcode: '560068'
+    enquiry_type: Personal Tour
+    message: '  test'

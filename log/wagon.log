@@ -258,3 +258,73 @@ Found page "Index" [index]
 [0;32;49mCompleted 200 OK in 7.0ms
 
 [0m
+[0;97;49mStarted GET "/timetables/tommy" at 2015-03-26 18:27:52 +0530[0m
+Detecting locale EN
+Found page "Content type template" [timetables/*]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 227.7ms
+
+[0m
+[0;97;49mStarted GET "/timetables/tommy" at 2015-03-26 18:27:58 +0530[0m
+Detecting locale EN
+Found page "Content type template" [timetables/*]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 26.6ms
+
+[0m
+[0;97;49mStarted GET "/timetables/tommy" at 2015-03-26 18:28:41 +0530[0m
+Detecting locale EN
+Found page "Content type template" [timetables/*]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 27.3ms
+
+[0m
+[0;97;49mStarted GET "/" at 2015-03-26 18:29:30 +0530[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 38.3ms
+
+[0m
+[0;97;49mStarted GET "/timetables/tommy" at 2015-03-26 18:31:38 +0530[0m
+Detecting locale EN
+Found page "Content type template" [timetables/*]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 34.5ms
+
+[0m
+[0;97;49mStarted GET "/timetables/tommy" at 2015-03-26 18:31:43 +0530[0m
+Detecting locale EN
+Found page "Content type template" [timetables/*]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 31.4ms
+
+[0m
+[0;97;49mStarted GET "/timetables/tommy" at 2015-03-26 18:32:05 +0530[0m
+Detecting locale EN
+Found page "Content type template" [timetables/*]
+  Rendered snippet head
+  Rendered snippet header
+  Rendered snippet footer
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 32.0ms
+
+[0m

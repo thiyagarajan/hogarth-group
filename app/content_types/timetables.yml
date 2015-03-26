@@ -1,0 +1,74 @@
+---
+name: Timetables
+description: Timetables
+slug: timetables
+label_field_name: title
+order_by: created_at
+order_direction: asc
+fields:
+- day:
+    label: Day
+    type: select
+    required: true
+    unique: false
+    localized: false
+    select_options:
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    - Sunday
+- title:
+    label: Name
+    type: string
+    required: true
+    unique: false
+    localized: false
+- promo_panel:
+    label: Promo Panel
+    type: many_to_many
+    required: false
+    unique: false
+    localized: false
+    class_name: promo_panel
+    inverse_of: time_table
+    ui_enabled: true
+- activities:
+    label: Activities
+    type: many_to_many
+    required: false
+    unique: false
+    localized: false
+    class_name: activities
+    inverse_of: timetables
+    ui_enabled: true

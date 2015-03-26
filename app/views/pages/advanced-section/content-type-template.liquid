@@ -1,0 +1,111 @@
+---
+title: Content type template
+slug: content_type_template
+listed: true
+published: true
+cache_strategy: none
+response_type: text/html
+position: 0
+content_type: advanced_section
+---
+{% extends parent %}
+
+{% block main %}
+
+
+	    <div class="flexslider">
+	      <ul class="slides">
+	        {% for slide in advanced_section.slides %}
+              <li>
+                <img src={{ slide.image.url }} />
+                <div class="flex-caption">
+                  <div class="title">{{ slide.title }}</div>
+                  <div class="caption">{{ slide.description }}</div>
+              </div>
+              </li>
+            {% endfor %}
+	      </ul>
+	    </div>
+
+	  <!-- END Tripple pack -->
+
+<div class="container">
+  <div class="row">
+
+<div class="col-md-8 col-sm-6 col-xs-12">
+  <div class="row">
+	        {% for middle in advanced_section.promo_top limit: 2 %}     
+		  			<div class="col-md-6 col-sm-12 col-xs-12">
+            	<a href="{{ middle.link }}">
+	              <div class="landing-section">
+	                <div class="landing-section-img">
+	                  <img src="{{ middle.image.url }}" alt="{{ middle.title | escape }}">
+	                </div>
+	                <h3 class="landing-section-heading">{{ middle.title }}</h3>
+	                <p>
+	                	{{ middle.description }}
+	                </p> 
+	              </div>
+              </a>
+	        	</div>
+					{% endfor %}
+ 	</div>  
+  <div class="row">
+    {% for middle in advanced_section.promo_middle limit: 2 %}     
+		  			<div class="col-md-6 col-sm-12 col-xs-12">
+            	<a href="{{ middle.link }}">
+	              <div class="landing-section">
+	                <div class="landing-section-img">
+	                  <img src="{{ middle.image.url }}" alt="{{ middle.title | escape }}">
+	                </div>
+	                <h3 class="landing-section-heading">{{ middle.title }}</h3>
+	                <p>
+	                	{{ middle.description }}
+	                </p> 
+	              </div>
+              </a>
+	        	</div>
+					{% endfor %}
+    </div> 
+ </div>
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="landing-content landing-content-no-margin">
+
+        <div class="onright" data-set="landing-nav">
+
+        <div class="inpage-navigation inpage-navigation-adv">
+          {{ advanced_section.navigation }} 
+        </div>
+
+      </div>
+
+
+        </div>
+      </div> 
+
+  </div>
+  <!-- Container and row -->
+</div> 
+
+	  <!-- Promo panel -->
+	  <div class="outer-promo-panel">
+	    <div class="container">
+	      <div class="row">
+	      	{% for promo_panel in advanced_section.promo_panel limit: 2 %}
+	      		<a href="{{ promo_panel.link }}">
+			        <div class="col-sm-6 col-xs-12">
+			          <div class="wide-promo" style="background: url({{ promo_panel.image.url }}) no-repeat center; background-size: cover;">
+			            <div class="gold">
+			              <h3 class="gold-heading">{{ promo_panel.title }}</h3>
+			              <p>{{ promo_panel.description }}</p>
+			            </div>  
+			          </div>
+			        </div>
+		        </a>
+	        {% endfor %}  
+	      </div>
+
+	    </div>
+	  </div>
+	  <!-- END Promo panel -->
+{% endblock %}

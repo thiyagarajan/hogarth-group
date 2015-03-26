@@ -1,0 +1,12 @@
+{% for panel in contents.promo_top %}
+  {% if panel.page == page.slug %}
+		<div class="standard-promo standard-promo-11" style="background: url({{ panel.image.url }}) no-repeat scroll center center / cover rgba(0, 0, 0, 0);">
+		  <div class="standard-promo-panel standard-promo-panel-purple">
+		    <h3 class="standard-promo-panel-heading">{{ panel.title }}</h3>
+		    <p>
+		    	{{ panel.description }}  
+		    </p>
+		  </div>  
+		</div>
+  {% endif %}
+{% endfor %}		

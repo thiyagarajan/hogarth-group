@@ -1,16 +1,58 @@
-- "Sample 1":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Expedita corrupti id quam amet. Est delectus non quia quis. Ratione molestiae quo consequatur qui exercitationem et consequatur."
-    
-- "Steam Room":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/landing-promo.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Integer augue lectus, fringilla id dui et, fringilla consequat est. Pellentesque rutrum sapien ante, sit amet inte rdum tu"
-    
-- "Sample 3":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Et nulla incidunt quaerat provident. Maxime sed porro explicabo qui enim eum. Explicabo enim molestiae est nisi accusamus eveniet enim voluptatem."
-    
-- "Sample 4":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Ea architecto quas aut et facere aspernatur voluptatem aperiam. Repellendus qui vel recusandae non in totam aspernatur veritatis. Autem culpa id quos. Voluptatem nemo officiis modi eligendi deleniti."
-    
+---
+- STEAM ROOM:
+    _slug: steam-room
+    image: /samples/promo_top/steam-room/landing-promo.jpg
+    description: 'As soon as you step into the steam room, warmth opens the pores
+      of the skin creating a flow of perspiration that lifts out the grime of everyday
+      life. '
+    link: http://hogarth-group.herokuapp.com/sections/swimming
+    sections:
+    - swimming
+    - gym
+    - exercise-studio
+    - tennis
+    advanced_section:
+    - palani
+- STEAM ROOM:
+    _slug: ssteam-room
+    image: /samples/promo_top/ssteam-room/landing-promo.jpg
+    description: Integer augue lectus, fringilla id dui et, fringilla consequat est.
+      Pellentesque rutrum sapien ante, sit amet inte rdum tu
+    sections:
+    - gym
+    advanced_section: []
+- GYM ROOM:
+    _slug: gym-room
+    image: /samples/promo_top/gym-room/landing-promo.jpg
+    description: Integer augue lectus, fringilla id dui et, fringilla consequat est.
+      Pellentesque rutrum sapien ante, sit amet inte rdum tu
+    sections: []
+    advanced_section: []
+- TENNIS ROOM:
+    _slug: tennis-room
+    image: /samples/promo_top/tennis-room/landing-promo.jpg
+    description: TENNIS ROOM
+    sections: []
+    advanced_section:
+    - palani
+- SQUASH ROOM:
+    _slug: squash-room
+    image: /samples/promo_top/squash-room/landing-promo.jpg
+    description: SQUASH ROOM
+    sections:
+    - squash
+    advanced_section: []
+- CLINIC ROOM:
+    _slug: clinic-room
+    image: /samples/promo_top/clinic-room/landing-promo.jpg
+    description: CLINIC ROOM
+    sections:
+    - clinic
+    advanced_section: []
+- BEAUTY ROOM:
+    _slug: beauty-room
+    image: /samples/promo_top/beauty-room/landing-promo.jpg
+    description: BEAUTY ROOM
+    sections:
+    - beauty
+    advanced_section: []

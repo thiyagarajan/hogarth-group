@@ -1,0 +1,25 @@
+---
+- Studio activities:
+    _slug: studio-activities
+    sections:
+    - squash
+    - beauty
+    contents:
+    - steam-room
+- State-of-the-art gym:
+    _slug: state-of-the-art-gym
+    sections:
+    - squash
+    - exercise-studio
+    contents:
+    - chiswick-osteopathic-clinic
+    - personal-training
+- Clinic &amp; Beauty:
+    _slug: clinic-and-beauty
+    sections: []
+    contents: []
+- Finishing Touches:
+    _slug: finishing-touches
+    sections: []
+    contents:
+    - finishing-touches

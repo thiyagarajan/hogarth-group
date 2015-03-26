@@ -1,0 +1,19 @@
+<div class="row row-slider">
+  <div class="col-xs-12">
+    <div class="flexslider">
+      <ul class="slides">
+        {% for slide in contents.slides %}
+          {% if slide.page == page.slug %}
+            <li>
+              <img src="{{ slide.image.url }}" alt="{{ slide.title | escape }}">
+              <div class="flex-caption">
+                <div class="title">{{ slide.title }}</div>
+                <div class="caption">{{ slide.description }}</div>
+              </div>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

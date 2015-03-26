@@ -1,0 +1,32 @@
+---
+name: LinkList
+description: Link List
+slug: linklist
+label_field_name: title
+order_by: created_at
+order_direction: asc
+fields:
+- title:
+    label: Title
+    type: string
+    required: true
+    unique: false
+    localized: false
+- sections:
+    label: Sections
+    type: many_to_many
+    required: false
+    unique: false
+    localized: false
+    class_name: sections
+    inverse_of: linklist
+    ui_enabled: true
+- contents:
+    label: Contents
+    type: many_to_many
+    required: false
+    unique: false
+    localized: false
+    class_name: content
+    inverse_of: linklist
+    ui_enabled: true

@@ -1,20 +1,25 @@
-- "Sample 1":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Incidunt omnis nihil odit. Quos assumenda officiis rerum porro aut corporis sit beatae. Reiciendis fugit ut sed itaque aut qui dolor."
-    link: "Dolorum hic repellendus aliquid est tempore."
-
-- "Sample 2":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Sit aperiam ea officiis soluta. Consequatur nihil voluptas nam perferendis id atque. Dicta exercitationem vel ut sunt et. Blanditiis quasi at rerum."
-    link: "Temporibus ut et tempora autem."
-
-- "Sample 3":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Esse animi in nemo aut nostrum nisi. At explicabo distinctio sed sit dolor reiciendis id. Ea qui consequatur sit accusantium soluta fugit illum."
-    link: "Suscipit fugit officia rerum."
-
-- "Sample 4":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Laboriosam hic quisquam eligendi facere totam. Quo est eos harum inventore exercitationem. Fugit commodi consequatur ut cupiditate illo distinctio. Dolorem aut assumenda architecto et. Occaecati voluptates perspiciatis porro rerum eligendi adipisci sed."
-    link: "Voluptatem cupiditate sunt corporis soluta molestiae dolor molestiae harum."
-
+---
+- IMPROVE POSTURE & STRENGTHEN YOUR CORE:
+    _slug: improve-posture-and-strengthen-your-core
+    image: /samples/tripple_packs/improve-posture-and-strengthen-your-core/tripple-1.jpg
+    description: Introducing Graeme and Lysta Reardon, a dedicated husband and wife
+      team with a combined experience of over 23 years.
+    link: http://hogarth-group.herokuapp.com/
+    home:
+    - home
+- CARIBBEAN BBQ NIGHT- COME AND JOIN US!:
+    _slug: caribbean-bbq-night-come-and-join-us
+    image: /samples/tripple_packs/caribbean-bbq-night-come-and-join-us/tripple-2.jpg
+    description: We are hosting Caribbean Night on 17 June. There will be a free Cocktail
+      bar and authentic BBQ @ £10 a head.
+    link: http://hogarth-group.herokuapp.com/
+    home:
+    - home
+- JESSICA NAIL TREATMENTS AVAILABLE:
+    _slug: jessica-nail-treatments-available
+    image: /samples/tripple_packs/jessica-nail-treatments-available/tripple-3.jpg
+    description: Jessica Cosmetics is considered a world leading brand, with a range
+      of Jessica nail products to achieve and maintain naturally..
+    link: http://hogarth-group.herokuapp.com/
+    home:
+    - home

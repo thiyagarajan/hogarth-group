@@ -1,8 +1,11 @@
 ---
 title: Index
+listed: false
 published: true
+cache_strategy: none
+response_type: text/html
+position: 0
 ---
-
 {% include head %}
 {% include header %}
 
@@ -56,6 +59,23 @@ published: true
             </a>
           {% endfor %}  
         </div>
+        
+      
+      <div class="row quick-links-panel">
+        {% for quick_links in contents.linklist limit: 4 %}
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        <h1 class="quick-links-panel-heading">{{ quick_links.title }}</h1>
+        <ul>
+          {% for links in quick_links.sections %}
+          <li><a href="{{ links._slug }}">{{ links.title }}</a></li>
+          {% endfor %}
+          {% for links in quick_links.contents %}
+          <li><a href="{{ links._slug }}">{{ links.title }}</a></li>
+          {% endfor %}
+        </ul>
+        </div>
+        {% endfor %}
+      </div>
 
       </div>
     </div>

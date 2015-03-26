@@ -1,15 +1,160 @@
-- "Sample 1":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Aut voluptas quisquam animi voluptatem culpa. Harum quisquam nulla beatae labore omnis eos quae. Assumenda voluptates possimus molestiae soluta dolor. Voluptatem molestias quia sed tenetur dolorem placeat in."
-
-- "Sample 2":
-    image: null # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Accusamus nihil quia ut. Impedit et numquam incidunt facilis necessitatibus. Laboriosam consequatur occaecati adipisci labore nam. Eveniet libero fugit sit."
-
-- "Spa Pool":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/landing-section-1.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est. Pell ntesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipis"
-
-- "Sauna":
-    image: 'https://hogarth-cms-production.s3.amazonaws.com/sites/545b3ba9046f603edf000002/theme/images/landing-section-2.jpg' # Path to a file in the public/samples folder or to a remote and external file.
-    description: "Proin gravida massa quam, ac rutrum sem portti tor in. Integer augue lectus, fringilla id dui et, fringilla consequat est. Pellentesque rutrum sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing elit"
+---
+- SPA POOL:
+    _slug: spa-pool
+    image: /samples/promo_middle/spa-pool/landing-section-1.jpg
+    description: Aside from the physiological benefits of hydrotherapy on the body's
+      musculature, the 6 person spa is the perfect place to mentally unwind. Heated
+      at a perfect 48 degrees centigrade, the Hogarth spa is the ideal way to end
+      your day.
+    link: http://hogarth-group.herokuapp.com/sections/swimming
+    sections:
+    - swimming
+    - gym
+    content: []
+    advanced_section:
+    - palani
+- SAUNA:
+    _slug: sauna
+    image: /samples/promo_middle/sauna/landing-section-2.jpg
+    description: "The principal benefit of the sauna is relaxation. The deep warmth
+      and feeling of lassitude combined with one or more showers and rest periods
+      should give the user a pleasant, mellow feeling. The heat also creates ideal
+      conditions for skin toning and cleansing.\r\n\r\nThe effect of the hot-cool-hot
+      sensation allows the skin pores to open and close to extreme, flushing out impurities
+      and leaving the skin thoroughly refreshed."
+    link: http://hogarth-group.herokuapp.com/sections/swimming
+    sections:
+    - swimming
+    - gym
+    content: []
+    advanced_section: []
+- EXERCISE STUDIO LEFT:
+    _slug: exercise-studio-left
+    image: /samples/promo_middle/exercise-studio-left/landing-section-1.jpg
+    description: EXERCISE STUDIO LEFT
+    sections:
+    - exercise-studio
+    content:
+    - pilates-with-studio
+    - yoga
+    - zumba
+    advanced_section: []
+- EXERCISE STUDIO RIGHT:
+    _slug: exercise-studio-right
+    image: /samples/promo_middle/exercise-studio-right/landing-section-2.jpg
+    description: EXERCISE STUDIO RIGHT description testing
+    sections:
+    - exercise-studio
+    content: []
+    advanced_section: []
+- GYM RIGHT:
+    _slug: gym-right
+    image: /samples/promo_middle/gym-right/landing-section-2.jpg
+    description: GYM RIGHT
+    sections:
+    - gym
+    content:
+    - personal-training
+    - metabolic-profiling
+    advanced_section: []
+- GYM LEFT:
+    _slug: gym-left
+    image: /samples/promo_middle/gym-left/landing-section-1.jpg
+    description: GYM LEFT
+    sections:
+    - gym
+    content: []
+    advanced_section: []
+- TENNIS LEFT:
+    _slug: tennis-left
+    image: /samples/promo_middle/tennis-left/landing-section-1.jpg
+    description: TENNIS LEFT
+    sections:
+    - tennis
+    content: []
+    advanced_section:
+    - palani
+- TENNIS RIGHT:
+    _slug: tennis-right
+    image: /samples/promo_middle/tennis-right/landing-section-2.jpg
+    description: TENNIS RIGHT
+    sections:
+    - tennis
+    content: []
+    advanced_section: []
+- SQUASH LEFT:
+    _slug: squash-left
+    image: /samples/promo_middle/squash-left/landing-section-1.jpg
+    description: SQUASH LEFT
+    sections:
+    - squash
+    content: []
+    advanced_section: []
+- SQUASH RIGHT:
+    _slug: squash-right
+    image: /samples/promo_middle/squash-right/landing-section-2.jpg
+    description: SQUASH RIGHT
+    sections:
+    - squash
+    content: []
+    advanced_section: []
+- BEAUTY LEFT:
+    _slug: beauty-left
+    image: /samples/promo_middle/beauty-left/landing-section-1.jpg
+    description: BEAUTY LEFT
+    sections:
+    - beauty
+    content:
+    - facials
+    - voya-facials-body-treatments
+    - mens-grooming
+    - caci-quantum
+    - epilation
+    - jessica-nail-treatments
+    - massage
+    - fresh-indulgence-spray-tans-tanning-without-sun
+    - mother-to-be
+    - holistic-massage-therapy
+    - electrolysis
+    - finishing-touches
+    - beauty-products
+    - diamond-peel-microdermabrasion-new
+    advanced_section: []
+- BEAUTY RIGHT:
+    _slug: beauty-right
+    image: /samples/promo_middle/beauty-right/landing-section-2.jpg
+    description: BEAUTY RIGHT
+    sections:
+    - beauty
+    content: []
+    advanced_section: []
+- CLINIC LEFT:
+    _slug: clinic-left
+    image: /samples/promo_middle/clinic-left/landing-section-1.jpg
+    description: CLINIC LEFT
+    sections:
+    - clinic
+    content:
+    - aesthetic-surgery-clinic
+    - chiropractor
+    - chiswick-osteopathic-clinic
+    - clinical-treatments
+    - mindsailing
+    - physiotherapy
+    - pilates-studio
+    - rolfing
+    - beauty-spa-treatments
+    - beauty-offer-of-the-month
+    - london-acupuncture-clinic
+    - sports-therapy
+    - sports-massage
+    - tennis-round-robins
+    advanced_section: []
+- CLINIC RIGHT:
+    _slug: clinic-right
+    image: /samples/promo_middle/clinic-right/landing-section-2.jpg
+    description: CLINIC RIGHT
+    sections:
+    - clinic
+    content: []
+    advanced_section: []

@@ -1,0 +1,21 @@
+---
+- test:
+    _slug: test
+    member_type: Young Member
+    level: Studio 1
+    location: Studio 1
+    age: Adult
+    description: ''
+    instructor: thiyagarajan-veluchamy
+    timetables: []
+- test:
+    _slug: test-1
+    member_type: Young Member
+    level: Studio 1
+    location: Studio 1
+    age: Adult
+    description: <p>test</p>
+    image: /samples/activities/test-1/1.jpg
+    instructor: thiyagarajan-veluchamy
+    timetables:
+    - tommy

@@ -1,0 +1,26 @@
+---
+- Palani:
+    _slug: palani
+    slides:
+    - gym
+    - swimming
+    promo_top:
+    - steam-room
+    - tennis-room
+    promo_middle:
+    - spa-pool
+    - tennis-left
+    navigation: "<h3 class=\"inpage-navigation-heading\">Studio Activities</h3>\r\n<ul
+      class=\"inpage-navigation-ul\">\r\n<li class=\"inpage-navigation-li\"><a href=\"achildpage.html\">50/50</a></li>\r\n<li
+      class=\"inpage-navigation-li\"><a href=\"achildpage.html\">Zumba</a></li>\r\n<li
+      class=\"inpage-navigation-li\"><a href=\"achildpage.html\">Spinning</a></li>\r\n<li
+      class=\"inpage-navigation-li\"><a href=\"achildpage.html\">Body pump</a></li>\r\n<li
+      class=\"inpage-navigation-li\"><a href=\"achildpage.html\">Pilates</a></li>\r\n<li
+      class=\"inpage-navigation-li\"><a href=\"achildpage.html\">Legs, bums and tums</a></li>\r\n<li
+      class=\"inpage-navigation-li\"><a href=\"achildpage.html\">Hatha Yoga</a></li>\r\n<li
+      class=\"inpage-navigation-li\"><a href=\"achildpage.html\">H20</a></li>\r\n<li
+      class=\"inpage-navigation-li\"><a href=\"achildpage.html\">Stretchworks</a></li>\r\n<li
+      class=\"inpage-navigation-li\"><a href=\"achildpage.html\">Danceworks</a></li>\r\n</ul>"
+    promo_panel:
+    - swimming-r
+    - tennis-right-title

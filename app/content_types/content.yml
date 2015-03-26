@@ -1,79 +1,73 @@
-# Human readable name of this type
+---
 name: Content
-
-# Lowercase, underscored handle used to access this type
-slug: content
-
-# Explanatory text displayed in the back-office
 description: A description of the content type for the editors
-
-# Slug of field used to identify entries by default, such as the title
+slug: content
 label_field_name: title
-
-# Valid values: manually, created_at, updated_at, or the slug of any field
 order_by: manually
-
-# Valid values: asc (ascending) and desc (descending). Set to asc by default.
-# order_direction: asc
-
-# Specify a field slug to group entries by that field in the back-office.
-# group_by: <your field>
-
-# Activate public 'create' API (e.g for a contact form)
-# public_submission_enabled: false
-
-# Array of emails to be notified of new entries made with the public API
-# public_submission_accounts: ['john@example.com']
-
-# A list describing each field
-fields: 
-- title: # The lowercase, underscored name of the field
-    label: Title # Human readable name of the field
+order_direction: asc
+fields:
+- title:
+    label: Title
     type: string
-    required: true
     hint: Explanatory text displayed in the back office
+    required: true
+    unique: false
     localized: false
-
-- image: # The lowercase, underscored name of the field
-    label: Image # Human readable name of the field
+- image:
+    label: Image
     type: file
+    hint: Explanatory text displayed in the back office
     required: true
-    hint: Explanatory text displayed in the back office
-    localized: false    
-
-- body: # The lowercase, underscored name of the field
-    label: Body # Human readable name of the field
+    unique: false
+    localized: false
+- body:
+    label: Body
     type: text
-    required: false
     hint: Explanatory text displayed in the back office
+    required: false
+    unique: false
     localized: false
     text_formatting: html
-
-- navigation: # The lowercase, underscored name of the field
-    label: Navigation # Human readable name of the field
+- navigation:
+    label: Navigation
     type: text
-    required: false
     hint: Explanatory text displayed in the back office
+    required: false
+    unique: false
     localized: false
     text_formatting: html
-
 - promo_middle:
     label: Promo Middle
     type: many_to_many
+    required: false
+    unique: false
+    localized: false
     class_name: promo_middle
     inverse_of: content
     ui_enabled: true
-
 - promo_panel:
     label: Promo Panel
     type: many_to_many
+    required: false
+    unique: false
+    localized: false
     class_name: promo_panel
     inverse_of: content
     ui_enabled: true
-
 - sections:
     label: Sections
     type: belongs_to
+    required: false
+    unique: false
+    localized: false
     class_name: sections
-    inverse_of: content
+    ui_enabled: true
+- linklist:
+    label: LinkList
+    type: many_to_many
+    required: false
+    unique: false
+    localized: false
+    class_name: linklist
+    inverse_of: contents
     ui_enabled: true

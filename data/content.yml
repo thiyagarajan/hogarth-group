@@ -1,16 +1,1978 @@
-- "Sample 1":
-    body: "Cupiditate sint laudantium iste delectus aliquid cumque rerum ratione. Omnis dicta labore ex quisquam esse. Rerum ullam impedit quas molestiae ut in ut illo."
-    navigation: "Quia tenetur expedita consequatur omnis. Repudiandae officiis aut corrupti blanditiis. Vero sit non facilis qui et minus ut minima."
-
-- "Sample 2":
-    body: "Rerum assumenda quam illo. Voluptate voluptatem aperiam dolores omnis animi voluptas et. Nihil facilis quo quasi. Similique dolorem placeat et et ut."
-    navigation: "Itaque voluptatem voluptatibus quia aut cum. Dolorem quia sed et numquam totam. Adipisci sint nihil maxime consequatur neque sequi et. Rerum autem et reiciendis qui reprehenderit voluptas non dicta. Excepturi facilis voluptas quas."
-
-- "Sample 3":
-    body: "Quo ratione nam modi. Sunt veritatis aut ex necessitatibus vel perferendis sit. Quis molestias consequuntur voluptatibus eveniet ipsam molestiae. Quisquam quod minima et voluptate voluptas."
-    navigation: "Non quia ad ipsum et. Et ratione praesentium distinctio facilis blanditiis aspernatur. Animi impedit quidem asperiores necessitatibus et quaerat. Aliquam et fugiat qui magni soluta numquam quo atque. Minus asperiores voluptas ut velit magni."
-
-- "Sample 4":
-    body: "Et sint quaerat dolores. Perferendis id omnis voluptas nihil tenetur. Ut qui omnis esse voluptatem."
-    navigation: "Minima inventore officiis ex. Rerum ea sunt est voluptatem. Necessitatibus labore ad fugit sunt atque quasi sit tempora. Fuga delectus sed eligendi culpa."
-
+---
+- Steam Room:
+    _slug: steam-room
+    image: /samples/content/steam-room/main-content-image.jpg
+    body: "<p><span class=\"page-intro\">The swimming pool is 18 metres in length
+      with a level depth providing the perfect balance for training, aqua aerobics
+      and relaxation.</span></p>\r\n<p>At night, the swimming pool is mood lit to
+      create a tranquil, relaxing environment that allows you to wile away the stresses
+      of the day. Lorem ipsum dolor sit amet, Spa Pool adipiscing elit. Proin gravida
+      massa quam, ac rutrum sem porttitor in. Integer augue lectus, fringilla id dui
+      et, fringilla consequat est. Pellentesque rutrum sapien ante, sit amet inte
+      rdum turpis consectetur ulla amet, consectetur adipiscing elitmcorper etiam
+      at.</p>\r\n<p>Steam Room, ornare arcu eget, tincidunt lectus. Etiam vel ultrices
+      turpis. Etiam lacinia eros ut nisi consectetur hendrerit. Maecenas vel lectus
+      ipsum Proin gravida massa quam, ac rutrum sem porttitor in. Integer augue lectus,
+      fringilla id dui et, fringilla consequat est.</p>\r\n<p>Pellentesque rutrum
+      sapien ante, sit amet inte rdum turpis consectetur ulla amet, consectetur adipiscing
+      elitmcorper etiam at ornare arcu eget, tincidunt lectus. Etiam vel ultrices
+      turpis. Etiam lacinia eros ut nisi consectetur hendrerit. Maecenas vel lectus
+      ipsum.</p>"
+    navigation: "<ul class=\"inpage-navigation-ul\">\r\n<li class=\"inpage-navigation-li\"><a
+      href=\"/sections/swimming\">Spa Pool</a></li>\r\n<li class=\"inpage-navigation-li
+      inpage-navigation-li-active\"><a href=\"/sections/swimming\">Steam Room</a></li>\r\n<li
+      class=\"inpage-navigation-li\"><a href=\"/sections/swimming\">Sauna</a></li>\r\n</ul>"
+    promo_middle:
+    - spa-pool
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    sections: swimming
+    linklist:
+    - studio-activities
+- Personal Training:
+    _slug: personal-training
+    image: /samples/content/personal-training/main-content-image.jpg
+    body: "<p><iframe width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"
+      src=\"//www.youtube.com/embed/C3vIkNvmUhY\"></iframe></p>\r\n<h2>Inclusive Personal
+      Training</h2>\r\n<p>On first joining the Club, members receive 5 complimentary
+      one on one personal training sessions lasting one hour each. This time allows
+      our team to really understand what you want to achieve, what's safe and realistic,
+      as well as getting to really know you and how best to keep you motivated and
+      on track. To maintain and develop our relationship with you and your goals,
+      every member also receives one complimentary Personal Training session every
+      month of their membership thereafter. For most this approach really works.</p>\r\n<h2>The
+      Trainers</h2>\r\n<p>Full details of the club's Personal Trainers are available
+      on the Personal Training notice board or via this <a href=\"http://s3.amazonaws.com/the-hogarth-group-websites/attachments/469/original.pdf?1331911935\">PT
+      Profile Download.</a></p>\r\n<h2>Personal Training Xtra</h2>\r\n<p>Despite our
+      commitment to maintain the highest standards of staff attention and detail,
+      some members may feel they require more frequent support and encouragement.
+      For these members we are able to offer Personal Training Xtra. <strong>Personal
+      Training Xtra is the ultimate gymnasium experience.</strong> Our clubs are therefore
+      able to offer Personal Training Xtra in accordance with the terms and conditions
+      below.</p>\r\n<h2>Do I need Personal Training Xtra?</h2>\r\n<p>Firstly, all
+      members are encouraged to benefit from the Personal Training services that are
+      inclusive of their membership. The majority of members will consider the inclusive
+      Personal Training service provided to be sufficient for their needs. However,
+      you may feel you need more in the way of motivation or guidance to help you
+      achieve your goals or to train for something specific. If this is the case Personal
+      Training Xtra may offer what you are looking for.</p>\r\n<h2>What are the benefits
+      of Personal Training Xtra?</h2>\r\n<p>More regular Personal Training sessions
+      can offer a guaranteed, personal, uninterrupted schedule of appointments at
+      a time convenient to you and should provide you with the following benefits:</p>\r\n<ul>\r\n<li>Improved
+      motivation</li>\r\n<li>Enhanced continuity</li>\r\n<li>Constant encouragement</li>\r\n<li>Greater
+      direction</li>\r\n<li>Continual guidance</li>\r\n<li>Swifter progression</li>\r\n</ul>\r\n<h2>Availability</h2>\r\n<p>Personal
+      Training Xtra is available to any club member whose membership entitles them
+      to use the gymnasium.</p>\r\n<h2>How often should I have Personal Training Xtra
+      sessions?</h2>\r\n<p>This is entirely up to you and is dependent on your needs
+      and goals. You may feel that once a week or fortnight is sufficient to supplement
+      your inclusive sessions. If you feel that the one - to - one nature of Personal
+      Training is the only way to adhere to regular exercise, then this will be the
+      determining factor.</p>\r\n<h2>Terms and Conditions</h2>\r\n<p>Personal Training
+      Xtra session rates are available in single and discounted block bookings. Please
+      consult the Personal Training Xtra notice board or a member of the personal
+      training team for details. Payment for all appointments must be in advance and
+      directly to the Personal Trainer. Cash and cheques are accepted but we regret
+      we are unable to accept credit/debit cards.</p>\r\n<p>24 hours notice must be
+      provided if you wish to cancel an appointment. Failure to do so will result
+      in the full fee being charged.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - gym-right
+    promo_panel:
+    - gym-left
+    - gym-right
+    sections: gym
+    linklist:
+    - state-of-the-art-gym
+- Metabolic Profiling:
+    _slug: metabolic-profiling
+    image: /samples/content/metabolic-profiling/main-content-image.jpg
+    body: "<p>Metabolic profile testing is the 'gold standard' when it comes to accurately
+      determining what your body's energy requirements are and how you respond to
+      exercise. Current technology allows us to accurately determine this rather than
+      estimating it.</p>\r\n<p>Hogarth membership includes regular consultations with
+      your Personal Trainer, however to optimise your exercise time for the ultimate
+      benefits you may wish to consider Metabolic Profile Testing. Our commitment
+      to acquiring innovative and cutting edge equipment accompanied by the most skilled
+      Personal Trainers in the industry gives you an opportunity to achieve your exercise
+      and lifestyle results like never before.</p>\r\n<h2>What is Metabolic Profile
+      Testing?</h2>\r\n<p>A simple assessment allows your metabolic profile to be
+      'captured' and the information will produce your individual metabolic profile.
+      The profile includes your resting metabolic rate (RMR), your daily calorific
+      needs and the heart rate zones in which your body best responds to exercise.
+      Testing is quick and easy and includes a test to determine your resting metabolic
+      rate and another test to determine your metabolic responses to exercise. Throughout
+      the test the system is capturing information about your heart rate, oxygen uptake
+      and carbon dioxide output.</p>\r\n<h2>How Does Metabolic Profiling Help?</h2>\r\n<p>With
+      your unique profile you can more easily achieve weight loss goals and improve
+      aerobic fitness by optimising your exercise plan. Your resting test illustrates
+      how many calories you can eat without gaining weight and how you can maximise
+      calories burned in every workout. Your exercise test results show what heart
+      rate zones to train in for your body to become more efficient at burning fat
+      as an energy source, how to build a stronger &amp; wider aerobic base and what
+      your anaerobic threshold is and how to move this higher. Whatever your training
+      goals are, your metabolic profile is the key to training more effectively and
+      efficiently to optimise your training results.</p>\r\n<h2>Preparing for your
+      Test</h2>\r\n<p>For more information about Metabolic Profile Testing or to make
+      an appointment please speak to a Personal Trainer. Metabolic Profile Tests cost
+      &pound;125 per test. To ensure that your results are accurate and consistent
+      it is necessary to prepare in advance. Please:</p>\r\n<ul>\r\n<li>Abstain from
+      food including tea and coffee for 8 hours prior to your test. Drinking water
+      is fine.</li>\r\n<li>Abstain from alcohol for 12 hours prior to your test.</li>\r\n<li>Avoid
+      doing a high intensity training session the previous day.</li>\r\n</ul>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - gym-right
+    promo_panel:
+    - exercise-studio-right
+    - gym-left
+    sections: gym
+    linklist: []
+- Pilates with Studio:
+    _slug: pilates-with-studio
+    image: /samples/content/pilates-with-studio/main-content-image.jpg
+    body: "<h2>STOP PRESS: Studio 17 Pilates now available at The Hogarth Health Club.</h2>\r\n<h2>Who
+      are we?</h2>\r\n<p>Introducing Graeme and Lysta Reardon, a dedicated husband
+      and wife team with a combined experience of over 23 years who will work an individual
+      programme for your specific needs.</p>\r\n<h2>What do Studio 17 offer?</h2>\r\n<ul>\r\n<li>One
+      to One Mat Pilates - improves posture, de-stresses &amp; strengthens core.</li>\r\n<li>One
+      to One Reformer Pilates - use of equipment provides increased control and enhanced
+      challenge.</li>\r\n<li>One to One Ante natal: Preparing your body for labour
+      &amp; maintaining your figure during pregnancy.</li>\r\n<li>One to One Post
+      natal: returning your body to its pre-natal state by strength &amp; core stability
+      exercises. Creche facility available for members.</li>\r\n</ul>\r\n<h2>Where
+      are they?</h2>\r\n<p>Studio 17 now have a bespoke studio located within The
+      Hogarth Health Club, adjacent to the main gymnasium. This ground floor studio
+      boasts the very latest reformer equipment.</p>\r\n<h2>Classes and Prices</h2>\r\n<p><strong>Monday:</strong>
+      8.15am, 9.15am then 11am, 12noon and 1pm with Graeme</p>\r\n<p><strong>Tuesday:</strong>
+      8.30am and 9.30am, with Graeme and 10.45am, 11.45am and 12.45pm with Lysta</p>\r\n<p><strong>Wednesday:</strong>
+      8.15am, 9.15am, 12noon and 1pm with Graeme</p>\r\n<p><strong>Thursday:</strong>
+      10.30am and 11.30am with Lysta, 12.30pm and 1.30pm with Graeme</p>\r\n<p><strong>Friday:</strong>
+      10am and 11am with Graeme, 12noon, 1pm, 2pm and 3pm with Lisa Perry</p>\r\n<p><strong>Saturday:</strong>
+      8am, 9.30am, 10.30am, 11.30am with Lisa Perry</p>\r\n<p>Each one on one session
+      is for one hour, the first session including a postural analysis. Session costs
+      are &pound;55 per hour. If 10 classes are booked and paid for in advance, one
+      free class is included.</p>\r\n<p>Shared equipment sessions (for 2 people) are
+      also available for &pound;30 per person per hour. This allows friends or partners
+      to enjoy a session at a reduced per person charge. We can also pair clients
+      up accordingly on request.</p>\r\n<p>Cancellations and rearrangements are free
+      of charge if 24 hours notice is given. Missed classes are charged at full rate
+      if no notice or insufficient notice is provided. Bookings can be made through
+      the main Hogarth Health Club reception on 020 8995 4600.</p>\r\n<p>Taster sessions
+      are available by prior arrangement.</p>\r\n<h2>Clinical Pilates</h2>\r\n<p>The
+      Pilates Method was originally developed by Joseph Pilates in the 1920's. Joseph
+      Pilates practiced and taught his method (originally called Contrology) throughout
+      his life up to his death at the age of 86.</p>\r\n<p>Pilates is a conditioning
+      exercise programme that targets the deep postural muscles of the abdomen and
+      spine to improve overall central core stability and posture. The following eight
+      Pilates principles are: Concentration, centering, breathing, isolation, routine,
+      precision, control and flowing movement.</p>\r\n<p>Clinical Pilates is a series
+      of exercises in various different body positions which have been adapted by
+      physiotherapists to make them more suitable for patients with back and neck
+      pain, and those recovering from injury. They are also useful for general conditioning
+      and for prevention of injury through muscle wastage and poor posture.</p>\r\n<p>By
+      completing Pilates exercises regularly, it can help to improve your posture,
+      strength and flexibility alongside a healthy lifestyle.</p>\r\n<p>Many patients
+      find that Pilates is a useful form of exercise when returning to their normal
+      hobbies/sports following injury and as an addition to their fitness regime.
+      Who would have thought that many rugby teams around the world would use Pilates
+      as a valuable addition to their game winning strategies?</p>\r\n<p>Evidence
+      supports the use of the Pilates method in the prevention and rehabilitation
+      of back injuries. By retraining the deep abdominal and spinal muscles, Pilates
+      can help to prevent the recurrence of back pain in combination with correct
+      back care and advice, and gentle aerobic activity.</p>\r\n<p>For these reasons
+      we truly believe that this branch of The Pilates Method is the most valuable
+      and is a greatest addition to any existing fitness routine or to pull anyone
+      out of a sedentary lifestyle.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - exercise-studio-left
+    promo_panel:
+    - index-left
+    - index-right
+    sections: gym
+    linklist: []
+- Tennis Coaches:
+    _slug: tennis-coaches
+    image: /samples/content/tennis-coaches/main-content-image.jpg
+    body: "<p>We have two regular weekly tennis coaches at The Hogarth, Jose and Berj.</p>\r\n<h2>Jose
+      Marquez</h2>\r\n<p>I have been involved in the tennis coaching industry for
+      12 years, having gained immeasurable amounts of experience in all fields and
+      types of coaching. I am a firm believer in my tennis coaching philosophy which
+      is commitment, determination, perseverance and of course enjoyment.</p>\r\n<p>I
+      hope my players feel they are learning these different qualities through the
+      help of my coaching whether it be in a one to one or group situation.</p>\r\n<p>My
+      own tennis journey started years ago at a club called Rocks lane. It was here
+      where through the coaching methods used the foundations were laid for me to
+      learn discipline and respect, not just for myself and for my fellow squad players
+      and my coaches but for the game that we call tennis.</p>\r\n<p>I left Rocks
+      Lane at the age of 18 to attend the Gerry Dippenar Tennis Academy in South Africa.
+      I left this academy having played to a high level ready to embark on my first
+      serious coaching job.</p>\r\n<p>For the next ten years, I would spend my time
+      honing my skills as a tennis coach at the Riverside Club in Chiswick where every
+      opportunity was presented to me to work with adult tennis players and junior
+      tennis players of different abilities. During the holidays I would also look
+      after the Tiny Tots Camps and the Multi Sports programme available for the junior
+      players. It was towards the end of my coaching at the Riverside that I helped
+      put in place, alongside Simon Ainley, Head of Performance tennis at the club,
+      the mini tennis red performance academy.</p>\r\n<p>Whilst coaching at the Hogarth,
+      I think the defining quality that I can bring to the club is always being mindful
+      of my responsibility as a coach whilst realising that fun is a key element of
+      coaching. Consequently I am able to work with both adults and juniors with equal
+      success and enthusiasm which can be rare in an individual.</p>\r\n<p>My future
+      coaching aspirations will be to strive to extend my skills by updating and improving
+      my LTA coaching qualification by attending coach education courses and keeping
+      abreast of current trends and thinking. This I know will keep me &lsquo;fresh&rsquo;
+      and &lsquo;enthused&rsquo; about tennis and my involvement in the coaching side
+      of it.</p>\r\n<ul>\r\n<li>QUALIFICATIONS:</li>\r\n<li>USPTR TENNIS PROFESSIONAL
+      (2000-1)</li>\r\n<li>LTA DEVELOPMENT COACH AWARD (2005)</li>\r\n<li>LTA CLUB
+      COACH AWARD (2008)</li>\r\n<li>LTA SENIOR CLUB COACH AWARD (2010)</li>\r\n</ul>\r\n<h2>Berj
+      Kantarjian</h2>\r\n<p>Berj has been coaching tennis for over 25 years. He has
+      worked extensively in the UK and abroad: USA, Spain, Portugal and the UAE. The
+      Hogarth has been a place that he has constantly returned to during the summer
+      seasons and more recently throughout the whole year.</p>\r\n<p>Tennis Qualifications:</p>\r\n<ul>\r\n<li>LTA
+      Licensed Senior Club Coach</li>\r\n<li>USPTR 'Pro'</li>\r\n<li>ITF Coaching
+      qualification</li>\r\n<li>USRSA (United States Racquet Stringers Association)</li>\r\n</ul>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    linklist: []
+- Aesthetic Surgery Clinic:
+    _slug: aesthetic-surgery-clinic
+    image: /samples/content/aesthetic-surgery-clinic/main-content-image.jpg
+    body: "<p>The Aesthetic Surgery Clinic moved from Harley Street to the Hogarth
+      Club in 2009. We are situated within the Spa and offer all of our services to
+      members at a 10% discount. Non members are also welcome.</p>\r\n<p>Our team
+      is led by Dr Alan Kingdon, he has specialised in fat removal for over 20 years
+      and has performed more than 15,000 procedures. We also have a very experienced
+      female surgeon who specialises in Breast Enhancement &amp; Facial Surgery.</p>\r\n<p>Procedures
+      available at our clinic include:</p>\r\n<ul>\r\n<li>Botox</li>\r\n<li>Dermal
+      Fillers</li>\r\n<li>Lip &amp; Cheek Enhancement</li>\r\n<li>Advanced Laser Lipolysis</li>\r\n<li>Thread
+      Vein Removal</li>\r\n<li>IPL Permanent Hair Reduction</li>\r\n<li>Ellipse IPL
+      for sun damage, pigmentation &amp; acne</li>\r\n<li>VelaShape II for inch loss,
+      skin tightening and body contouring</li>\r\n<li>Mole &amp; Cyst Removal</li>\r\n</ul>\r\n<p>We
+      offer complimentary, discreet consultations where you can discuss your concerns
+      with the relevant specialist. For more information please contact us directly
+      on 020 8747 4746 or visit our website: <a href=\"http://www.cosmeticsurgeryclinic.co.uk\">www.aestheticsurgeryclinic.co.uk</a></p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - clinic-left
+    promo_panel:
+    - clinic-left
+    - clinic-right
+    sections: clinic
+    linklist: []
+- Chiropractor:
+    _slug: chiropractor
+    image: /samples/content/chiropractor/main-content-image.jpg
+    body: "<p>Chiropractic procedure is directed at evaluating causative factors in
+      the biomechanical and structural derangements of the spine, which can affect
+      the nervous system and the body's natural defence mechanism. It seeks to restore
+      the spinal structural integrity, which has an effect on the total health of
+      the individual. Doctors of Chiropractic do not elect to utilise drugs or surgery
+      in their practice; however, there are times when they recommend that a patient
+      consult another practitioner if other methods of treatments are indicated.</p>\r\n<p>The
+      first visit will involve a full case history, a thorough orthopaedic, neurological
+      and chiropractic examination to identify the cause of the condition. By analysis
+      of the orientation of the spine joints, muscles and ligaments, problems can
+      be diagnosed and appropriate corrective treatments given for many conditions,
+      including lumbago, \"slipped discs\", herniated discs, sciatica, neck, shoulder
+      and arm pain, headaches and migraine, dizziness, \"pins and needles\" numbness,
+      period pain, arthritis, hip and knee problems and muscular aches and joint pains.
+      Asthma and bed-wetting can also be treated on young adults and children.</p>\r\n<h2>Laurie
+      Launay: Chiropractor</h2>\r\n<p>I qualified as a Chiropractor from the chiropractic
+      University in Atlanta (USA) in March 1993. After gaining experience working
+      in a private practice in Atlanta over a 6 year period I came over to England
+      and settled in London in 1999.</p>\r\n<p>I am registered with the General Chiropractic
+      Council and the Scottish Chiropractic Association. Since graduating I have expanded
+      my skill sets and experience with post-graduate studies in various techniques
+      such as Cranial Therapy Treatment during pregnancy and I am certified in Chiropractic
+      Paediatric by the I.C.P.A (International Chiropractic Paediatric Association).
+      Over the past 15 years I have gained extensive experience in treating a large
+      cross section of the community including, infants, children, the elderly and
+      pregnant women.</p>\r\n<p>I am extremely passionate about chiropractic treatment
+      and I find it very gratifying to see a patient&rsquo;s health improve through
+      a non-invasive treatment. The ultimate satisfaction is to see patients recognizing
+      the benefits to their general well-being that Chiropractic treatment offers.
+      With long term treatment and a maintenance program the benefits can be life
+      long. I have been following some of my patients for almost a decade since I
+      set up in London. I believe that optimum health can be achieved with a well
+      balanced life style including a healthy spine and cranium along with good balanced
+      nutrition, good hydration and regular exercise.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - clinic-left
+    promo_panel:
+    - clinic-left
+    - exercise-studio-left
+    sections: clinic
+    linklist: []
+- Chiswick Osteopathic Clinic:
+    _slug: chiswick-osteopathic-clinic
+    image: /samples/content/chiswick-osteopathic-clinic/main-content-image.jpg
+    body: "<p>We are delighted to welcome two new professionals to The Hogarth Clinic.
+      Carlo Constandinou and Katie Hunter run The Chiswick Osteopathic Clinic and
+      have been working as osteopaths for many years.</p>\r\n<h2>Carlo Constandinou</h2>\r\n<p>\"I
+      have been practicing for over twenty years; during that time I have developed
+      a very family orientated practice.</p>\r\n<p>The type of osteopathy I practice
+      is very gentle and suitable for all ages, from newborn babies upwards. I enjoy
+      the challenge of working with complex problems and have a keen interest in biomechanics
+      and the physiology of pain. I very much see my role as treating the present
+      problem but also making sure it does not return. I hope that when leaving a
+      visit at our practice the client will know a lot more about how to stay pain
+      free than when they arrived.</p>\r\n<p>I spent years at the Osteopathic Centre
+      for Children as one of the senior osteopaths where I was in charge of a team
+      treating babies and children with a variety of conditions.</p>\r\n<p>I had the
+      good fortune to meet and work with fantastic paediatric osteopaths. I regularly
+      attended the paediatric intensive care unit at Barnet General where I treated
+      severely premature babies through a glove box. I also attended Great Ormond
+      Street Children&rsquo;s hospital when any of our patients were admitted there.</p>\r\n<p>I
+      look forward to meeting and working with some of you from our clinic upstairs
+      here at The Hogarth.&rdquo;</p>\r\n<h2>Katie Hunter</h2>\r\n<p>&ldquo;I have
+      been in practice for over ten years and my approach, like Carlo's, is very gentle
+      and integrated. I have a strong background in science with a first class degree
+      in microbiology. I was particularly struck by the comment of the founder of
+      osteopathy who said that without good circulation good health is not possible.
+      With this in mind I have developed particular skill in lymphatic drainage which,
+      coupled with my other osteopathic skills, I find is a very effective holistic
+      approach to health. The work has helped patients with conditions such as post
+      operative swelling and discomfort, MS and bloating.</p>\r\n<p>I use a lot of
+      soft tissue techniques in my work and this allows me to treat people who feel
+      that they are in need of general maintenance and would benefit from a massage
+      but would like it to be more specific and targeted to any problems that are
+      discovered.&rdquo;</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call us today
+      to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - clinic-left
+    promo_panel:
+    - clinic-left
+    - clinic-right
+    sections: clinic
+    linklist:
+    - state-of-the-art-gym
+- Clinical Treatments:
+    _slug: clinical-treatments
+    image: /samples/content/clinical-treatments/main-content-image.jpg
+    body: "<p>The Hogarth Clinic boasts a myriad of different therapists and therapies.
+      Many of our therapists are considered world leaders in their field with years
+      of training and experience behind them.</p>\r\n<h2>What if I am late for my
+      appointment?</h2>\r\n<p>Arriving late will simply reduce the time for your treatment,
+      potentially reducing its effectiveness and your pleasure. Your treatment will
+      end on time so that our next client is not delayed.</p>\r\n<h2>Cancellation
+      Policy</h2>\r\n<p>Clients who do not cancel treatments 24 hours in advance of
+      the scheduled appointment time will be charged the full amount. We would still
+      appreciate a call so that we can offer the appointment to another client.</p>\r\n<h2>Contact
+      The Hogarth Clinic</h2>\r\n<p>Telephone 020 8742 7423 to arrange an appointment.</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: <p>Hello</p>
+    promo_middle:
+    - clinic-left
+    promo_panel:
+    - clinic-left
+    - clinic-right
+    sections: clinic
+    linklist: []
+- MindSailing:
+    _slug: mindsailing
+    image: /samples/content/mindsailing/main-content-image.jpg
+    body: "<h2>Graeme MacLure BSc. (Hons), MSc, DCH, DHP</h2>\r\n<p><img style=\"float:
+      left; margin: 0 5px 5px 0;\" src=\"http://s3.amazonaws.com/the-hogarth-group-websites/attachments/1111/original.jpg?1410469237\"
+      alt=\"MIndSailing Logo tb1\" /><br /> </p>\r\n<p>As a hypnotherapist and coach,
+      Graeme&rsquo;s focus is enabling clients to relax, explore and become the best
+      possible version of themselves in successfully managing life&rsquo;s challenges,
+      stresses, transitions, opportunities, difficulties and dilemmas.</p>\r\n<p>He
+      works with clients in areas such as anxiety, fears, phobias, unwanted habits,
+      smoking cessation, business performance issues, work and life stresses, and
+      developing healthier lifestyles.</p>\r\n<p>He is also licensed to practise Gastric
+      Hypno-Band&reg; and Hypno-Chemo&reg;.</p>\r\n<h2>Qualifications and Experience</h2>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>Professional
+      Diploma in Clinical Hypnosis and Diploma in Hypnotherapy and Psychotherapy from
+      the Institute of Clinical Hypnosis in London.</li>\r\n<li>Professional Coach
+      Certified Training at Coaching Development Ltd.</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>Tel:
+      07920 100 820</p>\r\n<p>Graeme@MindSailing.co.uk</p>\r\n<p>www.MindSailing.co.uk</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - clinic-left
+    promo_panel:
+    - clinic-left
+    - clinic-right
+    sections: clinic
+    linklist: []
+- Physiotherapy:
+    _slug: physiotherapy
+    image: /samples/content/physiotherapy/main-content-image.jpg
+    body: "<p>Physiotherapy is a comprehensive service specialising in dance and sports
+      injuries together with back and neck care, and joint, muscle and ligament problems
+      that can result from any day-to-day activities. Treatment focuses on pain relief,
+      early recovery and the teaching of corrective exercises, helping the patient
+      to understand the problem and promoting confidence on return to exercise.</p>\r\n<p>Physiotherapy
+      assesses and treats symptoms resulting from injury, or those which develop from
+      poor postural habits that stress joints, ligaments, muscles, soft tissue and
+      nerves. An expert knowledge of body mechanics and function is used to identify
+      the origin of symptoms. Many therapy skills and techniques are used: manipulative
+      therapy; postural advice; mobilisation therapy; electrotherapy; and soft tissue
+      techniques. Corrective exercises are used to restore the balance between weak
+      muscles and tight structures. Prevention of further symptoms is achieved with
+      the prescription of exercises, advice and suggested changes to training programmes
+      and office ergonomics. Each programme is tailor-made.</p>\r\n<h2>Louise Jewers
+      - Physiotherapist</h2>\r\n<p>Louise SRP MMACP is a chartered State Registered
+      Physiotherapist. She qualified in 1980 from the Middlesex Hospital, London.
+      Since then she has worked within the health service, private sector and within
+      a rugby club.</p>\r\n<p>During this time she has been involved in the treatment
+      of sports injuries, including 10 years association with Rosslyn Park Club which
+      required on site first aid and diagnosis. Her other key clinical interests include
+      the treatment of spinal conditions, manipulation and mobilisation of joints,
+      soft tissues and nerves; posture and back care education, corrective exercises
+      and preventative advice.</p>\r\n<p>Louise is a member of the Manipulative Association
+      of Chartered Physiotherapists and has been a clinical tutor and examiner for
+      this organisation. She is also a member of PhysioFirst, the organisation for
+      Physiotherapists in Private Practice.</p>\r\n<p>For further information, please
+      visit</p>\r\n<h3>www.louisejewersphysio.co.uk</h3>\r\n<p>&nbsp;</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - clinic-left
+    promo_panel:
+    - clinic-left
+    - clinic-right
+    sections: clinic
+    linklist: []
+- Pilates Studio:
+    _slug: pilates-studio
+    image: /samples/content/pilates-studio/main-content-image.jpg
+    body: "<h2>Who are we?</h2>\r\n<p>Introducing Graeme and Lysta Reardon, a dedicated
+      husband and wife team with a combined experience of over 23 years who will work
+      an individual programme for your specific needs.</p>\r\n<h2>What do Studio 17
+      offer?</h2>\r\n<ul>\r\n<li>One to One Mat Pilates - improves posture, de-stresses
+      &amp; strengthens core.</li>\r\n<li>One to One Reformer Pilates - use of equipment
+      provides increased control and enhanced challenge.</li>\r\n<li>One to One Ante
+      natal: Preparing your body for labour &amp; maintaining your figure during pregnancy.</li>\r\n<li>One
+      to One Post natal: returning your body to its pre-natal state by strength &amp;
+      core stability exercises. Creche facility available for members.</li>\r\n</ul>\r\n<h2>Where
+      are we?</h2>\r\n<p>Studio 17 now have a bespoke studio located within The Hogarth
+      Health Club, adjacent to the main gymnasium. This ground floor studio boasts
+      the very latest reformer equipment.</p>\r\n<p>Pilates can be especially useful
+      in dealing with:</p>\r\n<ul>\r\n<li>Regular back pain</li>\r\n<li>Shoulder and
+      neck issues</li>\r\n<li>Sciatica</li>\r\n<li>Stress</li>\r\n<li>Joint problems</li>\r\n<li>Osteoporosis</li>\r\n<li>Enhances
+      sports performance</li>\r\n</ul>\r\n<p>Pilates is particularly beneficial in
+      the rehabilitation of clients who are post operative/post injury and for muscular
+      and skeletal issues and great for ante and post natal women.</p>\r\n<h2>Classes
+      and prices:</h2>\r\n<p>Mat work Pilates is taught on a one-to-one or small class
+      basis. Each class lasts an hour and all equipment is provided. Class sizes are
+      a maximum of 2 clients ensuring close attention can be paid to each client during
+      the session. One-to-one sessions, can also be shared with a partner or colleague.</p>\r\n<p>Mat
+      work classes one-to-one are &pound;50 per hour or &pound;30 per person shared.</p>\r\n<p>Pilates
+      reformer equipment sessions are &pound;55 per one-to-one session or &pound;30
+      each for a shared session.</p>\r\n<h2>Ante and post natal services</h2>\r\n<p>These
+      again run on a one-to-one or shared session basis. Cr&eacute;che facilities
+      are available subject to a settling in period and extra cost.</p>\r\n<p>The
+      benefits include: Improved posture, return of pre-pregnancy muscle tone, prevention
+      of the backache associated with lifting babies and breast feeding.</p>\r\n<p>Please
+      note that the studio runs an appointment only system. Discounts are available
+      for block bookings, please call or email for details and a class timetable.</p>\r\n<p>Please
+      leave your details at The Club reception or email us on studio17pilates@hotmail.co.uk</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - clinic-left
+    promo_panel:
+    - clinic-left
+    - clinic-right
+    sections: clinic
+    linklist: []
+- Rolfing:
+    _slug: rolfing
+    image: /samples/content/rolfing/main-content-image.jpg
+    body: "<p>The Rolfing method of structural integration is designed to change the
+      relationship of the major segments of the body, so that they line up closer
+      to the pattern in which the body is most natural, comfortable, efficient and
+      attractive. People use Rolfing to improve posture, relieve chronic pain and
+      stiffness in muscles and joints, perform better physically, thus reducing injuries
+      and increasing biomechanical efficiency, and to resolve psychological issues
+      that are reinforced by old patterns. Usually it is clear in one session if Rolfing
+      will address the specific goals of each client.</p>\r\n<p>Rolfing has refined
+      its technique over time and practitioners are trained to be responsive to the
+      speed which each person can release held places. For most people, Rolfing is
+      nurturing and profound, and the results are lasting.</p>\r\n<h2>Prue Rankin-Smith:
+      Rolfing</h2>\r\n<p>Prue Rankin-Smith has worked at The Hogarth Club since it
+      opened in 1981, first as a masseuse and reflexologist and since 1983 as a Rolfer.</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - clinic-left
+    promo_panel:
+    - clinic-left
+    - clinic-right
+    sections: clinic
+    linklist: []
+- Beauty Spa Treatments:
+    _slug: beauty-spa-treatments
+    image: /samples/content/beauty-spa-treatments/main-content-image.jpg
+    body: "<h1>Introduction</h1>\r\n<p>In body and beauty therapy, in massage and
+      in clinical therapy, The Hogarth Spa offers a comprehensive range of treatments
+      to relax and restore you. Our committed team of experts is ready to consult
+      with you, to recommend, to resolve.</p>\r\n<h2>Opening Hours</h2>\r\n<p>Monday
+      to Friday from 8am to 9pm, Saturday 10am to 6pm and one Sunday per month (please
+      ask at reception).</p>\r\n<h2>Contact The Hogarth Beauty Spa</h2>\r\n<p>Telephone
+      020 8995 4600 to arrange an appointment.</p>\r\n<h2>What if I am late for my
+      appointment?</h2>\r\n<p>Arriving late will simply reduce the time for your treatment,
+      potentially reducing its effectiveness and your pleasure. Your treatment will
+      end on time so that our next client is not delayed.</p>\r\n<h2>Cancellation
+      Policy</h2>\r\n<p>Clients who do not cancel treatments 24 hours in advance of
+      the scheduled appointment time will be charged the full amount. We would still
+      appreciate a call so that we can offer the appointment to another client.</p>\r\n<p>e.&amp;o.e.</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - clinic-left
+    promo_panel:
+    - clinic-left
+    - clinic-right
+    sections: beauty
+    linklist: []
+- beauty offer of the month:
+    _slug: beauty-offer-of-the-month
+    image: /samples/content/beauty-offer-of-the-month/main-content-image.jpg
+    body: "<h3>November Beauty Offer</h3>\r\n<p>&nbsp;</p>\r\n<p>This month, we are
+      offering double points on your loyalty card for every treatment booked in November.</p>\r\n<p>E&amp;OE</p>\r\n<p><br
+      /> <img style=\"float: left; margin: 0 5px 5px 0;\" src=\"http://s3.amazonaws.com/the-hogarth-group-websites/attachments/1152/original.jpg?1414774697\"
+      alt=\"HHC Loyalty Card\" /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+      <br /> <br /> <br /> <br /> <br /> <br />\\<br /> <br /> <br /> <br /> <br />
+      <br /> <br /> <br /> <br /><br /> <br /> <br /> <br /> <br /> <br /> <br />
+      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> </p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - clinic-left
+    promo_panel:
+    - clinic-left
+    - clinic-right
+    sections: beauty
+    linklist: []
+- Facials:
+    _slug: facials
+    image: /samples/content/facials/main-content-image.jpg
+    body: "<p>At The Hogarth we provide the very best in facial care, providing a
+      choice of three top brands: Sothys, Dermalogica and Voya.</p>\r\n<h2>DERMALOGICA</h2>\r\n<p>These
+      treatments combine the latest in skin analysis techniques with the proven results
+      of Chinese Diagnosis. The Face Mapping procedures provides you with an objective
+      view of the skin&rsquo;s condition, as well as an indication of the underlying
+      issues that might be effecting it.</p>\r\n<p>\"The day skin changed forever\"</p>\r\n<p>When
+      dermalogica meets skin, skin health is redefined. Our promise to you is that
+      your skin will never have felt as clean or as healthy as after one of our professional
+      treatments.</p>\r\n<h2>Dermalogica Facial Treatment<br /> Allow 1hr &pound;58</h2>\r\n<p>The
+      dermalogica skin treatment is 100% customised to your skin&rsquo;s needs based
+      on a consultation and skin examination. Each professional treatment includes
+      a double cleanse, exfoliation, steam and extraction, massage, mask and skin
+      protection. You will receive a hand, foot or scalp massage while your mask is
+      on.</p>\r\n<h2>Express Facial Treatment<br /> Allow 30min &pound;38</h2>\r\n<p>This
+      facial is designed as an introduction to dermalogica. We will start with a double
+      cleanse, exfoliation, steam and a prescription mask and skin protection. This
+      facial is perfect for people on the go.</p>\r\n<h2>As dermalogica professionals
+      we may choose from the following dermalogica lines to create the ultimate skin
+      result:</h2>\r\n<h2>Medibac clearing treatment &ndash; acne clearing facial.<br
+      /> Allow 1hr &pound;58</h2>\r\n<p>It's the end of the road for adult acne with
+      this powerful line of products that will jump start acne clearing and help prevent
+      acne well beyond the treatment.</p>\r\n<h2>Age Smart treatment &ndash; anti
+      ageing facial.<br /> Allow 1hr &pound;58</h2>\r\n<p>Are the signs of ageing
+      more prevalent on your skin ? Age Smart will give it a revitalising power boost
+      to firm, smooth, nourish, regenerate and energise while controlling the biochemical
+      triggers that lead to skin ageing.</p>\r\n<h2>Ultra Calming treatment &ndash;
+      calming facial.<br /> Allow 1hr &pound;58</h2>\r\n<p>UltraCalming facial treatment.
+      Allow 1 hour &pound;55 Serious relief for sensitised skin that calms soothes
+      and replenishes aggravated, irritated and inflamed skins.</p>\r\n<h2>Chromowhite
+      TRx treatment &ndash; skin brightening facial.<br /> Allow 1hr &pound;58</h2>\r\n<p>Accelerate
+      brightening, improve skin tone, enhance skin clarity and create a fresher, healthier
+      appearance with this effective treatment. Powerful exfoliants smooth skin and
+      slough off dulling surface cells, helping to minimize the appearance of sun
+      and age spots. Botanical extracts help treat and prevent cellular discolouration
+      for unsurpassed brightening and tonal balance. Intense moisturisation helps
+      smooth fine dryness lines, improve barrier protection, nourish skin and shield
+      against further environmental damage.</p>\r\n<h2>Accelerator 35 facial. Allow
+      45 minutes. &pound;50</h2>\r\n<p>Looking for dramatic results fast? Active resurface
+      35 provides intensive resurfacing for ultra smooth skin.</p>\r\n<p>Specifically
+      designed for advanced skin care users who need the ultimate in active treatment.
+      Targets a range of skin care concerns from premature ageing to pigmentation
+      and scaring.</p>\r\n<h2>SOTHYS OF PARIS</h2>\r\n<p>We use the exclusive Sothys
+      of Paris products that maximise the natural beauty of any skin type. In order
+      for us to determine the best Sothys facial for your skin type we recommend that
+      you book an extra 15 minutes with your first facial.</p>\r\n<h2>Hydrovance -
+      Pure hydration<br /> Allow 1hr &pound;58</h2>\r\n<p>Relief from persistent dehydration
+      is instantly achieved during this facial. It revitalises your skin and helps
+      to reduce the first signs of ageing. We use cosmeceutical ingredients for deeper
+      hydration to the skin.</p>\r\n<h2>Collagen Hyaluronique<br /> Allow 1hr and
+      15mins &pound;66</h2>\r\n<p>This intense treatment combines Sothys cosmeceutical
+      complex with major anti-age active substances meeting the specific needs of
+      various stages of ageing. A targeted and effective response for radiant, youthful
+      skin.</p>\r\n<h2>Immuniscience - Gentle and soft<br /> Allow 1 hr &pound;58</h2>\r\n<p>We
+      often experience skin sensitivity during times of stress. This kind and gentle
+      facial is ideal for those of us who wish to relax and have concerns about sensitive
+      skin.</p>\r\n<h2>Active Eye Contour Treatment<br /> Allow 30min &pound;38</h2>\r\n<p>A
+      triple action treatment targeting the appearance of wrinkles, circles and bags
+      around this delicate area.</p>\r\n<h2>Sothys Resurfacing, Peeling treatment<br
+      /> Allow 1 hr &pound;58</h2>\r\n<p>This facial uses 20% glycolic acid and micro-crystals
+      of corundum to eliminate dead cells and stimulate cell renewal. This facial
+      is recommended for oily, dull, tired and dry skins. It is also good for people
+      concerned with wrinkles and fine lines. After just one treatment your skin will
+      feel smooth, radiant and soft. Certain skin conditions may not be suitable so
+      if in doubt please book a complimentary skin consultation.</p>\r\n<p>Choose
+      from a Glycolic Peel Facial for a double exfoliation or Flash Beauty Express
+      Facial.</p>\r\n<p>e.&amp;o.e.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - beauty-left
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    sections: beauty
+    linklist: []
+- Voya facials body treatments:
+    _slug: voya-facials-body-treatments
+    image: /samples/content/voya-facials-body-treatments/main-content-image.jpg
+    body: "<p>Voya&rsquo;s revolutionary range of certified organic facial products
+      is a showcase of how the best science can release nature&rsquo;s most powerful
+      resources for your benefit and still protect the earth.</p>\r\n<p>Our anti ageing
+      facial range is specifically designed to aid skin regeneration, help the visible
+      signs of ageing, slow the signs of premature ageing, hydrate the skin, increase
+      the firmness through collagen production and produce the appearance of fine
+      line and wrinkles.</p>\r\n<p>Voya is soil association certified organic seaweed
+      all sustainably hand-harvested seaweed from the west coat of Ireland and is
+      opposed to the practice of animal testing in cosmetic research.</p>\r\n<h2>VOYA
+      FACIALS</h2>\r\n<h2>Voya Organic Anti ageing Restorative Facial<br /> Allow
+      1hr 15mins &pound;63</h2>\r\n<p>Suitable for all skin types though of particular
+      benefit to mature, dry or dehydrated skins. A Skin rejuvenating facial uses
+      a combination of anti oxidant algae complexes, pro-collagen and a blend of organic
+      ingredients to help fight the signs of ageing, hydrate and plump the skin. A
+      powerful, nutrient rich facial. This includes a scalp massage.</p>\r\n<h2>Voya
+      Organic Purifying Defense Facial<br /> Allow 1hr 15mins &pound;63</h2>\r\n<p>This
+      facial is suitable for all skin types though particular oily and congested skins.
+      This treatment starts with a back treatment to leave the skin purified and hydrated.
+      A double cleanse technique will work to eliminate toxins and rebalance the skin,
+      includes a hot a cold cleanse, massage and lymphatic drainage and marine mask
+      with hand harvested seaweed leave strips. This includes a scalp massage.</p>\r\n<h2>NEW
+      Voya Organic Herbal Lift Facial<br /> Allow 1hr 15mins) &pound;63</h2>\r\n<p>Our
+      Herbal Lift is a unique facial treatment that encapsulates all the goodness
+      of the sea and organic herbs Rosehip, Green tea and Chamomile. This one facial
+      treatment will lift, firm and will leave your skin with a radiant glow. Infused
+      with mineral rich seaweeds, one of natures most powerful anti-oxidants. This
+      treatment is complimented with an age defying eye treatment using marine eye
+      compresses of Laminara digitata to improve fine lines, puffiness and decongested.</p>\r\n<h2>The
+      Hogarth signature organic Voya facial. Allow 1 hour. &pound;58</h2>\r\n<p>Our
+      signature facial uses a combination of anti- oxidant rich algae complexes and
+      pro collagen which will benefit people concerned with ageing. This facial includes
+      a deep cleansing steam and extraction.</p>\r\n<h2>VOYA BODY TREATMENTS</h2>\r\n<h2>Lavender
+      and seaweed sugar glow<br /> Allow 1 hour &pound;60</h2>\r\n<p>This treatment
+      uses a medley of ingredients including organic lavender buds and organic sugar
+      to invigorate, exfoliate and nourish the skin. Afterwards you enjoy a light
+      cleansing shower and a short relaxing massage. The gentle aromatic body scrub
+      melts tired muscles and soothes and softens the skin.</p>\r\n<h2>Stimulating
+      seaweed body buff.<br /> Allow 1 hour &pound;60</h2>\r\n<p>Our certified organic
+      Bladder Wrack body buff is the ultimate treat for tired and dull skin. The anti
+      oxidants of the mineral rich Bladder Wrack seaweed combined with pure seaweed
+      oils offers a powerful organic way to better skin. The body scrub is followed
+      by a light cleansing shower and a short relaxing massage. The ground down seaweed
+      is a strong exfoliator that stimulates the skin.</p>\r\n<h2>Tangle me up body
+      wrap.<br /> Allow 1 hour &pound;62</h2>\r\n<p>This all over body treatment revitalises
+      the skin, by body brushing and hot towel cleansing then relaxes tired and lethargic
+      muscles and relieves stress and fatigue. Anti oxidant compounds help to fight
+      the signs of aging. Voyage body wrap uses Laminaria seaweed gel to hydrate and
+      condition. It includes a scalp massage.</p>\r\n<h2>Organic seaweed leaf wrap<br
+      /> Allow 1 hour and 30 minutes &pound;80</h2>\r\n<p>Thus is the cr&egrave;me
+      de la cr&egrave;me of body wraps. This treatment uses fresh leaves of atlantic
+      seaweed to cocoon the body to deeply detoxify, moisturise, soften and revive
+      the body. The treatment begins with finely ground down seaweed to exfoliate
+      then continues with Irish seaweed leaves to bandage the body then a relaxing
+      scalp massage while the leaves work there magic with immediate effect.</p>\r\n<h2>Detox
+      herbal bag massage<br /> Allow 1 hour and 30 minutes &pound;80</h2>\r\n<p>Soaked
+      warm bags containing a combination of the finest herbs and seaweed are deeply
+      massaged into the body. The process reconditions and rejuvenates your skin by
+      gently exfoliating the outer layers and nourishing deep within. Choose between
+      calming chamomile, reviving peppermint or stimulating fennel. The herbal bags
+      offer a relaxing way to detox as the seaweed gel is a powerful anti oxidant.</p>\r\n<h2>Voya
+      back treatment.<br /> Allow 45 minutes &pound;48</h2>\r\n<p>This treatment starts
+      with a deep cleanse and exfoliation of the back using ground down seaweed, we
+      will then steam the skin on the back and do extractions if needed. We will apply
+      a laminaria seaweed mask and moisturise to finish the treatment.</p>\r\n<p>e.&amp;o.e.</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - beauty-left
+    promo_panel:
+    - beauty-left
+    sections: beauty
+    linklist: []
+- Mens grooming:
+    _slug: mens-grooming
+    image: /samples/content/mens-grooming/main-content-image.jpg
+    body: "<p>The following treatments have been specifically tailored to suit men's
+      skin concerns.</p>\r\n<h2>Men&rsquo;s Express Facial Treatment<br /> Allow 30min
+      &pound;38</h2>\r\n<p>This treatment is the perfect blend of cleansing, a customised
+      masque and moisturising for people on the go. It also includes massage of the
+      hands or feet.</p>\r\n<h2>De-Stressing Facial - For Men<br /> Allow 1hr &pound;58</h2>\r\n<p>A
+      60 minute relaxing treatment to reduce tension, stimulate the spirit, regain
+      serenity and concentration. A professional answer targeted to the specific needs
+      of a man&rsquo;s skin.</p>\r\n<h2>Men's Hand &amp; Nail Grooming<br /> Allow
+      30min &pound;24</h2>\r\n<p>A complete hand and nail treatment using Jessica
+      products to keep your active hands looking and feeling impeccable.</p>\r\n<h2>Men's
+      Pedicure<br /> Allow 30 min &pound;24. Allow 45min &pound;32</h2>\r\n<p>A complete
+      foot and leg treatment including a relaxing herbal soak followed by a purifying
+      foot scrub. Nails are cleaned and tidied before finishing with a pampering foot
+      and leg massage.</p>\r\n<h2>Men&rsquo;s Back Treatment <br /> Allow 45min &pound;45</h2>\r\n<p>This
+      treatment starts with a deep cleanse and exfoliation of the back using ground
+      down seaweed, we will then steam the skin on the back and do extractions if
+      needed. We will apply a laminaria seaweed mask and moisturise to finish the
+      treatment.</p>\r\n<h2>Back wax<br /> Allow 30min &pound;25</h2>\r\n<h2>Chest
+      Wax<br /> Allow 30 min &pound;25</h2>\r\n<p>e.&amp;.o.e</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - beauty-left
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    sections: beauty
+    linklist: []
+- caci quantum:
+    _slug: caci-quantum
+    image: /samples/content/caci-quantum/main-content-image.jpg
+    body: "<p>Micro current facial toning therapy that improves the tone of your facial
+      muscles resulting in a non surgical face lift. As we grow older our facial muscles
+      naturally start to lose tone and elasticity. Genetics, lifestyle, weight fluctuation
+      and environmental factors can all influence the rate and degree to which our
+      muscles will lose their tone.</p>\r\n<p>Following 20 years of research and development
+      CACI international can now offer a non surgical solution to combat loss of muscle
+      tone using CACI micro current facial toning therapy.</p>\r\n<h2>Caci Face Treatment</h2>\r\n<p>Single
+      session</p>\r\n<p>Allow 1hr 15min &pound;55</p>\r\n<p>Course of 10 treatments
+      &pound;460</p>\r\n<p>Course of 5 treatments &pound;240</p>\r\n<p>Please ask
+      your therapist about the various CACI treatment options available. CACI treatments
+      are most effective when taken as a course.</p>\r\n<h2>Super Caci treatment.
+      Allow 1 hour and 45 minutes. &pound;85</h2>\r\n<p>This treatment combines microdermabrasion
+      with our caci micro current machine to help treat fine lines and wrinkles by
+      gently exfoliating the outer layers of the skin. Your skin will feel visibly
+      smoother and more rejuvenated.</p>\r\n<p>e.&amp;o.e</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - beauty-left
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    sections: beauty
+    linklist: []
+- Epilation:
+    _slug: epilation
+    image: /samples/content/epilation/main-content-image.jpg
+    body: "<p>A speedy way to remove unwanted hair for men and women.</p>\r\n<p>Lip
+      (Allow 15 mins &pound;13)<br /> Chin (Allow 15 mins &pound;13)<br /> Underarm
+      (Allow 15 mins &pound;13)<br /> Bikini Line (Allow 15 mins &pound;13)<br />
+      Arm - full (Allow 30 mins &pound;23)<br /> Arm - half (Allow 15 mins &pound;13)<br
+      /> Leg - half (Allow 15 mins &pound;20)<br /> Leg - three quarter (Allow 15
+      mins &pound;26)<br /> Leg - full without bikini line (Allow 30 mins &pound;29)<br
+      /> Leg - full with bikini line (Allow 45 mins &pound;36)<br /> Leg - full with
+      bikini line and underarm (Allow 45 mins &pound;43)<br /> Back or chest - men
+      only (Allow 30 mins &pound;26)</p>\r\n<p><strong>Helpful Tip:</strong> Do not
+      have heat treatments, such as sunbeds 24 hours before or after waxing.</p>\r\n<p>e.&amp;o.e</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - beauty-left
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    sections: beauty
+    linklist: []
+- Jessica Nail Treatments:
+    _slug: jessica-nail-treatments
+    image: /samples/content/jessica-nail-treatments/main-content-image.jpg
+    body: "<p>We begin with an analysis of your nails to decide which of the Jessica
+      care products will best suit you. These natural products will promote long,
+      beautiful natural nails in weeks.</p>\r\n<h3>Jessica Express Manicure / Pedicure<br
+      /> Allow 30 minutes &pound;24</h3>\r\n<p>These treatments include having your
+      feet/hands soaked and nails cut and shaped and either nails painted or cuticle
+      work.</p>\r\n<h3>Jessica Manicures<br /> Allow 45 minutes &pound;32</h3>\r\n<p>Using
+      Jessica&rsquo;s prescriptive treatment we analyse, condition and perfect your
+      nails. The final effect is beautiful, long lasting natural nails.</p>\r\n<h3>Jessica
+      Pedicures<br /> Allow 45 minutes &pound;32</h3>\r\n<p>Using Jessica zen spa
+      products we target hard skin on the feet and cuticles. This treatment includes
+      soaking of the feet, hard skin and cuticle work, nail cutting and filling and
+      painting. Also includes a foot massage.</p>\r\n<h3>Jessica Luxury Manicures<br
+      /> Allow 1 hour &pound;41</h3>\r\n<p>A Jessica prescriptive treatment with heated
+      mittens or booties that lead to deeper penetration of rich conditioning oils
+      and creams. The result is softer cuticles and immaculate nails.</p>\r\n<h3>Jessica
+      Luxury Pedicures<br /> Allow 1 hour &pound;41</h3>\r\n<p>A prescriptive treatment
+      with heated booties that leads to deeper penetration of the products. Great
+      for cuticles. Finishes with a varnish of your choice.</p>\r\n<h3>Jessica Re-Varnish<br
+      /> Allow 15 minutes &pound;16</h3>\r\n<p><br /> </p>\r\n<h1>Jessica Geleration</h1>\r\n<p>Geleration
+      is a Jessica soak off gel polish. With the health of the nail in mind, gelerations
+      gel formula delivers a long lasting, flawless finish that dries in seconds and
+      protects the natural nail. It lasts for up to 2 weeks.</p>\r\n<h3>Geleration
+      manicure Allow 1hour &pound;40</h3>\r\n<h3>Geleration manicure and removal 1hr
+      30 min &pound;52</h3>\r\n<h3>Removal 30 minutes &pound;14</h3>\r\n<p><strong>Helpful
+      Tip:</strong> Always wear flip flops for a Pedicure.</p>\r\n<p>e.&amp;.o.e</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - beauty-left
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    sections: beauty
+    linklist: []
+- Massage:
+    _slug: massage
+    image: /samples/content/massage/main-content-image.jpg
+    body: "<p>These treatments are designed to reduce tension and relieve negative
+      effects of every day stress and tension.</p>\r\n<h2>Swedish Massage <br /> Allow
+      1hr &pound;55 or <br /> Allow 30 mins &pound;40</h2>\r\n<p>A classic full body
+      massage to promote total relaxation, a feeling of tranquility and heightened
+      well being.</p>\r\n<h2>Aromatherapy Massage <br /> Allow 1hr &pound;59. Alternatively
+      indulge yourself for 1hr 30min &pound;80</h2>\r\n<p>Using a variety of Aromatherapy
+      Associates quality aromatic oils, this longer treatment will relax or focus,
+      whilst restoring harmony to body and spirit.</p>\r\n<p>e.&amp;o.e.</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - beauty-left
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    sections: beauty
+    linklist: []
+- Fresh Indulgence Spray Tans tanning without sun:
+    _slug: fresh-indulgence-spray-tans-tanning-without-sun
+    image: /samples/content/fresh-indulgence-spray-tans-tanning-without-sun/main-content-image.jpg
+    body: "<h2>Fresh Indulgence Spray Tans</h2>\r\n<p>We are pleased to announce the
+      launch of our new organic and 100% paraben free spray tans.</p>\r\n<h3>Revive
+      Anti Aging Tan</h3>\r\n<p>The revive anti-aging tanning solution contains a
+      powerful complex called matrixyl 3000 which has been scientifically proven to
+      reduce wrinkles by 40-60% and sun damage by up to 86%. It is enriched with vitamins
+      E, A and co-enzyme q10. You can choose to tan either light, medium or dark.</p>\r\n<p>Revive
+      anti aging tan costs &pound;34.00 and takes approx 30minutes to apply.</p>\r\n<h3>Caribbean
+      Indulgence Tan</h3>\r\n<p>Our Caribbean indulgence solution contains aloe vera
+      juice which is rich in anti oxidants and green tea which provides skin with
+      protective properties granting the skin better protection against the damaging
+      effects of sun exposure. The solution is available in medium and dark.</p>\r\n<p>Caribbean
+      indulgence tan costs &pound;34.00 and takes approx 30 minutes to apply.</p>\r\n<p><strong>Helpful
+      Tip:</strong> Wear dark loose clothing for spray tanning.</p>\r\n<p>&lt;e&amp;o.e.&gt;</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - beauty-left
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    sections: beauty
+    linklist: []
+- Mother to be:
+    _slug: mother-to-be
+    image: /samples/content/mother-to-be/main-content-image.jpg
+    body: "<p>The following treatments are specially designed for pregnancy. We advise
+      you wait until the second trimester before you start treatment.</p>\r\n<h2>Mother-to-Be
+      Package Allow 1hr 30min &pound;75</h2>\r\n<p>This treatment incorporates a special
+      30min pregnancy massage followed by a Jessica Luxury manicure or pedicure.</p>\r\n<h2>2
+      hour Voya indulgence. Allow 2 hours. &pound;100</h2>\r\n<p>This treatment package
+      is the ultimate in relaxation. Choose from either the Lavender seaweed sugar
+      glow body treatment or the Stimulating seaweed body buff treatment. We will
+      then finish off your treatment with our Hogarth signature organic Voya facial.</p>\r\n<p>e.&amp;o.e.</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - beauty-left
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    sections: beauty
+    linklist: []
+- Holistic Massage Therapy:
+    _slug: holistic-massage-therapy
+    image: /samples/content/holistic-massage-therapy/main-content-image.jpg
+    body: "<p>Massage has long been understood to be an effective treatment for both
+      stress and muscular stiffness and pain. Massage involves the use of both deep
+      tissue manipulation and a combination of gentler therapies to relax and help
+      release muscular tension, stress, bad posture and headaches. Massage can also
+      help heal injuries such as tendonitis that develop over time, as well as ligament
+      sprains or muscle strains caused by an accident. Massage reduces inflammation
+      by increasing circulation, which removes waste products and brings nutrition
+      to injured cells.</p>\r\n<h2>Shanti Bhoola-Evans</h2>\r\n<h3>Sports Massage,
+      Deep Tissue Massage, InterX Therapy</h3>\r\n<p>Shanti is a sports massage therapist
+      with over 20 years experience in the health and fitness industry. Her treatments
+      focus on both remedial and conditioning work.</p>\r\n<p>Shanti has a regular
+      client base ranging in age from 14 &ndash; 80. Her clients include professional
+      athletes at competition level as well as the recreational athlete and clients
+      suffering from postural aches and pains. Clients use sports massage to enhance
+      and balance their regular training and help keep them injury free.</p>\r\n<p>Treatments
+      offered include Sports Massage, Deep Tissue Massage, Back Pain Treatment, Runners
+      Massage Therapy (90minutes), Re-Balance Holistic Massage (90minutes) and Thermo-Auricular
+      Therapy (Hopi Ear candle). Acupressure and InterX therapy are included in treatments
+      where required.</p>\r\n<p>Whether you are training for a marathon, fun run,
+      skiing, or a martial arts event, Shanti can offer you a treatment which could
+      increase your performance and help keep you injury free.</p>\r\n<p>Shanti is
+      an affiliated member of the Sports Massage Association (SMA) and has taught
+      ITEC holistic massage at Harrow College.</p>\r\n<p>For further information,
+      testimonials and monthly offers or to book a treatment please see www.bodyinbalance.co.uk</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - beauty-left
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    sections: beauty
+    linklist: []
+- Electrolysis:
+    _slug: electrolysis
+    image: /samples/content/electrolysis/main-content-image.jpg
+    body: "<p>Hair reduction with sterile, disposable needles. Ideal for small areas
+      of persistent hair. See conditions.</p>\r\n<p>Allow 15min &pound;21</p>\r\n<p>Allow
+      30min &pound;31</p>\r\n<p>Allow 45min &pound;40</p>\r\n<p>e.&amp;.o.e.</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - beauty-left
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    sections: beauty
+    linklist: []
+- Finishing Touches:
+    _slug: finishing-touches
+    image: /samples/content/finishing-touches/main-content-image.jpg
+    body: "<h2>Eye Lash Tint<br /> Allow 30min &pound;22</h2>\r\n<h2>Eye Brow Shape<br
+      /> Allow 15min &pound;13</h2>\r\n<h2>Eye Brow Tint<br /> Allow 15 min &pound;11</h2>\r\n<h2>Eye
+      Lash &amp; Eye Brow Tint<br /> Allow 30min &pound;26</h2>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - beauty-left
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    sections: beauty
+    linklist:
+    - finishing-touches
+- Beauty Products:
+    _slug: beauty-products
+    image: /samples/content/beauty-products/main-content-image.jpg
+    body: "<p>Having selected choice brands from around the world for our treatments,
+      Hogarth Spa clients can purchase retail stock directly from the club at highly
+      competitive prices.</p>\r\n<p><em>Here are a selection of the latest products
+      available.</em></p>\r\n<h2>Women's Products</h2>\r\n<p>Multivitamin thermafoliant:
+      this is a powerful skin polisher with age fighting vitamins. It heats up upon
+      contact with skin.</p>\r\n<p>We have just received the new, ultra-calming range
+      of products from Dermalogica. The ingredients include ginger extract, oat kernal
+      and red hogweed. These are good for skins that sometimes experience itching,
+      burning, stinging and redness. The ultra-calming range will help to reduce redness
+      while soothing irritation, giving lasting relief.</p>\r\n<p>Products include:</p>\r\n<ul>\r\n<li>Ultra-calming
+      cleanser</li>\r\n<li>Ultra-calming mist</li>\r\n<li>Ultra-calming serum concentrate</li>\r\n<li>Ultra-calming
+      relief masque</li>\r\n</ul>\r\n<h2>Men's Products</h2>\r\n<p>Daily clean scrub:
+      exfoliating cleanser that removes dulling surface debris and helps to lift the
+      beard for a close shave.</p>\r\n<p>Pre-shave guard: Preps skin for shaving and
+      especially good for heavy course beards.</p>\r\n<p>Soothing shave cream: great
+      lubrication cream for dry and sensitive skin. Gives a close shave.</p>\r\n<p>Invigorating
+      shave gel: Delivers a close shave for oily skins. Soothes cools and softens.</p>\r\n<p>Close
+      shave oil: This acts as a cushion between the skin and razor leaving it ultra
+      smooth.</p>\r\n<p>Post shave balm: reduces discomfort and redness on skin. Moisturises
+      and soothes and shortens post shave recovery time.</p>\r\n<p>Daily defence block
+      spf 15: Light weight formula. Conditions skin and promotes skin recovery. Beats
+      dryness and leaves shine free and healthy skin.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - beauty-left
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    sections: beauty
+    linklist: []
+- Diamond Peel Microdermabrasion NEW:
+    _slug: diamond-peel-microdermabrasion-new
+    image: /samples/content/diamond-peel-microdermabrasion-new/main-content-image.jpg
+    body: "<p>This treatment allows you to treat fine lines, dull, dehydrated skin,
+      sun damaged skin and acne scaring using a controlled method of skin resurfacing,
+      by gently exfoliating the outer layers of the skin. Your skin will feel visibly
+      smooth, fresher and rejuvenated.</p>\r\n<p>Skin smoothie. Allow 30 mins. &pound;40</p>\r\n<p>Skin
+      smoothie. Allow 1 hour. &pound;60</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - beauty-left
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    sections: beauty
+    linklist: []
+- London Acupuncture Clinic:
+    _slug: london-acupuncture-clinic
+    image: /samples/content/london-acupuncture-clinic/main-content-image.jpg
+    body: "<h3>What is Acupuncture?</h3>\r\n<p>Acupuncture is the time tested therapy
+      that has been practiced in the Far East for thousands of years. The philosophy
+      behind the treatment is that energy lines or meridians circulate around the
+      body. These meridians contain our energy flow or &ldquo;qi&rdquo;. It is when
+      this qi is impaired through the body that imbalance and illness occurs. With
+      the insertion of fine needles at various points on the meridian, the energy
+      can be moved or redirected to where it is needed most. In this way the body's
+      balance can be restored and the illness resolved.</p>\r\n<p>The flow of energy
+      can be disrupted in many ways; emotional upset, physical trauma, poor diet or
+      overwork are all common examples. By examining this underlying cause and how
+      it has affected the body, the most appropriate treatment for the patient can
+      be selected. Treating the patient as an individual is at the core of the acupuncture
+      treatment and it this that helps allow the body to rebalance itself.</p>\r\n<p>Blocked
+      energy can manifest itself in areas that are painful or are particularly cold
+      or hot, or a different colour. These signs can help determine which points are
+      most suitable.</p>\r\n<p>Western medicine has different opinions on how acupuncture
+      works but in short, no one is really sure. However trial after trial consistently
+      proves it effectiveness.</p>\r\n<p>Acupuncture also includes other techniques
+      such as cupping, moxibustion or acupressure.</p>\r\n<h2>The London Acupuncture
+      Clinic</h2>\r\n<p>The London Acupuncture Clinic joined The Hogarth Clinic in
+      2011 and since then they have built up a loyal and satisfied client base. They
+      also have long established clinics in Harley Street, Ealing and Windsor. For
+      full clinic details, please visit <a href=\"http://www.londonacupuncture.co.uk\">www.londonacupuncture.co.uk</a></p>\r\n<p>The
+      following acupuncture clinic practitioners currently see patients at The Hogarth
+      Clinic.</p>\r\n<h3>Martha Poulou - Cross, Acupuncturist BSc (Hons), Lic.Ac,
+      MBAcC</h3>\r\n<p>&nbsp;</p>\r\n<p>Martha is a fully qualified acupuncturist
+      and a member of the British Acupuncture Council. She graduated from the University
+      of Westminster with a First Class Honours Degree in Chinese Medicine: Acupuncture
+      and received a full scholarship to complete a postgraduate clinical placement
+      at the China Medical University in Taichung, Taiwan. In Taichung she was trained
+      in a combination of subtle Chinese and Japanese acupuncture techniques for the
+      treatment of acute or persistent musculoskeletal conditions.</p>\r\n<p>Martha
+      also has a particular interest in the treatment of anxiety disorders with Chinese
+      Medicine and has undertaken extensive research in the treatment of insomnia
+      with auricular as well as conventional body acupuncture. She has also undertaken
+      post-graduate training in the treatment of gynaecological conditions, including
+      menstrual disorders, infertility and IVF assistance, both in the UK and in Taiwan.</p>\r\n<p>Martha
+      is particularly interested in educating her patients about aspects of their
+      lifestyle that could potentially affect their health or well-being. One of the
+      principle aims of her treatments is to teach her patients how they can use dietary
+      and lifestyle advice to enhance the effects of Chinese medicine treatment and
+      promote self healing.</p>\r\n<p>Martha&rsquo;s areas of special interest include:</p>\r\n<ul>\r\n<li>Musculoskeletal
+      and rheumatic disorders</li>\r\n<li>Anxiety and sleeping disorders</li>\r\n<li>Menstrual
+      disorders, infertility and IVF assistance</li>\r\n</ul>\r\n<h3>Annabel Mitchell
+      - Acupuncturist LicAc, BSc (Hons), MBAcC</h3>\r\n<p>Annabel trained at The College
+      of Integrated Chinese Medicine earning a BSc (Hons) in Acupuncture. She practices
+      an integrated style of acupuncture, combining the two schools of acupuncture,
+      Five Element Constitutional Acupuncture and Traditional Chinese Medicine (TCM).
+      She also incorporates Tuina (Chinese Remedial Massage) into her practice. Over
+      the past 3 years she has undertaken postgraduate training courses in Gynaecology
+      &amp; Fertility, Obstetrics, and Gastroenterology with Sandra Hill and Barbara
+      Kirschbaum at The College of Integrated Chinese Medicine, and with Jani White
+      at The Birkbeck University of London.</p>\r\n<p>Annabel treats a wide range
+      of conditions tailored to each individual. Her approach is holistic with treatments
+      focusing on all aspects of the human condition, physical, mental and emotional.
+      With a personal approach, according to her patients&rsquo; needs, she incorporates
+      dietary and lifestyle advice to bring about good health.</p>\r\n<p>She is a
+      member of the British Acupuncture Council (BAcC), and the London Acupuncture
+      Childbirth Team (ACT).</p>\r\n<p>Annabel's areas of special interest include:</p>\r\n<ul>\r\n<li>Menstrual
+      disorders, infertility, and IVF assistance</li>\r\n<li>Pregnancy, labour and
+      postnatal care</li>\r\n<li>Emotional wellbeing, anxiety, depression, stress
+      and tension</li>\r\n<li>Digestive complaints</li>\r\n</ul>\r\n<h3>Daniel Elliott
+      - Acupuncturist and Herbalist LLB Lic.Ac MBAcC Clin.Ac(China) Lic.OHM MRCHM</h3>\r\n<p>&nbsp;</p>\r\n<p>After
+      graduating in 1996 and further study at the London College of Traditional Acupuncture
+      (LCTA), Daniel developed his practice in Windsor and then continued his development
+      with a period of hospital-based work in China and He then founded The London
+      Acupuncture Clinic. He has been a member of the British Acupuncture Council
+      since graduating from the LCTA where he also went on study Chinese Herbal Medicine
+      and which he now uses in conjunction with acupuncture. He has acted as a consultant
+      for the Oriental Medicine Research Trust and also sat on the British Acupuncture
+      Council committee. As well as teaching, Daniel acts as an acupuncture expert
+      for media companies such as SKY and magazines like Mens Health. Daniel has done
+      extensive post graduate study and has published in the field of gynaecological
+      disorders and infertility.</p>\r\n<p>&nbsp;</p>\r\n<p>Daniel's areas of special
+      interest include:</p>\r\n<ul>\r\n<li>Menstrual disorders, Infertility, and IVF
+      assistance</li>\r\n<li>Back pain and Sciatica</li>\r\n</ul>\r\n<h3>Christina
+      Goldoni - Acupuncturist and Herbalist BSc (Hons), Lic.Ac, Lic.OHM, MRCHM, MBAcC,
+      Clin.Ac(China), Clin.Hb(China)</h3>\r\n<p>&nbsp;</p>\r\n<p>Christina began her
+      studies at the Pacific College of Oriental Medicine (PCOM) in New York and went
+      on to earn her BSc (Hons) in Acupuncture from the University of Portsmouth.
+      In 2002, she worked at the Hangzhou Hospital for Traditional Chinese Medicine
+      (China) treating patients in the Neurology, Cardiology and Pain Relief clinics.
+      Upon completion of her post graduate Licentiate in Chinese Herbal Medicine from
+      the London College of Traditional Acupuncture (LCTA) in 2003, Christina returned
+      to Hangzhou China to intern in the departments of Gynaecology and Dermatology.</p>\r\n<p>In
+      2008 she completed her doula training with obstetrician Dr Michel Odent. She
+      has undertaken post graduate study in Gynaecology, Fertility, Reproductive Endocrinology,
+      Reproductive Immunology and Obstetrics in Germany and in the UK at the Royal
+      College of Physicians (London) in conjunction with the Royal College of Midwifery,
+      at the John Radcliffe Hospital (Oxford) and at the New Life Fertility Clinic
+      (Epsom).</p>\r\n<p>In 2009 she completed her post graduate Chinese Dermatology
+      qualification under the direction of Mazin Al-Khafaji. She is a member of the
+      British Acupuncture Council (BAcC), the Register of Chinese Herbal Medicine
+      (RCHM), and the London Acupuncture Childbirth Team (ACT).</p>\r\n<p>Christina
+      has several areas of special interest including:</p>\r\n<ul>\r\n<li>Infertility,
+      IVF assistance, menstrual disorders and recurrent miscarriage.</li>\r\n<li>Pregnancy
+      and labour.</li>\r\n<li>Skin disorders: psoriasis, eczema, acne, vitiligo, melasma.</li>\r\n<li>Immune
+      system difficulties: hay fever/allergic rhinitis, rheumatoid arthritis, immune-suppression
+      from chemotherapy.</li>\r\n</ul>\r\n<h3>Mihaela Mitroescu - Acupuncturist and
+      Tuina practitioner Bsc (Hons) Lic.Ac Dip. Tuina</h3>\r\n<p>&nbsp;</p>\r\n<p>While
+      training in acupuncture under Portsmouth university for her honours degree,
+      Mihaela studied for Tuina (Chinese Medical Massage) at The London College of
+      Traditional Acupuncture (LCTA). She is also studying classical Chinese Medicine
+      under Dr Anaud Versluys.</p>\r\n<p>Mihaela is particularly interested in stress
+      management, using a traditional medical system and focusing this understanding
+      on the problems of modern men and women leading busy lives. Stress is a foremost
+      cause of health problems with the mental strain and anxiety of a fast-paced
+      life often leading to emotional disturbances, fatigue, fertility issues, physical
+      tension, digestive disorders and a myriad of other problems. Whilst addressing
+      these disorders, Mihaela is dedicated to regulating the way the body and nervous
+      system respond to stress, calm the mind and bring lasting balance to various
+      systems. A passionate yoga practitioner, Mihaela brings a breadth of experience
+      that stems from a lifelong pursuit of holistic wellness and a studied understanding
+      of the relationship between body and mind.</p>\r\n<p>In addition, she is dedicated
+      to treating gynaecological conditions and fertility issues in conjunction with
+      western therapies. Mihaela looks to take care of the entire spectrum of menstrual
+      life, from puberty through to menopause, in order to optimise the experience
+      of menstruation and restore fertility. Mihaela also works at the NewLife fertility/IVF
+      unit In Espom providing support to the consultant team.</p>\r\n<p>Mihaela has
+      several areas of special interest including:</p>\r\n<ul>\r\n<li>Stress management</li>\r\n<li>Musculoskeletal
+      pain and injuries</li>\r\n<li>Menstrual disorders, infertility, and IVF assistance</li>\r\n</ul>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - clinic-left
+    promo_panel:
+    - clinic-left
+    - clinic-right
+    sections: clinic
+    linklist: []
+- Sports Therapy:
+    _slug: sports-therapy
+    image: /samples/content/sports-therapy/main-content-image.jpg
+    body: "<p>&ldquo;Sports Therapy is an aspect of healthcare that is specifically
+      concerned with the prevention of injury and the rehabilitation of the patient
+      to optimum levels of functional, occupational and sports specific fitness, regardless
+      of age and ability.</p>\r\n<p>It utilises the principles of sport and exercise
+      sciences incorporating physiological and pathological processes to prepare the
+      participant for training, competition and where applicable, work\".</p>\r\n<h2>Josephine
+      Mitchell &amp; <a href=\"http://www.thehogarth.co.uk/blog/articles/sports-therapy-rehabilitation-with-aga-waskielis
+      \">Associates</a></h2>\r\n<p>Josie Mitchell BSc (Hons) is a Sports Therapist
+      and a full member of the <a href=\"http://www.society-of-sports-therapists.org.\">www.society-of-sports-therapists.org.</a></p>\r\n<p>She
+      has twelve years experience as a therapist, seven of which were in a busy physiotherapy
+      and rehabilitation practice with a further two years developing the clinic at
+      the M8 Group, and in the training and management of their rehab team. Working
+      with multi-disciplinary teams has led Josie to develop a holistic approach to
+      assessment, so that individuals understand why their body is hurting as well
+      as helping the, to move more freely.</p>\r\n<p>Josie and her team achieve amazing
+      results with both elite athletes and people from all walks of life. Their focus
+      is not simply to treat the symptoms, but to identify the cause of the problem
+      in a realistic way, which is specific to each individual. Where appropriate
+      they will offer referral for specialist/alternative advice and intervention.</p>\r\n<p>Their
+      aim is to EDUCATE, MOTIVATE and REHABILITATE every individual to optimum levels
+      of function through the use of proper assessment, deep tissue massage, myofascial
+      release, manual therapy, rehabilitation exercises, stretching techniques and
+      gait analysis. They may use dry needling techniques in her treatment and also
+      real time ultrasound in determining whether the deep muscles in the trunk are
+      working.</p>\r\n<p>A comprehensive history will be taken from you, and depending
+      on the nature of your problem, there will usually be a head to toe assessment.
+      Sometimes it is necessary to perform a gait analysis. A diagnosis is then given
+      along with a treatment plan so that you are aware of how well you are progressing.</p>\r\n<p><a
+      href=\"http://www.thehogarth.co.uk/blog/articles/sports-therapy-rehabilitation-with-aga-waskielis
+      \">CLICK HERE</a> for background of Josie's Associates - Aga Waszkielis and
+      Mauro Scudallero,</p>\r\n<h2>What to wear</h2>\r\n<p>As it is usually essential
+      for a therapist to see the body in order to provide a comprehensive assessment,
+      it is recommended that you wear shorts unless you are comfortable in your underwear.</p>\r\n<h2>What
+      to bring</h2>\r\n<p>Any X-rays or MRIs or test results in connection with for
+      your injury should be brought with you. You should also bring your trainers
+      if appropriate and also a pair of your favourite shoes that are worn in so that
+      your gait patterns can be analysed.</p>\r\n<p>Please feel free to call if you
+      have any queries on 07976 202 766.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - clinic-left
+    promo_panel:
+    - clinic-left
+    - clinic-right
+    sections: clinic
+    linklist: []
+- Sports Massage:
+    _slug: sports-massage
+    image: /samples/content/sports-massage/main-content-image.jpg
+    body: <p>no content</p>
+    navigation: ''
+    promo_middle:
+    - clinic-left
+    promo_panel:
+    - exercise-studio-left
+    - exercise-studio-right
+    sections: clinic
+    linklist: []
+- Tennis Round Robins:
+    _slug: tennis-round-robins
+    image: /samples/content/tennis-round-robins/main-content-image.jpg
+    body: "<p>We run a monthly tennis round robin which is hosted by Luke from the
+      gym</p>\r\n<p>These games are held one Sunday afternoon per month for 3 hours
+      from 2-5pm.</p>\r\n<p>There are mixed doubles games with a men&rsquo;s and women&rsquo;s
+      winner decided at the end.</p>\r\n<p>It's &pound;10 to play and is open to all
+      membership categories, regardless of time restrictions.</p>\r\n<p>The next one
+      will be held the 29th of September from 2-5. Register at reception.</p>\r\n<p>If
+      you have any questions you can speak to Luke in the gym.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle:
+    - clinic-left
+    promo_panel:
+    - clinic-left
+    - clinic-right
+    sections: clinic
+    linklist: []
+- Spin Class:
+    _slug: spin-class
+    image: /samples/content/spin-class/main-content-image.jpg
+    body: <p>Lots of lovely spin class details!</p>
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    sections: exercise-studio
+    linklist: []
+- Pilates with Studio 17:
+    _slug: pilates-with-studio-17
+    image: /samples/content/pilates-with-studio-17/main-content-image.jpg
+    body: "<h2>STOP PRESS: Studio 17 Pilates now available at The Hogarth Health Club.</h2>\r\n<h2>Who
+      are we?</h2>\r\n<p>Introducing Graeme and Lysta Reardon, a dedicated husband
+      and wife team with a combined experience of over 23 years who will work an individual
+      programme for your specific needs.</p>\r\n<p><a href=\"/content/toms-rules\">Read
+      the rules</a></p>\r\n<h2>What do Studio 17 offer?</h2>\r\n<ul>\r\n<li>One to
+      One Mat Pilates - improves posture, de-stresses &amp; strengthens core.</li>\r\n<li>One
+      to One Reformer Pilates - use of equipment provides increased control and enhanced
+      challenge.</li>\r\n<li>One to One Ante natal: Preparing your body for labour
+      &amp; maintaining your figure during pregnancy.</li>\r\n<li>One to One Post
+      natal: returning your body to its pre-natal state by strength &amp; core stability
+      exercises. Creche facility available for members.</li>\r\n</ul>\r\n<h2>Where
+      are they?</h2>\r\n<p>Studio 17 now have a bespoke studio located within The
+      Hogarth Health Club, adjacent to the main gymnasium. This ground floor studio
+      boasts the very latest reformer equipment.</p>\r\n<h2>Classes and Prices</h2>\r\n<p><strong>Monday:</strong>
+      8.15am, 9.15am then 11am, 12noon and 1pm with Graeme</p>\r\n<p><strong>Tuesday:</strong>
+      8.30am and 9.30am, with Graeme and 10.45am, 11.45am and 12.45pm with Lysta</p>\r\n<p><strong>Wednesday:</strong>
+      8.15am, 9.15am, 12noon and 1pm with Graeme</p>\r\n<p><strong>Thursday:</strong>
+      10.30am and 11.30am with Lysta, 12.30pm and 1.30pm with Graeme</p>\r\n<p><strong>Friday:</strong>
+      10am and 11am with Graeme, 12noon, 1pm, 2pm and 3pm with Lisa Perry</p>\r\n<p><strong>Saturday:</strong>
+      8am, 9.30am, 10.30am, 11.30am with Lisa Perry</p>\r\n<p>Each one on one session
+      is for one hour, the first session including a postural analysis. Session costs
+      are &pound;55 per hour. If 10 classes are booked and paid for in advance, one
+      free class is included.</p>\r\n<p>Shared equipment sessions (for 2 people) are
+      also available for &pound;30 per person per hour. This allows friends or partners
+      to enjoy a session at a reduced per person charge. We can also pair clients
+      up accordingly on request.</p>\r\n<p>Cancellations and rearrangements are free
+      of charge if 24 hours notice is given. Missed classes are charged at full rate
+      if no notice or insufficient notice is provided. Bookings can be made through
+      the main Hogarth Health Club reception on 020 8995 4600.</p>\r\n<p>Taster sessions
+      are available by prior arrangement.</p>\r\n<h2>Clinical Pilates</h2>\r\n<p>The
+      Pilates Method was originally developed by Joseph Pilates in the 1920's. Joseph
+      Pilates practiced and taught his method (originally called Contrology) throughout
+      his life up to his death at the age of 86.</p>\r\n<p>Pilates is a conditioning
+      exercise programme that targets the deep postural muscles of the abdomen and
+      spine to improve overall central core stability and posture. The following eight
+      Pilates principles are: Concentration, centering, breathing, isolation, routine,
+      precision, control and flowing movement.</p>\r\n<p>Clinical Pilates is a series
+      of exercises in various different body positions which have been adapted by
+      physiotherapists to make them more suitable for patients with back and neck
+      pain, and those recovering from injury. They are also useful for general conditioning
+      and for prevention of injury through muscle wastage and poor posture.</p>\r\n<p>By
+      completing Pilates exercises regularly, it can help to improve your posture,
+      strength and flexibility alongside a healthy lifestyle.</p>\r\n<p>Many patients
+      find that Pilates is a useful form of exercise when returning to their normal
+      hobbies/sports following injury and as an addition to their fitness regime.
+      Who would have thought that many rugby teams around the world would use Pilates
+      as a valuable addition to their game winning strategies?</p>\r\n<p>Evidence
+      supports the use of the Pilates method in the prevention and rehabilitation
+      of back injuries. By retraining the deep abdominal and spinal muscles, Pilates
+      can help to prevent the recurrence of back pain in combination with correct
+      back care and advice, and gentle aerobic activity.</p>\r\n<p>For these reasons
+      we truly believe that this branch of The Pilates Method is the most valuable
+      and is a greatest addition to any existing fitness routine or to pull anyone
+      out of a sedentary lifestyle.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: "<h3 class=\"inpage-navigation-heading\">Pilates Guide</h3>\r\n<ul
+      class=\"inpage-navigation-ul\">\r\n<li class=\"inpage-navigation-li\"><a href=\"/sections/swimming\">Beginners
+      Guide</a></li>\r\n<li class=\"inpage-navigation-li\"><a href=\"/content/terms-and-conditions-for-booking-tennis-and-squash-courts\">Terms</a></li>\r\n</ul>"
+    promo_middle: []
+    promo_panel: []
+    sections: exercise-studio
+    linklist: []
+- Yoga:
+    _slug: yoga
+    image: /samples/content/yoga/main-content-image.jpg
+    body: <p>Ashtanga Yoga gradually leads the participant to rediscover his or her
+      fullest potential on all levels of human consciousness - physical, psychological
+      and spiritual. Through this practice of correct breathing (Ujjayi Pranayama),
+      postures (asanas), and gazing point (driste), one gains control of the senses
+      and a deeper awareness of self. Maintaining this discipline with regularity
+      and devotion, one acquires steadiness of body and mind.</p>
+    navigation: ''
+    promo_middle:
+    - exercise-studio-left
+    promo_panel:
+    - exercise-studio-left
+    - exercise-studio-right
+    sections: exercise-studio
+    linklist: []
+- Zumba:
+    _slug: zumba
+    image: /samples/content/zumba/main-content-image.jpg
+    body: <p>no content</p>
+    navigation: ''
+    promo_middle:
+    - exercise-studio-left
+    promo_panel:
+    - exercise-studio-left
+    - exercise-studio-right
+    sections: exercise-studio
+    linklist: []
+- About us:
+    _slug: about-us
+    image: /samples/content/about-us/main-content-image.jpg
+    body: "<p>\"After viewing several health clubs in the West London area I decided
+      to join The Hogarth Club. I have now been a member for just over three years
+      and the club has now become an important part of my life. The atmosphere is
+      warm and friendly from the moment one walks through the door and the staff go
+      out of their way to make one feel at home. I personally feel that this aspect
+      of a club is just as important as it having all the latest equipment and great
+      personal trainers. The Hogarth does have amenities and training regimes to suit
+      all age groups. I have particularly enjoyed the classes and not only have I
+      become fitter since joining the club, I have made some wonderful new friends.\"
+      <strong>Mary Thomas</strong></p>\r\n<p>\"As a member of 16 years (I even met
+      my husband here), The Hogarth provides us with a relaxed atmosphere, good facilities
+      as well as special relationships with many of the staff!\" <strong>Caroline
+      Van Den Heever</strong></p>\r\n<p>\"Obviously the Hogarth's main function is
+      to provide a way of looking after our physical well-being, and although that's
+      really important, (honest!) it means more than that to us.</p>\r\n<p>The club's
+      garden and patio areas are a vital part of our life all the year round, and
+      most especially during the spring and summer months. Likewise, the bar area
+      is a very nice place to be, and it's big enough to find a quiet corner even
+      when things get a bit more lively from time-to-time. Of course occasionally,
+      like at the fairly regular members' events put on in the bar, we might want
+      to join in, but the beauty of the place is that you can choose to be as sociable
+      - or not -as you want to be.<br /> Oh yes, and there's the pool area - again,
+      a very relaxing place to be, with its steam-room and saunas. Ok, they should
+      be for use after a massive high-energy workout, but what the heck!</p>\r\n<p>In
+      summary, the Hogarth is very much a haven to us and has been an important part
+      of our lives for the last eleven years; it's not the cheapest, but so far, there
+      are quite a few things we'd rather do without first.\" <strong>Annie &amp; Arthur
+      Theakstone-Owen</strong></p>\r\n<div class=\"call_to_action\">\r\n<h3>Call us
+      today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    linklist: []
+- What Our Members Say:
+    _slug: what-our-members-say
+    image: /samples/content/what-our-members-say/main-content-image.jpg
+    body: "<p>\"After viewing several health clubs in the West London area I decided
+      to join The Hogarth Club. I have now been a member for just over three years
+      and the club has now become an important part of my life. The atmosphere is
+      warm and friendly from the moment one walks through the door and the staff go
+      out of their way to make one feel at home. I personally feel that this aspect
+      of a club is just as important as it having all the latest equipment and great
+      personal trainers. The Hogarth does have amenities and training regimes to suit
+      all age groups. I have particularly enjoyed the classes and not only have I
+      become fitter since joining the club, I have made some wonderful new friends.\"
+      <strong>Mary Thomas</strong></p>\r\n<p>\"As a member of 16 years (I even met
+      my husband here), The Hogarth provides us with a relaxed atmosphere, good facilities
+      as well as special relationships with many of the staff!\" <strong>Caroline
+      Van Den Heever</strong></p>\r\n<p>\"Obviously the Hogarth's main function is
+      to provide a way of looking after our physical well-being, and although that's
+      really important, (honest!) it means more than that to us.</p>\r\n<p>The club's
+      garden and patio areas are a vital part of our life all the year round, and
+      most especially during the spring and summer months. Likewise, the bar area
+      is a very nice place to be, and it's big enough to find a quiet corner even
+      when things get a bit more lively from time-to-time. Of course occasionally,
+      like at the fairly regular members' events put on in the bar, we might want
+      to join in, but the beauty of the place is that you can choose to be as sociable
+      - or not -as you want to be.<br /> Oh yes, and there's the pool area - again,
+      a very relaxing place to be, with its steam-room and saunas. Ok, they should
+      be for use after a massive high-energy workout, but what the heck!</p>\r\n<p>In
+      summary, the Hogarth is very much a haven to us and has been an important part
+      of our lives for the last eleven years; it's not the cheapest, but so far, there
+      are quite a few things we'd rather do without first.\" <strong>Annie &amp; Arthur
+      Theakstone-Owen</strong></p>\r\n<div class=\"call_to_action\">\r\n<h3>Call us
+      today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    linklist: []
+- History:
+    _slug: history
+    image: /samples/content/history/main-content-image.jpg
+    body: "<h2>The Hogarth Health Club</h2>\r\n<p>The Hogarth Group is a group of
+      companies operating principally in the health, leisure and construction markets.
+      It is a family company that commenced operating in 1959, when its Chairman first
+      became principal of his own firm of Chartered Surveyors, specialising in health,
+      leisure and sports developments.</p>\r\n<p>The Chiswick site in Airedale Avenue,
+      London W4, was acquired in 1978 and a decision was made to develop the site
+      on country club lines, with health and sports facilities. The Hogarth Health
+      Club, which opened in 1981, was one of the very first of such clubs in Europe
+      and carried the first range of Nautilus equipment outside the USA.</p>\r\n<p>As
+      the facilities at Hogarth aged, an extensive programme of expansion and refurbishment
+      was completed in 1993, which provided entirely new changing facilities and a
+      new pool. The Hogarth Clinic was also established in 1993 with a wide range
+      of practitioners providing a most successful centre for both conventional and
+      complementary medicine.</p>\r\n<p>Further refurbishments followed with major
+      development works of improvement in 2007 when a new first floor was added to
+      provide a dedicated holistic studio, new Clinic area and Beauty Spa.</p>\r\n<p>Now
+      in 2013 we are refurbishing the gymnasium with the very latest, state of the
+      art equipment from TechnoGym. This &pound;750,000 refurbishment also incorporates
+      new flooring, lighting, decor and layout and we are looking forward to providing
+      Hogarth members with not only the finest gymnasium team but the latest and ultimate
+      gymnasium equipment available.</p>\r\n<p>Seeking a large site with potential
+      for extensive outdoor recreation and sport, the Group acquired the 27-acre Manor
+      House Grounds in May 1997. Construction began at the end of 1998 and The Park
+      Club opened in January 2000. The Club is a departure from the health &amp; fitness
+      model, offering a much broader range of services and providing for the needs
+      of the family. The Club's membership was fully subscribed in its first year
+      of operation.</p>\r\n<h2>Hogarth Leisure Limited</h2>\r\n<p>Hogarth Leisure
+      is the consulting and design arm of the Hogarth Group. It is responsible for
+      project work in the leisure field and has severally been involved in architecture,
+      staff training, club establishment and management, project consultancy and product
+      sales and distribution. HLL has also been long involved in the provision of
+      occupational health &amp; fitness facilities to UK companies.</p>\r\n<p>The
+      Group's design arm has established a worldwide client and project list that
+      includes the design of The Fitness Workshop (SW6), Hendon Squash &amp; Leisure
+      Club (NW4), Wellingtons Health Club (SE1) and of course the Group's own Clubs
+      in London. Outside the capital the Group have completed successful design projects
+      for Howdon Squash and Tennis Club (Beckenham), Gloucester Squash Club, St. Albans
+      Squash Club, Redhill Football Club, International Casino Club, Brighton, The
+      Bowling Club, Reykjavik (Iceland), The City Club, Kuala Lumpur (Malaysia), Club
+      Internacional de Tenis, Madrid (Spain) and many others. The Group have been
+      Leisure Consultants to Whitbread PLC, Coral Leisure PLC, Lonrho PLC, Community
+      Leisure PLC, Kentish Homes PLC and Rosehaugh Stanhope Development PLC.</p>\r\n<p>In
+      addition to the above the Group have been involved with extensive hotel schemes
+      at Blunsdon House Hotel (Swindon), Preston Cross Hotel (Bookham), Moor Hall
+      (Sutton Coldfield) and Noke Hotel (St. Albans). They have acted as Leisure Consultants
+      to Best Western Group, Thistle Hotels, Anchor Hotels, Metropole Hotels and Taj
+      Hotels.</p>\r\n<p>The Group have also been wholly responsible for the design
+      and construction of the Group's own clubs. Hogarth now occupies an acknowledged
+      leading and profitable place in the leisure design niche of the construction
+      industry.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call us today to arrange
+      a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    linklist: []
+- Employment:
+    _slug: employment
+    image: /samples/content/employment/main-content-image.jpg
+    body: "<p>The Hogarth Group is constantly expanding and is always looking to recruit
+      ambitious individuals who are willing to share in our vision. Many members of
+      The Hogarth Group's team have been with the company for many years and several
+      have even disappeared on world travels before being welcomed back to the company
+      in due course. There is a great team spirit and employment with us offers many
+      benefits that accrue from the Group being a family concern.</p>\r\n<p>Excellent
+      salary terms are offered, along with the benefit of using our luxurious facilities.
+      In fact, in order to gain a first hand 'member experience', we encourage our
+      staff to use the full range of facilities that the Group offers.</p>\r\n<p>Our
+      long opening hours mean that there are many part-time and flexible roles to
+      fill. These also confer use of facilities and have attractive hourly rates of
+      pay.</p>\r\n<p>There may be, at any given time, full-time and part-time vacancies
+      for any of the positions listed below:</p>\r\n<h2>Gymnasium Physiologists</h2>\r\n<p>At
+      the core of our product is our ability to provide professional guidance, motivation
+      and encouragement to our members; who range from sports professionals to the
+      aged, disabled and wholly inactive. These skills are essential to maintaining
+      a satisfied membership; the Hogarth Group's team are at the forefront of applied
+      exercise science. Opportunities exist for further training at every level and
+      staff are encouraged to participate in the Hogarth Group's personal training
+      programmes to provide extra motivation and reward. The tools available to physiology
+      staff are second to none, with the FitLinxx interactive training management
+      system assisting staff in maintaining communication with a \"mentor group\"
+      of members of regulated size. Staff are also encouraged to look beyond the gymnasium
+      to the many opportunities for sport and other activities that are available
+      to Group members.</p>\r\n<h2>Receptionists</h2>\r\n<p>Receptionists are charged
+      with greeting and brightening the day of all our members and prospective members,
+      undertaking tours of the facilities, handling bookings and a wide range of other
+      administrative and operational tasks. The desk is the main interface between
+      the company and its members, and our team are well presented, polite and above
+      all cheerful and efficient.</p>\r\n<p>We also offer positions in: Duty Management,
+      Valet Services, Childcare, Pool Services, Food and Beverage, Sports and Activities,
+      Membership Services, Sales and Marketing.</p>\r\n<p>We invite prospective candidates
+      to send a CV and covering letter to:</p>\r\n<p><strong>Patricia Ledlie</strong><br
+      /> Group Human Resources Officer.<br /> The Hogarth Group<br /> Airedale Avenue<br
+      /> London W4 2NW</p>\r\n<p>Or <a href=\"mailto:patricial@theparkclub.co.uk\">email
+      Patricia Ledlie</a>, Group Human Resources Officer.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    linklist: []
+- Our Team:
+    _slug: our-team
+    image: /samples/content/our-team/main-content-image.jpg
+    body: "<p><a href=\"#dan_white\">Dan White &ndash; Managing Director</a></p>\r\n<p><a
+      href=\"#giles_stumpe\">Giles Stumpe &ndash; General Manager</a></p>\r\n<p><a
+      href=\"#gill_forster\">Gill Forster &ndash; Group Membership Manager</a></p>\r\n<p><a
+      href=\"#jo_huff\">Jo Huff &ndash; Beauty Spa Manager</a></p>\r\n<p><a href=\"#claire_shepherd\">Claire
+      Shepherd &ndash; Creche &amp; Daycare Manager</a></p>\r\n<p><a href=\"#abdul_abdul\">Abdul
+      Abdul &ndash; Executive Chef</a></p>\r\n<p><a href=\"#terry_rodham\">Terry Rodham
+      &ndash; Group Gymnasium Manager</a></p>\r\n<p><a href=\"#jo_harris\">Jo Harris
+      &ndash; Sales &amp; Marketing Manager</a></p>\r\n<p><a href=\"#rebecca_robertson\">Rebecca
+      Robertson &ndash; Duty Manager</a></p>\r\n<p><a href=\"#iwona_domagala\">Iwona
+      Domagala &ndash; Duty Manager</a></p>\r\n<hr />\r\n<div id=\"dan_white\">&nbsp;</div>\r\n<h2>Dan
+      White &ndash; Managing Director</h2>\r\n<p>As many of you may know, I took over
+      from my late brother as Managing Director of the Hogarth Group. I would like
+      to assure you that it is the avowed intention of my father and I to continue
+      Patrick&rsquo;s vision and ensure the successful future of our clubs, as a family
+      business, to eventually pass on to our children.</p>\r\n<p>However, some of
+      you know me and may be a trifle concerned that the somewhat less than smartly
+      dressed builder and cappuccino drinker, prone to disappearing for months on
+      end, is now the MD of your club. In an attempt to allay your, frankly justifiable,
+      fears I shall tell you something of my life.</p>\r\n<p>Patrick was my younger
+      brother and whilst he followed me from Fox Primary to Latymer Upper, he declined
+      to follow me into the Parachute Regiment and onto the building site. Instead,
+      he gained a scholarship to King&rsquo;s College Cambridge and the ability to
+      describe me as having a peripatetic existence. It was not difficult to see who
+      had the most brains. While Patrick was swotting, I was playing squash at the
+      then Lambton Squash Club, when I wasn&rsquo;t developing my cultural and social
+      skills in it&rsquo;s bar. This has left me with a deep affection for the club,
+      but a deficiency in qualifications.</p>\r\n<p>The part-time Army became an important
+      part of my life for the next twenty odd years and recently George and Tony&rsquo;s
+      plan for world domination has had me scurrying around countries that you don&rsquo;t
+      often read about in the Travel section of the Sunday Times. I am proud to say
+      I have been shot at, thankfully with a deplorable degree of accuracy, in three
+      different campaigns. Amongst other things, I have kept some very nasty people
+      apart in Bosnia and Afghanistan, and been responsible for training anti-terrorist
+      troops in the Middle East. I also found time for a considerable amount of mountaineering
+      and was lucky (and foolish) enough to become the first British Serviceman to
+      climb to the summit of Everest by the North Ridge, suffering frostbite in somewhat
+      embarrassing circumstances. I am more than aware of the supreme irony that I
+      have escaped with superficial damage and that Patrick should lose his life.</p>\r\n<p>Despite
+      these distractions, I have somehow managed to supervise all our major building
+      works since starting as the world&rsquo;s weediest hod-carrier in 1979, giving
+      me an in-depth knowledge of all our projects and operations. I believe these
+      experiences will stand me in good stead to lead our staff, who are particularly
+      tremendous, to provide the best possible health club for your enjoyment.</p>\r\n<hr
+      />\r\n<div id=\"giles_stumpe\">&nbsp;</div>\r\n<h2>Giles Stumpe, General Manager</h2>\r\n<p>Born
+      and bred in rural Buckinghamshire I despised London as a child, how things change.
+      I obtained a B.Sc (Hons) in Sports Studies and Geology at the great sporting
+      college, Borough Road in West London and then joined the Hogarth Group at Lambton
+      Place in Nottinghill.</p>\r\n<p>After 4 years I went to rehabilitate a spinal
+      patient in Antigua. Eight months of rum and sun got the better of me so I headed
+      back to Hogarth and have been here ever since.</p>\r\n<p>I met my fianc&eacute;e
+      at Borough Road and we now have 4 children, what an eye opener.</p>\r\n<p>My
+      other family is here and I would not want to work for any other company.</p>\r\n<hr
+      />\r\n<div id=\"gill_forster\">&nbsp;</div>\r\n<h2>Gill Forster &ndash; Group
+      Membership Manager</h2>\r\n<p>I started in 1993 as Membership Manager and Duty
+      Manager at The Hogarth Health Club, in Airedale Avenue Chiswick. My years there
+      cemented my love of the Health Club business and my fanatical desire to have
+      perfect data. I was in charge of all the new and transferring members to The
+      Park Club from 1999 and even though I still oversee The Hogarth Health Club
+      membership department my &ldquo;seat&rdquo; is at The Park Club.</p>\r\n<p>Born
+      in the UK, I sailed to Southern Africa (landing in Beira, Mozambique then travelling
+      overland) with my family when I was 9years old to live in Southern Rhodesia.
+      I was fortunate to enjoy many sports in the wonderful climate and have always
+      had an obsession with tennis (even though at school, hockey was my most victorious!).
+      After a few years of living and working in South Africa I returned to the UK
+      when I was 21.</p>\r\n<p>After several years as Assistant Accountant with a
+      commercial property agent, I became an Air Stewardess with BOAC (BOAC merged
+      with BEA in 1975 to become BA). Pregnancy and my husband starting our own interior
+      design business forced me to clip my wings and become co-owner of Interior Selection
+      which became a household name. The business dissolved in the late 80&rsquo;s
+      and after a brief stint working on the ground at Heathrow, I joined The Hogarth
+      Group management team in 1993.</p>\r\n<p>Although I am not 1st team material,
+      I absolutely love watching and playing tennis and will always accept an offer
+      of a game (doubles only now!) especially in the Dome. I&rsquo;m also to be seen
+      in the studio for my very favourite class &ndash; Stretchworks with Alison,
+      which is absolutely brilliant &amp; beneficial irrelevant of age or ability!</p>\r\n<hr
+      />\r\n<div id=\"jo_huff\">&nbsp;</div>\r\n<h2>Jo Huff, Beauty Spa Manager</h2>\r\n<p>I
+      first started working the The Hogarth Health in 1998. I had wanted to be a beauty
+      therapist from as far back as I can remember and I was lucky enough to learn
+      my skills at the London College of Fashion.</p>\r\n<p>I completed my HND beauty
+      therapy qualification in 1998. I then went on to work on a cruise ship before
+      starting at the Hogarth.</p>\r\n<p>I took over managing the Hogarth Beauty Spa
+      in 2006. I have enjoyed watching the Beauty Spa develop and grow over the years
+      I have worked here.</p>\r\n<p>The part of my job I enjoy the most is helping
+      clients unwind and relax and making a real difference to their day. My ultimate
+      goal is to deliver 100% client satisfaction.</p>\r\n<p>I know many of our lovely
+      members already and urge any of you that don't currently use the Beauty area
+      to do so. My team and I are a friendly bunch, very happy to give advice and
+      always providing a top quality service.</p>\r\n<hr />\r\n<div id=\"terry_rodham\">&nbsp;</div>\r\n<h2>Terry
+      Rodham &ndash; Group Gymnasium Manager</h2>\r\n<p>I first walked through the
+      front doors of the Hogarth way back in 1989 after returning from College in
+      Chicago &ndash; oh how things have changed!</p>\r\n<p>I started as a part time
+      instructor and am now the Groups Health and Fitness Manager and I absolutely
+      love what I do. I work with a fantastic team of people every day and count myself
+      very lucky.</p>\r\n<p>My passion in life is helping others and I really enjoy
+      helping people to achieve their goals, however big or small they may be. My
+      role is to help and guide people along that path.</p>\r\n<p>Hard work = Rewards
+      and success!</p>\r\n<hr />\r\n<div id=\"Jo Harris\">&nbsp;</div>\r\n<h2>Jo Harris,
+      Sales &amp; Marketing Manager</h2>\r\n<p>I was born and bred in South Yorkshire
+      in a small mining town and came to London at the age of 20 to study Drama and
+      pursue a career in the theatre.</p>\r\n<p>I took a little detour and found myself
+      here at The Hogarth. I Joined the Hogarth Group in February 2000 and have never
+      looked back.</p>\r\n<p>Being a bit of a tom boy I have always enjoyed sports
+      and the outdoors. My passions are old cars, cycling, trekking and being in the
+      mountains&hellip; and of course my son Casey who makes me laugh every day.</p>\r\n<p>My
+      role within the company is to welcome new people into the &ldquo;Hogarth family&rdquo;
+      and help them enjoy a healthier happier lifestyle. It is extremely rewarding
+      and I couldn&rsquo;t imagine being anywhere else!</p>\r\n<hr />\r\n<div id=\"rebecca_robertson\">&nbsp;</div>\r\n<h2>Rebecca
+      Robertson</h2>\r\n<p>I joined the Hogarth team as a full time receptionist in
+      autumn 2012 and am now also part of the Duty management team.</p>\r\n<p>I have
+      always had a passion for Dance, both competing and performing worldwide for
+      various music artists and events since a young age.</p>\r\n<p>This passion extends
+      to a love of fitness and wellbeing. Growing up with a mother who is a personal
+      trainer and exercise addict activity is all I have ever known!</p>\r\n<p>I'm
+      a Zumba instructor and love being able to combine my love of dance and fitness
+      together. Being able to work in an environment with like-minded people, who
+      strive for excellence, is a bonus. This really comes through at the Hogarth.</p>\r\n<p>I'm
+      looking forward to continuing my professional development here at the Hogarth
+      and getting to know all our lovely members.</p>\r\n<hr />\r\n<div id=\"iwona_domagala\">&nbsp;</div>\r\n<h2>Iwona
+      Domagala</h2>\r\n<p>I have been working at The Hogarth Health Club since January
+      2013 and I enjoy it very much. I was previously employed by companies such as
+      In Water Flowers, Paramount Club and Sam's Brasserie and Bar.</p>\r\n<p>Customer
+      service is extremely important in our business and I always strive for excellence
+      in this regard.</p>\r\n<p>I am a receptionist and Duty Manager and I'm really
+      enoying the challenges so far. I love working on Club events and meeting and
+      gretting our members and every day.</p>\r\n<p>I'm looking forward to further
+      developing my skills and experience here at The Hogarth and am happy to help
+      you with any questions you have.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    linklist: []
+- Opening Hours:
+    _slug: opening-hours
+    image: /samples/content/opening-hours/main-content-image.jpg
+    body: "<p>Monday - Friday: 6am to 11pm.</p>\r\n<p>Weekends: 8am to 9pm.</p>\r\n<p>Bank
+      Holidays: 8am to 8pm.</p>\r\n<p>If you have any questions please call us on
+      020 8995 4600.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call us today to
+      arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    linklist: []
+- Social events:
+    _slug: social-events
+    image: /samples/content/social-events/main-content-image.jpg
+    body: "<h2>More Than Just A Club</h2>\r\n<p>The Hogarth is much more than a health
+      and fitness club. The bar, restaurant and terraces provide a wonderful location
+      in which to socialise either privately or with other members. Our social calendar
+      includes an eclectic mix of sporting, culinary and fun events to suit all tastes.</p>\r\n<h2>Private
+      Parties</h2>\r\n<p>The Hogarth Bar and Restaurant are available to rent for
+      private functions on Saturday nights.</p>\r\n<p>The Club regularly caters for
+      members' private and corporate parties, ranging in scale from small drinks receptions
+      to major functions with Buffets and Bands!</p>\r\n<p>We can easily customise
+      each function to suit your needs and theme.</p>\r\n<p>Please contact Giles Stumpe
+      with regards to booking your next function at The Hogarth Bar &amp; Restaurant.</p>\r\n<p>giless@thehogarth.co.uk</p>\r\n<h2>Art
+      at The Hogarth</h2>\r\n<p>Regular six weekly art exhibitions at The Hogarth
+      Health Club are organised by <strong>Artists at Home</strong>, an annual open
+      studios scheme held in West London over three days in mid-June. AAH is a voluntary
+      organisation that began over 40 years ago and now comprises about 70 artists,
+      practitioners in fine or applied arts, who live or work in a defined area across
+      Chiswick, Hammersmith and Shepherd's Bush. For more information about the artists
+      or how to join, please visit http://www.artistsathome.net/ All work in these
+      exhibitions is available for sale through The Hogarth.</p>\r\n<h2>Big Screen</h2>\r\n<p>With
+      our fabulous new projector and sound system in the Hogarth Bar, there's nowhere
+      better to relax and enjoy major sporting events alongside fellow Hogarth members.</p>\r\n<p>We
+      regularly offer drinks promotions for members when big tournaments and sporting
+      events are happening. Ask the bar team for details.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    linklist: []
+- Touch Rugby:
+    _slug: touch-rugby
+    image: /samples/content/touch-rugby/main-content-image.jpg
+    body: "<p>Join us for a game of Touch Rugby on Thursday evenings. We meet at the
+      club at 6.45pm for a 7pm kick off at HomeField Recreation park.</p>\r\n<p>It's
+      a social, mixed game, relaxed and enjoyable. It's also free to attend.</p>\r\n<p>Contact
+      Luke Steward at the Hogarth by emailing Luke@thehogarth.co.uk if you have any
+      questions or pop in to the gym to see him.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    linklist: []
+- ABC nursery:
+    _slug: abc-nursery
+    image: /samples/content/abc-nursery/main-content-image.jpg
+    body: "<p>Hogarth's abcs cr&egrave;che operates within the new Early Years Foundation
+      Stage (EYFS) day-care framework. EYFS is a programme aimed at 0 &ndash; 5 year
+      olds. It is compulsory for all childcare settings that offer day-care to meet
+      the standards set within this framework. EYFS is based around play and, for
+      children, it should be used to create a fun, happy, safe place for them to grow
+      and learn. Each child will have a key person, who will do regular observations
+      and record their development. This record will then be given to you to take
+      to the school or nursery your child moves onto.</p>\r\n<h3>About our cr&egrave;che
+      and day-care facility</h3>\r\n<p>ABCs is a multicultural childcare establishment
+      in which we are committed to providing the highest quality of childcare. We
+      accommodate children from 3 months to 8 years and all activities follow the
+      curriculum, which is child-led and age-appropriate.</p>\r\n<p>We suggest all
+      new children attend the cr&egrave;che for a minimum of 2 sessions lasting approximately
+      &frac12; an hour for settling in. The parent will be required to stay during
+      these sessions. This helps the child to adapt in the new surrounding and feel
+      comfortable and confident to attend a full hour&rsquo;s session. For your child
+      to do their best and reach their full potential we allow as many visits as are
+      needed to soothe and settle them.</p>\r\n<p>Consistent attendance in the cr&egrave;che
+      will enable your child to develop in the six areas of learning and development
+      which are: Personal, Social and Emotional, Communication, Language and Literacy,
+      Knowledge and understanding of The World, Creative Development, Physical Development,
+      and Problem Solving, Reasoning and Numeracy.</p>\r\n<p>If you have any questions
+      about the creche, would like to visit us or book a settling in session, please
+      call us on 020 8995 4600.</p>\r\n<h2>Areas of Development - EYFS</h2>\r\n<p>All
+      staff are fully trained on the Early Years Foundation Stage (EYFS) and we continue
+      to meet yours and your child&rsquo;s needs. The Cr&egrave;che team is available
+      to answer any questions about the EYFS. Claire the Cr&egrave;che Manager is
+      always happy to help so drop in or give a call if you have any questions.</p>\r\n<p>Participation
+      in a cr&egrave;che setting will enable your child to develop social, intellectual,
+      physical, and emotional skills in a stimulating and fun environment. Here at
+      abcs we value and respect all the children in our care.</p>\r\n<p>The six main
+      areas of development are:</p>\r\n<h2>Personal, Social and Emotional Development</h2>\r\n<p>Children
+      must be provided with experiences and support which will help them to develop
+      a positive sense of themselves and of others; respect for others; social skills;
+      and a positive disposition to learn. Providers must ensure support for children's
+      emotional well-being to help them to know themselves and what they can do. We
+      work closely with the parent&rsquo;s/carers in your child&rsquo;s progress;
+      this can be from a baby starting to crawl, a toddler potty training, a little
+      boy/girl learning to form friendships or&hellip;</p>\r\n<ul>\r\n<li>Singing</li>\r\n<li>Story
+      reading</li>\r\n<li>One to one time</li>\r\n</ul>\r\n<h2>Communication, Language
+      and Literacy</h2>\r\n<p>Children's learning and competence in communicating,
+      speaking and listening, being read to and beginning to read and write must be
+      supported and extended. They must be provided with opportunity and encouragement
+      to use their skills in a range of situations and for a range of purposes, and
+      be supported in developing the confidence and disposition to do so. We include...</p>\r\n<ul>\r\n<li>Circle
+      time</li>\r\n<li>Weather board</li>\r\n<li>Reading stories</li>\r\n<li>Singing</li>\r\n<li>Key
+      person/group time</li>\r\n</ul>\r\n<h2>Problem Solving, Reasoning and Numeracy</h2>\r\n<p>Children
+      must be supported in developing their understanding of Problem Solving, Reasoning
+      and Numeracy in a broad range of contexts in which they can explore, enjoy,
+      learn, practice and talk about their experiences. They must be provided with
+      opportunities to practice and extend their skills in these areas and to gain
+      confidence and competence in their use. To achieve this we incorporate the following...</p>\r\n<ul>\r\n<li>Puzzles</li>\r\n<li>Sorting
+      trays</li>\r\n<li>Cooking</li>\r\n<li>Construction</li>\r\n</ul>\r\n<h2>Knowledge
+      and Understanding of the World</h2>\r\n<p>Children must be supported in developing
+      the knowledge, skills and understanding that help them to make sense of the
+      world. Their learning must be supported through offering opportunities for them
+      to use a range of tools safely; encounter creatures, people, plants and objects
+      in their natural environments and in real-life situations; undertake practical
+      &lsquo;experiments&rsquo;; and work with a range of materials. We use&hellip;</p>\r\n<ul>\r\n<li>Train
+      tracks</li>\r\n<li>Cars</li>\r\n<li>Home corner</li>\r\n<li>Dressing up</li>\r\n</ul>\r\n<h2>Physical
+      Development</h2>\r\n<p>The physical development of babies and young children
+      must be encouraged through the provision of opportunities for them to be active
+      and interactive and to improve their skills of coordination, control, manipulation
+      and movement. They must be supported in using all of their senses to learn about
+      the world around them and to make connections between new information and what
+      they already know. They must be supported in developing an understanding of
+      the importance of physical activity and making healthy choices in relation to
+      food, for example, through the use of&hellip;</p>\r\n<ul>\r\n<li>Outside play</li>\r\n<li>Bike
+      riding</li>\r\n<li>Slides</li>\r\n<li>Drawings</li>\r\n<li>Cutting</li>\r\n<li>Ball
+      pool</li>\r\n</ul>\r\n<h2>Creative Development</h2>\r\n<p>Children's creativity
+      must be extended by the provision of support for their curiosity, exploration
+      and play. They must be provided with opportunities to explore and share their
+      thoughts, ideas and feelings, for example, through a variety of art, music,
+      movement, dance, imaginative and role-play activities, mathematics, and design
+      and technology. We achieve this through the use of...</p>\r\n<ul>\r\n<ul>\r\n<li>Collages</li>\r\n<li>Painting</li>\r\n<li>Dance
+      and movement</li>\r\n<li>Malleable play</li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Other
+      Points to Note</strong></p>\r\n<p>We offer fruit and water whilst your child
+      is with us. If you require your child to have anything further please bring
+      this with you and hand over to the staff on arrival. Please do not forget to
+      label all bottles etc. We can facilitate the heating of your child&rsquo;s food
+      if required. Please label all children's clothing and bags, as we accept no
+      responsibility for loss or damage to items. Please also bring with you any nappies,
+      wipes, special teddies or cloths and a spare feed that your child may require
+      during their stay and many spare changes of clothes, especially for potty training
+      children.</p>\r\n<p>The emphasis is on FUN at all times and you can feel safe
+      in the knowledge that your child is in the capable and expert hands of our dedicated,
+      qualified and experienced childcare staff.</p>\r\n<p>On leaving and collecting
+      your child for any session within the childcare department you must sign the
+      in/out book to show you have handed your child into our care.</p>\r\n<p>We value
+      any feedback and comments from parents. (Comments and suggestions box located
+      within ABC&rsquo;s Corridor).</p>\r\n<h1>NEWS</h1>\r\n<h2>NEW REVISED EARLY
+      YEARS FOUNDATION STAGE (EYFS) COMMENCED SEP 2012</h2>\r\n<p>What is EYFS?</p>\r\n<p>EYFS
+      is the curriculum all childcare settings, which provide a service from babies
+      (birth) to 5 years old children, have to adhere to.</p>\r\n<p>What does this
+      mean for abc&rsquo;s and the parents / carers?</p>\r\n<p>The revised EFFS is
+      not going to affect our parents too much. The biggest impact will be on myself,
+      Nishma and Livon having more emphasis on working in partnership with you. This
+      is so we can offer all the children attending abcs the support that they individually
+      need/require.</p>\r\n<p>What is different?</p>\r\n<p>&bull; There will be a
+      2 year old progress check that we carry out alongside you and multi agencies
+      (e.g. health visitors) &ndash; this is to support your child&rsquo;s progress
+      and development.</p>\r\n<p>&bull; The foundation years is now from pregnancy
+      &ndash; 5 years.</p>\r\n<p>Are there changes in the areas of learning/development?</p>\r\n<p>&bull;
+      The areas of learning have been split into 3 PRIME AREAS and 4 SPECIFIC AREAS.</p>\r\n<h2>PRIME
+      AREAS</h2>\r\n<p>1-Communication and Language</p>\r\n<p>2-Physical development</p>\r\n<p>3-Personal,
+      social and emotional development</p>\r\n<h2>SPECIFIC AREAS</h2>\r\n<p>1-Literacy</p>\r\n<p>2-Mathematics</p>\r\n<p>3-Understanding
+      the world</p>\r\n<p>4-Expressive arts and design</p>\r\n<p>Your child&rsquo;s
+      key worker will now be working alongside the 3 Prime area and 4 specific areas
+      of development from the previous 6 areas of development.</p>\r\n<p>Your child&rsquo;s
+      key worker will also be having more chats/meetings with you regarding your child&rsquo;s
+      development, alongside using the home achievement books and where applicable,
+      multi-agency to support your child&rsquo;s learning and development.</p>\r\n<h2>Helpful
+      information for parents and carers.</h2>\r\n<p>Publications / websites:</p>\r\n<p>Families
+      in the Foundation Years (the Government&rsquo;s vision of the offer to parents,
+      from pregnancy to age 5)<a href=\"http://www.education.gov.uk/familiesinthefoundationyears\r\n\">Click
+      here.</a></p>\r\n<p>Parents who want guidance and help with feeding under 3&rsquo;s.
+      This includes tips, information about the five food groups, portion size, and
+      you can use their food calculator to see if your child is getting a good balance
+      of nutrition/ food. )<a href=\"http://www.infantandtoddlerforum.org/little-peoples-plates\">Click
+      here.</a></p>\r\n<p>Parents/carers guide to the Early Years Foundation Stage.
+      <a href=\"http://www.foundationyears.org.uk/wp-content/uploads/2012/06/EYFS_Parents_Guide.doc\">Click
+      here.</a></p>\r\n<p>If you have any questions queries please do not hesitate
+      to come and see me. I will be more than happy to help you.</p>\r\n<h2>Times
+      &amp; Pricing</h2>\r\n<p>We are open seven days a week 09:00 to 17:00 at a cost
+      of &pound;6.50 per hour for under three's and &pound;5.50 per hour for over
+      three's (subject to change).</p>\r\n<p>On Saturdays and Sundays we will be closed
+      between 1-2pm.</p>\r\n<p>You may book your child in for one hour, one and a
+      half hours or two hours consecutively. Places are bookable four weeks in advance
+      through the cr&egrave;che, during opening times.</p>\r\n<p>Our Day Care standard
+      rate is &pound;70 full time (per day), and &pound;36 for half day (minimum 4
+      Hrs).</p>\r\n<h2>Creche News!</h2>\r\n<h2>What we have achieved lately.</h2>\r\n<p>For
+      a second year running some of the children who attend abcs have recently taken
+      part in a fundraising event called &lsquo;The Big Toddle&rsquo; (theme super
+      heroes) for the children's charity Barnardos. We walked to St. Peter&rsquo;s
+      Square, enjoyed a yummy picnic and played fun parachute games.</p>\r\n<p>The
+      children gained sponsorship to take part in the toddle. We raised &pound;263
+      for the charity and this will help provide 5 support courses for parents of
+      children with behavioural problems. abcs are very passionate in helping the
+      this charity to provide families with the support they need. All donations are
+      welcome, please come and speak to Claire or any member of the cr&egrave;che
+      team if you would like to make a donation.</p>\r\n<h2>Trips planned.</h2>\r\n<p>From
+      September we will be looking at &lsquo;space&rsquo;. With such a fun theme,
+      we hope to make an exciting journey to The Science Museum and discover all about
+      planets, time and space to enhance the children&rsquo;s learning.</p>\r\n<p>We
+      are also looking to visit our local library for stories and song times. This
+      will be on an occasional Friday at 11.00am and we will give prior announcement
+      and consent forms would need to be signed.</p>\r\n<p>Later on in the year, we
+      will be looking at the season of autumn and all the changes that it brings e.g.
+      changes in the leaves, what we wear, acorns and starting a nature table where
+      we will try to venture out to a local park to collect leaves and conkers.</p>\r\n<h2>Farewells.</h2>\r\n<p>We
+      have some children in the cr&egrave;che that have been with us for quite a long
+      time that will be leaving in September, i.e. Joseph, Leo, Noah, Verity and Jessica.
+      We are very sad they are leaving and we will miss them and their parents very
+      much. We would like to wish them all the best in their new nurseries and we
+      thank all the parents for their support.</p>\r\n<h2>New staff members.</h2>\r\n<p>You
+      may have seen the introductions and photos of our two newest additions to the
+      creche team in the Club newsletter.</p>\r\n<p>Shanta is our new weekend supervisor
+      and Ashleigh is a nursery nurse. With a bigger team we are pleased to announce
+      that from November our new weekend opening hours for Saturday and Sunday will
+      be 09.00am-1.00pm and 2.00pm-5.00pm.</p>\r\n<p>Bookings can be made via reception.</p>\r\n<h2>What
+      members have to say about abcs</h2>\r\n<h2>Vicky, mother to children aged 5
+      and 4 years.</h2>\r\n<p>The cr&egrave;che is such a happy place that my children
+      look forward to their visits.</p>\r\n<p>I have used the child care facilities
+      for over 3 years for both of my children, both on a &lsquo;cr&egrave;che&rsquo;
+      and &lsquo;day-care&rsquo; basis. The Foundation Sage of the curriculum is delivered
+      through engaging topics. My son has practically enjoyed developing butterflies
+      from caterpillars, growing vegetables in the cr&egrave;che garden and going
+      on a bus and train trip, as part of the transport topic, not to mention jelly
+      making and cake baking.</p>\r\n<p>As a mother it is paramount that I know my
+      children are cared for thoroughly in my absence. Abc&rsquo;s has provided a
+      lifeline to me, created friendships for my children and myself and is a positive
+      part of their development. I cannot express strongly enough how professional
+      and welcoming abc&rsquo;s staff are and I feel privileged that we are part of
+      The Hogarth Cr&egrave;che group.</p>\r\n<h2>Sarah, mother of 3 year old.</h2>\r\n<p>Our
+      daughter has been attending ABCs cr&egrave;che the Hogarth for almost two-and-a-half
+      years. Throughout this time, ABCs&rsquo; staff have consistently delighted us
+      with their passion and attention to detail when looking after her.</p>\r\n<p>Our
+      daughter feels happy, relaxed and secure in the environment they create. ABCs
+      staff also do their utmost to be flexible and to accommodate our childcare needs,
+      often at very short notice. ABCs is a major reason for our membership of The
+      Hogarth and, in our opinion, helps make it the best gym in Chiswick.</p>\r\n<h2>Anna,
+      mother of 1 year old girl.</h2>\r\n<p>I have been a member of the Hogarth for
+      many years and have always known there is a creche for children on the premise.
+      But, until I had my daughter just over a year ago, I had no idea how wonderful
+      and invaluable it is.</p>\r\n<p>ABC's is not simply a creche; it is also an
+      excellent daycare with people who are outstanding at creating a nurturing, open
+      and safe environment for children to learn, make friends, and develop positive
+      personalities.</p>\r\n<p>The daycare provides a base foundation for learning
+      but because of its smaller size there is also a personal touch that is priceless.
+      I am asked every week if there is something specific that I am teaching my daughter
+      so that the carers can also incorporate that into her learning plan.</p>\r\n<p>The
+      balance between core activities scheduled by the creche with open play time
+      has provided my daughter with an environment that she simply thrives in. When
+      selecting a daycare, for me, as a parent, what I looked for was a place where
+      I knew my child would be in a safe, nurturing, caring, and educational environment.
+      The people at the ABC's at the Hogarth are absolutely exceptional at providing
+      just that.</p>\r\n<p>If any parents/carers who have children and do not currently
+      use the cr&egrave;che or day care facility are interested in what we offer you
+      are welcome to come and have a chat and a look around.</p>\r\n<p>For first time
+      parents we understand leaving your child for the first time, in a new unfamiliar
+      environment that you or your baby doesn&rsquo;t know, can be daunting and the
+      hardest thing you could possibly think of.</p>\r\n<p>We understand this and
+      what we offer is support, for the parents as well as the babies/children. We
+      do a minimum of 2 settling in visits for you and your baby/child to get to know
+      the team and environment. During these visits we will explain our regulations
+      and we will talk about your baby/child. Depending on how you feel and your child
+      seems, you will have an opportunity to leave the room and see how your baby/child
+      is with us. We will advise you on what works well and where positive encouragement
+      and support is needed we will provide that.</p>\r\n<p>We are here to provide
+      a safe, stimulating environment for the children but also for the families to
+      feel a sense of trust as if we are an extended family.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    linklist: []
+- Main bar:
+    _slug: main-bar
+    image: /samples/content/main-bar/main-content-image.jpg
+    body: <p>no content</p>
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    linklist: []
+- Tim:
+    _slug: tim
+    image: /samples/content/tim/Screen_Shot_2015-01-23_at_19.39.15.png
+    body: <p>Hello Tim</p>
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    sections: exercise-studio
+    linklist: []
+- Terms and Conditions for booking Tennis and Squash courts:
+    _slug: terms-and-conditions-for-booking-tennis-and-squash-courts
+    image: /samples/content/terms-and-conditions-for-booking-tennis-and-squash-courts/IMG_5408.JPG
+    body: |-
+      <h2>&nbsp;</h2>
+      <ul>
+      <ul>
+      <li>1/ Tennis and Squash courts may be booked 7 days in advance either in person or over the phone according to the times their membership permits them access to the club.</li>
+      <li>2/ A member may book a maximum of 1 court at a time. If another court is required then we require the name of your partner who must also be a member.</li>
+      <li>3/ All members must report to Reception on arrival at the Club prior to going on to court to confirm their attendance and use of the court. Failure to do so could result in the booking being recorded as a &lsquo;no-show&rsquo;.</li>
+      <li>4/ If a member accrues 3 &lsquo;no-shows&rsquo; in any 12 month period they will be suspended from making bookings for one month.</li>
+      <li>5/ We require a minimum of 24 hours notice for a court to be cancelled unless mitigating circumstances exist.</li>
+      <li>5/ The member who has made the booking must be present on court at the time it is booked for play. Court bookings cannot be transferred to other members without being updated on the Club&rsquo;s booking system.</li>
+      <li>6/ If a member does not show up within 15 minutes of the start of the court booking time, the court will be made available for any member to use on a &lsquo;walk-on&rsquo; basis in accordance with their terms and conditions of membership access. To book a &lsquo;walk-on&rsquo; court a member will report to Reception and enquire about any courts that are available and if so, the court will be booked in their name.</li>
+      <li>The above terms and conditions will be reviewed from time to time to take in to consideration member feedback, usage trends and are at all times subject to Management&rsquo;s discretion. Thank you for helping us to safeguard booking integrity.</li>
+      </ul>
+      </ul>
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    sections: squash
+    linklist: []
+- Tom's Rules:
+    _slug: toms-rules
+    image: /samples/content/toms-rules/main-content-image.jpg
+    body: <p>Be nice.</p>
+    navigation: ''
+    promo_middle: []
+    promo_panel: []
+    linklist: []

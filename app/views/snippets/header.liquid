@@ -3,19 +3,14 @@
     <a href="/"><div class="logo"></div></a>
     <div class="social-bar">
       <div class="number">
-        <span class="tel-text">For other<br>enquiries</span>
-        <span class="tel">020 8994 0500</span>
-      </div>
-      <div class="number">
-        <span class="tel-text">For new<br>members</span>
-        <span class="tel">020 8994 0500</span>
-      </div>
+          <span class="tel">020 8994 0500</span>
+       </div>
       <a href="https://www.facebook.com/TheParkClub" target="_blank"><div class="fb"></div></a><a href="https://twitter.com/the_park_club" target="_blank"><div class="tw"></div></a><a href="http://www.theparkclub.co.uk" class="members" target="_blank">Members</a>
     </div>
     <div class="mobile-tel">020 8994 0500</div>
     <div class="navigation-bar" id="menu">
       <ul class="nav-primary">
-        <li><a href="/sections/exercise-studio" class="first">Exercise studio</a></li>
+        <li><a href="/sections/exercise-studio" class="first">Classes</a></li>
         <li><a href="/sections/swimming">Swimming</a></li>
         <li><a href="/sections/gym">Gym</a></li>
         <li><a href="/sections/tennis">Tennis</a></li>
@@ -31,30 +26,21 @@
       {% for content in contents.sections %}
         <div class="drop">
           <ul class="inner-drop row">
-            <li>&nbsp;</li>
-            <li>
+            <div class="col-md-3">&nbsp;</div>
+            <div class="col-md-9">
+            <div class="col-md-9">
               <ul class="menu">
                 {% for content in content.content %}
-                <li><a href="/content/{{ content._slug }}">{{ content.title }}</a></li>
+                <li style="width: 33%;display: inline-block;"><a href="/content/{{ content._slug }}">{{ content.title }}</a></li>
                 {% endfor %}
               </ul>
-            </li>
-            <li>
-              <ul class="menu">
-                
-              </ul>
-            </li>
-            <li>
-              <p></p>
-              <ul class="related">
-               
-              </ul>
-            </li>
-            <li>
+              </div>
+            <div class="col-md-3">
               <a href="#">
                 <img src="http://lorempixel.com/212/160" alt="" />
               </a>
-            </li>
+            </div>
+            </div>  
           </ul>
         </div><!-- /drop -->
       {% endfor %}

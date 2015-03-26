@@ -1,0 +1,205 @@
+---
+name: Activities
+description: Activities
+slug: activities
+label_field_name: name
+order_by: created_at
+order_direction: asc
+fields:
+- name:
+    label: Name
+    type: string
+    required: true
+    unique: false
+    localized: false
+- member_type:
+    label: Member Type
+    type: select
+    required: true
+    unique: false
+    localized: false
+    select_options:
+    - Young Member
+    - Adult
+- level:
+    label: Level
+    type: select
+    required: false
+    unique: false
+    localized: false
+    select_options:
+    - Studio 1
+    - Studio 2
+    - Studio 3
+- location:
+    label: Location
+    type: select
+    required: false
+    unique: false
+    localized: false
+    select_options:
+    - Studio 1
+    - Studio 2
+    - Studio 3
+    - Outdoor Pool
+    - Indoor Pool
+- age:
+    label: Age
+    type: select
+    required: false
+    unique: false
+    localized: false
+    select_options:
+    - Adult
+    - Adult
+    - General
+    - Adult
+    - General
+    - 9-10
+    - 9 - 12
+    - 8+
+    - 8 - 9
+    - 8 - 16
+    - 8 - 15
+    - 8 - 12
+    - 8 - 11
+    - 8 - 10
+    - 7+
+    - 7-9
+    - 7-8
+    - 7-10
+    - 7 - 13
+    - 6+
+    - Adult
+    - General
+    - 9-10
+    - 9 - 12
+    - 8+
+    - 8 - 9
+    - 8 - 16
+    - 8 - 15
+    - 8 - 12
+    - 8 - 11
+    - 8 - 10
+    - 7+
+    - 7-9
+    - 7-8
+    - 7-10
+    - 7 - 13
+    - 6+
+    - 6-8
+    - 6 - 9
+    - 6 - 7
+    - Adult
+    - General
+    - 9-10
+    - 9 - 12
+    - 8+
+    - 8 - 9
+    - 8 - 16
+    - 8 - 15
+    - 8 - 12
+    - 8 - 11
+    - 8 - 10
+    - 7+
+    - 7-9
+    - 7-8
+    - 7-10
+    - 7 - 13
+    - 6+
+    - 6-8
+    - 6 - 9
+    - 6 - 7
+    - 5+
+    - 5 - 7
+    - 5 - 6
+    - 4+
+    - 4-6
+    - Adult
+    - General
+    - 9-10
+    - 9 - 12
+    - 8+
+    - 8 - 9
+    - 8 - 16
+    - 8 - 15
+    - 8 - 12
+    - 8 - 11
+    - 8 - 10
+    - 7+
+    - 7-9
+    - 7-8
+    - 7-10
+    - 7 - 13
+    - 6+
+    - 6-8
+    - 6 - 9
+    - 6 - 7
+    - 5+
+    - 5 - 7
+    - 5 - 6
+    - 4+
+    - 4-6
+    - 4-5
+    - 4 - 7
+    - 3+
+    - Adult
+    - General
+    - 9-10
+    - 9 - 12
+    - 8+
+    - 8 - 9
+    - 8 - 16
+    - 8 - 15
+    - 8 - 12
+    - 8 - 11
+    - 8 - 10
+    - 7+
+    - 7-9
+    - 7-8
+    - 7-10
+    - 7 - 13
+    - 6+
+    - 6-8
+    - 6 - 9
+    - 6 - 7
+    - 5+
+    - 5 - 7
+    - 5 - 6
+    - 4+
+    - 4-6
+    - 4-5
+    - 4 - 7
+    - 3+
+    - 3 - 5
+    - 3 - 4
+- description:
+    label: Description
+    type: text
+    required: false
+    unique: false
+    localized: false
+    text_formatting: html
+- image:
+    label: Image
+    type: file
+    required: false
+    unique: false
+    localized: false
+- instructor:
+    label: Instructor
+    type: belongs_to
+    required: false
+    unique: false
+    localized: false
+    class_name: instructors
+    ui_enabled: true
+- timetables:
+    label: Timetables
+    type: many_to_many
+    required: false
+    unique: false
+    localized: false
+    class_name: timetables
+    inverse_of: activities
+    ui_enabled: true

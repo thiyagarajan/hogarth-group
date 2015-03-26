@@ -1,0 +1,35 @@
+---
+name: Instructors
+slug: instructors
+label_field_name: name
+order_by: created_at
+order_direction: asc
+fields:
+- name:
+    label: Name
+    type: string
+    required: true
+    unique: false
+    localized: false
+- biography:
+    label: Biography
+    type: text
+    required: true
+    unique: false
+    localized: false
+    text_formatting: html
+- avatar:
+    label: Avatar
+    type: file
+    required: false
+    unique: false
+    localized: false
+- activities:
+    label: Activities
+    type: has_many
+    required: false
+    unique: false
+    localized: false
+    class_name: activities
+    inverse_of: instructor
+    ui_enabled: true

@@ -1,16 +1,453 @@
-- "Sample 1":
-    body: "Laudantium ut eius ea. Deserunt consequatur illum sed ad at sit aliquid laudantium. Exercitationem quae blanditiis nemo dolore est. Autem perferendis et soluta excepturi cumque qui totam. Odit alias ullam autem dolores deserunt voluptas nobis."
-    navigation: "Laborum quos vel ut neque. Accusantium odio veritatis enim voluptatem debitis. Quis quia ullam expedita perspiciatis nobis consequuntur ut dolores. Aut enim possimus fugit sed est quam. Aliquam et et voluptatum sed voluptatem."
-
-- "Sample 2":
-    body: "Aut rerum qui corrupti maiores. Et nulla voluptatum quidem. Quibusdam sunt voluptas ea quo. Officiis et nostrum voluptas culpa."
-    navigation: "Rerum rerum magnam quo recusandae sed itaque. Id cumque omnis dignissimos. Nisi recusandae ullam eaque id error odit hic sunt. Et officiis ex numquam dignissimos. Voluptates dolorum quae voluptatem ducimus beatae assumenda rem ex."
-
-- "Sample 3":
-    body: "Tenetur quia corporis pariatur omnis aut ea dolor quisquam. Similique dolores quis provident. Eum tempora et doloribus earum. Quidem et iure facere atque qui deleniti."
-    navigation: "Illum consectetur excepturi doloribus corrupti sint modi molestiae. Aut voluptas quia cumque iusto ut. Nihil ab qui itaque. Eum enim enim consequuntur id quod minus."
-
-- "Sample 4":
-    body: "Dicta officia porro deserunt at sunt molestiae. Ut aut libero quisquam vitae velit. Numquam dolore eius aut earum rerum omnis. Facilis quo quis sint."
-    navigation: "Aliquid sed et consequatur. Laborum quia voluptatum odit numquam dolor. Vel pariatur repudiandae consequuntur ut. Dolor mollitia voluptate culpa est autem quos voluptatem ut. Laudantium quo qui est quis fuga est."
-
+---
+- Exercise Studio:
+    _slug: exercise-studio
+    body: "<p>As a Hogarth member you are invited to participate in as many studio
+      classes as you wish. We have a full array of traditional and modern activities
+      that have been tailored to suit all ages and all fitness levels.</p>\r\n<p>Our
+      studio classes are group based and instructor led. Participation is a great
+      way of meeting other members whilst honing your individual skills in a particular
+      activity.</p>\r\n<p>Pilates, Yoga and core stability classes take place in a
+      dedicated, thermatically controlled holistic studio, ideal for classes of this
+      type. Our existing studio is home to our choreographed classes as well as BodyPump,
+      Group Cycle Classes, Circuits and the like.</p>\r\n<h2>Studio Classes</h2>\r\n<h3>50
+      / 50</h3>\r\n<p>A mix of aerobics and body conditioning exercises to give you
+      a balanced workout.</p>\r\n<h3>Advanced Stretchworks</h3>\r\n<p>Specialised
+      fitness programme using stretching and strengthening exercises. This class is
+      designed for the advanced stretchworks student. If you would like to attend
+      please check with your instructor Alison to find out if this level is suitable
+      for you.</p>\r\n<h3>Ashtanga Yoga</h3>\r\n<p>Ashtanga Yoga gradually leads the
+      participant to rediscover his or her fullest potential on all levels of human
+      consciousness - physical, psychological and spiritual. Through this practice
+      of correct breathing (Ujjayi Pranayama), postures (asanas), and gazing point
+      (driste), one gains control of the senses and a deeper awareness of self. Maintaining
+      this discipline with regularity and devotion, one acquires steadiness of body
+      and mind.</p>\r\n<h3>Body Conditioning</h3>\r\n<p>Dynamic aerobic warm-up followed
+      by strength and endurance exercises that challenge the entire body using hand
+      held weights &amp; body bars.</p>\r\n<h3>Bodypump</h3>\r\n<p>Bodypump is a class
+      using barbells and adjustable weights to tone and condition muscles while raising
+      metabolic rate for rapid fat-burning. Inspirational music and a highly motivational
+      instructor key components of a great class.</p>\r\n<h3>Box Circuit</h3>\r\n<p>Get
+      ready to sweat! Designed to challenge all fitness levels, everyone is guaranteed
+      an excellent cardio workout as well as developing strength.</p>\r\n<h3>Circuit</h3>\r\n<p>Circuit
+      classes utilise a variety of floor exercises and weight training exercises to
+      increase stamina and, strength and cardiovascular fitness. Let the instructor
+      take you on a different exercise journey each week! Participants can vary the
+      intensity to suit their fitness levels and needs.</p>\r\n<h3>Core Conditioning</h3>\r\n<p>The
+      basic principle behind Core Conditioning is to provide a healthier and functional
+      approach to stomach exercises. This is accomplished through the development
+      of strength-based exercises, which allow us to functionally integrate the body
+      as a whole entity.</p>\r\n<h3>Danceworks</h3>\r\n<p>Danceworks incorporates
+      elements of both Jazz and Ballet. Your teacher Alison has fused them together
+      with fantastic results. Alison encourages all who have inner desire to dance,
+      to take part in this class. No one will be made to feel inadequate (regardless
+      of ability) as she truly admires those who at least try.</p>\r\n<h3>Fit Ball
+      Training</h3>\r\n<p>Exercise ball, Fit ball or Swiss ball - you will find different
+      names however, they all do the same: working your body. This class is an ideal
+      way to your body a makeover, to improve your strength and flexibility, as well
+      as correcting a slouching posture. Apart from the Fit ball you will find every
+      other piece of equipment used to make that class fun and variable for each level.</p>\r\n<p>&nbsp;</p>\r\n<h3>H20</h3>\r\n<p>Water
+      aerobics combines the buoyancy and resistance of the water to build muscle,
+      improve flexibility and stamina without any stress on your joints.</p>\r\n<h3>Hatha
+      Yoga</h3>\r\n<p>A traditional 'Hatha' Yoga class is designed to increase mental
+      and physical awareness. Through a variety of poses and gentle stretching exercises,
+      with an emphasis on controlled breathing, Yoga will assist in balancing and
+      conditioning the body. Yoga has proven a very effective way to blend exercise
+      with relaxation techniques.</p>\r\n<h3>Hi/Lo</h3>\r\n<p>A cardiovascular training
+      programme that combines hi and lo intensity aerobics. A rapid calorie burner
+      that delivers fast improvement in general endurance and an increase in overall
+      body strength.</p>\r\n<p>&nbsp;</p>\r\n<h3>Legs, Tums &amp; Bums</h3>\r\n<p>&nbsp;</p>\r\n<p>This
+      ever popular class is designed to tone and shape the muscle of the bottom, abdominal
+      and thigh area. A variety of standing and floor-based exercises make this class
+      both enjoyable and effective.</p>\r\n<h3>Pilates</h3>\r\n<p>Pilates represents
+      a unique approach to exercise that develops body awareness, improving and changing
+      the body's postural and alignment habits and increasing flexibility and ease
+      of movement.</p>\r\n<h3>Pilates Course</h3>\r\n<p>For full benefit of the method,
+      we offer you this 6 weeks course where you'll learn to flow from one movement
+      to the next, building stamina and fitness. After you have completed this course
+      feel free to join our Pilates classes offered on regular basis. Just be aware
+      of the level quoted. All bookings made at reception (&pound;36 for 6 weeks).
+      Please see Studio Notice Board for further details such as dates of course.</p>\r\n<h3>Pre/Post
+      Natal</h3>\r\n<p>Physical activity plays a very important part of a woman's
+      overall health and well-being, even more so when she is pregnant or if she has
+      just given birth. These classes are designs especially for pre &amp; post natal
+      woman and are highly beneficial for mother and baby. Qualified fitness professionals
+      specifically teach these programmes. Guidelines suggest to leave any exercise
+      6 weeks after a normal birth and 10 - 12 weeks after a C-Section. Babies and
+      car seats are welcome.</p>\r\n<h3>Sivananda Yoga</h3>\r\n<p>A Hindu discipline
+      aimed at training the consciousness for a state of perfect spiritual insight
+      and tranquility. A system of exercises practiced as part of this discipline
+      to promote control of the body and mind.</p>\r\n<h3>Spinning</h3>\r\n<p>For
+      the cycling enthusiast and for those looking to improve cardiovascular fitness.
+      The class consists of basic athletic and rhythmic drills with great music to
+      motivate and encourage you. You will use speed and resistance to give a realistic
+      and challenging workout. The ultimate calorie burner!</p>\r\n<h3>Step</h3>\r\n<p>A
+      challenging workout to pre-choreographed routines based around the use of a
+      low bench/step. Particularly working the legs but also enhances coordination
+      skills.</p>\r\n<h3>Stretchworks</h3>\r\n<p>Specialised fitness programme using
+      stretching and strengthening exercises that are adapted to individual needs
+      and ability.</p>\r\n<h3>Tai Chi</h3>\r\n<p>Tai Chi teaches you the awareness
+      of one's own balance and what affects it, awareness of the same in others, and
+      appreciation of the practical value in one's ability to moderate extremes of
+      behaviour and attitude at both mental and physical levels. Chinese system of
+      physical exercises designed especially for self-defence and meditation.</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: Exercise Studio Navigation
+    slides:
+    - exercise-studio
+    - exercise-studio-2
+    promo_top:
+    - steam-room
+    promo_middle:
+    - exercise-studio-left
+    - exercise-studio-right
+    promo_panel:
+    - exercise-studio-left
+    - exercise-studio-right
+    linklist:
+    - state-of-the-art-gym
+- Swimming:
+    _slug: swimming
+    body: "<h2>Train or Relax</h2>\r\n<p>The swimming pool is 18 metres in length
+      with a level depth providing the perfect balance for training, aqua aerobics
+      and relaxation.</p>\r\n<p>At night, the swimming pool is mood lit to create
+      a tranquil, relaxing environment that allows you to wile away the stresses of
+      the day.</p>\r\n<h2>Spa Pool</h2>\r\n<p>Aside from the physiological benefits
+      of hydrotherapy on the body's musculature, the 6 person spa is the perfect place
+      to mentally unwind. Heated at a perfect 48 degrees centigrade, the Hogarth spa
+      is the ideal way to end your day.</p>\r\n<h2>Sauna</h2>\r\n<p>The principal
+      benefit of the sauna is relaxation. The deep warmth and feeling of lassitude
+      combined with one or more showers and rest periods should give the user a pleasant,
+      mellow feeling. The heat also creates ideal conditions for skin toning and cleansing.</p>\r\n<p>The
+      effect of the hot-cool-hot sensation allows the skin pores to open and close
+      to extreme, flushing out impurities and leaving the skin thoroughly refreshed.</p>\r\n<h2>Steam
+      Room</h2>\r\n<p>As soon as you step into the steam room, warmth opens the pores
+      of the skin creating a flow of perspiration that lifts out the grime of everyday
+      life. Your skin is cleansed and toned leaving it feeling soft, supple and healthy
+      as you emerge rested and rejuvenated, ready to take on the world and all it
+      can throw at you.</p>\r\n<div class=\"call_to_action\">\r\n<h3>Call us today
+      to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: "<h3 class=\"inpage-navigation-heading\">Pool Activities</h3>\r\n<ul
+      class=\"inpage-navigation-ul\">\r\n<li class=\"inpage-navigation-li\"><a href=\"/sections/swimming\">Water
+      Aerobics</a></li>\r\n<li class=\"inpage-navigation-li\"><a href=\"/sections/swimming\">H20
+      Workout</a></li>\r\n<li class=\"inpage-navigation-li\"><a href=\"/sections/swimming\">Training</a></li>\r\n<li
+      class=\"inpage-navigation-li\"><a href=\"/sections/swimming\">Another activity</a></li>\r\n</ul>"
+    slides:
+    - swimming
+    promo_top:
+    - steam-room
+    promo_middle:
+    - spa-pool
+    - sauna
+    promo_panel:
+    - swimming-l
+    - swimming-r
+    linklist: []
+- gym:
+    _slug: gym
+    body: "<p>We are delighted to announce that <a href=\"http://www.technogym.com/gb/\">Technogym's</a>
+      very latest and premium range of Artis with Wellness gymnasium equipment is
+      now fully installed in the Hogarth gymnasium aka \"The Artis Room\".</p>\r\n<p><img
+      style=\"float: left; margin: 0 5px 5px 0;\" src=\"http://s3.amazonaws.com/the-hogarth-group-websites/attachments/693/original.jpg?1367674868\"
+      alt=\"\" /></p>\r\n<p>ARTIS combines 30 products for cardio, strength and functional
+      training with the seamless Italian design, superior biomechanical engineering,
+      interactive technology through the latest android-based cardio platform called
+      UNITY and eco sustainability, allowing people to reduce, and recycle during
+      their workout to an unparalleled level.</p>\r\n<p>The UNITY console also ensures
+      an intuitive, personalised and connected training experience allowing individuals
+      to send emails, watch and catch up on TV, read books and the latest news from
+      any cardio machine whilst mapping fitness details and storing all of them in
+      a personal \"Wellness Cloud\". Technogym&rsquo;s UNITY system is even fitted
+      with a web cam allowing users to make video calls with their trainer and Skype
+      their favorite contacts during their workouts.</p>\r\n<p>These and numerous
+      other innovative and patented technologies are unique to the Artis equipment,
+      and mark a new level of commitment to Wellness by Technogym and now Hogarth.
+      The technology behind the Artis gymnasium equipment allows our Personal Trainers
+      and members to track and monitor what they do in the Club, at home or anywhere
+      in the world. It is this additional capability that enables us to stay connected
+      beyond the Club and help us support the busy and stressful lifestyles our members
+      often lead. Ultimately, we feel we have the best tools to help our members achieve
+      regular physical activity, optimum nutrition and a positive mental attitude;
+      these are the cornerstones of Welllness.</p>\r\n<p>&nbsp;</p>\r\n<h1>The Hogarth
+      Wellness Guide</h1>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h2>Preparing for your
+      Wellness Consultation</h2>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>Please
+      arrive punctually for your appointment</li>\r\n<li>Do not eat or drink (tea,
+      coffee and alcohol) for at least 2 hours prior to your consultation and preferably
+      longer. However, please drink plenty of water</li>\r\n<li>Do not exercise or
+      use the sauna, steam or Jacuzzi</li>\r\n<li>Do not smoke for at least 2 hours
+      before your appointment</li>\r\n<li>Wear loose fitting clothing</li>\r\n<li>Please
+      contact us as soon as possible if you are unable to attend your appointment
+      so we can reschedule it with you.</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h2>WELLNESS
+      &ndash; WHAT IS IT?</h2>\r\n<p>&nbsp;</p>\r\n<p><img style=\"float: left; margin:
+      0 5px 5px 0;\" src=\"http://s3.amazonaws.com/the-hogarth-group-websites/attachments/1040/original.JPG?1402607551\"
+      alt=\"Wellness Diagram\" /></p>\r\n<p>It is our aim to help you live a better
+      quality of life by promoting a lifestyle of Wellness. This involves engaging
+      in physical activity and regular exercise, eating balanced and healthy meals
+      and being mentally positive. Hogarth offers fantastic knowledge, experience
+      and services to convey the benefits of regular exercise and a healthy lifestyle
+      to you.</p>\r\n<p>&nbsp;</p>\r\n<h2>THE BENEFITS OF WELLNESS INCLUDE</h2>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>Living
+      longer</li>\r\n<li>More energy</li>\r\n<li>Greater efficiency at work</li>\r\n<li>Physical,
+      mental and social wellbeing</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>The Wellness
+      Pyramid illustrates how combining various elements together can help you achieve
+      an holistic Wellness approach.</p>\r\n<p><img style=\"float: left; margin: 0
+      5px 5px 0;\" src=\"http://s3.amazonaws.com/the-hogarth-group-websites/attachments/1041/original.JPG?1402607578\"
+      alt=\"Wellness Lifestyle Pyramid\" /></p>\r\n<p>&nbsp;</p>\r\n<h1>Your Wellness
+      Journey</h1>\r\n<p>&nbsp;</p>\r\n<p>The Hogarth Group has elected to partner
+      with Technogym to offer the ultimate Wellness experience to members: <strong>Wellness
+      on the Go, the ability to experience Wellness anywhere, at any time</strong></p>\r\n<p>Your
+      Wellness journey will initially focus around getting you active and exercising
+      regularly at the Club - in the gymnasium, in the studio classes, other options
+      such as swimming, tennis or squash and other outdoor sports and activities that
+      are available at various times of the year including cycling and running.</p>\r\n<p>Your
+      physical activity, exercise and other lifestyle behaviours outside of the Club
+      can also be explored. A mywellness cloud (www.mywellness.com) account can be
+      created to give you the ability to track your workout performance, movement
+      levels and progress. It is a cloud based portal that stores all of your data
+      for easy access and analysis, both by yourself and your Personal Trainer.</p>\r\n<p>Other
+      aspects of a Wellness Lifestyle, such as Nutrition, Stress Management, Injury
+      Care and Prevention, can also be considered and built into your Wellness Plan.</p>\r\n<p>&nbsp;</p>\r\n<h2>Wellness
+      Consultation</h2>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>Medical suitability
+      to exercise</li>\r\n<li>Choose what elements of a Wellness lifestyle to change
+      and how</li>\r\n<li>Developing motivation and confidence to build a Wellness
+      lifestyle</li>\r\n<li>Formulating your exercise plan: at the Club, at home,
+      at work, on holiday...anywhere in the world</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h2>Personal
+      Trainer; Wellness 1</h2>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>Your
+      Wellness Record</li>\r\n<li>Cardiovascular exercise</li>\r\n<li>Personalised
+      entertainment</li>\r\n<li>Stretching and mobility</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h2>Personal
+      Trainer; Wellness 2</h2>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>Your
+      Wellness Record</li>\r\n<li>Cardiovascular exercise refresher</li>\r\n<li>Resistance
+      training systems and technique</li>\r\n<li>Exercise classes</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h2>Personal
+      Trainer; Wellness 3</h2>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>Your
+      Wellness Record</li>\r\n<li>Cardiovascular exercise &ndash; review workload
+      &amp; progression</li>\r\n<li>Resistance training &ndash; review workload &amp;
+      progression</li>\r\n<li>Review motivation and confidence to exercise</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h2>Personal
+      Trainer; Wellness 4</h2>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>Your
+      Wellness Record</li>\r\n<li>Interim review of exercise plan, workloads &amp;
+      progression</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h2>Wellness
+      Consultation Review</h2>\r\n<p>Your choice from:</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>Personal
+      Trainer Consultation Room Session</li>\r\n<li>Personal Trainer Gymnasium Session</li>\r\n<li>Exercise,
+      Nutrition &amp; Weight Loss</li>\r\n<li>Exercise &amp; Special Populations e.g
+      Pregnancy</li>\r\n<li>Exercise &amp; Heart Disease</li>\r\n<li>Injury Prevention
+      &amp; Rehabilitation</li>\r\n<li>Smoking Cessation</li>\r\n<li>Any other Wellness
+      or Lifestyle matter!</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h1>The
+      Technogym Wellness Ecosystem</h1>\r\n<p>&nbsp;</p>\r\n<p>Your fantastic team
+      of Personal Trainers will always be available to help you get the most from
+      this amazing system. You can benefit from &ldquo;Wellness on the go&rdquo; both
+      in the Club and out, and use as much or as little of the technology as you choose.</p>\r\n<h2>The
+      choice is yours.</h2>\r\n<p>&nbsp;</p>\r\n<p>Access your exercise plan and collect
+      your activity data the way you want to.</p>\r\n<p>As a Club member it has never
+      been easier to log in and access your exercise plan, be guided round the gymnasium
+      and capture your exercise data to monitor your progress.</p>\r\n<p>The mywellness
+      cloud (www.mywellness.com) is a one-stop online portal that stores all your
+      personal training data, which you can view and analyse wherever you like. You
+      can log in and collect data through a username and password or through a Technogym
+      device - the choice is yours.</p>\r\n<p>For members in the Club it has never
+      been easier to log in and capture exercise data. Mywellness cloud offers ascalable
+      solution that allows members to use the collection method they prefer:</p>\r\n<p>&nbsp;</p>\r\n<h2>1.
+      Log in using USERNAME and PASSWORD.</h2>\r\n<p>If you just want basic tracking,
+      simply enter your username and password to log into your mywellness account.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h2>2.
+      Log in using a TECHNOGYM KEY.</h2>\r\n<p>The Technogym key is a really smart
+      device that allows you to track your training programme and progress. Just check
+      in and go!</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h2>3. Log in using a MYWELLNESS
+      KEY.</h2>\r\n<p>The mywellness key takes monitoring your health and fitness
+      to another level. It uses the same technology as the Technogym key to collect
+      and monitor your training, but it also has an accelerometer which allows you
+      to track your daily activity</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h2>4.
+      Log in with your SMART PHONE.</h2>\r\n<p>If you have an iPhone or an Android
+      phone you can download the mywellness app and use your smartphone to log in.
+      The iPhone uses a QR Code reader, and Android phones use Near Field Communication
+      technology (NFC) - just touch your phone on the NFC sign. Whilst away from the
+      Club</p>\r\n<p>&nbsp;</p>\r\n<p><img style=\"float: left; margin: 0 5px 5px
+      0;\" src=\"http://s3.amazonaws.com/the-hogarth-group-websites/attachments/1042/original.JPG?1402607603\"
+      alt=\"Wellness Cloud\" /></p>\r\n<p>Mywellness cloud offers access to your activity
+      and lifestyle information wherever you are and wherever you like:</p>\r\n<p><strong>In
+      the gym:</strong> using UNITY, the digital interface on Technogym cardiovascular,
+      strength and functional equipment or on VISIOSELF interactive touch screen kiosks
+      located on the gym floor.</p>\r\n<p><strong>On the move:</strong> from a smartphone
+      using the mywellness mobile application or with a tablet or a PC using the mywellness.com
+      website.</p>\r\n<p><img style=\"float: left; margin: 0 5px 5px 0;\" src=\"http://s3.amazonaws.com/the-hogarth-group-websites/attachments/1043/original.JPG?1402612782\"
+      alt=\"Wellness Cloud 2\" /></p>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: gym
+    slides:
+    - gym
+    - beauty
+    - tom-swimming
+    promo_top:
+    - steam-room
+    - ssteam-room
+    promo_middle:
+    - spa-pool
+    - sauna
+    - gym-left
+    - gym-right
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    - gym-left
+    - gym-right
+    linklist: []
+- Tennis:
+    _slug: tennis
+    body: "<p>The Hogarth Health Club provides tennis players with a comprehensive
+      range of both social and competitive activities for all levels of play.</p>\r\n<p>There
+      is a real community feel, in a very relaxed environment. In the summer the Club
+      runs tennis club nights during the evening for social players who wish to meet
+      other players and to enjoy a game.</p>\r\n<p>The Club has two high quality all
+      weather courts that are available for play during daylight hours. Courts can
+      be booked at reception up to a week in advance, bookings are made hourly, on
+      the hour.</p>\r\n<p>There is no charge for court bookings, however, we do ask
+      that you cancel your court at least 24 hours in advance if unable to play.</p>\r\n<h2>Tennis
+      Mornings</h2>\r\n<p>Berj&rsquo;s - Tuesday 10-12pm.</p>\r\n<p>Jose&rsquo;s -
+      Thursday 9-11am.</p>\r\n<p>Please book at reception. &pound;9 per person, payable
+      to the coach.</p>\r\n<h2>NEW - Absolute Beginners</h2>\r\n<p>New Absolute Beginners
+      Tennis classes are on every Wednesday 11am-12pm and 12pm-1pm with a max of 6
+      people per group. Cost is &pound;10 per person per lesson. Book your place ahead
+      at reception.</p>\r\n<p>As tennis mornings are very popular and get booked up
+      very quickly we would ask that if you are unable to attend, you let us know
+      so we can offer the space to someone on the reserve list!</p>\r\n<h2>Club Nights</h2>\r\n<p>Tennis
+      Club nights typically run from the beginning of May through to September each
+      year. They are held on Tuesday and Wednesday nights from 6-9pm. There will be
+      two sessions, one from 6-7.30pm and one from 7.30-9pm. These classes will operate
+      on a first come first served basis, there will be a sign in sheet and an &pound;9
+      fee payable to Berj.</p>\r\n<h2>Club Tournament - Finals September 2013</h2>\r\n<p>Following
+      the success of last year's Hogarth Tennis Tournament this year's championships
+      will be run along similar lines with Singles and Doubles formats for both Men
+      and Ladies plus a Mixed event. Those losing in the first round will be entered
+      into a 'Plate Event' (should they wish) and the plate finals will run parallel
+      to the main finals.</p>\r\n<p>Watch this space for your opportunity to sign
+      up on line for this event.</p>\r\n<p>Whether you are included in the draw or
+      not please do come along and support the players throughout their matches and
+      of course, on Finals Day.</p>\r\n<h2>Tennis Round Robins</h2>\r\n<p>Round Robins
+      are ran on the last Sunday of every month during the summer by Luke. These typically
+      run from 1-4pm. The entry fee is &pound;9 and you can sign up at reception.</p>\r\n<h2>Tennis
+      Coaching</h2>\r\n<p>Both Berj and Jose are tennis professionals and they offer
+      private coaching at &pound;35 per hour. Their contact details can be obtained
+      through reception.</p>\r\n<h2>Terms and Conditions for booking Tennis and Squash
+      courts</h2>\r\n<ul>\r\n<ul>\r\n<li>1/ Tennis and Squash courts may be booked
+      7 days in advance either in person or over the phone according to the times
+      their membership permits them access to the club.</li>\r\n<li>2/ A member may
+      book a maximum of 1 court at a time. If another court is required then we require
+      the name of your partner who must also be a member.</li>\r\n<li>3/ All members
+      must report to Reception on arrival at the Club prior to going on to court to
+      confirm their attendance and use of the court. Failure to do so could result
+      in the booking being recorded as a &lsquo;no-show&rsquo;.</li>\r\n<li>4/ If
+      a member accrues 3 &lsquo;no-shows&rsquo; in any 12 month period they will be
+      suspended from making bookings for one month.</li>\r\n<li>5/ We require a minimum
+      of 24 hours notice for a court to be cancelled unless mitigating circumstances
+      exist.</li>\r\n<li>5/ The member who has made the booking must be present on
+      court at the time it is booked for play. Court bookings cannot be transferred
+      to other members without being updated on the Club&rsquo;s booking system.</li>\r\n<li>6/
+      If a member does not show up within 15 minutes of the start of the court booking
+      time, the court will be made available for any member to use on a &lsquo;walk-on&rsquo;
+      basis in accordance with their terms and conditions of membership access. To
+      book a &lsquo;walk-on&rsquo; court a member will report to Reception and enquire
+      about any courts that are available and if so, the court will be booked in their
+      name.</li>\r\n<li>The above terms and conditions will be reviewed from time
+      to time to take in to consideration member feedback, usage trends and are at
+      all times subject to Management&rsquo;s discretion. Thank you for helping us
+      to safeguard booking integrity.</li>\r\n</ul>\r\n</ul>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    slides:
+    - tennis
+    - exercise-studio
+    - exercise-studio-2
+    promo_top:
+    - steam-room
+    promo_middle:
+    - tennis-left
+    - tennis-right
+    promo_panel:
+    - tennis-left
+    - tennis-right-title
+    linklist: []
+- Squash:
+    _slug: squash
+    body: "<p>Squash has been a part of The Hogarth Group since the late 1960's. The
+      Hogarth's squash court is used extensively by members and some staff (we have
+      a couple of ex National and County ranked players in our midst!)</p>\r\n<p>Squash
+      is an intense game. It is both physically and mentally challenging. Most of
+      all though, it's great fun. Courts at the Hogarth can be booked 7 days in advance
+      and there is no charge. Every week from 6pm until 10pm on a Friday there is
+      Squash Club Night. The courts are all booked out so that players can turn up
+      and join in a social game of squash with the intention of meeting players of
+      similar standards, followed up by the consumption of beer in the Bar afterwards
+      perhaps?</p>\r\n<p>Each year we run the Hogarth Squash Tournament held over
+      1 evening on a knockout basis. Members compete for the Hogarth Cup. For those
+      members who wish to compete all year long, we have a Squash ladder. This allows
+      members to challenge each other, thereby vying for the top position on the ladder.</p>\r\n<p>The
+      squash season begins in September. If you would like to participate in the next
+      tournament please speak to reception.</p>\r\n<h2><a href=\"http://hogarth-group.herokuapp.com/content/terms-and-conditions-for-booking-tennis-and-squash-courts\">Terms
+      and Conditions for booking Tennis and Squash courts</a></h2>\r\n<div class=\"call_to_action\">\r\n<h3>Call
+      us today to arrange a personal guided tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    slides:
+    - squash
+    promo_top:
+    - squash-room
+    promo_middle:
+    - squash-left
+    - squash-right
+    promo_panel:
+    - tennis-left
+    - exercise-studio-right
+    linklist:
+    - studio-activities
+    - state-of-the-art-gym
+- Beauty:
+    _slug: beauty
+    body: "<h2>Introduction</h2>\r\n<p>In body and beauty therapy, in massage and
+      in clinical therapy, The Hogarth Spa offers a comprehensive range of treatments
+      to relax and restore you. Our committed team of experts is ready to consult
+      with you, to recommend, to resolve.</p>\r\n<h2>Opening Hours</h2>\r\n<p>Monday
+      to Friday from 8am to 9pm, Saturday 10am to 6pm and one Sunday per month (please
+      ask at reception).</p>\r\n<h2>Contact The Hogarth Beauty Spa</h2>\r\n<p>Telephone
+      020 8995 4600 to arrange an appointment.</p>\r\n<h2>What if I am late for my
+      appointment?</h2>\r\n<p>Arriving late will simply reduce the time for your treatment,
+      potentially reducing its effectiveness and your pleasure. Your treatment will
+      end on time so that our next client is not delayed.</p>\r\n<h2>Cancellation
+      Policy</h2>\r\n<p>Clients who do not cancel treatments 24 hours in advance of
+      the scheduled appointment time will be charged the full amount. We would still
+      appreciate a call so that we can offer the appointment to another client.</p>\r\n<p>e.&amp;o.e.</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    slides:
+    - beauty
+    promo_top:
+    - beauty-room
+    promo_middle:
+    - beauty-left
+    - beauty-right
+    promo_panel:
+    - beauty-left
+    - beauty-right
+    linklist:
+    - studio-activities
+- Clinic:
+    _slug: clinic
+    body: "<p>The Hogarth Clinic boasts a myriad of different therapists and therapies.
+      Many of our therapists are considered world leaders in their field with years
+      of training and experience behind them.</p>\r\n<h2>What if I am late for my
+      appointment?</h2>\r\n<p>Arriving late will simply reduce the time for your treatment,
+      potentially reducing its effectiveness and your pleasure. Your treatment will
+      end on time so that our next client is not delayed.</p>\r\n<h2>Cancellation
+      Policy</h2>\r\n<p>Clients who do not cancel treatments 24 hours in advance of
+      the scheduled appointment time will be charged the full amount. We would still
+      appreciate a call so that we can offer the appointment to another client.</p>\r\n<h2>Contact
+      The Hogarth Clinic</h2>\r\n<p>Telephone 020 8742 7423 to arrange an appointment.</p>\r\n<div
+      class=\"call_to_action\">\r\n<h3>Call us today to arrange a personal guided
+      tour:</h3>\r\n<h4>020 8994 0500</h4>\r\n</div>"
+    navigation: ''
+    slides:
+    - clinic
+    promo_top:
+    - clinic-room
+    promo_middle:
+    - clinic-left
+    - clinic-right
+    promo_panel:
+    - clinic-left
+    - clinic-right
+    linklist: []
