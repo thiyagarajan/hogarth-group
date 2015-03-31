@@ -65,6 +65,7 @@
     advanced_section: []
     time_table:
     - tommy
+    - vtr
 - PERSONAL TRAINING:
     _slug: swimming-r
     image: /samples/promo_panel/swimming-r/wide-2.jpg
@@ -79,6 +80,8 @@
     - palani
     time_table:
     - tommy
+    - vtr
+    - spring-2015-5th-jan-to-29th-mar
 - Gym Left:
     _slug: gym-left
     image: /samples/promo_panel/gym-left/wide-1.jpg
@@ -195,7 +198,8 @@
     - beauty-products
     - diamond-peel-microdermabrasion-new
     advanced_section: []
-    time_table: []
+    time_table:
+    - spring-2015-5th-jan-to-29th-mar
 - BEAUTY RIGHT:
     _slug: beauty-right
     image: /samples/promo_panel/beauty-right/wide-2.jpg

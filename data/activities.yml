@@ -1,21 +1,49 @@
 ---
 - test:
     _slug: test
-    member_type: Young Member
-    level: Studio 1
-    location: Studio 1
-    age: Adult
-    description: ''
     instructor: thiyagarajan-veluchamy
-    timetables: []
-- test:
-    _slug: test-1
-    member_type: Young Member
-    level: Studio 1
     location: Studio 1
-    age: Adult
+    member_type: Adult
     description: <p>test</p>
-    image: /samples/activities/test-1/1.jpg
-    instructor: thiyagarajan-veluchamy
+    age: 8+
+    level: Studio 1
     timetables:
     - tommy
+    days:
+    - monday
+    - tuesday
+    starts_at: 03/30/2015 07:30
+    ends_at: 03/30/2015 08:30
+    session_price: 10.0
+- test:
+    _slug: test-1
+    instructor: thiyagarajan-veluchamy
+    location: Studio 1
+    member_type: Young Member
+    description: <p>test</p>
+    image: /samples/activities/test-1/1.jpg
+    age: Adult
+    level: Studio 1
+    timetables:
+    - tommy
+    days:
+    - monday
+    - sunday
+    starts_at: 03/30/2015 09:00
+    ends_at: 03/30/2015 10:00
+    session_price: 12.29
+- sunday:
+    _slug: sunda
+    instructor: tom
+    location: Studio 2
+    member_type: Young Member
+    description: <p>test</p>
+    age: 8+
+    level: Studio 3
+    timetables:
+    - tommy
+    days:
+    - sunday
+    starts_at: 03/31/2015 15:00
+    ends_at: 03/31/2015 17:30
+    session_price: 12.0

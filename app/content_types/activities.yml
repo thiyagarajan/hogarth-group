@@ -12,25 +12,14 @@ fields:
     required: true
     unique: false
     localized: false
-- member_type:
-    label: Member Type
-    type: select
-    required: true
-    unique: false
-    localized: false
-    select_options:
-    - Young Member
-    - Adult
-- level:
-    label: Level
-    type: select
+- instructor:
+    label: Instructor
+    type: belongs_to
     required: false
     unique: false
     localized: false
-    select_options:
-    - Studio 1
-    - Studio 2
-    - Studio 3
+    class_name: instructors
+    ui_enabled: true
 - location:
     label: Location
     type: select
@@ -43,6 +32,28 @@ fields:
     - Studio 3
     - Outdoor Pool
     - Indoor Pool
+- member_type:
+    label: Member Type
+    type: select
+    required: true
+    unique: false
+    localized: false
+    select_options:
+    - Young Member
+    - Adult
+- description:
+    label: Description
+    type: text
+    required: false
+    unique: false
+    localized: false
+    text_formatting: html
+- image:
+    label: Image
+    type: file
+    required: false
+    unique: false
+    localized: false
 - age:
     label: Age
     type: select
@@ -173,27 +184,16 @@ fields:
     - 3+
     - 3 - 5
     - 3 - 4
-- description:
-    label: Description
-    type: text
+- level:
+    label: Level
+    type: select
     required: false
     unique: false
     localized: false
-    text_formatting: html
-- image:
-    label: Image
-    type: file
-    required: false
-    unique: false
-    localized: false
-- instructor:
-    label: Instructor
-    type: belongs_to
-    required: false
-    unique: false
-    localized: false
-    class_name: instructors
-    ui_enabled: true
+    select_options:
+    - Studio 1
+    - Studio 2
+    - Studio 3
 - timetables:
     label: Timetables
     type: many_to_many
@@ -203,3 +203,30 @@ fields:
     class_name: timetables
     inverse_of: activities
     ui_enabled: true
+- days:
+    label: Days
+    type: many_to_many
+    required: false
+    unique: false
+    localized: false
+    class_name: day
+    inverse_of: activities
+    ui_enabled: true
+- starts_at:
+    label: Starts_at
+    type: date_time
+    required: false
+    unique: false
+    localized: false
+- ends_at:
+    label: Ends_at
+    type: date_time
+    required: false
+    unique: false
+    localized: false
+- session_price:
+    label: Session Price
+    type: float
+    required: false
+    unique: false
+    localized: false

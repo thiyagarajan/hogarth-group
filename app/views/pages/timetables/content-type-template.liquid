@@ -43,18 +43,16 @@ content_type: timetables
 
       <div class="col-sm-7 col-xs-12">
         <select class="selectpicker show-tick">
-        <optgroup label="Young members" data-max-options="2">  
-          <option>Spring 2015 – 5th Jan to 29th Mar</option>
-          <option>Spring 2015 – 5th Jan to 29th Mar</option>
-          <option>Spring 2015 – 5th Jan to 29th Mar</option>
-          <option>Spring 2015 – 5th Jan to 29th Mar</option>
-        </optgroup>
-        <optgroup label="Adults" data-max-options="2">
-          <option>Spring 2015 – 5th Jan to 29th Mar</option>
-          <option>Spring 2015 – 5th Jan to 29th Mar</option>
-          <option>Spring 2015 – 5th Jan to 29th Mar</option>
-          <option>Spring 2015 – 5th Jan to 29th Mar</option>
-        <optgroup>
+          <optgroup label="Young members" data-max-options="2">  
+            {% for content in contents.timetables %}
+            <option value="{{ content._slug }}">{{ content.title }}</option>
+            {% endfor %}
+          </optgroup>
+          <optgroup label="Adults" data-max-options="2">
+            {% for content in contents.timetables %}
+            <option>{{ content.title }}</option>
+            {% endfor %}
+          <optgroup>          
         </select>
       </div>
 
@@ -75,11 +73,9 @@ content_type: timetables
   <li><a href="#sat" data-toggle="tab">SAT</a></li>
   <li><a href="#sun" data-toggle="tab">SUN</a></li>
 </ul>
-<br><br>
-
+<br><br> 
 
 <div id="myTabContent" class="tab-content">
-
 <div class="tab-pane fade in active" id="mon">
 
 <!-- MONDAY EXAMPLE -->
@@ -98,77 +94,21 @@ content_type: timetables
   <td colspan='7'></td>
 </tr>
 
-<tr class='adult'>
-  <td class='time'>07:30 - 08:30</td>
-  <td title='50 / 50'><a href="/timetable_activities/9122">50 / 50</a></td>
-  <td title='Tara'><a href="/instructors/63">Tara</a></td>
-  <td class='hidden-xs hidden-sm' title='Studio 1'>Studio 1</td>
-  <td title='General'>General</td>
-  <td class='hidden-xs'>Free</td>
-</tr>
-
-<tr class='adult'>
-  <td class='time'>09:00 - 10:00</td>
-  <td title='BODYPUMP'><a href="/timetable_activities/9123">BODYPUMP</a></td>
-  <td title='Ris'><a href="/instructors/65">Ris</a></td>
-  <td class='hidden-xs hidden-sm' title='Studio 1'>Studio 1</td>
-  <td title='General'>General</td>
-  <td class='hidden-xs'>Free</td>
-</tr>
-
-<tr class='adult'>
-  <td class='time'>09:00 - 10:00</td>
-  <td title='Pilates'><a href="/timetable_activities/9203">Pilates</a></td>
-  <td title='Helena'><a href="/instructors/84">Helena</a></td>
-  <td class='hidden-xs hidden-sm' title='Studio 2'>Studio 2</td>
-  <td title='Beginner'>Beginner</td>
-  <td class='hidden-xs'>Free</td>
-</tr>
-
-<tr class='adult'>
-  <td class='time'>10:00 - 11:00</td>
-  <td title='Spinning'><a href="/timetable_activities/9124">Spinning</a></td>
-  <td title='Charles'><a href="/instructors/66">Charles</a></td>
-  <td class='hidden-xs hidden-sm' title='Studio 1'>Studio 1</td>
-  <td title='General'>General</td>
-  <td class='hidden-xs'>Free</td>
-</tr>
-
-<tr class='adult'>
-  <td class='time'>10:00 - 11:00</td>
-  <td title='Pilates'><a href="/timetable_activities/9204">Pilates</a></td>
-  <td title='Helena'><a href="/instructors/84">Helena</a></td>
-  <td class='hidden-xs hidden-sm' title='Studio 2'>Studio 2</td>
-  <td title='Intermediate'>Intermediate</td>
-  <td class='hidden-xs'>Free</td>
-</tr>
-
-<tr class='adult'>
-  <td class='time'>10:15 - 11:00</td>
-  <td title='H20'><a href="/timetable_activities/9125">H20</a></td>
-  <td title='Ris'><a href="/instructors/65">Ris</a></td>
-  <td class='hidden-xs hidden-sm'  title='Pool'>Pool</td>
-  <td title='General'>General</td>
-  <td class='hidden-xs'>Free</td>
-</tr>
-
-<tr class='adult'>
-  <td class='time'>11:00 - 12:30</td>
-  <td title='Hatha Yoga'><a href="/timetable_activities/9126">Hatha Yoga</a></td>
-  <td title='Anna'><a href="/instructors/67">Anna</a></td>
-  <td class='hidden-xs hidden-sm' title='Studio 2'>Studio 2</td>
-  <td title='General'>General</td>
-  <td class='hidden-xs'>Free</td>
-</tr>
-
-<tr class='adult'>
-  <td class='time'>11:15 - 12:15</td>
-  <td title='Body Conditioning'><a href="/timetable_activities/9127">Body Conditioning</a></td>
-  <td title='Lucy'><a href="/instructors/68">Lucy</a></td>
-  <td class='hidden-xs hidden-sm'  title='Studio 1'>Studio 1</td>
-  <td title='General'>General</td>
-  <td class='hidden-xs'>Free</td>
-</tr>
+{% for activity in timetable.activities %}
+{% for day in activity.days %}
+  
+{% if day.name == 'Monday' %}
+  <tr class='adult'>
+    <td class='time'>TEST{{ slot_time(2,3) }}TEST {{ activity.starts_at | localized_date: '%H:%M' }} - {{ activity.ends_at | localized_date: '%H:%M' }}</td>
+    <td title='50 / 50'><a href="/timetable_activities/9122">{{ activity.name }}</a></td>
+    <td title='Tara'><a href="{{ activity.instructor._slug }}">{{ activity.instructor.name }}</a></td>
+    <td class='hidden-xs hidden-sm' title='Studio 1'>{{ activity.location }}</td>
+    <td title='General'>{{ activity.level }}</td>
+    <td class='hidden-xs'>{{ activity.session_price }}</td>
+  </tr>
+  {% endif %}
+  {% endfor %}
+{% endfor %}
 
 <tr class='afternoon'>
   <td class='time'><div class='label'>Afternoon</div></td>
@@ -176,39 +116,12 @@ content_type: timetables
 </tr>
 
 <tr class='adult'>
-  <td class='time'>12:30 - 13:30</td>
-  <td title='Danceworks'><a href="/timetable_activities/9128">Danceworks</a></td>
-  <td title='Alison'><a href="/instructors/alison--2">Alison</a></td>
-  <td class='hidden-xs hidden-sm' title='Studio 1'>Studio 1</td>
-  <td title='General'>General</td>
-  <td class='hidden-xs'>Free</td>
-</tr>
-
-<tr class='adult'>
-  <td class='time'>13:30 - 14:30</td>
-  <td title='Stretchworks'><a href="/timetable_activities/9129">Stretchworks</a></td>
-  <td title='Alison'><a href="/instructors/alison--2">Alison</a></td>
-  <td class='hidden-xs hidden-sm' title='Studio 1'>Studio 1</td>
-  <td title='General'>General</td>
-  <td class='hidden-xs'>Free</td>
-</tr>
-
-<tr class='adult'>
-  <td class='time'>14:30 - 15:15</td>
-  <td title='Legs Bums &amp; Tums'><a href="/timetable_activities/9130">Legs Bums & Tums</a></td>
-  <td title='Tara'><a href="/instructors/63">Tara</a></td>
-  <td class='hidden-xs hidden-sm' title='Studio 1'>Studio 1</td>
-  <td title='General'>General</td>
-  <td class='hidden-xs'>Free</td>
-</tr>
-
-<tr class='adult'>
-  <td class='time'>17:30 - 18:30</td>
-  <td title='Stretchworks'><a href="/timetable_activities/9132">Stretchworks</a></td>
-  <td title='Alison'><a href="/instructors/alison--2">Alison</a></td>
-  <td class='hidden-xs hidden-sm' title='Studio 1'>Studio 1</td>
-  <td title='General'>General</td>
-  <td class='hidden-xs'>Free</td>
+  <td class='time'>07:30 - 08:30</td>
+  <td title='50 / 50'><a href="/timetable_activities/9122">{{ activity.name }}</a></td>
+  <td title='Tara'><a href="{{ activity.instructor._slug }}">{{ activity.instructor.name }}</a></td>
+  <td class='hidden-xs hidden-sm' title='Studio 1'>{{ activity.location }}</td>
+  <td title='General'>{{ activity.level }}</td>
+  <td class='hidden-xs'>{{ activity.session_price }}</td>
 </tr>
 
 <tr class='evening'>
@@ -217,53 +130,18 @@ content_type: timetables
 </tr>
 
 <tr class='adult'>
-  <td class='time'>18:30 - 19:30</td>
-  <td title='Zumba'><a href="/timetable_activities/9228">Zumba</a></td>
-  <td title='Isabella'><a href="/instructors/isabella">Isabella</a></td>
-  <td class='hidden-xs hidden-sm' title='Studio 1'>Studio 1</td>
-  <td title='General'>General</td>
-  <td class='hidden-xs'>Free</td>
-</tr>
-
-<tr class='adult'>
-  <td class='time'>19:00 - 20:00</td>
-  <td title='Hatha Yoga'><a href="/timetable_activities/9134">Hatha Yoga</a></td>
-  <td title='Laura S'><a href="/instructors/73">Laura S</a></td>
-  <td class='hidden-xs hidden-sm' title='Studio 2'>Studio 2</td>
-  <td title='General'>General</td>
-  <td class='hidden-xs'>Free</td>
-</tr>
-
-<tr class='adult'>
-  <td class='time'>19:30 - 20:30</td>
-  <td title='Circuits'><a href="/timetable_activities/9133">Circuits</a></td>
-  <td title='Terry'><a href="/instructors/83">Terry</a></td>
-  <td class='hidden-xs hidden-sm'  title='Studio 1'>Studio 1</td>
-  <td title='adavanced'>adavanced</td>
-  <td class='hidden-xs'>Free</td>
-</tr>
-
-<tr class='adult'>
-  <td class='time'>20:00 - 20:45</td>
-  <td title='Latin Dance'><a href="/timetable_activities/9241">Latin Dance</a></td>
-  <td title='Niko'><a href="/instructors/niko">Niko</a></td>
-  <td class='hidden-xs hidden-sm'  title='Bar'>Bar</td>
-  <td title='Beginner'>Beginner</td>
-  <td class='hidden-xs'>£12.00</td>
-</tr>
-
-<tr class='adult'>
-  <td class='time'>20:45 - 21:30</td>
-  <td title='Latin Dance'><a href="/timetable_activities/9242">Latin Dance</a></td>
-  <td title='Niko'><a href="/instructors/niko">Niko</a></td>
-  <td class='hidden-xs hidden-sm'  title='Bar'>Bar</td>
-  <td title='Intermediate'>Intermediate</td>
-  <td class='hidden-xs'>£12.00</td>
+  <td class='time'>07:30 - 08:30</td>
+  <td title='50 / 50'><a href="/timetable_activities/9122">{{ activity.name }}</a></td>
+  <td title='Tara'><a href="{{ activity.instructor._slug }}">{{ activity.instructor.name }}</a></td>
+  <td class='hidden-xs hidden-sm' title='Studio 1'>{{ activity.location }}</td>
+  <td title='General'>{{ activity.level }}</td>
+  <td class='hidden-xs'>{{ activity.session_price }}</td>
 </tr>
 </table>
 
 </div>
 
+   
 <!-- TUESDAY EXAMPLE -->
 <div class="tab-pane fade in" id="tues">
 
@@ -279,18 +157,25 @@ content_type: timetables
     <th>LEVEL</th>
     <th class='hidden-xs'>SESSION &pound;</th>
   </tr>
+  {% for activity in timetable.activities %}
+{% for day in activity.days %}
+  
+{% if day.name == 'Tuesday' %}
   <tr class='adult'>
-    <td class='time'>20:45 - 21:30</td>
-    <td title='Latin Dance'><a href="/timetable_activities/9242">Latin Dance</a></td>
-    <td title='Niko'><a href="/instructors/niko">Niko</a></td>
-    <td class='hidden-xs hidden-sm'  title='Bar'>Bar</td>
-    <td title='Intermediate'>Intermediate</td>
-    <td class='hidden-xs'>£12.00</td>
+    <td class='time'>{{ activity.starts_at | localized_date: '%H:%M' }} - {{ activity.ends_at | localized_date: '%H:%M' }}</td>
+    <td title='50 / 50'><a href="/timetable_activities/9122">{{ activity.name }}</a></td>
+    <td title='Tara'><a href="{{ activity.instructor._slug }}">{{ activity.instructor.name }}</a></td>
+    <td class='hidden-xs hidden-sm' title='Studio 1'>{{ activity.location }}</td>
+    <td title='General'>{{ activity.level }}</td>
+    <td class='hidden-xs'>{{ activity.session_price }}</td>
   </tr>
+  {% endif %}
+  {% endfor %}
+{% endfor %}
 </table>
 
-</div>
-
+</div> 
+  
 <!-- WEDNESDAY EXAMPLE -->
 <div class="tab-pane fade in" id="wed">
 
@@ -306,18 +191,25 @@ content_type: timetables
     <th>LEVEL</th>
     <th class='hidden-xs'>SESSION &pound;</th>
   </tr>
+  {% for activity in timetable.activities %}
+{% for day in activity.days %}
+  
+{% if day.name == 'Wednesday' %}
   <tr class='adult'>
-    <td class='time'>20:45 - 21:30</td>
-    <td title='Latin Dance'><a href="/timetable_activities/9242">Latin Dance</a></td>
-    <td title='Niko'><a href="/instructors/niko">Niko</a></td>
-    <td class='hidden-xs hidden-sm'  title='Bar'>Bar</td>
-    <td title='Intermediate'>Intermediate</td>
-    <td class='hidden-xs'>£12.00</td>
+    <td class='time'>{{ activity.starts_at | localized_date: '%H:%M' }} - {{ activity.ends_at | localized_date: '%H:%M' }}</td>
+    <td title='50 / 50'><a href="/timetable_activities/9122">{{ activity.name }}</a></td>
+    <td title='Tara'><a href="{{ activity.instructor._slug }}">{{ activity.instructor.name }}</a></td>
+    <td class='hidden-xs hidden-sm' title='Studio 1'>{{ activity.location }}</td>
+    <td title='General'>{{ activity.level }}</td>
+    <td class='hidden-xs'>{{ activity.session_price }}</td>
   </tr>
+  {% endif %}
+  {% endfor %}
+{% endfor %}
 </table>
 
-</div>
-
+</div> 
+  
 <!-- THURSDAY EXAMPLE -->
 <div class="tab-pane fade in" id="thur">
 
@@ -333,14 +225,21 @@ content_type: timetables
     <th>LEVEL</th>
     <th class='hidden-xs'>SESSION &pound;</th>
   </tr>
+  {% for activity in timetable.activities %}
+{% for day in activity.days %}
+  
+{% if day.name == 'Thursday' %}
   <tr class='adult'>
-    <td class='time'>20:45 - 21:30</td>
-    <td title='Latin Dance'><a href="/timetable_activities/9242">Latin Dance</a></td>
-    <td title='Niko'><a href="/instructors/niko">Niko</a></td>
-    <td class='hidden-xs hidden-sm'  title='Bar'>Bar</td>
-    <td title='Intermediate'>Intermediate</td>
-    <td class='hidden-xs'>£12.00</td>
+    <td class='time'>{{ activity.starts_at | localized_date: '%H:%M' }} - {{ activity.ends_at | localized_date: '%H:%M' }}</td>
+    <td title='50 / 50'><a href="/timetable_activities/9122">{{ activity.name }}</a></td>
+    <td title='Tara'><a href="{{ activity.instructor._slug }}">{{ activity.instructor.name }}</a></td>
+    <td class='hidden-xs hidden-sm' title='Studio 1'>{{ activity.location }}</td>
+    <td title='General'>{{ activity.level }}</td>
+    <td class='hidden-xs'>{{ activity.session_price }}</td>
   </tr>
+  {% endif %}
+  {% endfor %}
+{% endfor %}
 </table>
 
 </div>
@@ -360,14 +259,21 @@ content_type: timetables
     <th>LEVEL</th>
     <th class='hidden-xs'>SESSION &pound;</th>
   </tr>
+  {% for activity in timetable.activities %}
+{% for day in activity.days %}
+  
+{% if day.name == 'Friday' %}
   <tr class='adult'>
-    <td class='time'>20:45 - 21:30</td>
-    <td title='Latin Dance'><a href="/timetable_activities/9242">Latin Dance</a></td>
-    <td title='Niko'><a href="/instructors/niko">Niko</a></td>
-    <td class='hidden-xs hidden-sm'  title='Bar'>Bar</td>
-    <td title='Intermediate'>Intermediate</td>
-    <td class='hidden-xs'>£12.00</td>
+    <td class='time'>{{ activity.starts_at | localized_date: '%H:%M' }} - {{ activity.ends_at | localized_date: '%H:%M' }}</td>
+    <td title='50 / 50'><a href="/timetable_activities/9122">{{ activity.name }}</a></td>
+    <td title='Tara'><a href="{{ activity.instructor._slug }}">{{ activity.instructor.name }}</a></td>
+    <td class='hidden-xs hidden-sm' title='Studio 1'>{{ activity.location }}</td>
+    <td title='General'>{{ activity.level }}</td>
+    <td class='hidden-xs'>{{ activity.session_price }}</td>
   </tr>
+  {% endif %}
+  {% endfor %}
+{% endfor %}
 </table>
 
 </div>
@@ -387,14 +293,21 @@ content_type: timetables
     <th>LEVEL</th>
     <th class='hidden-xs'>SESSION &pound;</th>
   </tr>
+  {% for activity in timetable.activities %}
+{% for day in activity.days %}
+  
+{% if day.name == 'Saturday' %}
   <tr class='adult'>
-    <td class='time'>20:45 - 21:30</td>
-    <td title='Latin Dance'><a href="/timetable_activities/9242">Latin Dance</a></td>
-    <td title='Niko'><a href="/instructors/niko">Niko</a></td>
-    <td class='hidden-xs hidden-sm'  title='Bar'>Bar</td>
-    <td title='Intermediate'>Intermediate</td>
-    <td class='hidden-xs'>£12.00</td>
+    <td class='time'>{{ activity.starts_at | localized_date: '%H:%M' }} - {{ activity.ends_at | localized_date: '%H:%M' }}</td>
+    <td title='50 / 50'><a href="/timetable_activities/9122">{{ activity.name }}</a></td>
+    <td title='Tara'><a href="{{ activity.instructor._slug }}">{{ activity.instructor.name }}</a></td>
+    <td class='hidden-xs hidden-sm' title='Studio 1'>{{ activity.location }}</td>
+    <td title='General'>{{ activity.level }}</td>
+    <td class='hidden-xs'>{{ activity.session_price }}</td>
   </tr>
+  {% endif %}
+  {% endfor %}
+{% endfor %}
 </table>
 
 </div>
@@ -414,18 +327,24 @@ content_type: timetables
     <th>LEVEL</th>
     <th class='hidden-xs'>SESSION &pound;</th>
   </tr>
+  {% for activity in timetable.activities %}
+  {% for day in activity.days %}
+
+  {% if day.name == 'Sunday' %}
   <tr class='adult'>
-    <td class='time'>20:45 - 21:30</td>
-    <td title='Latin Dance'><a href="/timetable_activities/9242">Latin Dance</a></td>
-    <td title='Niko'><a href="/instructors/niko">Niko</a></td>
-    <td class='hidden-xs hidden-sm'  title='Bar'>Bar</td>
-    <td title='Intermediate'>Intermediate</td>
-    <td class='hidden-xs'>£12.00</td>
+    <td class='time'>{{ activity.starts_at | localized_date: '%H:%M' }} - {{ activity.ends_at | localized_date: '%H:%M' }}</td>
+    <td title='50 / 50'><a href="/timetable_activities/9122">{{ activity.name }}</a></td>
+    <td title='Tara'><a href="{{ activity.instructor._slug }}">{{ activity.instructor.name }}</a></td>
+    <td class='hidden-xs hidden-sm' title='Studio 1'>{{ activity.location }}</td>
+    <td title='General'>{{ activity.level }}</td>
+    <td class='hidden-xs'>{{ activity.session_price }}</td>
   </tr>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
 </table>
 
 </div>
-
 </div>
 
 

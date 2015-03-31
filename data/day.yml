@@ -1,0 +1,25 @@
+---
+- Monday:
+    _slug: monday
+    activities:
+    - test
+- Tuesday:
+    _slug: tuesday
+    activities:
+    - test
+- Wednesday:
+    _slug: wednesday
+    activities: []
+- Thursday:
+    _slug: thursday
+    activities: []
+- Friday:
+    _slug: friday
+    activities: []
+- Saturday:
+    _slug: saturday
+    activities: []
+- Sunday:
+    _slug: sunday
+    activities:
+    - sunda

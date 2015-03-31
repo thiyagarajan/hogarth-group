@@ -1,0 +1,23 @@
+---
+name: Day
+description: Day
+slug: day
+label_field_name: name
+order_by: created_at
+order_direction: asc
+fields:
+- name:
+    label: Name
+    type: string
+    required: true
+    unique: false
+    localized: false
+- activities:
+    label: Activities
+    type: many_to_many
+    required: false
+    unique: false
+    localized: false
+    class_name: activities
+    inverse_of: days
+    ui_enabled: true
